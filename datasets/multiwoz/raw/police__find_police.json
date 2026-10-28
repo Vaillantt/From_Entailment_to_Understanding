@@ -1,0 +1,1635 @@
+{
+  "police__find_police": [
+    {
+      "data": [
+        {
+          "text": "Hi, I am trying to find the police station that's closest to my location please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I need information on the parkside police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Yes, could you help me find the Parkside Police Station please?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've just been robbed. I need to report it."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have been robbed and need to know how I can get help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Yes I need the nearest police station, I was in a car accident."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've been robbed. Can I get some help?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where is the Parkside Police Station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I need information for the nearest police station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you point me to the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident. I need to contact the police, please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "My wallet was stolen. Can I get some help?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "What is the location of the Parkside Police Station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am looking for the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "looking for the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just robbed. Please give me emergency contact information"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've been robbed and need the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where is the closest police station located?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "yes I need information on how to proceed with a car accident dispute"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please help me! I've just been robbed!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident and have a dispute with the other driver so please contact the police and tell them I need help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "where is the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi there, I need to know where I can find the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have any information on the Parkside Police Station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've just been robbed and I need some help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "where is the parkside police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please help me, I've just been robbed and I need to report this to the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need some help with a car accident I was in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed! I need help!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "May I please have the number for the local police?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need some help with a car accident I was in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just robbed and am looking for help. Can you give me the phone number for the police?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you help me find the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I need information for the nearest police station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am a victim of a robbery. I need help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where can I find the police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident dispute and I am looking for help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have just been robbed and i am looking for assistance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for help with a car accident dispute."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to get to the nearest police station, can you assist me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am in a car accident dispute, I need to get some help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, I want to find the police station that's nearest to me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need help, i just been the victim of a robbery."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the address for the Parkside police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to make a call to the Parkland Police Station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "This is an emergency. I was robbed and need help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am involved in a car dispute, I need help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in an argument about a car accident and need help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Help, I need to find the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to contact the police please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was involved in a car accident and I need help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Another driver bumped into my car. He says its no big deal and wants to drive off, but I'm not so sure. Can you help?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get me the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm trying to find the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, I am looking for the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I been robbed and need to know what i should do next."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Someone just robbed me, I need to contact the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for information about the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find the Parkside Police Station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i need help i have robbed"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can i find the parkside police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i was robbed and need help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I just had a physical altercation with another driver after I hit his car accidentally. May I get some help please?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident dispute and I need some help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like to contact the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you direct me to the closest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Good afternoon, would you kindly tell me where the Parkside Police Station is?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have just been robbed and i am seeking assistance"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to know where I would find the Parkside Police Station. Could you tell me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you know of the Parkside Police Station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have been involved in a car accident dispute and i do not know where to go from here"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "What is the closest police station to my current location?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have been robbed, how do I contact the police?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car dispute and I am looking for help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am looking for the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "where is the parkside police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you locate the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm involved in a minor traffic accident, and the other driver isn't being very cooperative."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello there, could you tell me where the Parkside Police Station is please?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi I was just robbed... Can I get some help?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, I just had a fight with someone regarding an automobile accident we had and I need to contact the police!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you tell me where the nearest police station is to me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm trying to find out where the Parkside Police Station is. Can you help me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have just been in a car accident dispute and i am looking for help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you tell me where to find the nearest police station and give the telephone number?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "There's a Parkside Police Station in town, right?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident and I need some help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you help me please? I just got robbed and I need help!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed and I am looking for help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have a phone number for the police?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi! I'm looking for the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident dispute and I need help!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where is the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for help regarding a car accident dispute I was in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where is the Parkside Police Station located?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am trying to find the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need help with a car accident dispute."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, do you know where the parkside police station is?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was told I need to do something at the Parkside Police Station. Can you give me some info about it?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need some help finding the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello. I'm looking for the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please give me directions to the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just in a car accident and need help figuring out what to do next."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for a police station. It has something to do with parkside, although I don't know if that's a name or a location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I have been robbed. Can you please help me get in touch with the police?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I had a dispute over a car accident and need help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've been robbed! I need to get in touch with the police right away!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am robbed and looking for help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Help me, please, I was just the victim of a robbery! I need help right away!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i had car accident dispute and am looking for help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can i find the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to contact the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you tell me how to get to the Parkside Police Station from my location?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident dispute and am looking for help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "How do I locate the closest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I need information about Parkside Police Station, please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "may you help me find the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "How do I find the closest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Get me the address to the police station nearest me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I just had a fender bender and got caught up in a fight with the other driver. I need some assistance please!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am trying to find the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please help, I've been in a car accident and am not sure who to call for help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm trying to find the Parkside Police Station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have been robbed and looking for help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, I would like to find Parkside Police Station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to speak with the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was involved in a car accident and need help sorting it out."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find the police station closest to me please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you tell me about the Parkside police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Help I've been robbed. I need help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you help me? I was in a car accident dispute."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I get some help with resolving a dispute about a car accident?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident dispute and I am looking for help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you give me the address to the Parkside Police Station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to contact the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "There's some disagreement about what to do about a car accident. Can you help me with that?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the address for the Parkside police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for a nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I got into a car accident and need help figuring out what to do next."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello I need help finding the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I got into a fender-bender with my rental car, and now I need help resolving the dispute with the owner of the other car."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am looking for the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need help, I was in a car accident dispute."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just involved in a car accident."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Help I was just robbed! Could you please help me contact the police?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need some details about a police station, I think it's called Parkside Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just robbed and need some help!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to get in touch with the police, I have just been the victim of a robbery."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can i find the parkside police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi there, I am am trying to find out more information about the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Help, I was robbed. I need to contact someone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Oh, yes, I need the location of the Parkside Police Station. Where would I find that?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "where is the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've been a victim of a robbery. Can you help me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for a the Parkside police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am looking for the Parkside Police Station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for a nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just robbed and i need some assistance please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident dispute and need help resolving it"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you locate the nearest police station please?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello! I'm looking for the Parkside Police Station. Do you know where that is? Any additional information would be helpful. Thank you!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you help me find the nearest police station? I was just robbed!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just robbed and I want my stuff back"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you tell me the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have been robbed and am looking for help. Can you help me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Yes, please. I was just robbed and I don't know what to do next."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you help me, I've been mugged?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Yes, I've just been involved in a disagreement regarding a car accident and I require assistance please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to locate the nearest police station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Yes, I am in a dispute after a car accident. I need help right away."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the location of the nearest police station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the nearest police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you give me the address for the Parkside Police Station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you know where the Parkside Police Station is?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for a place, I believe its official name is \"Parkside Police Station\"."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, what's the address of the Parkside Police Station, if you would be so kind?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Parkside Police Station. Can you help me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Oh my God, I've just been robbed! I need the police please! Help!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I've been robbed, my valuables were stolen."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the police please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just the victim of a robbery and I need to contact the police please!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can i find the parkside police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please put me in touch with the local police, I was just robbed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you tell me where the Parkside Police Station is located?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Another driver bumped into my rental car, but he's saying it's my fault. I need help resolving this."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need assistance in finding the Parkside police station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Help me please, i just been robbed and don't know what to do."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Oh, hey, can you tell me where Parkside Police Station is located?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for a police station in Parkside"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to speak to the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello! I'm looking for the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you give me the address of the Parkside Police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just in a car accident, can I please have the number for the police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've just been robbed. What should I do?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for information on the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed and I am looking for help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was just robbed! Please help! I need to contact the police."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Someone just hit my car and then attacked me, get the cops for me now!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for a police station, I think it's called \"Parkside\"."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need help, I was robbed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, where can I find the closest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've just had a dispute with another driver due to an accident we had. I need the police please!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I get the address and phone number for the Parkside police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you give me the contact info for the nearest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was parking my car and another driver passed too close and scraped the paint, but she won't acknowledge it was her fault. Can you help?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed and I want some help"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am looking for the Parkside Police Station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where is the police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed and I need help!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you please connect me to the closest police station?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed and i don't know what i should do, any ideas?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please help I've been robbed!!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed and I need some help."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was robbed a few minutes ago and need assistance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for the Parkside Police Station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi! I need to find the Parkside Police station please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I was in a car accident dispute and need help regarding it"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Someone just robbed me! I need some help urgently please!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect me to the Parkside Police Station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Parkside Police Station"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Parkside Police Station"
+        }
+      ]
+    }
+  ]
+}

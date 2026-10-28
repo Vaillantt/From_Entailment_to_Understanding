@@ -1,0 +1,4904 @@
+{
+  "Request Procedure Guidance": [
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this situation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to proceed safely."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send me the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we start?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please share the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for our next step."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " available right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "step-by-step instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you give me the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this task?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "standard operating procedure",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "quick reference guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " handy for this process?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you read out the "
+        },
+        {
+          "text": "action checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need access to the "
+        },
+        {
+          "text": "protocol summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " as soon as possible."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you remind me of the "
+        },
+        {
+          "text": "procedure checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we continue?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "guidance note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "stepwise protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you forward the "
+        },
+        {
+          "text": "operational checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to my device?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "procedure outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show me the "
+        },
+        {
+          "text": "workflow guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "task checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this activity."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "protocol card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this event?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you display the "
+        },
+        {
+          "text": "reminder note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this procedure?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "procedure card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you give me the "
+        },
+        {
+          "text": "reference checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "protocol instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this task."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "guidance checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "stepwise checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "procedure summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this situation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you pull up the "
+        },
+        {
+          "text": "protocol checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please share the "
+        },
+        {
+          "text": "operational protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "guidance protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send over the "
+        },
+        {
+          "text": "procedure guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "reminder checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we begin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "step-by-step protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this task?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please forward the "
+        },
+        {
+          "text": "task protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "operational guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show the "
+        },
+        {
+          "text": "procedure reference",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "protocol outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "guidance sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this process?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "reminder protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "stepwise guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you display the "
+        },
+        {
+          "text": "procedure checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you share the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for the upcoming task?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we move forward."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " ahead of the next step."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " available for this process?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send me the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this activity?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "workflow guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to ensure accuracy."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "action checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "protocol summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this scenario?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show me the "
+        },
+        {
+          "text": "guidance note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "stepwise protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to continue safely."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "procedure outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this task."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "workflow guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " accessible for this phase?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "task checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this process?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "protocol card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you display the "
+        },
+        {
+          "text": "reminder note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "procedure card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " right away."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "reference checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "protocol instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this scenario?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "guidance checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send the "
+        },
+        {
+          "text": "stepwise checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this activity?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "procedure summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this process."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "protocol checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " ready for this task?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you share the "
+        },
+        {
+          "text": "operational protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this stage?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "guidance protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send over the "
+        },
+        {
+          "text": "procedure guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "reminder checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we proceed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "step-by-step protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this process."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you forward the "
+        },
+        {
+          "text": "task protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to me now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "operational guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "procedure reference",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this activity?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "protocol outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this phase?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "guidance sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "reminder protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "stepwise guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " available for this process?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you display the "
+        },
+        {
+          "text": "procedure checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this phase?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "action protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "procedure instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you share the "
+        },
+        {
+          "text": "task guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you please send the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for our current operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Before we proceed, may I have the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " available for this stage?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for the next step."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show the "
+        },
+        {
+          "text": "standard operating procedure",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is there a "
+        },
+        {
+          "text": "quick reference guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this process?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you read out the "
+        },
+        {
+          "text": "action checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I require the "
+        },
+        {
+          "text": "protocol summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please remind me with the "
+        },
+        {
+          "text": "procedure checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send the "
+        },
+        {
+          "text": "guidance note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "stepwise protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " handy?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please forward the "
+        },
+        {
+          "text": "operational checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to my device."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "procedure outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "workflow guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this step?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this phase?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " before we start the next step."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " set up for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send me the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " to review before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for this situation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through the steps for "
+        },
+        {
+          "text": "equipment shutdown",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Before we begin, can you outline the process for "
+        },
+        {
+          "text": "emergency evacuation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a quick refresher on "
+        },
+        {
+          "text": "sterile field setup",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you remind me of the protocol for "
+        },
+        {
+          "text": "medication administration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please review the steps for "
+        },
+        {
+          "text": "fire alarm response",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "What is the correct sequence for "
+        },
+        {
+          "text": "patient handoff",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this situation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you clarify the process for "
+        },
+        {
+          "text": "hazardous waste disposal",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the procedure for "
+        },
+        {
+          "text": "blood transfusion",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you go over the steps for "
+        },
+        {
+          "text": "incident reporting",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please walk me through "
+        },
+        {
+          "text": "lockout tagout",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " procedures now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you outline the main steps for "
+        },
+        {
+          "text": "specimen collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the process for "
+        },
+        {
+          "text": "wound dressing change",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " explained again."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you review the protocol for "
+        },
+        {
+          "text": "patient identification",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "What are the steps for "
+        },
+        {
+          "text": "IV insertion",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this context?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please remind me of the procedure for "
+        },
+        {
+          "text": "incident debriefing",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the steps for "
+        },
+        {
+          "text": "controlled substance handling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like a summary of "
+        },
+        {
+          "text": "equipment calibration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " procedures."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you walk me through "
+        },
+        {
+          "text": "infection control",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please clarify the process for "
+        },
+        {
+          "text": "specimen labeling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "What’s the correct order for "
+        },
+        {
+          "text": "emergency code activation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you go over the procedure for "
+        },
+        {
+          "text": "patient discharge",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need guidance on "
+        },
+        {
+          "text": "oxygen tank replacement",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before starting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you review the steps for "
+        },
+        {
+          "text": "hand hygiene",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please outline the protocol for "
+        },
+        {
+          "text": "fall risk assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you explain the process for "
+        },
+        {
+          "text": "medication reconciliation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to review the steps for "
+        },
+        {
+          "text": "PPE donning and doffing",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you clarify the procedure for "
+        },
+        {
+          "text": "waste segregation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please walk me through the process for "
+        },
+        {
+          "text": "pressure ulcer prevention",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "What are the main steps for "
+        },
+        {
+          "text": "blood sample collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you remind me of the protocol for "
+        },
+        {
+          "text": "patient transport",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this case?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the steps for "
+        },
+        {
+          "text": "defibrillator use",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you go over the process for "
+        },
+        {
+          "text": "specimen transport",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please outline the procedure for "
+        },
+        {
+          "text": "central line maintenance",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you review the steps for "
+        },
+        {
+          "text": "surgical count",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like a reminder of the process for "
+        },
+        {
+          "text": "incident escalation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you clarify the steps for "
+        },
+        {
+          "text": "vital signs monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please explain the protocol for "
+        },
+        {
+          "text": "patient isolation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through the process for "
+        },
+        {
+          "text": "equipment sterilization",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a quick overview of "
+        },
+        {
+          "text": "pain assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " procedures."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you review the process for "
+        },
+        {
+          "text": "incident documentation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through the steps for "
+        },
+        {
+          "text": "airway management",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a refresher on "
+        },
+        {
+          "text": "sterile technique",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please outline the process for "
+        },
+        {
+          "text": "medication reconciliation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you explain the procedure for "
+        },
+        {
+          "text": "patient transfer",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the checklist for "
+        },
+        {
+          "text": "emergency intubation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like a summary of "
+        },
+        {
+          "text": "wound irrigation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please clarify the steps for "
+        },
+        {
+          "text": "blood glucose monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this context."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you review the protocol for "
+        },
+        {
+          "text": "catheter insertion",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through "
+        },
+        {
+          "text": "fall prevention",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " procedures before we start?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need guidance on "
+        },
+        {
+          "text": "specimen labeling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " for this process."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please outline the main steps for "
+        },
+        {
+          "text": "central line removal",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you clarify the process for "
+        },
+        {
+          "text": "pressure injury assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this point?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you go over the steps for "
+        },
+        {
+          "text": "medication error reporting",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the procedure for "
+        },
+        {
+          "text": "IV medication administration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please review the protocol for "
+        },
+        {
+          "text": "postoperative monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this situation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the checklist for "
+        },
+        {
+          "text": "hand hygiene compliance",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you explain the process for "
+        },
+        {
+          "text": "patient consent",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a quick rundown of "
+        },
+        {
+          "text": "surgical time out",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please clarify the steps for "
+        },
+        {
+          "text": "blood pressure measurement",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you walk me through the process for "
+        },
+        {
+          "text": "medication preparation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you outline the protocol for "
+        },
+        {
+          "text": "allergy documentation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like a reminder of the steps for "
+        },
+        {
+          "text": "patient positioning",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " during this procedure."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please review the process for "
+        },
+        {
+          "text": "specimen transport",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you explain the steps for "
+        },
+        {
+          "text": "oxygen therapy initiation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you clarify the procedure for "
+        },
+        {
+          "text": "surgical instrument count",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a summary of "
+        },
+        {
+          "text": "fall risk assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please outline the process for "
+        },
+        {
+          "text": "pain assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this context."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the steps for "
+        },
+        {
+          "text": "emergency code activation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through "
+        },
+        {
+          "text": "patient discharge",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " procedures before we continue?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like guidance on "
+        },
+        {
+          "text": "incident reporting",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " for this situation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please review the protocol for "
+        },
+        {
+          "text": "equipment calibration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you clarify the process for "
+        },
+        {
+          "text": "waste segregation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you explain the steps for "
+        },
+        {
+          "text": "PPE removal",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a quick overview of "
+        },
+        {
+          "text": "vital signs monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please outline the procedure for "
+        },
+        {
+          "text": "specimen collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you walk me through the process for "
+        },
+        {
+          "text": "patient identification",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the checklist for "
+        },
+        {
+          "text": "controlled substance handling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like a summary of "
+        },
+        {
+          "text": "incident debriefing",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps at this point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please clarify the process for "
+        },
+        {
+          "text": "equipment sterilization",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this context."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you review the protocol for "
+        },
+        {
+          "text": "central line maintenance",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through the steps for "
+        },
+        {
+          "text": "emergency airway management",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a quick refresher on "
+        },
+        {
+          "text": "sterile field setup",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you explain the steps for "
+        },
+        {
+          "text": "blood culture collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this context?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like guidance on "
+        },
+        {
+          "text": "patient restraint application",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you review the protocol for "
+        },
+        {
+          "text": "post-fall assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please clarify the steps for "
+        },
+        {
+          "text": "surgical hand scrub",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you walk me through the process for "
+        },
+        {
+          "text": "blood transfusion verification",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a summary of "
+        },
+        {
+          "text": "chest tube management",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you outline the main steps for "
+        },
+        {
+          "text": "pressure ulcer risk assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please explain the process for "
+        },
+        {
+          "text": "specimen rejection handling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like a quick overview of "
+        },
+        {
+          "text": "emergency crash cart usage",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through the process for "
+        },
+        {
+          "text": "isolation precautions",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this point?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please review the protocol for "
+        },
+        {
+          "text": "medication double-check",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you clarify the steps for "
+        },
+        {
+          "text": "urinary catheter insertion",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this context?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need guidance on "
+        },
+        {
+          "text": "surgical site marking",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please outline the process for "
+        },
+        {
+          "text": "blood product administration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you explain the steps for "
+        },
+        {
+          "text": "patient fall reporting",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like a summary of "
+        },
+        {
+          "text": "central line dressing change",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you walk me through the process for "
+        },
+        {
+          "text": "airway suctioning",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a reminder about the steps for "
+        },
+        {
+          "text": "medication reconciliation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "sterile gowning",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "equipment shutdown",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send me the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "emergency evacuation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you share the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "medication administration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this point?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Before we continue, I’d like the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "fire alarm response",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient handoff",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would appreciate the "
+        },
+        {
+          "text": "step-by-step instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "hazardous waste disposal",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "protocol card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood transfusion",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "action checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "incident reporting",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to my device?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "procedure outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "lockout tagout",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " procedures."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you forward the "
+        },
+        {
+          "text": "operational checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "specimen collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show me the "
+        },
+        {
+          "text": "workflow guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "wound dressing change",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "task checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient identification",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " handy?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "protocol summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "IV insertion",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "guidance note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "incident debriefing",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "procedure card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "controlled substance handling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right away."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "reference checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "equipment calibration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "protocol instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "infection control",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "guidance checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "specimen labeling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "stepwise checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "emergency code activation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "procedure summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient discharge",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "protocol checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "oxygen tank replacement",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please share the "
+        },
+        {
+          "text": "operational protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "hand hygiene",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Do you have the "
+        },
+        {
+          "text": "guidance protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "fall risk assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " available?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send over the "
+        },
+        {
+          "text": "procedure guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "medication reconciliation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "reminder checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "PPE donning and doffing",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "step-by-step protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "waste segregation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you forward the "
+        },
+        {
+          "text": "task protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "pressure ulcer prevention",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "operational guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood sample collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "procedure reference",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient transport",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " in this case?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "protocol outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "defibrillator use",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "guidance sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "specimen transport",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "reminder protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "central line maintenance",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the "
+        },
+        {
+          "text": "stepwise guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical count",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "procedure checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "incident escalation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to my device?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "action protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "vital signs monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "procedure instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient isolation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you share the "
+        },
+        {
+          "text": "task guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "equipment sterilization",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " with me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "pain assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "incident documentation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you please send the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "airway management",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "equipment calibration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "wound dressing change",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "medication reconciliation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "central line removal",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "workflow guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "incident documentation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "protocol card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood culture collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient consent",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send the "
+        },
+        {
+          "text": "action checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "fall prevention",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "stepwise protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical hand scrub",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please forward the "
+        },
+        {
+          "text": "procedure outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "specimen labeling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "guidance note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "emergency code activation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "reminder note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "oxygen therapy initiation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "procedure card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "post-fall assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " as soon as possible."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "reference checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "pressure ulcer risk assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "protocol instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "urinary catheter insertion",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the "
+        },
+        {
+          "text": "stepwise checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient discharge",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "guidance checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "equipment sterilization",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to my device?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "procedure summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "incident escalation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we continue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "operational protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "pain assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "task guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood product administration",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "procedure reference",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "vital signs monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "protocol outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient restraint application",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "guidance sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "specimen rejection handling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "reminder protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "allergy documentation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the "
+        },
+        {
+          "text": "stepwise guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical instrument count",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send the "
+        },
+        {
+          "text": "procedure checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "medication error reporting",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "action protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "emergency crash cart usage",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "procedure instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient positioning",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " during this procedure."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "task checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "pressure injury assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we continue?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "protocol summary",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "chest tube management",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "guidance protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient isolation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "procedure guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood glucose monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "reminder checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "sterile gowning",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "incident debriefing",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "protocol checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "fall risk assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to my device?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "operational guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "waste segregation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "step-by-step protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient handoff",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "guidance note",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical time out",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "procedure outline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood sample collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "emergency airway management",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical hand scrub",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "incident escalation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show me the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood culture collection",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "postoperative monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient consent",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please forward the "
+        },
+        {
+          "text": "action checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "fall prevention",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "stepwise protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical instrument count",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "reminder checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "sterile gowning",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we begin?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "reminder protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "allergy documentation",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send the "
+        },
+        {
+          "text": "procedure checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "medication error reporting",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " to me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send me the "
+        },
+        {
+          "text": "checklist",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "emergency airway management",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Before we continue, please provide the "
+        },
+        {
+          "text": "protocol",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical time out",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show me the "
+        },
+        {
+          "text": "reference sheet",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "blood glucose monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this stage?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "reminder",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "postoperative monitoring",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " steps."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send the "
+        },
+        {
+          "text": "guideline",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "patient restraint application",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we proceed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "procedure manual",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "surgical instrument count",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "step-by-step instructions",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "specimen rejection handling",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " at this time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please share the "
+        },
+        {
+          "text": "workflow guide",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "central line dressing change",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " before we start."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "protocol card",
+          "entity": "guidance_artifact_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "pain assessment",
+          "entity": "procedure_topic"
+        },
+        {
+          "text": " now?"
+        }
+      ]
+    }
+  ]
+}

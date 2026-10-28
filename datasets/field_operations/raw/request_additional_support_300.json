@@ -1,0 +1,4204 @@
+{
+  "Request Additional Support": [
+    {
+      "data": [
+        {
+          "text": "Can you send additional "
+        },
+        {
+          "text": "medical personnel",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our location immediately?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "fuel trucks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting urgent "
+        },
+        {
+          "text": "air evacuation",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for injured team members."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "engineering equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to assist with the bridge repair."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could we get extra "
+        },
+        {
+          "text": "communications gear",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the command post?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need "
+        },
+        {
+          "text": "ammunition resupply",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at grid 45B."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "water purification units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the encampment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "mechanics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to fix the damaged vehicles."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "satellite imagery",
+          "entity": "resource_type"
+        },
+        {
+          "text": " of the target area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We are requesting "
+        },
+        {
+          "text": "night vision goggles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the patrol tonight."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for "
+        },
+        {
+          "text": "food supplies",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to be delivered tomorrow."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "medical evacuation helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " as soon as possible."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide additional "
+        },
+        {
+          "text": "body armor",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for our unit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "logistics support",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the upcoming operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you deploy "
+        },
+        {
+          "text": "sniper teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to cover our advance?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "portable generators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the field hospital."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "heavy transport vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to move the equipment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for "
+        },
+        {
+          "text": "artillery support",
+          "entity": "resource_type"
+        },
+        {
+          "text": " during the assault?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need additional "
+        },
+        {
+          "text": "field medics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at checkpoint Bravo."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "drones",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for surveillance over the valley."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "extra rations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the extended mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "construction materials",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to reinforce the perimeter."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "chemical detection kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the inspection team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you dispatch "
+        },
+        {
+          "text": "firefighting units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the eastern sector?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "backup infantry squad",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the southern approach."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "weather monitoring equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the airfield."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide "
+        },
+        {
+          "text": "additional interpreters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the negotiations."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "mine-clearing vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the main road?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "medical supplies",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the aid station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "mobile command center",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide "
+        },
+        {
+          "text": "extra batteries",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for our radios?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "search and rescue team",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the crash site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "field kitchens",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the new arrivals."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "additional security personnel",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange for "
+        },
+        {
+          "text": "medical tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward base?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra fuel drums",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the generators."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "satellite phones",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for remote teams."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "heavy machinery",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to clear the debris."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide "
+        },
+        {
+          "text": "protective masks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the hazardous area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send more "
+        },
+        {
+          "text": "combat engineers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our sector right away?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We urgently need "
+        },
+        {
+          "text": "water tankers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the supply point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "medical evacuation vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our coordinates."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "air reconnaissance assets",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to monitor enemy movement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need extra "
+        },
+        {
+          "text": "field radios",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the communications team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "mobile repair units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the maintenance area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for more "
+        },
+        {
+          "text": "medical stretchers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the triage zone?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "additional mortar teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to support our advance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "night illumination flares",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the perimeter patrols."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "extra camouflage netting",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to conceal our vehicles?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide more "
+        },
+        {
+          "text": "field ration packs",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the platoon."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "backup transport helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for troop movement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you dispatch "
+        },
+        {
+          "text": "fire suppression equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the fuel depot?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional medical kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the first aid station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "extra sandbags",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to reinforce our defenses."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "backup communication vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the command center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional searchlights",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night watch."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send more "
+        },
+        {
+          "text": "hazmat suits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the contaminated area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra medical evacuation teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " on standby."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "heavy lifting cranes",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the collapsed structure."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "additional supply trucks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the resupply mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra field ambulances",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for casualty transport."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "backup power generators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the operations base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "additional observation drones",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to survey the area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for more "
+        },
+        {
+          "text": "field medics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward post?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra riot control units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for crowd management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional armored vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for convoy protection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide "
+        },
+        {
+          "text": "extra cold weather gear",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the mountain patrols."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "additional interpreter teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to assist with local communications?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "extra firefighting crews",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the incident site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional bridging equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for river crossing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "extra medical supply kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the field hospital."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide more "
+        },
+        {
+          "text": "portable lighting units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra logistics coordinators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the supply chain."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional armored ambulances",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for casualty evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "extra fuel tankers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the staging area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for "
+        },
+        {
+          "text": "additional canine units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for search operations?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "extra construction crews",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to repair the damaged infrastructure."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "combat medics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our sector immediately?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "water distribution units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the northern camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting urgent deployment of "
+        },
+        {
+          "text": "explosive ordnance teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the bridge site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide extra "
+        },
+        {
+          "text": "mobile water tanks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the field teams."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange for "
+        },
+        {
+          "text": "additional supply vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at checkpoint Alpha?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "field medical tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the triage area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting backup from "
+        },
+        {
+          "text": "quick reaction forces",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at our current location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you dispatch "
+        },
+        {
+          "text": "emergency power units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the command post?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need extra "
+        },
+        {
+          "text": "portable fuel pumps",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the refueling station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send additional "
+        },
+        {
+          "text": "hazardous material teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the spill site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide more "
+        },
+        {
+          "text": "field ration boxes",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the supply drop?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "mobile satellite uplinks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for improved communications."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require additional "
+        },
+        {
+          "text": "field mechanics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the vehicle depot."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "extra stretcher bearers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to assist with casualties?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch more "
+        },
+        {
+          "text": "decontamination units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the affected zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "backup logistics teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the resupply effort."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange for "
+        },
+        {
+          "text": "additional field kitchens",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the encampment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "portable medical stations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the injured."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide "
+        },
+        {
+          "text": "additional searchlights",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night perimeter?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra supply helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the next airlift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "combat support vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the advance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "additional field engineers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the construction site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra ammunition carriers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the front line."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide "
+        },
+        {
+          "text": "more mobile field clinics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the disaster area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "additional logistics vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the supply run."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "extra surveillance drones",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to monitor the perimeter."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "portable lighting towers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra armored transport trucks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for equipment movement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "extra field communication kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the forward unit?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "mobile command shelters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the coordination center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "extra supply chain managers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the logistics hub?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "additional armored ambulances",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for casualty transport."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "firefighting helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the wildfire zone?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We urgently need more "
+        },
+        {
+          "text": "medical extraction teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the crash site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide extra "
+        },
+        {
+          "text": "water purification tablets",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the field teams."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch more "
+        },
+        {
+          "text": "explosive detection dogs",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the checkpoint?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "heavy lift helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for equipment transport."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "combat medics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward position."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "portable field showers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the encampment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for extra "
+        },
+        {
+          "text": "mobile medical units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the disaster site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require additional "
+        },
+        {
+          "text": "fuel resupply vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the convoy."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "mobile command vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for coordination."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide extra "
+        },
+        {
+          "text": "thermal imaging cameras",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night patrols?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need additional "
+        },
+        {
+          "text": "emergency shelter tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for displaced families."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send more "
+        },
+        {
+          "text": "hazardous material suits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the spill location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you dispatch extra "
+        },
+        {
+          "text": "field sanitation units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the base camp?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "amphibious transport vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for river crossing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "emergency power generators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to restore electricity?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide extra "
+        },
+        {
+          "text": "protective ballistic shields",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the security team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "field rations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the extended deployment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch extra "
+        },
+        {
+          "text": "emergency lighting towers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide more "
+        },
+        {
+          "text": "mobile field kitchens",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the relief effort?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "armored personnel carriers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the convoy."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require extra "
+        },
+        {
+          "text": "portable medical kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the triage area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send more "
+        },
+        {
+          "text": "emergency evacuation buses",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the shelter location?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide additional "
+        },
+        {
+          "text": "portable radio repeaters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the communications team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need extra "
+        },
+        {
+          "text": "mobile refrigeration units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for vaccine storage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "field repair toolkits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the mechanics."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch additional "
+        },
+        {
+          "text": "quick response teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our sector?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send more "
+        },
+        {
+          "text": "portable floodlights",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the search operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require extra "
+        },
+        {
+          "text": "emergency medical backpacks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the paramedics."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide more "
+        },
+        {
+          "text": "mobile command shelters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the coordination center?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "armored escort vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the supply run."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "portable fuel containers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the generator units."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for extra "
+        },
+        {
+          "text": "search and rescue boats",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the flooded area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send additional "
+        },
+        {
+          "text": "emergency field beds",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the medical tent?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require extra "
+        },
+        {
+          "text": "mobile shower trailers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the deployed personnel."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "water purification tablets",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our location?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We urgently need "
+        },
+        {
+          "text": "emergency medical teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the disaster site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "heavy equipment operators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to assist with debris removal."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide more "
+        },
+        {
+          "text": "mobile water pumps",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the flooded sector?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need additional "
+        },
+        {
+          "text": "field medics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward aid post."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you dispatch "
+        },
+        {
+          "text": "extra supply chain vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the logistics hub?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require additional "
+        },
+        {
+          "text": "combat support units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the northern flank."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra field stretchers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for casualty evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide more "
+        },
+        {
+          "text": "portable power stations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the remote outpost?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra armored vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the convoy escort."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for "
+        },
+        {
+          "text": "additional field rations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the supply depot?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "more tactical radios",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the platoon leaders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "extra logistics support staff",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the main base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send more "
+        },
+        {
+          "text": "portable flood barriers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the riverbank?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra fuel supply teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the refueling point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "more field sanitation crews",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the encampment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "extra medical transport units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the emergency zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra engineering vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the construction project."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "extra rapid response squads",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our coordinates?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "more portable shelter units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the displaced families."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional drone operators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for surveillance missions."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "extra mobile command posts",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the field teams?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you dispatch "
+        },
+        {
+          "text": "extra heavy lift equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the construction zone?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide "
+        },
+        {
+          "text": "extra medical triage tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the emergency response."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional field repair teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for vehicle maintenance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra portable heating units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the mountain outpost."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "medical evacuation helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our position as soon as possible?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We urgently need "
+        },
+        {
+          "text": "field medical kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward aid station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "heavy transport trucks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to assist with equipment relocation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "extra medical stretchers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the casualty collection point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra field rations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the extended deployment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "backup engineering teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the bridge construction site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "additional surveillance drones",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to monitor the perimeter?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra fuel supply trucks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the generator units."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "more portable medical stations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the injured personnel."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "extra field repair toolkits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the maintenance crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "more mobile command shelters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the coordination center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra portable power units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the remote outpost."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "more emergency shelter tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for displaced families."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "extra tactical radios",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the platoon leaders?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "backup logistics teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the resupply operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for "
+        },
+        {
+          "text": "more portable lighting towers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the night work site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "additional field kitchens",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the relief effort?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "more portable medical kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the triage area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "more field repair teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for vehicle maintenance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide "
+        },
+        {
+          "text": "extra portable floodlights",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the search operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "more mobile command shelters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the coordination center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "extra armored escort vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the supply run."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "more portable fuel containers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the generator units."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "extra mobile shower trailers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the deployed personnel."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "emergency medical teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the disaster site immediately."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "fire suppression crews",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the wildfire area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We urgently need "
+        },
+        {
+          "text": "emergency water tanks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the southern checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "mobile field kitchens",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to support the relief camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide more "
+        },
+        {
+          "text": "communications specialists",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the operations center?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require additional "
+        },
+        {
+          "text": "medical transport helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for casualty evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "heavy earthmoving equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to clear the blocked road."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for more "
+        },
+        {
+          "text": "emergency food packs",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the distribution site?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "backup security teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the main entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "field medical officers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the triage station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "mechanical repair crews",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the vehicle depot."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide "
+        },
+        {
+          "text": "emergency lighting equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra field sanitation teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the temporary shelters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "backup air support units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our coordinates?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We urgently need "
+        },
+        {
+          "text": "portable medical tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the overflow of patients."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for more "
+        },
+        {
+          "text": "fuel resupply teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "mobile refrigeration units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the vaccine storage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "additional field interpreters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the negotiation team?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "combat support squads",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the northern perimeter."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "emergency evacuation vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the shelter site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "extra logistics coordinators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the supply operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for "
+        },
+        {
+          "text": "backup engineering vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the construction zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide more "
+        },
+        {
+          "text": "field surveillance drones",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the monitoring mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra portable heating units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the mountain camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "additional tactical radio sets",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the squad leaders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "mobile medical response teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the incident site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "backup field mechanics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the repair station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide "
+        },
+        {
+          "text": "emergency shelter units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the displaced civilians."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange for "
+        },
+        {
+          "text": "additional field ration packs",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the supply depot?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "extra mobile command vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the coordination team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "more portable flood barriers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the river crossing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "additional field medics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the casualty collection point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "water purification systems",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our base as soon as possible?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need urgent delivery of "
+        },
+        {
+          "text": "heavy lifting equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the construction site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch more "
+        },
+        {
+          "text": "medical response vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the accident scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide extra "
+        },
+        {
+          "text": "thermal imaging drones",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the search mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "field sanitation trailers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the encampment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "emergency food supplies",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the displaced population."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for extra "
+        },
+        {
+          "text": "portable water tanks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the relief center?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send more "
+        },
+        {
+          "text": "mobile command platforms",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the coordination area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch additional "
+        },
+        {
+          "text": "firefighting apparatus",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the blaze location?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "portable medical beds",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the triage tent."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting extra "
+        },
+        {
+          "text": "fuel supply trailers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the generator units."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "mobile lighting towers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange for extra "
+        },
+        {
+          "text": "rapid deployment tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the staging area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "mechanical repair units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the vehicle fleet."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch more "
+        },
+        {
+          "text": "emergency power trailers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the blackout zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send extra "
+        },
+        {
+          "text": "portable oxygen cylinders",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the medical post?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need additional "
+        },
+        {
+          "text": "search and rescue dogs",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the collapsed building."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "mobile refrigeration trailers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for vaccine storage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide extra "
+        },
+        {
+          "text": "protective hazmat gear",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the cleanup crew?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "emergency shelter pods",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the evacuees."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you dispatch extra "
+        },
+        {
+          "text": "all-terrain vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the rescue operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "portable flood barriers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the riverbank."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for more "
+        },
+        {
+          "text": "mobile water filtration units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the field camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send extra "
+        },
+        {
+          "text": "emergency trauma kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the incident site?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "portable heating systems",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the winter shelter."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting additional "
+        },
+        {
+          "text": "field communication terminals",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the command group."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send more "
+        },
+        {
+          "text": "mobile field laboratories",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the contamination zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require additional "
+        },
+        {
+          "text": "portable power generators",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the operations tent."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch more "
+        },
+        {
+          "text": "emergency water pumps",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the flooded area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting extra "
+        },
+        {
+          "text": "protective riot shields",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the security detail."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for additional "
+        },
+        {
+          "text": "mobile medical screening units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send more "
+        },
+        {
+          "text": "emergency lighting towers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the night shift?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need extra "
+        },
+        {
+          "text": "field ration packs",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the extended deployment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "portable sanitation stations",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the temporary camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide extra "
+        },
+        {
+          "text": "mobile air filtration units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the hazardous zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch additional "
+        },
+        {
+          "text": "emergency supply pallets",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the distribution center?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "medical evacuation helicopters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our position?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "water purification tablets",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch extra "
+        },
+        {
+          "text": "field communication kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the command post."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "heavy lifting equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the collapsed building rescue?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting urgent "
+        },
+        {
+          "text": "air reconnaissance support",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for enemy movement tracking."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require additional "
+        },
+        {
+          "text": "portable medical tents",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the triage area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send more "
+        },
+        {
+          "text": "mechanical repair teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the vehicle depot."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for "
+        },
+        {
+          "text": "emergency shelter units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the evacuation site?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need extra "
+        },
+        {
+          "text": "portable heating units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the mountain base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting backup "
+        },
+        {
+          "text": "combat support vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the southern flank."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch "
+        },
+        {
+          "text": "mobile refrigeration units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for vaccine storage?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide "
+        },
+        {
+          "text": "additional field ration packs",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the extended patrol."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need more "
+        },
+        {
+          "text": "emergency lighting towers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the night operation site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "extra armored transport trucks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for equipment movement?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "additional field medics",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the forward aid station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "mobile command shelters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the coordination center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "extra portable fuel containers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the generator units?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "additional search and rescue boats"
+        },
+        {
+          "text": " at the flooded area.",
+          "entity": "resource_type"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for "
+        },
+        {
+          "text": "emergency water tanks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the southern checkpoint?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "backup security teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the main entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting urgent "
+        },
+        {
+          "text": "explosive ordnance teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the bridge site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send "
+        },
+        {
+          "text": "additional field interpreters",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the negotiation team?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "mobile medical response teams",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the incident site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "medical extraction units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to our location as soon as possible?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We urgently require more "
+        },
+        {
+          "text": "emergency water trucks",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the southern checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "mechanical recovery vehicles",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to assist with the overturned convoy."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide extra "
+        },
+        {
+          "text": "communications specialists",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the operations center?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need additional "
+        },
+        {
+          "text": "mobile field laboratories",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the contamination site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting more "
+        },
+        {
+          "text": "emergency shelter pods",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the evacuees."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange for "
+        },
+        {
+          "text": "portable oxygen cylinders",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the medical post?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send extra "
+        },
+        {
+          "text": "hazardous material suits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the spill location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require more "
+        },
+        {
+          "text": "portable flood barriers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " at the river crossing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting urgent "
+        },
+        {
+          "text": "heavy earthmoving equipment",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for debris clearance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide more "
+        },
+        {
+          "text": "mobile refrigeration trailers",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for vaccine storage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send "
+        },
+        {
+          "text": "emergency trauma kits",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to the incident site?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need extra "
+        },
+        {
+          "text": "protective ballistic shields",
+          "entity": "resource_type"
+        },
+        {
+          "text": " for the security team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange for additional "
+        },
+        {
+          "text": "mobile air filtration units",
+          "entity": "resource_type"
+        },
+        {
+          "text": " in the hazardous zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you send additional "
+        },
+        {
+          "text": "logistics personnel",
+          "entity": "resource_type"
+        },
+        {
+          "text": " to help manage the incoming supplies?"
+        }
+      ]
+    }
+  ]
+}

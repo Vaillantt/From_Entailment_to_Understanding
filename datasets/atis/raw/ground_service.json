@@ -1,0 +1,4102 @@
+{
+    "ground_service": [
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "a"
+                },
+                {
+                    "text": "tlanta ",
+                    "entity": "city_name"
+                },
+                {
+                    "text": "ground transportation"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me information on ground transportation for "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation from "
+                },
+                {
+                    "text": "philadelphia airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to the city proper"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "san jose",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me a list of ground transportation at "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the transportation "
+                },
+                {
+                    "text": "time",
+                    "entity": "time"
+                },
+                {
+                    "text": " from the airport to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kinds of ground transportation is available in "
+                },
+                {
+                    "text": "dallas fort worth",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation can you offer me in "
+                },
+                {
+                    "text": "seattle",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the "
+                },
+                {
+                    "text": "car rentals",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "how much time does it take to go between the airport and downtown by ground transportation in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "minneapolis",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " from the airport"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is there in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "dc",
+                    "entity": "state_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of ground transportation from the airport in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " into downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "westchester county",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the available ground transportation between the airport in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " and downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what type of ground transportation is available between the airport and downtown "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " please"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list ground transport in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from "
+                },
+                {
+                    "text": "san diego airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to the downtown area"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need ground transportation in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " please show me what 's available"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation in "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's the ground transportation like at "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation information for "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please show me ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like information on ground transportation in the city of "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " from airport to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about ground transportation in "
+                },
+                {
+                    "text": "st. petersburg airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the airport to downtown "
+                },
+                {
+                    "text": "phoenix",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "does the "
+                },
+                {
+                    "text": "phoenix airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " have ground transportation to and from downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the "
+                },
+                {
+                    "text": "milwaukee airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " to the downtown area"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation information for "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show ground transportation for "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there "
+                },
+                {
+                    "text": "limousine",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " service available at "
+                },
+                {
+                    "text": "baltimore airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what are the ground transportation services in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from "
+                },
+                {
+                    "text": "atlanta airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "are there any "
+                },
+                {
+                    "text": "limousines",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "or",
+                    "entity": "or"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "taxi",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " services available at the "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can i see ground transportation from "
+                },
+                {
+                    "text": "long beach",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " airport to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can you help me with ground transportation information i need to get from the airport in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation for "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "monday",
+                    "entity": "day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "morning",
+                    "entity": "period_of_day"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available at "
+                },
+                {
+                    "text": "denver airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can you give me information on transportation from the airport in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available at the "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "tomorrow",
+                    "entity": "today_relative"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i 'm looking for ground transportation in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "limousine",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " service is in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please give grounds transportation at "
+                },
+                {
+                    "text": "dallas airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " ground transport"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation between airport and downtown in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transport in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "the day after tomorrow",
+                    "entity": "today_relative"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "phoenix",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what do you know about "
+                },
+                {
+                    "text": "car rental",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i 'd like a "
+                },
+                {
+                    "text": "limo",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "august",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "seventh",
+                    "entity": "depart_date_day_number"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about ground transportation at "
+                },
+                {
+                    "text": "salt lake city",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "limousine",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " service in "
+                },
+                {
+                    "text": "toronto",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "how long does the ground transportation take from the "
+                },
+                {
+                    "text": "salt lake city airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can you rent a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " at "
+                },
+                {
+                    "text": "stapleton international airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the ground transportation to "
+                },
+                {
+                    "text": "westchester county",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "list ground transportation in "
+                },
+                {
+                    "text": "detroit",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "newark",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is available in "
+                },
+                {
+                    "text": "las vegas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " and in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me about the ground transportation in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " is there ground transportation between airport and downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like information on ground transportation "
+                },
+                {
+                    "text": "city of boston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " between airport and downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "list ground transportation options at "
+                },
+                {
+                    "text": "phoenix",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need information for ground transportation "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "colorado",
+                    "entity": "state_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about ground transportation at "
+                },
+                {
+                    "text": "toronto",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transport in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "dc",
+                    "entity": "state_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transport "
+                },
+                {
+                    "text": "phoenix",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what type of ground transportation is available in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "how do i get to "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " downtown from the airport"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is there in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "t"
+                },
+                {
+                    "text": "rain ",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": "to "
+                },
+                {
+                    "text": "newark",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like to find out the ground travel available in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the ground transportation schedule in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "thursday",
+                    "entity": "day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "evening",
+                    "entity": "period_of_day"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transport is available in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "could you tell me if there is ground transportation between the "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "limousine",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " service in "
+                },
+                {
+                    "text": "los angeles",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "dallas fort worth",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " i would like information on ground transportation"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "r"
+                },
+                {
+                    "text": "ental cars ",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please give me ground transportation information between "
+                },
+                {
+                    "text": "dallas fort worth airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "and how can i get to the "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "toloc_airport_name"
+                },
+                {
+                    "text": " from downtown "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me a list of ground transportation at "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what types of ground transportation are there to "
+                },
+                {
+                    "text": "san francisco airport",
+                    "entity": "toloc_airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transport is available in "
+                },
+                {
+                    "text": "charlotte",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need to get downtown from the "
+                },
+                {
+                    "text": "denver airport",
+                    "entity": "fromloc_airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about the ground transportation in "
+                },
+                {
+                    "text": "chicago",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is there in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there in "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can i get a "
+                },
+                {
+                    "text": "rental car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there from the airport in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available at the "
+                },
+                {
+                    "text": "baltimore airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "b"
+                },
+                {
+                    "text": "oston ",
+                    "entity": "city_name"
+                },
+                {
+                    "text": "ground transportation"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation between airport and downtown in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available from "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation in "
+                },
+                {
+                    "text": "san diego",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available at "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there "
+                },
+                {
+                    "text": "limo",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " service at "
+                },
+                {
+                    "text": "pittsburgh airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what types of ground transportation are available in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what sort of ground transportation is there in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "dc",
+                    "entity": "state_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "westchester county",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i 'd like to know the ground travel available in "
+                },
+                {
+                    "text": "fort worth",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the ground transportation in the "
+                },
+                {
+                    "text": "salt lake city airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like to know the types of ground transportation from the airport to "
+                },
+                {
+                    "text": "las vegas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation from airport in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like information on ground transportation in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " from the airport to the city in the "
+                },
+                {
+                    "text": "morning",
+                    "entity": "period_of_day"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "around",
+                    "entity": "time_relative"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "9 am",
+                    "entity": "time"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation for "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "atl",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please give ground transportation at "
+                },
+                {
+                    "text": "denver airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is ground transportation between the "
+                },
+                {
+                    "text": "san francisco airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " and the city"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me all ground transportation in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "dc",
+                    "entity": "state_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "r"
+                },
+                {
+                    "text": "ental car ",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can i rent a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "san jose",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " too"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about ground transportation between "
+                },
+                {
+                    "text": "orlando international",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "orlando",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what type of ground transportation is available at "
+                },
+                {
+                    "text": "logan airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation for "
+                },
+                {
+                    "text": "st. paul",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list ground transportation in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need your help with information on ground transportation from the airport in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the available ground transportation between "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " and downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there an "
+                },
+                {
+                    "text": "airport limousine",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " at the "
+                },
+                {
+                    "text": "atlanta airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation available in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation available in "
+                },
+                {
+                    "text": "fort worth",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "t"
+                },
+                {
+                    "text": "rain ",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": "to "
+                },
+                {
+                    "text": "newark",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation information for "
+                },
+                {
+                    "text": "dallas fort worth",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "las vegas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need information on ground transportation from the airport in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "fromloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation between airport and "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation from "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "new york",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " i 'll need to rent a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i will need a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " at "
+                },
+                {
+                    "text": "new york",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the "
+                },
+                {
+                    "text": "car rentals",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " i 'd like to rent a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about ground transportation between "
+                },
+                {
+                    "text": "orlando international",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "orlando",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is ground transportation available in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "information on ground transportation from airport to downtown "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "how do i get downtown from the "
+                },
+                {
+                    "text": "toronto airport",
+                    "entity": "fromloc_airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the ground transportation schedule in "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " in the "
+                },
+                {
+                    "text": "morning",
+                    "entity": "period_of_day"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "wednesday",
+                    "entity": "day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what type of ground transportation is available at "
+                },
+                {
+                    "text": "philadelphia airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what about a "
+                },
+                {
+                    "text": "car rental",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "and i 'll need ground transportation for "
+                },
+                {
+                    "text": "tuesday",
+                    "entity": "day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "july",
+                    "entity": "month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "sixth",
+                    "entity": "day_number"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "wednesday",
+                    "entity": "day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "july",
+                    "entity": "month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "seventh",
+                    "entity": "day_number"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "san diego",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can you tell me about ground transportation between the "
+                },
+                {
+                    "text": "dallas airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the "
+                },
+                {
+                    "text": "atlanta airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "information on ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available into "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the "
+                },
+                {
+                    "text": "pittsburgh airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation available in the city of "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about ground transportation at "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the ground transportation at "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is available in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "fine can you give me information on ground transportation in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "dc",
+                    "entity": "state_code"
+                },
+                {
+                    "text": " to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is there in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there any ground transportation to the "
+                },
+                {
+                    "text": "city in dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "charlotte",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "while i 'm in "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " what ground transportation is available"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " i would like information on ground transportation"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need information on ground transportation between airport and downtown in the "
+                },
+                {
+                    "text": "city of boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " ground transportation"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "do you have ground transportation between airport and downtown in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please give me ground transportation information for "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " during weekdays"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there from "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transport is available in "
+                },
+                {
+                    "text": "minneapolis",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there a "
+                },
+                {
+                    "text": "limousine",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " service available from the "
+                },
+                {
+                    "text": "pittsburgh airport",
+                    "entity": "fromloc_airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transport in "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available at the "
+                },
+                {
+                    "text": "atlanta airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can you find out about the ground transportation available in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "d"
+                },
+                {
+                    "text": "allas ",
+                    "entity": "city_name"
+                },
+                {
+                    "text": "ground transportation"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the "
+                },
+                {
+                    "text": "dallas airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation can i take into "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there transportation from the "
+                },
+                {
+                    "text": "atlanta airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i 'll need a "
+                },
+                {
+                    "text": "rental car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " at the "
+                },
+                {
+                    "text": "atlanta airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " can you show me what 's available"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what kind of ground transportation is there once i get to "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can i have a "
+                },
+                {
+                    "text": "rental car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "houston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "r"
+                },
+                {
+                    "text": "ental cars ",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "dc",
+                    "entity": "state_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transport in "
+                },
+                {
+                    "text": "seattle",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available from the "
+                },
+                {
+                    "text": "pittsburgh airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to the town"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "describe ground transportation in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what transportation is available from the "
+                },
+                {
+                    "text": "dallas airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "rental car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " information in "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i will be staying downtown in "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " for two hours could you tell me what the ground transportation is available"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the airport in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " from the "
+                },
+                {
+                    "text": "dallas airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "could you tell me about ground transportation arrangements from the "
+                },
+                {
+                    "text": "dallas airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's the ground transportation from "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "car rentals",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " are available "
+                },
+                {
+                    "text": "next",
+                    "entity": "depart_date_date_relative"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "sunday",
+                    "entity": "depart_date_day_name"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "denver airport",
+                    "entity": "fromloc_airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation in "
+                },
+                {
+                    "text": "st. louis",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need ground transportation in "
+                },
+                {
+                    "text": "seattle",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation available in "
+                },
+                {
+                    "text": "fort worth",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "texas",
+                    "entity": "state_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me a list of "
+                },
+                {
+                    "text": "rental car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " fares at "
+                },
+                {
+                    "text": "boston airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transport "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list available ground transportation in "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation please in the "
+                },
+                {
+                    "text": "city of boston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " between airport and downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what types of ground transportation are available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " what kind of ground transportation is there from the airport to downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does ground transportation look like in "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available at "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about ground transportation between the "
+                },
+                {
+                    "text": "dallas fort worth airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can i get a "
+                },
+                {
+                    "text": "taxi",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "long beach",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " airport to downtown "
+                },
+                {
+                    "text": "long beach",
+                    "entity": "fromloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available from the "
+                },
+                {
+                    "text": "pittsburgh airport",
+                    "entity": "fromloc_airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available from the "
+                },
+                {
+                    "text": "denver airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "denver",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation available in the city of "
+                },
+                {
+                    "text": "fort worth",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "does "
+                },
+                {
+                    "text": "tacoma airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " offer transportation from the airport to the downtown area"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the ground transportation between the "
+                },
+                {
+                    "text": "charlotte airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "charlotte airport",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "charlotte",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's the ground transportation in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's the ground transportation in "
+                },
+                {
+                    "text": "westchester county",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "now show me ground transportation in "
+                },
+                {
+                    "text": "houston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "monday",
+                    "entity": "day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "afternoon",
+                    "entity": "period_of_day"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "and now show me ground transportation that i could get in "
+                },
+                {
+                    "text": "boston",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "late",
+                    "entity": "period_of_day"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "night",
+                    "entity": "period_of_day"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i 'll need to rent a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "dc",
+                    "entity": "state_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need to rent a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "milwaukee",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available at "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available from "
+                },
+                {
+                    "text": "dallas fort worth airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " to downtown "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available between "
+                },
+                {
+                    "text": "phoenix airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "phoenix",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available between "
+                },
+                {
+                    "text": "pittsburgh airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available between "
+                },
+                {
+                    "text": "dca",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "washington",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available between "
+                },
+                {
+                    "text": "milwaukee airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " and downtown "
+                },
+                {
+                    "text": "milwaukee",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please show ground transportation to "
+                },
+                {
+                    "text": "milwaukee",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what types of ground transportation are available in "
+                },
+                {
+                    "text": "denver",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is ground transportation available in "
+                },
+                {
+                    "text": "st. louis",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation available at the "
+                },
+                {
+                    "text": "indianapolis airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation available at the "
+                },
+                {
+                    "text": "denver airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation available at the "
+                },
+                {
+                    "text": "salt lake city airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation available at the "
+                },
+                {
+                    "text": "phoenix airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i need to rent a "
+                },
+                {
+                    "text": "car",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " at "
+                },
+                {
+                    "text": "tampa",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation in "
+                },
+                {
+                    "text": "las vegas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "ground transportation for "
+                },
+                {
+                    "text": "las vegas",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "phoenix",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me ground transportation in "
+                },
+                {
+                    "text": "fort worth",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is there in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "list ground transportation in "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from the "
+                },
+                {
+                    "text": "memphis airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " into town when if i arrive at 842 in the "
+                },
+                {
+                    "text": "morning",
+                    "entity": "period_of_day"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what ground transportation is available from "
+                },
+                {
+                    "text": "la guardia airport",
+                    "entity": "airport_name"
+                },
+                {
+                    "text": " into "
+                },
+                {
+                    "text": "new york city",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there ground transportation from "
+                },
+                {
+                    "text": "lga",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " into "
+                },
+                {
+                    "text": "new york city",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the ground transportation from "
+                },
+                {
+                    "text": "lga",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " into "
+                },
+                {
+                    "text": "new york city",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list ground transportation from "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " into "
+                },
+                {
+                    "text": "new york city",
+                    "entity": "city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "tell me about the ground transportation from "
+                },
+                {
+                    "text": "nashville airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what type of ground transportation is there at the "
+                },
+                {
+                    "text": "las vegas airport",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is there "
+                },
+                {
+                    "text": "taxi service",
+                    "entity": "transport_type"
+                },
+                {
+                    "text": " at the "
+                },
+                {
+                    "text": "ontario airport",
+                    "entity": "airport_name"
+                }
+            ]
+        }
+    ]
+}

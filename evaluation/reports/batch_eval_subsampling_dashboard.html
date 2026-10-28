@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Batch Eval Subsampling Dashboard</title>
+    <style>
+    :root {
+        --bg: #f4f6f8;
+        --panel: #ffffff;
+        --ink: #172033;
+        --muted: #667085;
+        --line: #d9e0e8;
+        --blue: #1565c0;
+        --teal: #00897b;
+        --orange: #ef6c00;
+        --green: #16794c;
+        --green-bg: #e7f6ee;
+        --primary-bg: #eaf4ff;
+        --primary: #155a9c;
+        --warn-bg: #fff5df;
+        --warn: #8a5200;
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.45;
+    }
+    header {
+        padding: 30px 36px 18px;
+        background: var(--panel);
+        border-bottom: 1px solid var(--line);
+    }
+    h1, h2, h3 { margin: 0 0 8px; line-height: 1.15; }
+    h1 { font-size: 32px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 17px; margin-top: 12px; }
+    code {
+        background: #eef2f6;
+        border: 1px solid #dfe5ec;
+        border-radius: 5px;
+        padding: 1px 5px;
+    }
+    .muted { color: var(--muted); }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 18px;
+    }
+    nav a {
+        color: var(--ink);
+        text-decoration: none;
+        border: 1px solid var(--line);
+        background: #f9fafb;
+        padding: 7px 11px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    main { padding: 24px 36px 44px; }
+    .note, .warning {
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--orange);
+        background: #fffaf0;
+        padding: 12px 14px;
+        border-radius: 6px;
+        color: #4c3a18;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+        margin: 18px 0 22px;
+    }
+    .card, .dataset-section, .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+    }
+    .card { padding: 16px; min-width: 0; }
+    .card-head, .section-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    .big { font-size: 34px; font-weight: 750; margin-top: 8px; }
+    .label { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+    dl {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 6px 12px;
+        margin: 14px 0 0;
+        font-size: 13px;
+    }
+    dt { color: var(--muted); }
+    dd { margin: 0; font-weight: 650; text-align: right; }
+    .schema, .badge {
+        display: inline-flex;
+        align-items: center;
+        white-space: nowrap;
+        border-radius: 999px;
+        padding: 4px 9px;
+        font-size: 12px;
+        font-weight: 700;
+        background: #edf2f7;
+        color: #425466;
+    }
+    .badge.good { background: var(--green-bg); color: var(--green); }
+    .badge.primary { background: var(--primary-bg); color: var(--primary); }
+    .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; min-height: 24px; }
+    .bar {
+        position: relative;
+        height: 22px;
+        background: #edf1f5;
+        border-radius: 5px;
+        overflow: hidden;
+        min-width: 120px;
+    }
+    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--teal), var(--blue)); }
+    .bar span {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 700;
+        color: #132235;
+    }
+    .spotlight {
+        display: grid;
+        grid-template-columns: minmax(280px, 0.9fr) minmax(420px, 1.25fr);
+        gap: 18px;
+        margin: 22px 0;
+        padding: 22px;
+        background: linear-gradient(135deg, #ffffff 0%, #eef7f5 100%);
+        border: 2px solid #9ed8cd;
+        border-radius: 8px;
+        box-shadow: 0 10px 28px rgba(0, 105, 92, 0.08);
+    }
+    .eyebrow {
+        display: inline-block;
+        color: var(--teal);
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+    .spotlight h2 { font-size: 28px; }
+    .button-link {
+        display: inline-flex;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background: var(--teal);
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 750;
+    }
+    .spotlight-metrics {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+    .spotlight-card {
+        background: rgba(255, 255, 255, 0.86);
+        border: 1px solid #b9ddd6;
+        border-radius: 8px;
+        padding: 14px;
+    }
+    .spotlight-card.primary {
+        background: #e4f5f1;
+        border-color: var(--teal);
+    }
+    .spotlight-card span {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .spotlight-card b {
+        display: block;
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    .spotlight-card small { color: var(--muted); font-size: 12px; }
+    .dataset-section, .panel {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin: 14px 0;
+    }
+    .metric-card {
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        padding: 12px;
+        background: #fbfcfd;
+    }
+    .metric-card b { display: block; font-size: 22px; }
+    .metric-card span { color: var(--muted); font-size: 12px; }
+    .two-cols {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        align-items: start;
+    }
+    details {
+        border-top: 1px solid var(--line);
+        padding-top: 12px;
+        margin-top: 14px;
+    }
+    summary {
+        cursor: pointer;
+        font-weight: 750;
+        margin-bottom: 12px;
+    }
+    .table-wrap { width: 100%; overflow-x: auto; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    table.compact { font-size: 12px; }
+    th {
+        text-align: left;
+        padding: 8px 9px;
+        border-bottom: 1px solid var(--line);
+        color: #334155;
+        background: #f8fafc;
+        position: sticky;
+        top: 0;
+    }
+    td {
+        padding: 7px 9px;
+        border-bottom: 1px solid #eef1f5;
+        vertical-align: top;
+    }
+    tr:hover td { background: #fbfdff; }
+    svg {
+        width: 100%;
+        height: auto;
+        background: #fbfcfd;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        margin: 8px 0 14px;
+    }
+    .grid { stroke: #dfe5ec; stroke-width: 1; }
+    .axis-line { stroke: #9aa6b2; stroke-width: 1.2; }
+    .axis, .legend { fill: #52606d; font-size: 12px; }
+    footer {
+        color: var(--muted);
+        font-size: 12px;
+        padding: 8px 36px 28px;
+    }
+    @media (max-width: 1100px) {
+        .cards, .mini-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .two-cols, .spotlight { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 700px) {
+        header, main, footer { padding-left: 18px; padding-right: 18px; }
+        .cards, .mini-grid, .spotlight-metrics { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Batch Eval Subsampling Dashboard</h1>
+        <p class="muted">Static view generated from saved <code>metrics_subsampling</code> CSV artifacts. Generated at 2026-05-14 18:54:20.</p>
+        <nav>
+            <a href="#overview">Overview</a>
+            <a href="#field-spotlight">Field Operations Spotlight</a>
+            <a href="#integrity">Artifact Integrity</a>
+            <a href="#field_operations">Field Operations</a><a href="#snips">SNIPS</a><a href="#atis">ATIS</a><a href="#multiwoz">MultiWOZ</a>
+        </nav>
+    </header>
+    <main>
+        <section id="overview">
+            <h2>Executive Overview</h2>
+            <p class="warning"><b>Interpretation note:</b> this dashboard uses saved subsampling metrics exactly as found on disk. No inference is run and no threshold is tuned here. Intervals are empirical 2.5%-97.5% ranges across rounds, not new model training uncertainty.</p>
+            <section class="cards">
+            <article class="card field-operations">
+                <div class="card-head">
+                    <h3>Field Operations</h3>
+                    <span class="schema">Primary domain analysis</span>
+                </div>
+                <div class="big">84.27%</div>
+                <div class="label">Intent Macro-F1 @ n=250</div>
+                <div class="bar"><div class="bar-fill" style="width: 84.27%"></div><span>84.27%</span></div>
+                <dl>
+                    <dt>Primary n</dt><dd>250</dd>
+                    <dt>n values</dt><dd>25, 50, 100, 150, 200, 250, 300</dd>
+                    <dt>Slot Macro-F1</dt><dd>69.83%</dd>
+                    <dt>Full anchor n</dt><dd>300</dd>
+                </dl>
+                <div class="badges"><span class="badge primary">Primary</span><span class="badge good">Best slot macro-F1</span></div>
+            </article>
+            
+            <article class="card snips">
+                <div class="card-head">
+                    <h3>SNIPS</h3>
+                    <span class="schema">Complementary benchmark</span>
+                </div>
+                <div class="big">93.09%</div>
+                <div class="label">Intent Macro-F1 @ n=250</div>
+                <div class="bar"><div class="bar-fill" style="width: 93.09%"></div><span>93.09%</span></div>
+                <dl>
+                    <dt>Primary n</dt><dd>250</dd>
+                    <dt>n values</dt><dd>25, 50, 100, 250</dd>
+                    <dt>Slot Macro-F1</dt><dd>49.19%</dd>
+                    <dt>Full anchor n</dt><dd>-</dd>
+                </dl>
+                <div class="badges"></div>
+            </article>
+            
+            <article class="card atis">
+                <div class="card-head">
+                    <h3>ATIS</h3>
+                    <span class="schema">Complementary benchmark</span>
+                </div>
+                <div class="big">70.32%</div>
+                <div class="label">Intent Macro-F1 @ n=50</div>
+                <div class="bar"><div class="bar-fill" style="width: 70.32%"></div><span>70.32%</span></div>
+                <dl>
+                    <dt>Primary n</dt><dd>50</dd>
+                    <dt>n values</dt><dd>25, 50</dd>
+                    <dt>Slot Macro-F1</dt><dd>63.48%</dd>
+                    <dt>Full anchor n</dt><dd>-</dd>
+                </dl>
+                <div class="badges"></div>
+            </article>
+            
+            <article class="card multiwoz">
+                <div class="card-head">
+                    <h3>MultiWOZ</h3>
+                    <span class="schema">Complementary benchmark</span>
+                </div>
+                <div class="big">93.57%</div>
+                <div class="label">Intent Macro-F1 @ n=75</div>
+                <div class="bar"><div class="bar-fill" style="width: 93.57%"></div><span>93.57%</span></div>
+                <dl>
+                    <dt>Primary n</dt><dd>75</dd>
+                    <dt>n values</dt><dd>25, 50, 75</dd>
+                    <dt>Slot Macro-F1</dt><dd>38.03%</dd>
+                    <dt>Full anchor n</dt><dd>-</dd>
+                </dl>
+                <div class="badges"><span class="badge good">Best intent macro-F1</span></div>
+            </article>
+            </section>
+            
+    <section class="spotlight" id="field-spotlight">
+        <div>
+            <span class="eyebrow">Primary stability analysis</span>
+            <h2>Field Operations Subsampling</h2>
+            <p>Amostragem estratificada por gold intent, sem rerodar inferencia. O n=250 e o maior ponto estocastico; n=300 e ancora do dataset completo.</p>
+            <a class="button-link" href="#field_operations">Open Field Operations section</a>
+        </div>
+        <div class="spotlight-metrics">
+            <div class="spotlight-card primary">
+                <span>Intent Macro-F1 @ n=250</span>
+                <b>84.27%</b>
+                <small>84.27% [83.68%, 84.88%]</small>
+            </div>
+            <div class="spotlight-card primary">
+                <span>Slot Macro-F1 by Intent @ n=250</span>
+                <b>69.83%</b>
+                <small>69.83% [69.24%, 70.42%]</small>
+            </div>
+            <div class="spotlight-card">
+                <span>Full anchor Intent Macro-F1 @ n=300</span>
+                <b>84.27%</b>
+                <small>84.27% [84.27%, 84.27%]</small>
+            </div>
+            <div class="spotlight-card">
+                <span>Full anchor Slot Macro-F1 @ n=300</span>
+                <b>69.82%</b>
+                <small>69.82% [69.82%, 69.82%]</small>
+            </div>
+        </div>
+    </section>
+    
+            <div class="panel">
+                <h3>Dataset comparison @ primary n</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>dataset</th><th>role</th><th>primary_n</th><th>rows_per_round</th><th>rounds</th><th>intent_macro_f1</th><th>intent_accuracy</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>Field Operations</td><td>Primary domain analysis</td><td>250</td><td>2.250</td><td>1.000</td><td>84.27% [83.68%, 84.88%]</td><td>83.81% [83.24%, 84.40%]</td><td>69.83% [69.24%, 70.42%]</td><td>70.18% [69.64%, 70.76%]</td></tr><tr><td>SNIPS</td><td>Complementary benchmark</td><td>250</td><td>1.750</td><td>1.000</td><td>93.09% [92.09%, 94.12%]</td><td>92.96% [91.94%, 94.00%]</td><td>49.19% [47.70%, 50.61%]</td><td>48.47% [47.04%, 49.90%]</td></tr><tr><td>ATIS</td><td>Complementary benchmark</td><td>50</td><td>350</td><td>1.000</td><td>70.32% [67.82%, 72.74%]</td><td>72.88% [70.29%, 75.14%]</td><td>63.48% [60.89%, 65.80%]</td><td>60.78% [57.95%, 63.46%]</td></tr><tr><td>MultiWOZ</td><td>Complementary benchmark</td><td>75</td><td>450</td><td>1.000</td><td>93.57% [91.36%, 95.58%]</td><td>92.91% [90.67%, 95.11%]</td><td>38.03% [34.24%, 41.81%]</td><td>38.03% [34.15%, 41.83%]</td></tr></tbody></table></div>
+            </div>
+        </section>
+
+        <section id="integrity" class="panel">
+            <h2>Artifact Integrity</h2>
+            <p class="muted">Expected subsampling files under <code>evaluation/&lt;dataset&gt;/metrics_subsampling/stratified_by_intent/r1000_seed42/</code>.</p>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>dataset</th><th>status</th><th>summary_rows</th><th>round_rows</th><th>output_dir</th><th>last_modified</th></tr></thead><tbody><tr><td>Field Operations</td><td>6/6 found</td><td>77</td><td>6.001</td><td>evaluation/field_operations/metrics_subsampling/stratified_by_intent/r1000_seed42</td><td>2026-05-14 18:43:44</td></tr><tr><td>SNIPS</td><td>6/6 found</td><td>44</td><td>4.000</td><td>evaluation/snips/metrics_subsampling/stratified_by_intent/r1000_seed42</td><td>2026-05-14 18:47:12</td></tr><tr><td>ATIS</td><td>6/6 found</td><td>22</td><td>2.000</td><td>evaluation/atis/metrics_subsampling/stratified_by_intent/r1000_seed42</td><td>2026-05-14 18:48:13</td></tr><tr><td>MultiWOZ</td><td>6/6 found</td><td>33</td><td>3.000</td><td>evaluation/multiwoz/metrics_subsampling/stratified_by_intent/r1000_seed42</td><td>2026-05-14 18:49:57</td></tr></tbody></table></div>
+        </section>
+
+        
+    <section id="field_operations" class="dataset-section">
+        <div class="section-title">
+            <div>
+                <h2>Field Operations</h2>
+                <p class="muted">Primary domain analysis. Primary n for per-label diagnostics: <b>250</b>.</p>
+            </div>
+            <span class="schema">stratified_by_intent / r1000_seed42</span>
+        </div>
+
+        <div class="mini-grid">
+            <div class="metric-card"><span>Intent Macro-F1</span><b>84.27%</b></div>
+            <div class="metric-card"><span>Intent Accuracy</span><b>83.81%</b></div>
+            <div class="metric-card"><span>Slot Macro-F1 by Intent</span><b>69.83%</b></div>
+            <div class="metric-card"><span>Slot Micro-F1</span><b>70.18%</b></div>
+        </div>
+
+        <h3>Metric curves by n</h3>
+        <svg viewBox="0 0 920 300" role="img" aria-label="Field Operations subsampling metric curves"><line x1="58" y1="244.0" x2="892" y2="244.0" class="grid"/><text x="10" y="248.0" class="axis">0.00</text><line x1="58" y1="189.0" x2="892" y2="189.0" class="grid"/><text x="10" y="193.0" class="axis">0.25</text><line x1="58" y1="134.0" x2="892" y2="134.0" class="grid"/><text x="10" y="138.0" class="axis">0.50</text><line x1="58" y1="79.0" x2="892" y2="79.0" class="grid"/><text x="10" y="83.0" class="axis">0.75</text><line x1="58" y1="24.0" x2="892" y2="24.0" class="grid"/><text x="10" y="28.0" class="axis">1.00</text><line x1="58" y1="24" x2="58" y2="244" class="axis-line"/><line x1="58" y1="244" x2="892" y2="244" class="axis-line"/><line x1="58.0" y1="244" x2="58.0" y2="249" class="axis-line"/><text x="58.0" y="264" text-anchor="middle" class="axis">25</text><line x1="133.8" y1="244" x2="133.8" y2="249" class="axis-line"/><text x="133.8" y="264" text-anchor="middle" class="axis">50</text><line x1="285.5" y1="244" x2="285.5" y2="249" class="axis-line"/><text x="285.5" y="264" text-anchor="middle" class="axis">100</text><line x1="437.1" y1="244" x2="437.1" y2="249" class="axis-line"/><text x="437.1" y="264" text-anchor="middle" class="axis">150</text><line x1="588.7" y1="244" x2="588.7" y2="249" class="axis-line"/><text x="588.7" y="264" text-anchor="middle" class="axis">200</text><line x1="740.4" y1="244" x2="740.4" y2="249" class="axis-line"/><text x="740.4" y="264" text-anchor="middle" class="axis">250</text><line x1="892.0" y1="244" x2="892.0" y2="249" class="axis-line"/><text x="892.0" y="264" text-anchor="middle" class="axis">300</text><polyline points="58.0,58.6 133.8,58.7 285.5,58.6 437.1,58.6 588.7,58.6 740.4,58.6 892.0,58.6" fill="none" stroke="#1565c0" stroke-width="3"/><circle cx="58.0" cy="58.6" r="4" fill="#1565c0"/><circle cx="133.8" cy="58.7" r="4" fill="#1565c0"/><circle cx="285.5" cy="58.6" r="4" fill="#1565c0"/><circle cx="437.1" cy="58.6" r="4" fill="#1565c0"/><circle cx="588.7" cy="58.6" r="4" fill="#1565c0"/><circle cx="740.4" cy="58.6" r="4" fill="#1565c0"/><circle cx="892.0" cy="58.6" r="4" fill="#1565c0"/><polyline points="58.0,90.5 133.8,90.4 285.5,90.4 437.1,90.4 588.7,90.4 740.4,90.4 892.0,90.4" fill="none" stroke="#00897b" stroke-width="3"/><circle cx="58.0" cy="90.5" r="4" fill="#00897b"/><circle cx="133.8" cy="90.4" r="4" fill="#00897b"/><circle cx="285.5" cy="90.4" r="4" fill="#00897b"/><circle cx="437.1" cy="90.4" r="4" fill="#00897b"/><circle cx="588.7" cy="90.4" r="4" fill="#00897b"/><circle cx="740.4" cy="90.4" r="4" fill="#00897b"/><circle cx="892.0" cy="90.4" r="4" fill="#00897b"/><polyline points="58.0,89.6 133.8,89.6 285.5,89.6 437.1,89.6 588.7,89.6 740.4,89.6 892.0,89.6" fill="none" stroke="#ef6c00" stroke-width="3"/><circle cx="58.0" cy="89.6" r="4" fill="#ef6c00"/><circle cx="133.8" cy="89.6" r="4" fill="#ef6c00"/><circle cx="285.5" cy="89.6" r="4" fill="#ef6c00"/><circle cx="437.1" cy="89.6" r="4" fill="#ef6c00"/><circle cx="588.7" cy="89.6" r="4" fill="#ef6c00"/><circle cx="740.4" cy="89.6" r="4" fill="#ef6c00"/><circle cx="892.0" cy="89.6" r="4" fill="#ef6c00"/><rect x="58" y="272" width="12" height="12" fill="#1565c0"/><text x="76" y="282" class="legend">Intent Macro-F1</text><rect x="308" y="272" width="12" height="12" fill="#00897b"/><text x="326" y="282" class="legend">Slot Macro-F1 by Intent</text><rect x="558" y="272" width="12" height="12" fill="#ef6c00"/><text x="576" y="282" class="legend">Slot Micro-F1</text></svg>
+
+        <h3>Summary by sample size</h3>
+        <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>rows_per_round</th><th>rounds</th><th>full_support_anchor</th><th>intent_accuracy</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>225</td><td>1000</td><td>False</td><td>83.88% [79.99%, 88.00%]</td><td>84.26% [79.80%, 88.55%]</td><td>69.77% [65.03%, 73.97%]</td><td>70.20% [65.86%, 74.26%]</td></tr><tr><td>50</td><td>450</td><td>1000</td><td>False</td><td>83.83% [80.89%, 86.67%]</td><td>84.25% [81.13%, 86.97%]</td><td>69.81% [66.61%, 72.80%]</td><td>70.18% [67.26%, 73.09%]</td></tr><tr><td>100</td><td>900</td><td>1000</td><td>False</td><td>83.84% [82.11%, 85.56%]</td><td>84.28% [82.47%, 86.06%]</td><td>69.82% [67.92%, 71.79%]</td><td>70.19% [68.35%, 72.02%]</td></tr><tr><td>150</td><td>1350</td><td>1000</td><td>False</td><td>83.83% [82.59%, 85.04%]</td><td>84.28% [82.95%, 85.53%]</td><td>69.83% [68.49%, 71.14%]</td><td>70.19% [69.01%, 71.43%]</td></tr><tr><td>200</td><td>1800</td><td>1000</td><td>False</td><td>83.81% [82.94%, 84.72%]</td><td>84.26% [83.31%, 85.21%]</td><td>69.82% [68.98%, 70.76%]</td><td>70.17% [69.36%, 71.04%]</td></tr><tr><td>250</td><td>2250</td><td>1000</td><td>False</td><td>83.81% [83.24%, 84.40%]</td><td>84.27% [83.68%, 84.88%]</td><td>69.83% [69.24%, 70.42%]</td><td>70.18% [69.64%, 70.76%]</td></tr><tr><td>300</td><td>2700</td><td>1</td><td>True</td><td>83.81% [83.81%, 83.81%]</td><td>84.27% [84.27%, 84.27%]</td><td>69.82% [69.82%, 69.82%]</td><td>70.17% [70.17%, 70.17%]</td></tr></tbody></table></div>
+
+        <div class="two-cols">
+            <div>
+                <h3>Coverage by intent and n</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>n_per_intent</th><th>rounds_executed</th><th>sampled_per_round</th><th>total_sampled_across_rounds</th><th>full_support_anchor</th></tr></thead><tbody><tr><td>Access External Cameras</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Incident Status</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Location Sharing</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Request Additional Support</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Access External Cameras</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Incident Status</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Location Sharing</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Request Additional Support</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Access External Cameras</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Incident Status</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Location Sharing</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Request Additional Support</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Access External Cameras</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Incident Status</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Location Sharing</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Request Additional Support</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>150</td><td>1.000</td><td>150</td><td>150.000</td><td>False</td></tr><tr><td>Access External Cameras</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Incident Status</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Location Sharing</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Request Additional Support</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>200</td><td>1.000</td><td>200</td><td>200.000</td><td>False</td></tr><tr><td>Access External Cameras</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Incident Status</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Location Sharing</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Request Additional Support</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Access External Cameras</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Incident Status</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Location Sharing</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Request Additional Support</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>300</td><td>1</td><td>300</td><td>300</td><td>True</td></tr></tbody></table></div>
+            </div>
+            <div>
+                <h3>Artifacts</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>csv_rows</th><th>modified</th></tr></thead><tbody><tr><td>summary.csv</td><td>found</td><td>evaluation/field_operations/metrics_subsampling/stratified_by_intent/r1000_seed42/summary.csv</td><td>14.8 KB</td><td>77</td><td>2026-05-14 18:43:43</td></tr><tr><td>rounds.csv</td><td>found</td><td>evaluation/field_operations/metrics_subsampling/stratified_by_intent/r1000_seed42/rounds.csv</td><td>1.4 MB</td><td>6.001</td><td>2026-05-14 18:43:43</td></tr><tr><td>coverage.csv</td><td>found</td><td>evaluation/field_operations/metrics_subsampling/stratified_by_intent/r1000_seed42/coverage.csv</td><td>3.9 KB</td><td>63</td><td>2026-05-14 18:43:43</td></tr><tr><td>intent_by_label_rounds.csv</td><td>found</td><td>evaluation/field_operations/metrics_subsampling/stratified_by_intent/r1000_seed42/intent_by_label_rounds.csv</td><td>7.2 MB</td><td>60.000</td><td>2026-05-14 18:43:43</td></tr><tr><td>slot_by_intent_rounds.csv</td><td>found</td><td>evaluation/field_operations/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_intent_rounds.csv</td><td>6.8 MB</td><td>54.009</td><td>2026-05-14 18:43:43</td></tr><tr><td>slot_by_label_rounds.csv</td><td>found</td><td>evaluation/field_operations/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_label_rounds.csv</td><td>10.8 MB</td><td>96.016</td><td>2026-05-14 18:43:44</td></tr></tbody></table></div>
+            </div>
+        </div>
+
+        <details open>
+            <summary>Intent metrics by label @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>mean_accuracy</th><th>rounds</th></tr></thead><tbody><tr><td>Access External Cameras</td><td>250</td><td>100.00%</td><td>55.34%</td><td>71.24%</td><td>55.34%</td><td>1.000</td></tr><tr><td>Lookup Operational Record</td><td>250</td><td>97.20%</td><td>58.34%</td><td>72.91%</td><td>58.34%</td><td>1.000</td></tr><tr><td>Request Additional Support</td><td>250</td><td>62.87%</td><td>92.01%</td><td>74.69%</td><td>92.01%</td><td>1.000</td></tr><tr><td>Confirm Movement Milestone</td><td>250</td><td>95.56%</td><td>78.63%</td><td>86.27%</td><td>78.63%</td><td>1.000</td></tr><tr><td>Incident Status</td><td>250</td><td>79.59%</td><td>96.33%</td><td>87.16%</td><td>96.33%</td><td>1.000</td></tr><tr><td>Control Live Video Stream</td><td>250</td><td>78.55%</td><td>100.00%</td><td>87.99%</td><td>100.00%</td><td>1.000</td></tr><tr><td>Medical Evacuation</td><td>250</td><td>92.40%</td><td>84.97%</td><td>88.52%</td><td>84.97%</td><td>1.000</td></tr><tr><td>Request Procedure Guidance</td><td>250</td><td>94.24%</td><td>92.33%</td><td>93.27%</td><td>92.33%</td><td>1.000</td></tr><tr><td>Location Sharing</td><td>250</td><td>96.32%</td><td>96.35%</td><td>96.33%</td><td>96.35%</td><td>1.000</td></tr><tr><td>UNK_INTENT</td><td>0</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Slot metrics by intent @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>Lookup Operational Record</td><td>500</td><td>76.28%</td><td>37.52%</td><td>50.30%</td><td>1.000</td></tr><tr><td>Request Additional Support</td><td>250</td><td>51.51%</td><td>51.34%</td><td>51.43%</td><td>1.000</td></tr><tr><td>Medical Evacuation</td><td>544</td><td>54.75%</td><td>60.04%</td><td>57.27%</td><td>1.000</td></tr><tr><td>Request Procedure Guidance</td><td>332</td><td>59.03%</td><td>67.19%</td><td>62.84%</td><td>1.000</td></tr><tr><td>Access External Cameras</td><td>492</td><td>76.70%</td><td>69.05%</td><td>72.67%</td><td>1.000</td></tr><tr><td>Location Sharing</td><td>250</td><td>83.46%</td><td>67.33%</td><td>74.53%</td><td>1.000</td></tr><tr><td>Control Live Video Stream</td><td>250</td><td>88.70%</td><td>73.33%</td><td>80.29%</td><td>1.000</td></tr><tr><td>Confirm Movement Milestone</td><td>421</td><td>79.69%</td><td>88.93%</td><td>84.06%</td><td>1.000</td></tr><tr><td>Incident Status</td><td>460</td><td>95.45%</td><td>94.73%</td><td>95.09%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Hardest slot labels @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>subject</td><td>250</td><td>77.99%</td><td>13.00%</td><td>22.27%</td><td>1.000</td></tr><tr><td>severity</td><td>173</td><td>27.36%</td><td>27.89%</td><td>27.62%</td><td>1.000</td></tr><tr><td>resource_type</td><td>250</td><td>51.51%</td><td>51.34%</td><td>51.43%</td><td>1.000</td></tr><tr><td>guidance_artifact_type</td><td>165</td><td>48.86%</td><td>65.31%</td><td>55.89%</td><td>1.000</td></tr><tr><td>evacuation_mode</td><td>183</td><td>53.04%</td><td>60.07%</td><td>56.34%</td><td>1.000</td></tr><tr><td>search_area</td><td>249</td><td>63.78%</td><td>58.24%</td><td>60.89%</td><td>1.000</td></tr><tr><td>target_type</td><td>250</td><td>75.93%</td><td>62.05%</td><td>68.29%</td><td>1.000</td></tr><tr><td>procedure_topic</td><td>166</td><td>73.41%</td><td>69.06%</td><td>71.16%</td><td>1.000</td></tr><tr><td>location_sharing_action</td><td>250</td><td>83.46%</td><td>67.33%</td><td>74.53%</td><td>1.000</td></tr><tr><td>stream_control_action</td><td>250</td><td>88.70%</td><td>73.33%</td><td>80.29%</td><td>1.000</td></tr><tr><td>location_reference</td><td>215</td><td>79.54%</td><td>85.32%</td><td>82.33%</td><td>1.000</td></tr><tr><td>casualty_count</td><td>187</td><td>79.19%</td><td>89.75%</td><td>84.14%</td><td>1.000</td></tr><tr><td>identifier</td><td>243</td><td>90.32%</td><td>80.12%</td><td>84.91%</td><td>1.000</td></tr><tr><td>movement_event</td><td>205</td><td>79.83%</td><td>92.72%</td><td>85.79%</td><td>1.000</td></tr><tr><td>status</td><td>230</td><td>96.13%</td><td>89.83%</td><td>92.87%</td><td>1.000</td></tr><tr><td>location</td><td>230</td><td>94.85%</td><td>99.63%</td><td>97.18%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Rounds preview</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>round</th><th>rows</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>1</td><td>225</td><td>82.39%</td><td>69.27%</td><td>70.43%</td></tr><tr><td>25</td><td>2</td><td>225</td><td>84.23%</td><td>69.33%</td><td>71.03%</td></tr><tr><td>25</td><td>3</td><td>225</td><td>86.28%</td><td>71.30%</td><td>72.19%</td></tr><tr><td>25</td><td>4</td><td>225</td><td>86.36%</td><td>68.73%</td><td>69.17%</td></tr><tr><td>25</td><td>5</td><td>225</td><td>82.88%</td><td>72.82%</td><td>74.35%</td></tr><tr><td>25</td><td>6</td><td>225</td><td>85.66%</td><td>70.19%</td><td>69.99%</td></tr><tr><td>25</td><td>7</td><td>225</td><td>83.53%</td><td>68.47%</td><td>69.53%</td></tr><tr><td>25</td><td>8</td><td>225</td><td>90.55%</td><td>73.57%</td><td>73.15%</td></tr><tr><td>25</td><td>9</td><td>225</td><td>84.56%</td><td>72.56%</td><td>72.73%</td></tr><tr><td>25</td><td>10</td><td>225</td><td>86.89%</td><td>67.36%</td><td>68.07%</td></tr><tr><td>25</td><td>11</td><td>225</td><td>78.22%</td><td>71.04%</td><td>71.70%</td></tr><tr><td>25</td><td>12</td><td>225</td><td>81.36%</td><td>70.00%</td><td>69.94%</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+
+    <section id="snips" class="dataset-section">
+        <div class="section-title">
+            <div>
+                <h2>SNIPS</h2>
+                <p class="muted">Complementary benchmark. Primary n for per-label diagnostics: <b>250</b>.</p>
+            </div>
+            <span class="schema">stratified_by_intent / r1000_seed42</span>
+        </div>
+
+        <div class="mini-grid">
+            <div class="metric-card"><span>Intent Macro-F1</span><b>93.09%</b></div>
+            <div class="metric-card"><span>Intent Accuracy</span><b>92.96%</b></div>
+            <div class="metric-card"><span>Slot Macro-F1 by Intent</span><b>49.19%</b></div>
+            <div class="metric-card"><span>Slot Micro-F1</span><b>48.47%</b></div>
+        </div>
+
+        <h3>Metric curves by n</h3>
+        <svg viewBox="0 0 920 300" role="img" aria-label="SNIPS subsampling metric curves"><line x1="58" y1="244.0" x2="892" y2="244.0" class="grid"/><text x="10" y="248.0" class="axis">0.00</text><line x1="58" y1="189.0" x2="892" y2="189.0" class="grid"/><text x="10" y="193.0" class="axis">0.25</text><line x1="58" y1="134.0" x2="892" y2="134.0" class="grid"/><text x="10" y="138.0" class="axis">0.50</text><line x1="58" y1="79.0" x2="892" y2="79.0" class="grid"/><text x="10" y="83.0" class="axis">0.75</text><line x1="58" y1="24.0" x2="892" y2="24.0" class="grid"/><text x="10" y="28.0" class="axis">1.00</text><line x1="58" y1="24" x2="58" y2="244" class="axis-line"/><line x1="58" y1="244" x2="892" y2="244" class="axis-line"/><line x1="58.0" y1="244" x2="58.0" y2="249" class="axis-line"/><text x="58.0" y="264" text-anchor="middle" class="axis">25</text><line x1="150.7" y1="244" x2="150.7" y2="249" class="axis-line"/><text x="150.7" y="264" text-anchor="middle" class="axis">50</text><line x1="336.0" y1="244" x2="336.0" y2="249" class="axis-line"/><text x="336.0" y="264" text-anchor="middle" class="axis">100</text><line x1="892.0" y1="244" x2="892.0" y2="249" class="axis-line"/><text x="892.0" y="264" text-anchor="middle" class="axis">250</text><polyline points="58.0,39.3 150.7,39.2 336.0,39.2 892.0,39.2" fill="none" stroke="#1565c0" stroke-width="3"/><circle cx="58.0" cy="39.3" r="4" fill="#1565c0"/><circle cx="150.7" cy="39.2" r="4" fill="#1565c0"/><circle cx="336.0" cy="39.2" r="4" fill="#1565c0"/><circle cx="892.0" cy="39.2" r="4" fill="#1565c0"/><polyline points="58.0,135.9 150.7,135.9 336.0,135.8 892.0,135.8" fill="none" stroke="#00897b" stroke-width="3"/><circle cx="58.0" cy="135.9" r="4" fill="#00897b"/><circle cx="150.7" cy="135.9" r="4" fill="#00897b"/><circle cx="336.0" cy="135.8" r="4" fill="#00897b"/><circle cx="892.0" cy="135.8" r="4" fill="#00897b"/><polyline points="58.0,137.4 150.7,137.4 336.0,137.4 892.0,137.4" fill="none" stroke="#ef6c00" stroke-width="3"/><circle cx="58.0" cy="137.4" r="4" fill="#ef6c00"/><circle cx="150.7" cy="137.4" r="4" fill="#ef6c00"/><circle cx="336.0" cy="137.4" r="4" fill="#ef6c00"/><circle cx="892.0" cy="137.4" r="4" fill="#ef6c00"/><rect x="58" y="272" width="12" height="12" fill="#1565c0"/><text x="76" y="282" class="legend">Intent Macro-F1</text><rect x="308" y="272" width="12" height="12" fill="#00897b"/><text x="326" y="282" class="legend">Slot Macro-F1 by Intent</text><rect x="558" y="272" width="12" height="12" fill="#ef6c00"/><text x="576" y="282" class="legend">Slot Micro-F1</text></svg>
+
+        <h3>Summary by sample size</h3>
+        <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>rows_per_round</th><th>rounds</th><th>full_support_anchor</th><th>intent_accuracy</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>175</td><td>1000</td><td>False</td><td>92.95% [89.14%, 96.57%]</td><td>93.06% [89.35%, 96.56%]</td><td>49.16% [44.24%, 53.75%]</td><td>48.48% [43.64%, 52.76%]</td></tr><tr><td>50</td><td>350</td><td>1000</td><td>False</td><td>92.95% [90.29%, 95.43%]</td><td>93.07% [90.39%, 95.48%]</td><td>49.15% [45.61%, 52.51%]</td><td>48.45% [45.05%, 51.79%]</td></tr><tr><td>100</td><td>700</td><td>1000</td><td>False</td><td>92.95% [91.00%, 94.71%]</td><td>93.08% [91.22%, 94.81%]</td><td>49.18% [46.87%, 51.52%]</td><td>48.46% [46.14%, 50.71%]</td></tr><tr><td>250</td><td>1750</td><td>1000</td><td>False</td><td>92.96% [91.94%, 94.00%]</td><td>93.09% [92.09%, 94.12%]</td><td>49.19% [47.70%, 50.61%]</td><td>48.47% [47.04%, 49.90%]</td></tr></tbody></table></div>
+
+        <div class="two-cols">
+            <div>
+                <h3>Coverage by intent and n</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>n_per_intent</th><th>rounds_executed</th><th>sampled_per_round</th><th>total_sampled_across_rounds</th><th>full_support_anchor</th></tr></thead><tbody><tr><td>Add to a playlist</td><td>1.942</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Book a restaurant</td><td>1.973</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Check weather</td><td>2.000</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Play a music</td><td>2.000</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Rate a item</td><td>1.956</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Search a creative work</td><td>1.954</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Search for movie showtimes</td><td>1.959</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Add to a playlist</td><td>1.942</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Book a restaurant</td><td>1.973</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Check weather</td><td>2.000</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Play a music</td><td>2.000</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Rate a item</td><td>1.956</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Search a creative work</td><td>1.954</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Search for movie showtimes</td><td>1.959</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Add to a playlist</td><td>1.942</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Book a restaurant</td><td>1.973</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Check weather</td><td>2.000</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Play a music</td><td>2.000</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Rate a item</td><td>1.956</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Search a creative work</td><td>1.954</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Search for movie showtimes</td><td>1.959</td><td>100</td><td>1.000</td><td>100</td><td>100.000</td><td>False</td></tr><tr><td>Add to a playlist</td><td>1.942</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Book a restaurant</td><td>1.973</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Check weather</td><td>2.000</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Play a music</td><td>2.000</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Rate a item</td><td>1.956</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Search a creative work</td><td>1.954</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr><tr><td>Search for movie showtimes</td><td>1.959</td><td>250</td><td>1.000</td><td>250</td><td>250.000</td><td>False</td></tr></tbody></table></div>
+            </div>
+            <div>
+                <h3>Artifacts</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>csv_rows</th><th>modified</th></tr></thead><tbody><tr><td>summary.csv</td><td>found</td><td>evaluation/snips/metrics_subsampling/stratified_by_intent/r1000_seed42/summary.csv</td><td>8.1 KB</td><td>44</td><td>2026-05-14 18:47:11</td></tr><tr><td>rounds.csv</td><td>found</td><td>evaluation/snips/metrics_subsampling/stratified_by_intent/r1000_seed42/rounds.csv</td><td>933.6 KB</td><td>4.000</td><td>2026-05-14 18:47:11</td></tr><tr><td>coverage.csv</td><td>found</td><td>evaluation/snips/metrics_subsampling/stratified_by_intent/r1000_seed42/coverage.csv</td><td>1.7 KB</td><td>28</td><td>2026-05-14 18:47:11</td></tr><tr><td>intent_by_label_rounds.csv</td><td>found</td><td>evaluation/snips/metrics_subsampling/stratified_by_intent/r1000_seed42/intent_by_label_rounds.csv</td><td>2.8 MB</td><td>28.000</td><td>2026-05-14 18:47:11</td></tr><tr><td>slot_by_intent_rounds.csv</td><td>found</td><td>evaluation/snips/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_intent_rounds.csv</td><td>3.3 MB</td><td>28.000</td><td>2026-05-14 18:47:11</td></tr><tr><td>slot_by_label_rounds.csv</td><td>found</td><td>evaluation/snips/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_label_rounds.csv</td><td>16.2 MB</td><td>167.902</td><td>2026-05-14 18:47:12</td></tr></tbody></table></div>
+            </div>
+        </div>
+
+        <details open>
+            <summary>Intent metrics by label @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>mean_accuracy</th><th>rounds</th></tr></thead><tbody><tr><td>Search a creative work</td><td>250</td><td>75.91%</td><td>91.43%</td><td>82.93%</td><td>91.43%</td><td>1.000</td></tr><tr><td>Add to a playlist</td><td>250</td><td>99.76%</td><td>82.26%</td><td>90.15%</td><td>82.26%</td><td>1.000</td></tr><tr><td>Play a music</td><td>250</td><td>86.47%</td><td>98.34%</td><td>92.01%</td><td>98.34%</td><td>1.000</td></tr><tr><td>Search for movie showtimes</td><td>250</td><td>98.18%</td><td>87.95%</td><td>92.77%</td><td>87.95%</td><td>1.000</td></tr><tr><td>Book a restaurant</td><td>250</td><td>99.35%</td><td>92.73%</td><td>95.92%</td><td>92.73%</td><td>1.000</td></tr><tr><td>Rate a item</td><td>250</td><td>97.93%</td><td>99.07%</td><td>98.50%</td><td>99.07%</td><td>1.000</td></tr><tr><td>Check weather</td><td>250</td><td>99.77%</td><td>98.93%</td><td>99.35%</td><td>98.93%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Slot metrics by intent @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>Search for movie showtimes</td><td>539</td><td>41.56%</td><td>38.68%</td><td>40.06%</td><td>1.000</td></tr><tr><td>Rate a item</td><td>901</td><td>53.31%</td><td>36.79%</td><td>43.53%</td><td>1.000</td></tr><tr><td>Check weather</td><td>521</td><td>41.05%</td><td>52.51%</td><td>46.08%</td><td>1.000</td></tr><tr><td>Book a restaurant</td><td>778</td><td>49.69%</td><td>47.80%</td><td>48.72%</td><td>1.000</td></tr><tr><td>Add to a playlist</td><td>678</td><td>51.44%</td><td>50.89%</td><td>51.16%</td><td>1.000</td></tr><tr><td>Play a music</td><td>519</td><td>58.13%</td><td>53.04%</td><td>55.46%</td><td>1.000</td></tr><tr><td>Search a creative work</td><td>421</td><td>68.13%</td><td>52.54%</td><td>59.32%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Hardest slot labels @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>location_type</td><td>57</td><td>1.32%</td><td>1.55%</td><td>1.42%</td><td>1.000</td></tr><tr><td>object_select</td><td>125</td><td>3.49%</td><td>2.35%</td><td>2.81%</td><td>1.000</td></tr><tr><td>party_size_description</td><td>40</td><td>5.26%</td><td>7.92%</td><td>6.28%</td><td>1.000</td></tr><tr><td>facility</td><td>19</td><td>7.87%</td><td>24.69%</td><td>11.84%</td><td>1.000</td></tr><tr><td>point_of_interest</td><td>17</td><td>9.82%</td><td>20.76%</td><td>13.19%</td><td>1.000</td></tr><tr><td>entity_name</td><td>76</td><td>11.98%</td><td>29.07%</td><td>16.94%</td><td>1.000</td></tr><tr><td>screening_object_type</td><td>98</td><td>14.63%</td><td>22.05%</td><td>17.56%</td><td>1.000</td></tr><tr><td>sorting_preference</td><td>68</td><td>36.84%</td><td>16.02%</td><td>22.18%</td><td>1.000</td></tr><tr><td>time_range</td><td>31</td><td>22.71%</td><td>29.31%</td><td>25.43%</td><td>1.000</td></tr><tr><td>current_location</td><td>31</td><td>22.50%</td><td>34.00%</td><td>26.95%</td><td>1.000</td></tr><tr><td>spatial_relation</td><td>153</td><td>26.36%</td><td>31.50%</td><td>28.67%</td><td>1.000</td></tr><tr><td>playable_content</td><td>211</td><td>29.82%</td><td>30.17%</td><td>29.96%</td><td>1.000</td></tr><tr><td>served_dish</td><td>32</td><td>29.23%</td><td>31.03%</td><td>29.99%</td><td>1.000</td></tr><tr><td>music_genre</td><td>17</td><td>21.89%</td><td>72.75%</td><td>33.41%</td><td>1.000</td></tr><tr><td>cuisine_type</td><td>26</td><td>32.74%</td><td>38.23%</td><td>34.97%</td><td>1.000</td></tr><tr><td>album_title</td><td>21</td><td>47.66%</td><td>28.71%</td><td>35.26%</td><td>1.000</td></tr><tr><td>weather_description</td><td>56</td><td>23.94%</td><td>70.43%</td><td>35.65%</td><td>1.000</td></tr><tr><td>object_part_of_series_type</td><td>38</td><td>44.83%</td><td>31.99%</td><td>37.07%</td><td>1.000</td></tr><tr><td>best_rating</td><td>122</td><td>99.20%</td><td>24.43%</td><td>39.07%</td><td>1.000</td></tr><tr><td>temperature_condition</td><td>58</td><td>36.64%</td><td>52.02%</td><td>42.89%</td><td>1.000</td></tr><tr><td>geographic_point</td><td>36</td><td>41.80%</td><td>56.39%</td><td>47.80%</td><td>1.000</td></tr><tr><td>rating_value</td><td>241</td><td>52.26%</td><td>44.71%</td><td>48.18%</td><td>1.000</td></tr><tr><td>restaurant_type</td><td>169</td><td>69.98%</td><td>37.68%</td><td>48.93%</td><td>1.000</td></tr><tr><td>object_name</td><td>369</td><td>59.08%</td><td>47.01%</td><td>52.35%</td><td>1.000</td></tr><tr><td>track_title</td><td>26</td><td>45.03%</td><td>63.59%</td><td>52.44%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Rounds preview</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>round</th><th>rows</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>1</td><td>175</td><td>93.78%</td><td>53.04%</td><td>51.88%</td></tr><tr><td>25</td><td>2</td><td>175</td><td>94.44%</td><td>44.96%</td><td>45.01%</td></tr><tr><td>25</td><td>3</td><td>175</td><td>91.66%</td><td>49.95%</td><td>49.11%</td></tr><tr><td>25</td><td>4</td><td>175</td><td>89.71%</td><td>48.28%</td><td>48.33%</td></tr><tr><td>25</td><td>5</td><td>175</td><td>93.80%</td><td>50.62%</td><td>51.19%</td></tr><tr><td>25</td><td>6</td><td>175</td><td>91.01%</td><td>48.61%</td><td>47.41%</td></tr><tr><td>25</td><td>7</td><td>175</td><td>93.79%</td><td>45.71%</td><td>44.88%</td></tr><tr><td>25</td><td>8</td><td>175</td><td>93.37%</td><td>51.41%</td><td>50.36%</td></tr><tr><td>25</td><td>9</td><td>175</td><td>91.64%</td><td>47.90%</td><td>47.72%</td></tr><tr><td>25</td><td>10</td><td>175</td><td>93.70%</td><td>48.61%</td><td>47.84%</td></tr><tr><td>25</td><td>11</td><td>175</td><td>95.47%</td><td>48.21%</td><td>47.73%</td></tr><tr><td>25</td><td>12</td><td>175</td><td>93.94%</td><td>49.81%</td><td>48.95%</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+
+    <section id="atis" class="dataset-section">
+        <div class="section-title">
+            <div>
+                <h2>ATIS</h2>
+                <p class="muted">Complementary benchmark. Primary n for per-label diagnostics: <b>50</b>.</p>
+            </div>
+            <span class="schema">stratified_by_intent / r1000_seed42</span>
+        </div>
+
+        <div class="mini-grid">
+            <div class="metric-card"><span>Intent Macro-F1</span><b>70.32%</b></div>
+            <div class="metric-card"><span>Intent Accuracy</span><b>72.88%</b></div>
+            <div class="metric-card"><span>Slot Macro-F1 by Intent</span><b>63.48%</b></div>
+            <div class="metric-card"><span>Slot Micro-F1</span><b>60.78%</b></div>
+        </div>
+
+        <h3>Metric curves by n</h3>
+        <svg viewBox="0 0 920 300" role="img" aria-label="ATIS subsampling metric curves"><line x1="58" y1="244.0" x2="892" y2="244.0" class="grid"/><text x="10" y="248.0" class="axis">0.00</text><line x1="58" y1="189.0" x2="892" y2="189.0" class="grid"/><text x="10" y="193.0" class="axis">0.25</text><line x1="58" y1="134.0" x2="892" y2="134.0" class="grid"/><text x="10" y="138.0" class="axis">0.50</text><line x1="58" y1="79.0" x2="892" y2="79.0" class="grid"/><text x="10" y="83.0" class="axis">0.75</text><line x1="58" y1="24.0" x2="892" y2="24.0" class="grid"/><text x="10" y="28.0" class="axis">1.00</text><line x1="58" y1="24" x2="58" y2="244" class="axis-line"/><line x1="58" y1="244" x2="892" y2="244" class="axis-line"/><line x1="58.0" y1="244" x2="58.0" y2="249" class="axis-line"/><text x="58.0" y="264" text-anchor="middle" class="axis">25</text><line x1="892.0" y1="244" x2="892.0" y2="249" class="axis-line"/><text x="892.0" y="264" text-anchor="middle" class="axis">50</text><polyline points="58.0,89.3 892.0,89.3" fill="none" stroke="#1565c0" stroke-width="3"/><circle cx="58.0" cy="89.3" r="4" fill="#1565c0"/><circle cx="892.0" cy="89.3" r="4" fill="#1565c0"/><polyline points="58.0,104.3 892.0,104.3" fill="none" stroke="#00897b" stroke-width="3"/><circle cx="58.0" cy="104.3" r="4" fill="#00897b"/><circle cx="892.0" cy="104.3" r="4" fill="#00897b"/><polyline points="58.0,110.1 892.0,110.3" fill="none" stroke="#ef6c00" stroke-width="3"/><circle cx="58.0" cy="110.1" r="4" fill="#ef6c00"/><circle cx="892.0" cy="110.3" r="4" fill="#ef6c00"/><rect x="58" y="272" width="12" height="12" fill="#1565c0"/><text x="76" y="282" class="legend">Intent Macro-F1</text><rect x="308" y="272" width="12" height="12" fill="#00897b"/><text x="326" y="282" class="legend">Slot Macro-F1 by Intent</text><rect x="558" y="272" width="12" height="12" fill="#ef6c00"/><text x="576" y="282" class="legend">Slot Micro-F1</text></svg>
+
+        <h3>Summary by sample size</h3>
+        <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>rows_per_round</th><th>rounds</th><th>full_support_anchor</th><th>intent_accuracy</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>175</td><td>1000</td><td>False</td><td>72.93% [68.57%, 77.14%]</td><td>70.32% [65.61%, 75.16%]</td><td>63.49% [58.80%, 67.82%]</td><td>60.87% [56.02%, 65.01%]</td></tr><tr><td>50</td><td>350</td><td>1000</td><td>False</td><td>72.88% [70.29%, 75.14%]</td><td>70.32% [67.82%, 72.74%]</td><td>63.48% [60.89%, 65.80%]</td><td>60.78% [57.95%, 63.46%]</td></tr></tbody></table></div>
+
+        <div class="two-cols">
+            <div>
+                <h3>Coverage by intent and n</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>n_per_intent</th><th>rounds_executed</th><th>sampled_per_round</th><th>total_sampled_across_rounds</th><th>full_support_anchor</th></tr></thead><tbody><tr><td>Find a flight</td><td>4.241</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find aircraft type for a flight</td><td>64</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find airlines for a route</td><td>123</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find ground transportation</td><td>208</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Get airfare information</td><td>465</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Get an abbreviation meaning</td><td>77</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Get flight duration</td><td>54</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find a flight</td><td>4.241</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find aircraft type for a flight</td><td>64</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find airlines for a route</td><td>123</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find ground transportation</td><td>208</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Get airfare information</td><td>465</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Get an abbreviation meaning</td><td>77</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Get flight duration</td><td>54</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr></tbody></table></div>
+            </div>
+            <div>
+                <h3>Artifacts</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>csv_rows</th><th>modified</th></tr></thead><tbody><tr><td>summary.csv</td><td>found</td><td>evaluation/atis/metrics_subsampling/stratified_by_intent/r1000_seed42/summary.csv</td><td>4.2 KB</td><td>22</td><td>2026-05-14 18:48:12</td></tr><tr><td>rounds.csv</td><td>found</td><td>evaluation/atis/metrics_subsampling/stratified_by_intent/r1000_seed42/rounds.csv</td><td>457.7 KB</td><td>2.000</td><td>2026-05-14 18:48:12</td></tr><tr><td>coverage.csv</td><td>found</td><td>evaluation/atis/metrics_subsampling/stratified_by_intent/r1000_seed42/coverage.csv</td><td>987 B</td><td>14</td><td>2026-05-14 18:48:12</td></tr><tr><td>intent_by_label_rounds.csv</td><td>found</td><td>evaluation/atis/metrics_subsampling/stratified_by_intent/r1000_seed42/intent_by_label_rounds.csv</td><td>1.5 MB</td><td>14.995</td><td>2026-05-14 18:48:12</td></tr><tr><td>slot_by_intent_rounds.csv</td><td>found</td><td>evaluation/atis/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_intent_rounds.csv</td><td>1.6 MB</td><td>14.000</td><td>2026-05-14 18:48:12</td></tr><tr><td>slot_by_label_rounds.csv</td><td>found</td><td>evaluation/atis/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_label_rounds.csv</td><td>4.4 MB</td><td>55.629</td><td>2026-05-14 18:48:13</td></tr></tbody></table></div>
+            </div>
+        </div>
+
+        <details open>
+            <summary>Intent metrics by label @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>mean_accuracy</th><th>rounds</th></tr></thead><tbody><tr><td>Get flight duration</td><td>50</td><td>99.52%</td><td>12.86%</td><td>22.75%</td><td>12.86%</td><td>1.000</td></tr><tr><td>Find a flight</td><td>50</td><td>38.49%</td><td>46.54%</td><td>42.09%</td><td>46.54%</td><td>1.000</td></tr><tr><td>Get airfare information</td><td>50</td><td>59.77%</td><td>97.11%</td><td>73.95%</td><td>97.11%</td><td>1.000</td></tr><tr><td>Find airlines for a route</td><td>50</td><td>73.07%</td><td>88.50%</td><td>80.01%</td><td>88.50%</td><td>1.000</td></tr><tr><td>Get an abbreviation meaning</td><td>50</td><td>99.85%</td><td>79.07%</td><td>88.21%</td><td>79.07%</td><td>1.000</td></tr><tr><td>Find aircraft type for a flight</td><td>50</td><td>97.85%</td><td>86.08%</td><td>91.56%</td><td>86.08%</td><td>1.000</td></tr><tr><td>Find ground transportation</td><td>50</td><td>88.17%</td><td>100.00%</td><td>93.68%</td><td>100.00%</td><td>1.000</td></tr><tr><td>UNK_INTENT</td><td>0</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>610</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Slot metrics by intent @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>Get flight duration</td><td>49</td><td>32.62%</td><td>32.00%</td><td>32.31%</td><td>1.000</td></tr><tr><td>Find a flight</td><td>171</td><td>40.88%</td><td>41.91%</td><td>41.34%</td><td>1.000</td></tr><tr><td>Find aircraft type for a flight</td><td>99</td><td>69.30%</td><td>58.47%</td><td>63.42%</td><td>1.000</td></tr><tr><td>Get airfare information</td><td>155</td><td>59.92%</td><td>74.15%</td><td>66.24%</td><td>1.000</td></tr><tr><td>Find airlines for a route</td><td>104</td><td>81.63%</td><td>69.97%</td><td>75.32%</td><td>1.000</td></tr><tr><td>Get an abbreviation meaning</td><td>53</td><td>89.08%</td><td>69.44%</td><td>78.00%</td><td>1.000</td></tr><tr><td>Find ground transportation</td><td>50</td><td>87.98%</td><td>87.55%</td><td>87.76%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Hardest slot labels @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>relative_arrival_time</td><td>2</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>926</td></tr><tr><td>number_of_stops</td><td>2</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>882</td></tr><tr><td>destination_state_code</td><td>1</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>717</td></tr><tr><td>relative_departure_date</td><td>1</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>862</td></tr><tr><td>departure_state_code</td><td>1</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>704</td></tr><tr><td>alternative_marker</td><td>0</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>1.000</td></tr><tr><td>arrival_time_of_day</td><td>0</td><td>0.30%</td><td>0.91%</td><td>0.45%</td><td>933</td></tr><tr><td>relative_departure_time</td><td>4</td><td>0.98%</td><td>0.33%</td><td>0.47%</td><td>991</td></tr><tr><td>relative_to_today</td><td>1</td><td>0.79%</td><td>0.99%</td><td>0.77%</td><td>878</td></tr><tr><td>departure_state_name</td><td>0</td><td>1.06%</td><td>17.40%</td><td>1.97%</td><td>1.000</td></tr><tr><td>arrival_time</td><td>2</td><td>7.05%</td><td>4.43%</td><td>5.05%</td><td>964</td></tr><tr><td>airline_code</td><td>0</td><td>5.64%</td><td>17.65%</td><td>8.09%</td><td>996</td></tr><tr><td>destination_state_name</td><td>1</td><td>7.64%</td><td>19.35%</td><td>10.19%</td><td>993</td></tr><tr><td>departure_day_number</td><td>4</td><td>32.21%</td><td>10.52%</td><td>14.93%</td><td>992</td></tr><tr><td>arrival_day_of_week</td><td>1</td><td>16.94%</td><td>16.51%</td><td>15.74%</td><td>815</td></tr><tr><td>departure_month</td><td>4</td><td>21.63%</td><td>17.26%</td><td>18.70%</td><td>987</td></tr><tr><td>departure_time_of_day</td><td>7</td><td>35.18%</td><td>19.27%</td><td>23.70%</td><td>1.000</td></tr><tr><td>departure_time</td><td>4</td><td>41.99%</td><td>25.77%</td><td>30.18%</td><td>995</td></tr><tr><td>meal_description</td><td>1</td><td>29.92%</td><td>32.19%</td><td>30.21%</td><td>664</td></tr><tr><td>flight_duration</td><td>49</td><td>32.62%</td><td>32.00%</td><td>32.31%</td><td>1.000</td></tr><tr><td>cost_constraint</td><td>19</td><td>27.73%</td><td>48.78%</td><td>35.12%</td><td>1.000</td></tr><tr><td>flight_constraint</td><td>3</td><td>28.21%</td><td>59.27%</td><td>36.49%</td><td>1.000</td></tr><tr><td>travel_class</td><td>11</td><td>32.28%</td><td>59.59%</td><td>41.35%</td><td>1.000</td></tr><tr><td>round_trip</td><td>24</td><td>30.20%</td><td>67.02%</td><td>41.42%</td><td>1.000</td></tr><tr><td>airline_name</td><td>13</td><td>51.92%</td><td>36.16%</td><td>41.96%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Rounds preview</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>round</th><th>rows</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>1</td><td>175</td><td>67.83%</td><td>65.97%</td><td>62.18%</td></tr><tr><td>25</td><td>2</td><td>175</td><td>69.73%</td><td>63.11%</td><td>58.71%</td></tr><tr><td>25</td><td>3</td><td>175</td><td>66.04%</td><td>64.45%</td><td>61.15%</td></tr><tr><td>25</td><td>4</td><td>175</td><td>70.05%</td><td>65.03%</td><td>63.87%</td></tr><tr><td>25</td><td>5</td><td>175</td><td>72.09%</td><td>62.68%</td><td>60.86%</td></tr><tr><td>25</td><td>6</td><td>175</td><td>69.99%</td><td>60.89%</td><td>61.24%</td></tr><tr><td>25</td><td>7</td><td>175</td><td>71.03%</td><td>67.06%</td><td>64.40%</td></tr><tr><td>25</td><td>8</td><td>175</td><td>70.18%</td><td>65.21%</td><td>62.29%</td></tr><tr><td>25</td><td>9</td><td>175</td><td>71.10%</td><td>62.00%</td><td>58.72%</td></tr><tr><td>25</td><td>10</td><td>175</td><td>71.88%</td><td>64.59%</td><td>62.94%</td></tr><tr><td>25</td><td>11</td><td>175</td><td>66.78%</td><td>66.38%</td><td>62.68%</td></tr><tr><td>25</td><td>12</td><td>175</td><td>72.23%</td><td>64.40%</td><td>60.86%</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+
+    <section id="multiwoz" class="dataset-section">
+        <div class="section-title">
+            <div>
+                <h2>MultiWOZ</h2>
+                <p class="muted">Complementary benchmark. Primary n for per-label diagnostics: <b>75</b>.</p>
+            </div>
+            <span class="schema">stratified_by_intent / r1000_seed42</span>
+        </div>
+
+        <div class="mini-grid">
+            <div class="metric-card"><span>Intent Macro-F1</span><b>93.57%</b></div>
+            <div class="metric-card"><span>Intent Accuracy</span><b>92.91%</b></div>
+            <div class="metric-card"><span>Slot Macro-F1 by Intent</span><b>38.03%</b></div>
+            <div class="metric-card"><span>Slot Micro-F1</span><b>38.03%</b></div>
+        </div>
+
+        <h3>Metric curves by n</h3>
+        <svg viewBox="0 0 920 300" role="img" aria-label="MultiWOZ subsampling metric curves"><line x1="58" y1="244.0" x2="892" y2="244.0" class="grid"/><text x="10" y="248.0" class="axis">0.00</text><line x1="58" y1="189.0" x2="892" y2="189.0" class="grid"/><text x="10" y="193.0" class="axis">0.25</text><line x1="58" y1="134.0" x2="892" y2="134.0" class="grid"/><text x="10" y="138.0" class="axis">0.50</text><line x1="58" y1="79.0" x2="892" y2="79.0" class="grid"/><text x="10" y="83.0" class="axis">0.75</text><line x1="58" y1="24.0" x2="892" y2="24.0" class="grid"/><text x="10" y="28.0" class="axis">1.00</text><line x1="58" y1="24" x2="58" y2="244" class="axis-line"/><line x1="58" y1="244" x2="892" y2="244" class="axis-line"/><line x1="58.0" y1="244" x2="58.0" y2="249" class="axis-line"/><text x="58.0" y="264" text-anchor="middle" class="axis">25</text><line x1="475.0" y1="244" x2="475.0" y2="249" class="axis-line"/><text x="475.0" y="264" text-anchor="middle" class="axis">50</text><line x1="892.0" y1="244" x2="892.0" y2="249" class="axis-line"/><text x="892.0" y="264" text-anchor="middle" class="axis">75</text><polyline points="58.0,38.1 475.0,38.2 892.0,38.2" fill="none" stroke="#1565c0" stroke-width="3"/><circle cx="58.0" cy="38.1" r="4" fill="#1565c0"/><circle cx="475.0" cy="38.2" r="4" fill="#1565c0"/><circle cx="892.0" cy="38.2" r="4" fill="#1565c0"/><polyline points="58.0,160.8 475.0,160.4 892.0,160.3" fill="none" stroke="#00897b" stroke-width="3"/><circle cx="58.0" cy="160.8" r="4" fill="#00897b"/><circle cx="475.0" cy="160.4" r="4" fill="#00897b"/><circle cx="892.0" cy="160.3" r="4" fill="#00897b"/><polyline points="58.0,160.6 475.0,160.4 892.0,160.3" fill="none" stroke="#ef6c00" stroke-width="3"/><circle cx="58.0" cy="160.6" r="4" fill="#ef6c00"/><circle cx="475.0" cy="160.4" r="4" fill="#ef6c00"/><circle cx="892.0" cy="160.3" r="4" fill="#ef6c00"/><rect x="58" y="272" width="12" height="12" fill="#1565c0"/><text x="76" y="282" class="legend">Intent Macro-F1</text><rect x="308" y="272" width="12" height="12" fill="#00897b"/><text x="326" y="282" class="legend">Slot Macro-F1 by Intent</text><rect x="558" y="272" width="12" height="12" fill="#ef6c00"/><text x="576" y="282" class="legend">Slot Micro-F1</text></svg>
+
+        <h3>Summary by sample size</h3>
+        <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>rows_per_round</th><th>rounds</th><th>full_support_anchor</th><th>intent_accuracy</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>150</td><td>1000</td><td>False</td><td>92.93% [88.67%, 96.67%]</td><td>93.57% [89.63%, 97.24%]</td><td>37.80% [30.71%, 44.39%]</td><td>37.90% [31.05%, 44.51%]</td></tr><tr><td>50</td><td>300</td><td>1000</td><td>False</td><td>92.87% [90.00%, 95.33%]</td><td>93.53% [90.87%, 95.91%]</td><td>37.99% [33.33%, 42.58%]</td><td>38.01% [33.22%, 42.57%]</td></tr><tr><td>75</td><td>450</td><td>1000</td><td>False</td><td>92.91% [90.67%, 95.11%]</td><td>93.57% [91.36%, 95.58%]</td><td>38.03% [34.24%, 41.81%]</td><td>38.03% [34.15%, 41.83%]</td></tr></tbody></table></div>
+
+        <div class="two-cols">
+            <div>
+                <h3>Coverage by intent and n</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>n_per_intent</th><th>rounds_executed</th><th>sampled_per_round</th><th>total_sampled_across_rounds</th><th>full_support_anchor</th></tr></thead><tbody><tr><td>Find a hospital</td><td>75</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find a hotel</td><td>1.594</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find a restaurant</td><td>2.415</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find a taxi</td><td>380</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find a tourist attraction</td><td>1.179</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find a train</td><td>7.154</td><td>25</td><td>1.000</td><td>25</td><td>25.000</td><td>False</td></tr><tr><td>Find a hospital</td><td>75</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find a hotel</td><td>1.594</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find a restaurant</td><td>2.415</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find a taxi</td><td>380</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find a tourist attraction</td><td>1.179</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find a train</td><td>7.154</td><td>50</td><td>1.000</td><td>50</td><td>50.000</td><td>False</td></tr><tr><td>Find a hospital</td><td>75</td><td>75</td><td>1.000</td><td>75</td><td>75.000</td><td>False</td></tr><tr><td>Find a hotel</td><td>1.594</td><td>75</td><td>1.000</td><td>75</td><td>75.000</td><td>False</td></tr><tr><td>Find a restaurant</td><td>2.415</td><td>75</td><td>1.000</td><td>75</td><td>75.000</td><td>False</td></tr><tr><td>Find a taxi</td><td>380</td><td>75</td><td>1.000</td><td>75</td><td>75.000</td><td>False</td></tr><tr><td>Find a tourist attraction</td><td>1.179</td><td>75</td><td>1.000</td><td>75</td><td>75.000</td><td>False</td></tr><tr><td>Find a train</td><td>7.154</td><td>75</td><td>1.000</td><td>75</td><td>75.000</td><td>False</td></tr></tbody></table></div>
+            </div>
+            <div>
+                <h3>Artifacts</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>csv_rows</th><th>modified</th></tr></thead><tbody><tr><td>summary.csv</td><td>found</td><td>evaluation/multiwoz/metrics_subsampling/stratified_by_intent/r1000_seed42/summary.csv</td><td>6.2 KB</td><td>33</td><td>2026-05-14 18:49:56</td></tr><tr><td>rounds.csv</td><td>found</td><td>evaluation/multiwoz/metrics_subsampling/stratified_by_intent/r1000_seed42/rounds.csv</td><td>695.2 KB</td><td>3.000</td><td>2026-05-14 18:49:56</td></tr><tr><td>coverage.csv</td><td>found</td><td>evaluation/multiwoz/metrics_subsampling/stratified_by_intent/r1000_seed42/coverage.csv</td><td>1.1 KB</td><td>18</td><td>2026-05-14 18:49:56</td></tr><tr><td>intent_by_label_rounds.csv</td><td>found</td><td>evaluation/multiwoz/metrics_subsampling/stratified_by_intent/r1000_seed42/intent_by_label_rounds.csv</td><td>2.1 MB</td><td>20.926</td><td>2026-05-14 18:49:57</td></tr><tr><td>slot_by_intent_rounds.csv</td><td>found</td><td>evaluation/multiwoz/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_intent_rounds.csv</td><td>2.0 MB</td><td>18.000</td><td>2026-05-14 18:49:57</td></tr><tr><td>slot_by_label_rounds.csv</td><td>found</td><td>evaluation/multiwoz/metrics_subsampling/stratified_by_intent/r1000_seed42/slot_by_label_rounds.csv</td><td>4.4 MB</td><td>44.999</td><td>2026-05-14 18:49:57</td></tr></tbody></table></div>
+            </div>
+        </div>
+
+        <details open>
+            <summary>Intent metrics by label @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>mean_accuracy</th><th>rounds</th></tr></thead><tbody><tr><td>Find a train</td><td>75</td><td>99.65%</td><td>76.10%</td><td>86.20%</td><td>76.10%</td><td>1.000</td></tr><tr><td>Find a tourist attraction</td><td>75</td><td>81.94%</td><td>93.97%</td><td>87.49%</td><td>93.97%</td><td>1.000</td></tr><tr><td>Find a hotel</td><td>75</td><td>98.26%</td><td>93.84%</td><td>95.98%</td><td>93.84%</td><td>1.000</td></tr><tr><td>Find a restaurant</td><td>75</td><td>93.41%</td><td>98.84%</td><td>96.03%</td><td>98.84%</td><td>1.000</td></tr><tr><td>Find a taxi</td><td>75</td><td>96.89%</td><td>96.04%</td><td>96.45%</td><td>96.04%</td><td>1.000</td></tr><tr><td>Find a hospital</td><td>75</td><td>99.84%</td><td>98.67%</td><td>99.25%</td><td>98.67%</td><td>1.000</td></tr><tr><td>UNK_INTENT</td><td>0</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>999</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Slot metrics by intent @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>Find a taxi</td><td>98</td><td>32.24%</td><td>17.25%</td><td>22.40%</td><td>1.000</td></tr><tr><td>Find a train</td><td>49</td><td>29.12%</td><td>48.07%</td><td>36.13%</td><td>1.000</td></tr><tr><td>Find a tourist attraction</td><td>63</td><td>30.86%</td><td>48.92%</td><td>37.78%</td><td>1.000</td></tr><tr><td>Find a restaurant</td><td>78</td><td>34.73%</td><td>43.12%</td><td>38.43%</td><td>1.000</td></tr><tr><td>Find a hotel</td><td>77</td><td>33.67%</td><td>53.37%</td><td>41.22%</td><td>1.000</td></tr><tr><td>Find a hospital</td><td>74</td><td>58.33%</td><td>47.30%</td><td>52.24%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Hardest slot labels @ primary n</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>mean_support</th><th>mean_precision</th><th>mean_recall</th><th>mean_f1</th><th>rounds</th></tr></thead><tbody><tr><td>attraction_name</td><td>16</td><td>11.07%</td><td>10.87%</td><td>10.71%</td><td>1.000</td></tr><tr><td>restaurant_name</td><td>8</td><td>15.45%</td><td>21.35%</td><td>17.41%</td><td>1.000</td></tr><tr><td>hotel_name</td><td>16</td><td>29.56%</td><td>17.18%</td><td>21.31%</td><td>1.000</td></tr><tr><td>leave_at_time</td><td>19</td><td>22.54%</td><td>22.91%</td><td>22.48%</td><td>1.000</td></tr><tr><td>destination</td><td>56</td><td>33.41%</td><td>20.12%</td><td>25.00%</td><td>1.000</td></tr><tr><td>arrive_by_time</td><td>12</td><td>26.17%</td><td>31.56%</td><td>28.09%</td><td>1.000</td></tr><tr><td>travel_day</td><td>5</td><td>18.60%</td><td>71.15%</td><td>28.80%</td><td>1.000</td></tr><tr><td>cuisine_type</td><td>40</td><td>33.30%</td><td>26.22%</td><td>29.19%</td><td>1.000</td></tr><tr><td>departure_location</td><td>53</td><td>38.41%</td><td>31.43%</td><td>34.43%</td><td>1.000</td></tr><tr><td>star_rating</td><td>13</td><td>32.14%</td><td>56.73%</td><td>40.54%</td><td>1.000</td></tr><tr><td>attraction_type</td><td>23</td><td>30.38%</td><td>64.00%</td><td>40.96%</td><td>1.000</td></tr><tr><td>area</td><td>50</td><td>35.32%</td><td>59.87%</td><td>44.31%</td><td>1.000</td></tr><tr><td>hotel_type</td><td>22</td><td>36.59%</td><td>70.36%</td><td>47.80%</td><td>1.000</td></tr><tr><td>hospital_department</td><td>74</td><td>58.33%</td><td>47.30%</td><td>52.24%</td><td>1.000</td></tr><tr><td>price_range</td><td>26</td><td>41.77%</td><td>75.53%</td><td>53.56%</td><td>1.000</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Rounds preview</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>n_per_intent</th><th>round</th><th>rows</th><th>intent_macro_f1</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>25</td><td>1</td><td>150</td><td>93.69%</td><td>33.13%</td><td>32.84%</td></tr><tr><td>25</td><td>2</td><td>150</td><td>94.34%</td><td>39.99%</td><td>40.12%</td></tr><tr><td>25</td><td>3</td><td>150</td><td>93.29%</td><td>36.81%</td><td>37.38%</td></tr><tr><td>25</td><td>4</td><td>150</td><td>95.01%</td><td>37.88%</td><td>37.62%</td></tr><tr><td>25</td><td>5</td><td>150</td><td>96.32%</td><td>41.13%</td><td>41.14%</td></tr><tr><td>25</td><td>6</td><td>150</td><td>90.95%</td><td>36.11%</td><td>36.53%</td></tr><tr><td>25</td><td>7</td><td>150</td><td>94.54%</td><td>39.94%</td><td>40.12%</td></tr><tr><td>25</td><td>8</td><td>150</td><td>89.79%</td><td>28.88%</td><td>29.70%</td></tr><tr><td>25</td><td>9</td><td>150</td><td>94.07%</td><td>38.93%</td><td>38.83%</td></tr><tr><td>25</td><td>10</td><td>150</td><td>92.31%</td><td>38.71%</td><td>38.65%</td></tr><tr><td>25</td><td>11</td><td>150</td><td>93.21%</td><td>33.78%</td><td>35.51%</td></tr><tr><td>25</td><td>12</td><td>150</td><td>93.28%</td><td>44.47%</td><td>43.26%</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+    </main>
+    <footer>
+        Generated by src/data_tools/build_subsampling_dashboard.py. This page only reads saved subsampling CSVs.
+    </footer>
+</body>
+</html>

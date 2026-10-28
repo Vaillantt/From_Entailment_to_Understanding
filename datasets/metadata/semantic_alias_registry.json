@@ -1,0 +1,356 @@
+{
+  "snips": {
+    "intents": {
+      "AddToPlaylist": {
+        "semantic_intent": "Add to a playlist",
+        "slot_map": {
+          "music_item": "playable content",
+          "playlist": "playlist title",
+          "artist": "artist name",
+          "playlist_owner": "playlist owner",
+          "entity_name": "entity name"
+        }
+      },
+      "BookRestaurant": {
+        "semantic_intent": "Book a restaurant",
+        "slot_map": {
+          "cuisine": "cuisine type",
+          "party_size_number": "number of people",
+          "restaurant_name": "restaurant name",
+          "timeRange": "reservation time",
+          "restaurant_type": "restaurant type",
+          "party_size_description": "party size description",
+          "spatial_relation": "spatial relation",
+          "served_dish": "served dish",
+          "sort": "sorting preference",
+          "facility": "facility",
+          "poi": "point of interest",
+          "city": "city",
+          "state": "state",
+          "country": "country"
+        }
+      },
+      "GetWeather": {
+        "semantic_intent": "Check weather",
+        "slot_map": {
+          "timeRange": "date",
+          "city": "city",
+          "state": "state",
+          "country": "country",
+          "geographic_poi": "geographic point",
+          "current_location": "current location",
+          "spatial_relation": "spatial relation",
+          "condition_temperature": "temperature condition",
+          "condition_description": "weather description"
+        }
+      },
+      "PlayMusic": {
+        "semantic_intent": "Play a music",
+        "slot_map": {
+          "artist": "artist name",
+          "music_item": "playable content",
+          "service": "music service",
+          "year": "year",
+          "sort": "sorting preference",
+          "track": "track title",
+          "album": "album title",
+          "playlist": "playlist title",
+          "genre": "music genre"
+        }
+      },
+      "RateBook": {
+        "semantic_intent": "Rate a item",
+        "slot_map": {
+          "rating_value": "rating value",
+          "rating_unit": "rating unit",
+          "best_rating": "best rating",
+          "object_select": "object select",
+          "object_name": "object name",
+          "object_type": "object type",
+          "object_part_of_series_type": "object part of series type"
+        }
+      },
+      "SearchCreativeWork": {
+        "semantic_intent": "Search a creative work",
+        "slot_map": {
+          "object_name": "object name",
+          "object_type": "object type"
+        }
+      },
+      "SearchScreeningEvent": {
+        "semantic_intent": "Search for movie showtimes",
+        "slot_map": {
+          "movie_name": "movie title",
+          "object_type": "screening object type",
+          "movie_type": "movie type",
+          "spatial_relation": "spatial relation",
+          "location_name": "location name",
+          "object_location_type": "location type",
+          "timeRange": "time range"
+        }
+      }
+    }
+  },
+  "multiwoz": {
+    "intents": {
+      "attraction__find_attraction": {
+        "semantic_intent": "Find a tourist attraction",
+        "slot_map": {
+          "attraction_type": "attraction type",
+          "attraction_area": "area",
+          "attraction_name": "attraction name"
+        }
+      },
+      "hospital__find_hospital": {
+        "semantic_intent": "Find a hospital",
+        "slot_map": {
+          "hospital_department": "hospital department"
+        }
+      },
+      "hotel__find_hotel": {
+        "semantic_intent": "Find a hotel",
+        "slot_map": {
+          "hotel_type": "hotel type",
+          "hotel_name": "hotel name",
+          "hotel_area": "area",
+          "hotel_pricerange": "price range",
+          "hotel_stars": "star rating"
+        }
+      },
+      "restaurant__find_restaurant": {
+        "semantic_intent": "Find a restaurant",
+        "slot_map": {
+          "restaurant_food": "cuisine type",
+          "restaurant_area": "area",
+          "restaurant_pricerange": "price range",
+          "restaurant_name": "restaurant name"
+        }
+      },
+      "taxi__find_taxi": {
+        "semantic_intent": "Find a taxi",
+        "slot_map": {
+          "taxi_destination": "destination",
+          "taxi_departure": "departure location",
+          "taxi_leaveat": "leave at time",
+          "taxi_arriveby": "arrive by time"
+        }
+      },
+      "train__find_train": {
+        "semantic_intent": "Find a train",
+        "slot_map": {
+          "train_destination": "destination",
+          "train_departure": "departure location",
+          "train_arriveby": "arrive by time",
+          "train_leaveat": "leave at time",
+          "train_day": "travel day"
+        }
+      }
+    }
+  },
+  "atis": {
+    "intents": {
+      "abbreviation": {
+        "semantic_intent": "Get an abbreviation meaning",
+        "slot_map": {
+          "fare_basis_code": "fare basis code"
+        }
+      },
+      "aircraft": {
+        "semantic_intent": "Find aircraft type for a flight",
+        "slot_map": {
+          "fromloc_city_name": "departure city",
+          "toloc_city_name": "destination city"
+        }
+      },
+      "airfare": {
+        "semantic_intent": "Get airfare information",
+        "slot_map": {
+          "fromloc_city_name": "departure city",
+          "toloc_city_name": "destination city",
+          "round_trip": "round trip",
+          "cost_relative": "cost constraint",
+          "class_type": "travel class",
+          "airline_name": "airline name"
+        }
+      },
+      "airline": {
+        "semantic_intent": "Find airlines for a route",
+        "slot_map": {
+          "fromloc_city_name": "departure city",
+          "toloc_city_name": "destination city"
+        }
+      },
+      "flight": {
+        "semantic_intent": "Find a flight",
+        "slot_map": {
+          "airline_code": "airline code",
+          "airline_name": "airline name",
+          "fromloc_city_name": "departure city",
+          "fromloc_state_code": "departure state code",
+          "fromloc_state_name": "departure state name",
+          "toloc_city_name": "destination city",
+          "toloc_state_code": "destination state code",
+          "toloc_state_name": "destination state name",
+          "stoploc_city_name": "stopover city",
+          "depart_date_day_name": "departure day of week",
+          "depart_date_day_number": "departure day number",
+          "depart_date_month_name": "departure month",
+          "depart_date_today_relative": "relative to today",
+          "depart_date_date_relative": "relative departure date",
+          "depart_time_period_of_day": "departure time of day",
+          "depart_time_time": "departure time",
+          "depart_time_time_relative": "relative departure time",
+          "arrive_date_day_name": "arrival day of week",
+          "arrive_time_period_of_day": "arrival time of day",
+          "arrive_time_time": "arrival time",
+          "arrive_time_time_relative": "relative arrival time",
+          "class_type": "travel class",
+          "cost_relative": "cost constraint",
+          "flight_mod": "flight constraint",
+          "flight_stop": "number of stops",
+          "meal_description": "meal description",
+          "or": "alternative marker",
+          "round_trip": "round trip"
+        }
+      },
+      "flight_time": {
+        "semantic_intent": "Get flight duration",
+        "slot_map": {
+          "flight_time": "flight duration"
+        }
+      },
+      "ground_service": {
+        "semantic_intent": "Find ground transportation",
+        "slot_map": {
+          "city_name": "city"
+        }
+      }
+    }
+  },
+  "field_operations": {
+    "intents": {
+      "confirm_movement_milestone": {
+        "semantic_intent": "Confirm Movement Milestone",
+        "slot_map": {
+          "movement_event": "movement event",
+          "location_reference": "location reference"
+        }
+      },
+      "incident_status": {
+        "semantic_intent": "Incident Status",
+        "slot_map": {
+          "status": "status",
+          "location": "location"
+        }
+      },
+      "request_additional_support": {
+        "semantic_intent": "Request Additional Support",
+        "slot_map": {
+          "resource_type": "resource type"
+        }
+      },
+      "medical_evacuation": {
+        "semantic_intent": "Medical Evacuation",
+        "slot_map": {
+          "evacuation_mode": "evacuation mode",
+          "casualty_count": "casualty count",
+          "severity": "severity"
+        }
+      },
+      "lookup_operational_record": {
+        "semantic_intent": "Lookup Operational Record",
+        "slot_map": {
+          "target_type": "target type",
+          "subject": "subject"
+        }
+      },
+      "control_live_video_stream": {
+        "semantic_intent": "Control Live Video Stream",
+        "slot_map": {
+          "stream_control_action": "stream control action"
+        }
+      },
+      "request_procedure_guidance": {
+        "semantic_intent": "Request Procedure Guidance",
+        "slot_map": {
+          "guidance_artifact_type": "guidance artifact type",
+          "procedure_topic": "procedure topic"
+        }
+      },
+      "location_sharing": {
+        "semantic_intent": "Location Sharing",
+        "slot_map": {
+          "location_sharing_action": "location sharing action"
+        }
+      },
+      "access_external_cameras": {
+        "semantic_intent": "Access External Cameras",
+        "slot_map": {
+          "camera_identifier": "identifier",
+          "camera_search_area": "search area"
+        }
+      },
+      "Confirm Movement Milestone": {
+        "semantic_intent": "Confirm Movement Milestone",
+        "slot_map": {
+          "movement_event": "movement event",
+          "location_reference": "location reference"
+        }
+      },
+      "Incident Status": {
+        "semantic_intent": "Incident Status",
+        "slot_map": {
+          "status": "status",
+          "location": "location"
+        }
+      },
+      "Request Additional Support": {
+        "semantic_intent": "Request Additional Support",
+        "slot_map": {
+          "resource_type": "resource type"
+        }
+      },
+      "Medical Evacuation": {
+        "semantic_intent": "Medical Evacuation",
+        "slot_map": {
+          "evacuation_mode": "evacuation mode",
+          "casualty_count": "casualty count",
+          "severity": "severity"
+        }
+      },
+      "Lookup Operational Record": {
+        "semantic_intent": "Lookup Operational Record",
+        "slot_map": {
+          "target_type": "target type",
+          "subject": "subject"
+        }
+      },
+      "Control Live Video Stream": {
+        "semantic_intent": "Control Live Video Stream",
+        "slot_map": {
+          "stream_control_action": "stream control action"
+        }
+      },
+      "Request Procedure Guidance": {
+        "semantic_intent": "Request Procedure Guidance",
+        "slot_map": {
+          "guidance_artifact_type": "guidance artifact type",
+          "procedure_topic": "procedure topic"
+        }
+      },
+      "Location Sharing": {
+        "semantic_intent": "Location Sharing",
+        "slot_map": {
+          "location_sharing_action": "location sharing action"
+        }
+      },
+      "Access External Cameras": {
+        "semantic_intent": "Access External Cameras",
+        "slot_map": {
+          "camera_identifier": "identifier",
+          "camera_search_area": "search area"
+        }
+      }
+    }
+  }
+}

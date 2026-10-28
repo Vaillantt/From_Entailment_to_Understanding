@@ -1,0 +1,1039 @@
+{
+  "hospital__find_hospital": [
+    {
+      "data": [
+        {
+          "text": "I'm hurt and I need to find a hospital. Oh, and one with an "
+        },
+        {
+          "text": "oncology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i am looking for the Addenbrookes Hospital with "
+        },
+        {
+          "text": "neurology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am hospital in town that should have the "
+        },
+        {
+          "text": "children's oncology and haematology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Addenbrookes Hospital. the hospital should have the "
+        },
+        {
+          "text": "infectious diseases",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am trying to find info for the Addenbrookes Hospital "
+        },
+        {
+          "text": "gastroenterology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find a hospital nearby that has a "
+        },
+        {
+          "text": "hepatobillary and gastrointestinal surgery referral center",
+          "entity": "hospital_department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, I am looking for a hospital that offers "
+        },
+        {
+          "text": "medicine for the elderly",
+          "entity": "hospital_department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a close hospital with an "
+        },
+        {
+          "text": "acute medicine for the elderly",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " unit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect me to a hospital with an "
+        },
+        {
+          "text": "emergency department",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a hospital with an "
+        },
+        {
+          "text": "antenatal",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department, please find one for me."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking in town for a hospital with a "
+        },
+        {
+          "text": "paediatric clinic",
+          "entity": "hospital_department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for a hospital in town with a "
+        },
+        {
+          "text": "cardiology and coronary care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Help, I injured my eye! I am looking for the nearest hospital with the "
+        },
+        {
+          "text": "cambridge eye unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, can you tell me the details of local hospitals? I'm looking for a hospital that has the "
+        },
+        {
+          "text": "Cambridge eye unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am looking for the Addenbrookes Hospital it should have the "
+        },
+        {
+          "text": "respiratory medicine",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I got injured and I am looking for a hospital nearby. the hospital should have a "
+        },
+        {
+          "text": "neurology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello! I need a hospital with a "
+        },
+        {
+          "text": "oral and maxillofacial surgery and ent",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for a hospital in town.It should have the "
+        },
+        {
+          "text": "intermediate dependency area",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've been in an accident and I'm hurt. I need the closest hospital with a "
+        },
+        {
+          "text": "teenage cancer trust unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i need a hospital with a "
+        },
+        {
+          "text": "intermediate dependancy area",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am injured and need a hospital with a "
+        },
+        {
+          "text": "cardiology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for the Addenbrookes Hospital with a "
+        },
+        {
+          "text": "haematology day unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'd like to find a hospital please, it needs to have an "
+        },
+        {
+          "text": "antenatal",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find a hospital in town with a "
+        },
+        {
+          "text": "cardiology and coronary care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need a hospital that have a pediatric "
+        },
+        {
+          "text": "day unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am looking for hospital in town it should have the "
+        },
+        {
+          "text": "trauma high dependency unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I got injured and I am looking for a hospital nearby. The hospital should have the "
+        },
+        {
+          "text": "clinical research facility",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "surgery",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department of the Addensbrookes Hospital."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for Addenbrookes Hospital. Does it also provide "
+        },
+        {
+          "text": "acute medicine care for the elderly",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Does the Addenbrookes Hospital have a "
+        },
+        {
+          "text": "psychiatry",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I need a hospital please and make sure it has a "
+        },
+        {
+          "text": "medical decisions unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": ", if you will."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Yes, I need a hospital with a "
+        },
+        {
+          "text": "hepatology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am injured I need a hospital that has the "
+        },
+        {
+          "text": "cambridge eye unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the "
+        },
+        {
+          "text": "John Farman Intensive Care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " of the Addenbrookes Hospital."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I have been hurt, I need to find a hospital nearby, and I need one with an "
+        },
+        {
+          "text": "infusion",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am injured and need to get to a hospital that has a pediatric "
+        },
+        {
+          "text": "clinic",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for a hospital with a "
+        },
+        {
+          "text": "gynecology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i am looking for a nearby hospital with the "
+        },
+        {
+          "text": "neurosciences critical care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am injured and are looking for a hospital nearby it should have the "
+        },
+        {
+          "text": "neurology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " neurosurgery department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Addenbrookes Hospital, this hospital should be the one with an "
+        },
+        {
+          "text": "infectious diseases",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to find a hospital in town. The hospital should have the "
+        },
+        {
+          "text": "neurology neurosurgery",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find a hospital in town. It should have a "
+        },
+        {
+          "text": "children's surgical and medicine",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i am looking for the Addenbrookes Hospital with "
+        },
+        {
+          "text": "itermediate deoendancy area department",
+          "entity": "hospital_department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i am looking for a hospital with a "
+        },
+        {
+          "text": "eurology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm injured pretty severely and need a hospital with a "
+        },
+        {
+          "text": "john farman intensive care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Addenbrookes Hospital with "
+        },
+        {
+          "text": "hepatology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Addenbrookes Hospital. The hospital should have the "
+        },
+        {
+          "text": "paediatric clinic",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am trying to find a hospital that has a "
+        },
+        {
+          "text": "transplant high dependency unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hi, I'm trying to find Addenbrookes Hospital and they're supposed to have a "
+        },
+        {
+          "text": "medical decisions unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department, right?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to find a hospital in town. The hospital should have the "
+        },
+        {
+          "text": "hepatobillary and gastrointestinal surgery regional referral centre",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is there a hospital in Cambridge that has a "
+        },
+        {
+          "text": "plastic and vascular surgery",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can i get a hospital nearby which has a "
+        },
+        {
+          "text": "haematology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " day unit department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find a hospital please with a "
+        },
+        {
+          "text": "infusion service",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am in need of a local hospital please. And it must have a "
+        },
+        {
+          "text": "oral and maxillofacial surgery and ent",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i got injured and are looking for the "
+        },
+        {
+          "text": "john farman intensive care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I got injured and are looking for a hospital nearby it should have the "
+        },
+        {
+          "text": "teenage cancer trust unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Addenbrookes Hospital. I am wondering if they have a "
+        },
+        {
+          "text": "trauma and orthopaedics",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like to find a hospital with a "
+        },
+        {
+          "text": "diabetes and endocrinology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hello, I'm looking for a nearby hospital that has "
+        },
+        {
+          "text": "inpatient occupational therapy",
+          "entity": "hospital_department"
+        },
+        {
+          "text": ". Can you help me with this?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am injured and are looking for a hospital nearby it should have the "
+        },
+        {
+          "text": "children's surgical and medicine",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you find me a hospital with a "
+        },
+        {
+          "text": "gastroenterology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department around here?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to find a hospital with an "
+        },
+        {
+          "text": "emergency department",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i am looking for the Addenbrookes Hospital with "
+        },
+        {
+          "text": "emergency department",
+          "entity": "hospital_department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is there a local hospital that has a "
+        },
+        {
+          "text": "cardiology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I got injured and I am looking for a hospital nearby. the hospital should have the "
+        },
+        {
+          "text": "acute medical assessment unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i am looking for the Addenbrookes Hospital with "
+        },
+        {
+          "text": "acute medical assessment unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i am looking for a hospital with a "
+        },
+        {
+          "text": "eurology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where's the closest hospital with a "
+        },
+        {
+          "text": "paediatric intensive care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hey I'm looking for the Addenbrookes Hopistal. Please make sure it has the "
+        },
+        {
+          "text": "medicine for the elderly",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Am injured and are looking for a hospital nearby it should have the "
+        },
+        {
+          "text": "infectious diseases",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I am looking for the Addenbrookes Hospital.It should also have a "
+        },
+        {
+          "text": "respiratory medicine",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I got injured and need directions for the "
+        },
+        {
+          "text": "clinical decisions unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I've been injured and I need a hospital near me, one with a "
+        },
+        {
+          "text": "coronary care unit",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department please!"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'm looking for the Addenbrookes Hospital and need to contact the "
+        },
+        {
+          "text": "haematology and haematological oncology",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " department."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Where is the nearest "
+        },
+        {
+          "text": "emergency",
+          "entity": "hospital_department"
+        },
+        {
+          "text": " room?"
+        }
+      ]
+    }
+  ]
+}

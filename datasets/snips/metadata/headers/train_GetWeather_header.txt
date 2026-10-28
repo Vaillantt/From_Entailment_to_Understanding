@@ -1,0 +1,14 @@
+================================================================
+Intent: GetWeather
+Total de sentenças: 2000
+Slots (presença por sentença):
+  - timeRange: 52.1% (1042/2000)
+  - city: 42.5% (851/2000)
+  - country: 25.0% (500/2000)
+  - state: 24.6% (492/2000)
+  - condition_temperature: 23.8% (475/2000)
+  - condition_description: 22.7% (454/2000)
+  - geographic_poi: 14.5% (291/2000)
+  - current_location: 13.6% (272/2000)
+  - spatial_relation: 10.3% (206/2000)
+================================================================

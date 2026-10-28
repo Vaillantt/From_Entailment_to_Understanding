@@ -1,0 +1,6172 @@
+{
+  "Confirm Movement Milestone": [
+    {
+      "data": [
+        {
+          "text": "Can you confirm"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base Camp",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Zone Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Checkpoint Zulu",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Sector 6",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Point Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Sector 8",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Zone 7",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Zone Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Point Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Sector 7",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Sector 2",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Oscar",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Point Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Sector 9",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Uniform",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Checkpoint India",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Point Hotel",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Checkpoint Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Zone Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you verify"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base Alpha",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you update if"
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Checkpoint Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Sector 4",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Point Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Zone Oscar",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Victor",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Point Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Sector 2",
+          "entity": "location_reference"
+        },
+        {
+          "text": "has occurred."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Checkpoint Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Zone Hotel",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Checkpoint Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Zone Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if"
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Point Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Checkpoint Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base Uniform",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Point India",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Checkpoint Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Zulu",
+          "entity": "location_reference"
+        },
+        {
+          "text": "is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Alpha",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Has "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " been completed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you verify "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 3",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify once "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Foxtrot",
+          "entity": "location_reference"
+        },
+        {
+          "text": " complete?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Kilo",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Has "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": " been verified?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Mike",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 1",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone November",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Has "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": " occurred?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Papa",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 8",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base November",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 10",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you verify "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base X-ray",
+          "entity": "location_reference"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Quebec",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Oscar",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 12",
+          "entity": "location_reference"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint India",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 11",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Hotel",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 9",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Uniform",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Zone Kilo",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Zone Oscar",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Zone Lima",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Zone Sierra",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Checkpoint Alpha",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base November",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Papa",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when"
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": "at"
+        },
+        {
+          "text": "Base Golf",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if"
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Sector 8",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if"
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": "from"
+        },
+        {
+          "text": "Base Sierra",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": " has occurred."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Juliet",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Has "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Oscar",
+          "entity": "location_reference"
+        },
+        {
+          "text": " been completed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 4",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you verify "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 3",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Victor",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 7",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Sierra",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 11",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you verify "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Zulu",
+          "entity": "location_reference"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 10",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Hotel",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base India",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Bravo",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Foxtrot",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Quebec",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 6",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone November",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Kilo",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please verify "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Sierra",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update status once "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " has occurred."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Charlie",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 4",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint India",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify once "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 9",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 8",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 2",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Foxtrot",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Papa",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 7",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Hotel",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Tango",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base India",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 3",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone X-ray",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Hotel",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 1",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Quebec",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Foxtrot",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Zulu",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector Bravo",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify once "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Oscar",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Delta",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 10",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 4",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Juliet",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Papa",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 6",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Foxtrot",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Uniform",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify once "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 7",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Uniform",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint India",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 3",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Zulu",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Delta",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 12",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Foxtrot",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Victor",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Has "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " occurred?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Whiskey",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you verify "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify once "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 3",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 7",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Lima",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 6",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify once "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Zulu",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Papa",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 1",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base India",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone X-ray",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Alpha",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 12",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Foxtrot",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone November",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 2",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify once "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 4",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Uniform",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Oscar",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 9",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Sierra",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you verify "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " for me?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please notify once "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 4",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Echo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 5",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Mike",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 11",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint India",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone Sierra",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Romeo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 2",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Oscar",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Golf",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Delta",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Papa",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 10",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Juliet",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 12",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Papa",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Delta",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 8",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me when "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Uniform",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 1",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Zulu",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Zone November",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Sector 6",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is confirmed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me if "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Point Bravo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update when "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please confirm "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Checkpoint Sierra",
+          "entity": "location_reference"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update me once "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Base Lima",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify if "
+        },
+        {
+          "text": "on-scene",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Zone Tango",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is achieved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me know when "
+        },
+        {
+          "text": "rolling out",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Sector 11",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you confirm "
+        },
+        {
+          "text": "check-in",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Point Foxtrot",
+          "entity": "location_reference"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Update if "
+        },
+        {
+          "text": "arrival",
+          "entity": "movement_event"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Base Kilo",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is verified."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Notify me when "
+        },
+        {
+          "text": "departure",
+          "entity": "movement_event"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Checkpoint Charlie",
+          "entity": "location_reference"
+        },
+        {
+          "text": " is finished."
+        }
+      ]
+    }
+  ]
+}

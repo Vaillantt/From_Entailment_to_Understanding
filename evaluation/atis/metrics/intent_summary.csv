@@ -1,0 +1,2 @@
+﻿rows,intent_count,intent_correct,intent_errors,intent_accuracy,macro_precision,macro_recall,macro_f1,micro_precision,micro_recall,micro_f1
+5232,7,2875,2357,0.5495030581039755,0.6178328016683895,0.7295732422427388,0.5583610569701644,0.5495030581039755,0.5495030581039755,0.5495030581039755

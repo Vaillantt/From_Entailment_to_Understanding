@@ -1,0 +1,1930 @@
+{
+  "aircraft": [
+    {
+      "data": [
+        {
+          "text": "what kind of aircraft is used on a flight from "
+        },
+        {
+          "text": "cleveland",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "on the "
+        },
+        {
+          "text": "8 am"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " what type of aircraft is used"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list aircraft types that fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "is there a plane from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airplane types fly from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what 's the "
+        },
+        {
+          "text": "smallest"
+        },
+        {
+          "text": " plane that flies from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "eight"
+        },
+        {
+          "text": " sixteen"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "repeating leaving "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 am"
+        },
+        {
+          "text": " what type of aircraft is used"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft flies from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of airplane is flight "
+        },
+        {
+          "text": "ua"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "281"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft does "
+        },
+        {
+          "text": "eastern"
+        },
+        {
+          "text": " fly from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "6 pm"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft leaving "
+        },
+        {
+          "text": "after"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "2 pm"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "oakland",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "kindly give me the type of aircraft used to fly from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i 'd like to know what type of plane flies from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas fort worth",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "after"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "530"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of aircraft is used on the "
+        },
+        {
+          "text": "first class"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "american airlines"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " stopping in "
+        },
+        {
+          "text": "dallas"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of aircraft does "
+        },
+        {
+          "text": "delta"
+        },
+        {
+          "text": " fly "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "8 am"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "august"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "second"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of airplane goes from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "monday"
+        },
+        {
+          "text": " stopping in "
+        },
+        {
+          "text": "dallas"
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "first class"
+        },
+        {
+          "text": " flight"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i want to go and take a plane in "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and fly to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what aircraft is used on "
+        },
+        {
+          "text": "delta"
+        },
+        {
+          "text": " flight "
+        },
+        {
+          "text": "1222"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "kansas city",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "salt lake city",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of plane flies from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "after"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "display types of aircraft departing from "
+        },
+        {
+          "text": "cleveland",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft leaves from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "9 am"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please inform me the type of aircraft used on a flight from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "12 o'clock noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i 'm going to leave "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and i want to go to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and i want to fly "
+        },
+        {
+          "text": "first class"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "american"
+        },
+        {
+          "text": " and i want a stop in "
+        },
+        {
+          "text": "dallas"
+        },
+        {
+          "text": " can you please tell me what type of aircraft you will be flying"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft does "
+        },
+        {
+          "text": "eastern"
+        },
+        {
+          "text": " fly from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "6 pm"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "well i 'll try last time tell me the kind of aircraft "
+        },
+        {
+          "text": "united airlines"
+        },
+        {
+          "text": " flies from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 o'clock"
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "morning"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of aircraft does "
+        },
+        {
+          "text": "delta"
+        },
+        {
+          "text": " use "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "8 am"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "august"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "second"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i need a plane that arrives in "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "by"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "9 o'clock pm"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "friday"
+        },
+        {
+          "text": " and leaves from "
+        },
+        {
+          "text": "baltimore",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "okay i would like to know the type of aircraft used on a flight from "
+        },
+        {
+          "text": "cleveland",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " please"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of aircraft is used on the "
+        },
+        {
+          "text": "first class"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "american airlines"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " with a "
+        },
+        {
+          "text": "dallas",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " stopover"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft leaves from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "9 am"
+        },
+        {
+          "text": " during a "
+        },
+        {
+          "text": "weekday"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "sure i 'd like to determine what aircraft are use on "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seventh"
+        },
+        {
+          "text": " leaving from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and arriving in "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seventh"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft leaves from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "9 am"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what "
+        },
+        {
+          "text": "first class"
+        },
+        {
+          "text": " airplane goes from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and stops in "
+        },
+        {
+          "text": "dallas"
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "monday"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i would like a to know the type of aircraft leaving from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " bound to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "friday"
+        },
+        {
+          "text": " this week"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "leaving "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " flying to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 am"
+        },
+        {
+          "text": " what type of aircraft is used"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of airplane goes from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft is used on the flight from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "12 o'clock noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft leaving "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list types of planes that fly between "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i 'm traveling from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and i 'd like to go sometime "
+        },
+        {
+          "text": "after"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "5 pm"
+        },
+        {
+          "text": " but i want to know what kind of airplane it 's on"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i would like to know what type of aircraft will be used on the "
+        },
+        {
+          "text": "morning"
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seventh"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is the "
+        },
+        {
+          "text": "smallest"
+        },
+        {
+          "text": " aircraft available to fly on from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of airplane is flight "
+        },
+        {
+          "text": "ua"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "270"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft is used flying from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "12 noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of airplanes are used by "
+        },
+        {
+          "text": "delta airlines"
+        },
+        {
+          "text": " flying between "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list types of aircraft that fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is the "
+        },
+        {
+          "text": "smallest"
+        },
+        {
+          "text": " aircraft available flying from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " arriving on "
+        },
+        {
+          "text": "may"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seventh"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of aircraft do you have flying from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "august"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "twenty seventh"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please tell me the type of aircraft used from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "12 o'clock noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what types of aircraft can i get a "
+        },
+        {
+          "text": "first class"
+        },
+        {
+          "text": " ticket from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "all right would you let me know type of aircraft "
+        },
+        {
+          "text": "united airlines"
+        },
+        {
+          "text": " is using on the flights from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " i would like to know the type of aircraft that they use on these flights "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10"
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "morning"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is the "
+        },
+        {
+          "text": "smallest"
+        },
+        {
+          "text": " aircraft that flies from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " arriving "
+        },
+        {
+          "text": "may"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seventh"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of plane is used on the "
+        },
+        {
+          "text": "earliest"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "afternoon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list types of aircraft that connect "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft is used on the "
+        },
+        {
+          "text": "first"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "morning"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what 's the "
+        },
+        {
+          "text": "smallest"
+        },
+        {
+          "text": " plane flying from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "december"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seventeenth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can you tell me what aircraft is used for "
+        },
+        {
+          "text": "delta"
+        },
+        {
+          "text": " flight "
+        },
+        {
+          "text": "1222"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "kansas city",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "salt lake city",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of aircraft will i be flying on if i take a "
+        },
+        {
+          "text": "first class"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "american airlines"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i need to find a plane from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "friday"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can you please tell me the type of aircraft used flying from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "eastern"
+        },
+        {
+          "text": " flight "
+        },
+        {
+          "text": "825"
+        },
+        {
+          "text": " leaving at "
+        },
+        {
+          "text": "555"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft are used on flights from "
+        },
+        {
+          "text": "cleveland",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " that leave "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "determine the type of aircraft used on a flight from "
+        },
+        {
+          "text": "cleveland",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " that leaves "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what type of aircraft are flying from "
+        },
+        {
+          "text": "cleveland",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list type of aircraft for all flights from "
+        },
+        {
+          "text": "charlotte",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    }
+  ]
+}

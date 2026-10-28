@@ -1,0 +1,1001 @@
+{
+  "run_id": "tau_slot_20260507_005006",
+  "generated_at": "2026-05-07T00:50:06",
+  "repo_root": "E:\\Intent_Slot_Code",
+  "registry_path": "E:\\Intent_Slot_Code\\datasets\\metadata\\semantic_alias_registry.json",
+  "sampling_seed": 42,
+  "samples_per_intent": 25,
+  "tau_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "slot_delimiter": " || ",
+  "device": 0,
+  "spacy_batch_size": 64,
+  "spacy_n_process": 1,
+  "qa_batch_size": 16,
+  "slot_sentence_batch_size": 8,
+  "nli_batch_size": 16,
+  "reuse_cached_slot_top1_scores": true,
+  "use_gold_intent_for_slots": true,
+  "slot_score_basis": "nli_plus_qa_bias",
+  "grouping_threshold": null,
+  "dataset_paths": [
+    "E:\\Intent_Slot_Code\\datasets\\snips\\raw\\train_AddToPlaylist_full.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\raw\\train_BookRestaurant_full.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\raw\\train_GetWeather_full.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_PlayMusic_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_RateBook_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_SearchCreativeWork_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_SearchScreeningEvent_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_attraction__find_attraction.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_hospital__find_hospital.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_hotel__find_hotel.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_restaurant__find_restaurant.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_taxi__find_taxi.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_train__find_train.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\abbreviation_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\aircraft_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\airfare_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\airline_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\flight_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\flight_time_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\ground_service_min50.json"
+  ],
+  "dataset_names": [
+    "atis",
+    "multiwoz",
+    "snips"
+  ],
+  "raw_slot_specs": [
+    {
+      "raw_slot": "music_item",
+      "semantic_slot": "playable content",
+      "gold_column": "music_item (playable content)",
+      "pred_column": "pred__music_item (playable content)",
+      "score_column": "score__music_item (playable content)"
+    },
+    {
+      "raw_slot": "playlist",
+      "semantic_slot": "playlist title",
+      "gold_column": "playlist (playlist title)",
+      "pred_column": "pred__playlist (playlist title)",
+      "score_column": "score__playlist (playlist title)"
+    },
+    {
+      "raw_slot": "artist",
+      "semantic_slot": "artist name",
+      "gold_column": "artist (artist name)",
+      "pred_column": "pred__artist (artist name)",
+      "score_column": "score__artist (artist name)"
+    },
+    {
+      "raw_slot": "playlist_owner",
+      "semantic_slot": "playlist owner",
+      "gold_column": "playlist_owner (playlist owner)",
+      "pred_column": "pred__playlist_owner (playlist owner)",
+      "score_column": "score__playlist_owner (playlist owner)"
+    },
+    {
+      "raw_slot": "entity_name",
+      "semantic_slot": "entity name",
+      "gold_column": "entity_name (entity name)",
+      "pred_column": "pred__entity_name (entity name)",
+      "score_column": "score__entity_name (entity name)"
+    },
+    {
+      "raw_slot": "cuisine",
+      "semantic_slot": "cuisine type",
+      "gold_column": "cuisine (cuisine type)",
+      "pred_column": "pred__cuisine (cuisine type)",
+      "score_column": "score__cuisine (cuisine type)"
+    },
+    {
+      "raw_slot": "party_size_number",
+      "semantic_slot": "number of people",
+      "gold_column": "party_size_number (number of people)",
+      "pred_column": "pred__party_size_number (number of people)",
+      "score_column": "score__party_size_number (number of people)"
+    },
+    {
+      "raw_slot": "restaurant_name",
+      "semantic_slot": "restaurant name",
+      "gold_column": "restaurant_name (restaurant name)",
+      "pred_column": "pred__restaurant_name (restaurant name)",
+      "score_column": "score__restaurant_name (restaurant name)"
+    },
+    {
+      "raw_slot": "timeRange",
+      "semantic_slot": "reservation time",
+      "gold_column": "timeRange (reservation time)",
+      "pred_column": "pred__timeRange (reservation time)",
+      "score_column": "score__timeRange (reservation time)"
+    },
+    {
+      "raw_slot": "restaurant_type",
+      "semantic_slot": "restaurant type",
+      "gold_column": "restaurant_type (restaurant type)",
+      "pred_column": "pred__restaurant_type (restaurant type)",
+      "score_column": "score__restaurant_type (restaurant type)"
+    },
+    {
+      "raw_slot": "party_size_description",
+      "semantic_slot": "party size description",
+      "gold_column": "party_size_description (party size description)",
+      "pred_column": "pred__party_size_description (party size description)",
+      "score_column": "score__party_size_description (party size description)"
+    },
+    {
+      "raw_slot": "spatial_relation",
+      "semantic_slot": "spatial relation",
+      "gold_column": "spatial_relation (spatial relation)",
+      "pred_column": "pred__spatial_relation (spatial relation)",
+      "score_column": "score__spatial_relation (spatial relation)"
+    },
+    {
+      "raw_slot": "served_dish",
+      "semantic_slot": "served dish",
+      "gold_column": "served_dish (served dish)",
+      "pred_column": "pred__served_dish (served dish)",
+      "score_column": "score__served_dish (served dish)"
+    },
+    {
+      "raw_slot": "sort",
+      "semantic_slot": "sorting preference",
+      "gold_column": "sort (sorting preference)",
+      "pred_column": "pred__sort (sorting preference)",
+      "score_column": "score__sort (sorting preference)"
+    },
+    {
+      "raw_slot": "facility",
+      "semantic_slot": "facility",
+      "gold_column": "facility (facility)",
+      "pred_column": "pred__facility (facility)",
+      "score_column": "score__facility (facility)"
+    },
+    {
+      "raw_slot": "poi",
+      "semantic_slot": "point of interest",
+      "gold_column": "poi (point of interest)",
+      "pred_column": "pred__poi (point of interest)",
+      "score_column": "score__poi (point of interest)"
+    },
+    {
+      "raw_slot": "city",
+      "semantic_slot": "city",
+      "gold_column": "city (city)",
+      "pred_column": "pred__city (city)",
+      "score_column": "score__city (city)"
+    },
+    {
+      "raw_slot": "state",
+      "semantic_slot": "state",
+      "gold_column": "state (state)",
+      "pred_column": "pred__state (state)",
+      "score_column": "score__state (state)"
+    },
+    {
+      "raw_slot": "country",
+      "semantic_slot": "country",
+      "gold_column": "country (country)",
+      "pred_column": "pred__country (country)",
+      "score_column": "score__country (country)"
+    },
+    {
+      "raw_slot": "timeRange",
+      "semantic_slot": "date",
+      "gold_column": "timeRange (date)",
+      "pred_column": "pred__timeRange (date)",
+      "score_column": "score__timeRange (date)"
+    },
+    {
+      "raw_slot": "geographic_poi",
+      "semantic_slot": "geographic point",
+      "gold_column": "geographic_poi (geographic point)",
+      "pred_column": "pred__geographic_poi (geographic point)",
+      "score_column": "score__geographic_poi (geographic point)"
+    },
+    {
+      "raw_slot": "current_location",
+      "semantic_slot": "current location",
+      "gold_column": "current_location (current location)",
+      "pred_column": "pred__current_location (current location)",
+      "score_column": "score__current_location (current location)"
+    },
+    {
+      "raw_slot": "condition_temperature",
+      "semantic_slot": "temperature condition",
+      "gold_column": "condition_temperature (temperature condition)",
+      "pred_column": "pred__condition_temperature (temperature condition)",
+      "score_column": "score__condition_temperature (temperature condition)"
+    },
+    {
+      "raw_slot": "condition_description",
+      "semantic_slot": "weather description",
+      "gold_column": "condition_description (weather description)",
+      "pred_column": "pred__condition_description (weather description)",
+      "score_column": "score__condition_description (weather description)"
+    },
+    {
+      "raw_slot": "service",
+      "semantic_slot": "music service",
+      "gold_column": "service (music service)",
+      "pred_column": "pred__service (music service)",
+      "score_column": "score__service (music service)"
+    },
+    {
+      "raw_slot": "year",
+      "semantic_slot": "year",
+      "gold_column": "year (year)",
+      "pred_column": "pred__year (year)",
+      "score_column": "score__year (year)"
+    },
+    {
+      "raw_slot": "track",
+      "semantic_slot": "track title",
+      "gold_column": "track (track title)",
+      "pred_column": "pred__track (track title)",
+      "score_column": "score__track (track title)"
+    },
+    {
+      "raw_slot": "album",
+      "semantic_slot": "album title",
+      "gold_column": "album (album title)",
+      "pred_column": "pred__album (album title)",
+      "score_column": "score__album (album title)"
+    },
+    {
+      "raw_slot": "genre",
+      "semantic_slot": "music genre",
+      "gold_column": "genre (music genre)",
+      "pred_column": "pred__genre (music genre)",
+      "score_column": "score__genre (music genre)"
+    },
+    {
+      "raw_slot": "rating_value",
+      "semantic_slot": "rating value",
+      "gold_column": "rating_value (rating value)",
+      "pred_column": "pred__rating_value (rating value)",
+      "score_column": "score__rating_value (rating value)"
+    },
+    {
+      "raw_slot": "rating_unit",
+      "semantic_slot": "rating unit",
+      "gold_column": "rating_unit (rating unit)",
+      "pred_column": "pred__rating_unit (rating unit)",
+      "score_column": "score__rating_unit (rating unit)"
+    },
+    {
+      "raw_slot": "best_rating",
+      "semantic_slot": "best rating",
+      "gold_column": "best_rating (best rating)",
+      "pred_column": "pred__best_rating (best rating)",
+      "score_column": "score__best_rating (best rating)"
+    },
+    {
+      "raw_slot": "object_select",
+      "semantic_slot": "object select",
+      "gold_column": "object_select (object select)",
+      "pred_column": "pred__object_select (object select)",
+      "score_column": "score__object_select (object select)"
+    },
+    {
+      "raw_slot": "object_name",
+      "semantic_slot": "object name",
+      "gold_column": "object_name (object name)",
+      "pred_column": "pred__object_name (object name)",
+      "score_column": "score__object_name (object name)"
+    },
+    {
+      "raw_slot": "object_type",
+      "semantic_slot": "object type",
+      "gold_column": "object_type (object type)",
+      "pred_column": "pred__object_type (object type)",
+      "score_column": "score__object_type (object type)"
+    },
+    {
+      "raw_slot": "object_part_of_series_type",
+      "semantic_slot": "object part of series type",
+      "gold_column": "object_part_of_series_type (object part of series type)",
+      "pred_column": "pred__object_part_of_series_type (object part of series type)",
+      "score_column": "score__object_part_of_series_type (object part of series type)"
+    },
+    {
+      "raw_slot": "movie_name",
+      "semantic_slot": "movie title",
+      "gold_column": "movie_name (movie title)",
+      "pred_column": "pred__movie_name (movie title)",
+      "score_column": "score__movie_name (movie title)"
+    },
+    {
+      "raw_slot": "object_type",
+      "semantic_slot": "screening object type",
+      "gold_column": "object_type (screening object type)",
+      "pred_column": "pred__object_type (screening object type)",
+      "score_column": "score__object_type (screening object type)"
+    },
+    {
+      "raw_slot": "movie_type",
+      "semantic_slot": "movie type",
+      "gold_column": "movie_type (movie type)",
+      "pred_column": "pred__movie_type (movie type)",
+      "score_column": "score__movie_type (movie type)"
+    },
+    {
+      "raw_slot": "location_name",
+      "semantic_slot": "location name",
+      "gold_column": "location_name (location name)",
+      "pred_column": "pred__location_name (location name)",
+      "score_column": "score__location_name (location name)"
+    },
+    {
+      "raw_slot": "object_location_type",
+      "semantic_slot": "location type",
+      "gold_column": "object_location_type (location type)",
+      "pred_column": "pred__object_location_type (location type)",
+      "score_column": "score__object_location_type (location type)"
+    },
+    {
+      "raw_slot": "timeRange",
+      "semantic_slot": "time range",
+      "gold_column": "timeRange (time range)",
+      "pred_column": "pred__timeRange (time range)",
+      "score_column": "score__timeRange (time range)"
+    },
+    {
+      "raw_slot": "attraction_type",
+      "semantic_slot": "attraction type",
+      "gold_column": "attraction_type (attraction type)",
+      "pred_column": "pred__attraction_type (attraction type)",
+      "score_column": "score__attraction_type (attraction type)"
+    },
+    {
+      "raw_slot": "attraction_area",
+      "semantic_slot": "area",
+      "gold_column": "attraction_area (area)",
+      "pred_column": "pred__attraction_area (area)",
+      "score_column": "score__attraction_area (area)"
+    },
+    {
+      "raw_slot": "attraction_name",
+      "semantic_slot": "attraction name",
+      "gold_column": "attraction_name (attraction name)",
+      "pred_column": "pred__attraction_name (attraction name)",
+      "score_column": "score__attraction_name (attraction name)"
+    },
+    {
+      "raw_slot": "hospital_department",
+      "semantic_slot": "hospital department",
+      "gold_column": "hospital_department (hospital department)",
+      "pred_column": "pred__hospital_department (hospital department)",
+      "score_column": "score__hospital_department (hospital department)"
+    },
+    {
+      "raw_slot": "hotel_type",
+      "semantic_slot": "hotel type",
+      "gold_column": "hotel_type (hotel type)",
+      "pred_column": "pred__hotel_type (hotel type)",
+      "score_column": "score__hotel_type (hotel type)"
+    },
+    {
+      "raw_slot": "hotel_name",
+      "semantic_slot": "hotel name",
+      "gold_column": "hotel_name (hotel name)",
+      "pred_column": "pred__hotel_name (hotel name)",
+      "score_column": "score__hotel_name (hotel name)"
+    },
+    {
+      "raw_slot": "hotel_area",
+      "semantic_slot": "area",
+      "gold_column": "hotel_area (area)",
+      "pred_column": "pred__hotel_area (area)",
+      "score_column": "score__hotel_area (area)"
+    },
+    {
+      "raw_slot": "hotel_pricerange",
+      "semantic_slot": "price range",
+      "gold_column": "hotel_pricerange (price range)",
+      "pred_column": "pred__hotel_pricerange (price range)",
+      "score_column": "score__hotel_pricerange (price range)"
+    },
+    {
+      "raw_slot": "hotel_stars",
+      "semantic_slot": "star rating",
+      "gold_column": "hotel_stars (star rating)",
+      "pred_column": "pred__hotel_stars (star rating)",
+      "score_column": "score__hotel_stars (star rating)"
+    },
+    {
+      "raw_slot": "restaurant_food",
+      "semantic_slot": "cuisine type",
+      "gold_column": "restaurant_food (cuisine type)",
+      "pred_column": "pred__restaurant_food (cuisine type)",
+      "score_column": "score__restaurant_food (cuisine type)"
+    },
+    {
+      "raw_slot": "restaurant_area",
+      "semantic_slot": "area",
+      "gold_column": "restaurant_area (area)",
+      "pred_column": "pred__restaurant_area (area)",
+      "score_column": "score__restaurant_area (area)"
+    },
+    {
+      "raw_slot": "restaurant_pricerange",
+      "semantic_slot": "price range",
+      "gold_column": "restaurant_pricerange (price range)",
+      "pred_column": "pred__restaurant_pricerange (price range)",
+      "score_column": "score__restaurant_pricerange (price range)"
+    },
+    {
+      "raw_slot": "taxi_destination",
+      "semantic_slot": "destination",
+      "gold_column": "taxi_destination (destination)",
+      "pred_column": "pred__taxi_destination (destination)",
+      "score_column": "score__taxi_destination (destination)"
+    },
+    {
+      "raw_slot": "taxi_departure",
+      "semantic_slot": "departure location",
+      "gold_column": "taxi_departure (departure location)",
+      "pred_column": "pred__taxi_departure (departure location)",
+      "score_column": "score__taxi_departure (departure location)"
+    },
+    {
+      "raw_slot": "taxi_leaveat",
+      "semantic_slot": "leave at time",
+      "gold_column": "taxi_leaveat (leave at time)",
+      "pred_column": "pred__taxi_leaveat (leave at time)",
+      "score_column": "score__taxi_leaveat (leave at time)"
+    },
+    {
+      "raw_slot": "taxi_arriveby",
+      "semantic_slot": "arrive by time",
+      "gold_column": "taxi_arriveby (arrive by time)",
+      "pred_column": "pred__taxi_arriveby (arrive by time)",
+      "score_column": "score__taxi_arriveby (arrive by time)"
+    },
+    {
+      "raw_slot": "train_destination",
+      "semantic_slot": "destination",
+      "gold_column": "train_destination (destination)",
+      "pred_column": "pred__train_destination (destination)",
+      "score_column": "score__train_destination (destination)"
+    },
+    {
+      "raw_slot": "train_departure",
+      "semantic_slot": "departure location",
+      "gold_column": "train_departure (departure location)",
+      "pred_column": "pred__train_departure (departure location)",
+      "score_column": "score__train_departure (departure location)"
+    },
+    {
+      "raw_slot": "train_arriveby",
+      "semantic_slot": "arrive by time",
+      "gold_column": "train_arriveby (arrive by time)",
+      "pred_column": "pred__train_arriveby (arrive by time)",
+      "score_column": "score__train_arriveby (arrive by time)"
+    },
+    {
+      "raw_slot": "train_leaveat",
+      "semantic_slot": "leave at time",
+      "gold_column": "train_leaveat (leave at time)",
+      "pred_column": "pred__train_leaveat (leave at time)",
+      "score_column": "score__train_leaveat (leave at time)"
+    },
+    {
+      "raw_slot": "train_day",
+      "semantic_slot": "travel day",
+      "gold_column": "train_day (travel day)",
+      "pred_column": "pred__train_day (travel day)",
+      "score_column": "score__train_day (travel day)"
+    },
+    {
+      "raw_slot": "fare_basis_code",
+      "semantic_slot": "fare basis code",
+      "gold_column": "fare_basis_code (fare basis code)",
+      "pred_column": "pred__fare_basis_code (fare basis code)",
+      "score_column": "score__fare_basis_code (fare basis code)"
+    },
+    {
+      "raw_slot": "fromloc_city_name",
+      "semantic_slot": "departure city",
+      "gold_column": "fromloc_city_name (departure city)",
+      "pred_column": "pred__fromloc_city_name (departure city)",
+      "score_column": "score__fromloc_city_name (departure city)"
+    },
+    {
+      "raw_slot": "toloc_city_name",
+      "semantic_slot": "destination city",
+      "gold_column": "toloc_city_name (destination city)",
+      "pred_column": "pred__toloc_city_name (destination city)",
+      "score_column": "score__toloc_city_name (destination city)"
+    },
+    {
+      "raw_slot": "round_trip",
+      "semantic_slot": "round trip",
+      "gold_column": "round_trip (round trip)",
+      "pred_column": "pred__round_trip (round trip)",
+      "score_column": "score__round_trip (round trip)"
+    },
+    {
+      "raw_slot": "cost_relative",
+      "semantic_slot": "cost constraint",
+      "gold_column": "cost_relative (cost constraint)",
+      "pred_column": "pred__cost_relative (cost constraint)",
+      "score_column": "score__cost_relative (cost constraint)"
+    },
+    {
+      "raw_slot": "class_type",
+      "semantic_slot": "travel class",
+      "gold_column": "class_type (travel class)",
+      "pred_column": "pred__class_type (travel class)",
+      "score_column": "score__class_type (travel class)"
+    },
+    {
+      "raw_slot": "airline_name",
+      "semantic_slot": "airline name",
+      "gold_column": "airline_name (airline name)",
+      "pred_column": "pred__airline_name (airline name)",
+      "score_column": "score__airline_name (airline name)"
+    },
+    {
+      "raw_slot": "airline_code",
+      "semantic_slot": "airline code",
+      "gold_column": "airline_code (airline code)",
+      "pred_column": "pred__airline_code (airline code)",
+      "score_column": "score__airline_code (airline code)"
+    },
+    {
+      "raw_slot": "fromloc_state_code",
+      "semantic_slot": "departure state code",
+      "gold_column": "fromloc_state_code (departure state code)",
+      "pred_column": "pred__fromloc_state_code (departure state code)",
+      "score_column": "score__fromloc_state_code (departure state code)"
+    },
+    {
+      "raw_slot": "fromloc_state_name",
+      "semantic_slot": "departure state name",
+      "gold_column": "fromloc_state_name (departure state name)",
+      "pred_column": "pred__fromloc_state_name (departure state name)",
+      "score_column": "score__fromloc_state_name (departure state name)"
+    },
+    {
+      "raw_slot": "toloc_state_code",
+      "semantic_slot": "destination state code",
+      "gold_column": "toloc_state_code (destination state code)",
+      "pred_column": "pred__toloc_state_code (destination state code)",
+      "score_column": "score__toloc_state_code (destination state code)"
+    },
+    {
+      "raw_slot": "toloc_state_name",
+      "semantic_slot": "destination state name",
+      "gold_column": "toloc_state_name (destination state name)",
+      "pred_column": "pred__toloc_state_name (destination state name)",
+      "score_column": "score__toloc_state_name (destination state name)"
+    },
+    {
+      "raw_slot": "stoploc_city_name",
+      "semantic_slot": "stopover city",
+      "gold_column": "stoploc_city_name (stopover city)",
+      "pred_column": "pred__stoploc_city_name (stopover city)",
+      "score_column": "score__stoploc_city_name (stopover city)"
+    },
+    {
+      "raw_slot": "depart_date_day_name",
+      "semantic_slot": "departure day of week",
+      "gold_column": "depart_date_day_name (departure day of week)",
+      "pred_column": "pred__depart_date_day_name (departure day of week)",
+      "score_column": "score__depart_date_day_name (departure day of week)"
+    },
+    {
+      "raw_slot": "depart_date_day_number",
+      "semantic_slot": "departure day number",
+      "gold_column": "depart_date_day_number (departure day number)",
+      "pred_column": "pred__depart_date_day_number (departure day number)",
+      "score_column": "score__depart_date_day_number (departure day number)"
+    },
+    {
+      "raw_slot": "depart_date_month_name",
+      "semantic_slot": "departure month",
+      "gold_column": "depart_date_month_name (departure month)",
+      "pred_column": "pred__depart_date_month_name (departure month)",
+      "score_column": "score__depart_date_month_name (departure month)"
+    },
+    {
+      "raw_slot": "depart_date_today_relative",
+      "semantic_slot": "relative to today",
+      "gold_column": "depart_date_today_relative (relative to today)",
+      "pred_column": "pred__depart_date_today_relative (relative to today)",
+      "score_column": "score__depart_date_today_relative (relative to today)"
+    },
+    {
+      "raw_slot": "depart_date_date_relative",
+      "semantic_slot": "relative departure date",
+      "gold_column": "depart_date_date_relative (relative departure date)",
+      "pred_column": "pred__depart_date_date_relative (relative departure date)",
+      "score_column": "score__depart_date_date_relative (relative departure date)"
+    },
+    {
+      "raw_slot": "depart_time_period_of_day",
+      "semantic_slot": "departure time of day",
+      "gold_column": "depart_time_period_of_day (departure time of day)",
+      "pred_column": "pred__depart_time_period_of_day (departure time of day)",
+      "score_column": "score__depart_time_period_of_day (departure time of day)"
+    },
+    {
+      "raw_slot": "depart_time_time",
+      "semantic_slot": "departure time",
+      "gold_column": "depart_time_time (departure time)",
+      "pred_column": "pred__depart_time_time (departure time)",
+      "score_column": "score__depart_time_time (departure time)"
+    },
+    {
+      "raw_slot": "depart_time_time_relative",
+      "semantic_slot": "relative departure time",
+      "gold_column": "depart_time_time_relative (relative departure time)",
+      "pred_column": "pred__depart_time_time_relative (relative departure time)",
+      "score_column": "score__depart_time_time_relative (relative departure time)"
+    },
+    {
+      "raw_slot": "arrive_date_day_name",
+      "semantic_slot": "arrival day of week",
+      "gold_column": "arrive_date_day_name (arrival day of week)",
+      "pred_column": "pred__arrive_date_day_name (arrival day of week)",
+      "score_column": "score__arrive_date_day_name (arrival day of week)"
+    },
+    {
+      "raw_slot": "arrive_time_period_of_day",
+      "semantic_slot": "arrival time of day",
+      "gold_column": "arrive_time_period_of_day (arrival time of day)",
+      "pred_column": "pred__arrive_time_period_of_day (arrival time of day)",
+      "score_column": "score__arrive_time_period_of_day (arrival time of day)"
+    },
+    {
+      "raw_slot": "arrive_time_time",
+      "semantic_slot": "arrival time",
+      "gold_column": "arrive_time_time (arrival time)",
+      "pred_column": "pred__arrive_time_time (arrival time)",
+      "score_column": "score__arrive_time_time (arrival time)"
+    },
+    {
+      "raw_slot": "arrive_time_time_relative",
+      "semantic_slot": "relative arrival time",
+      "gold_column": "arrive_time_time_relative (relative arrival time)",
+      "pred_column": "pred__arrive_time_time_relative (relative arrival time)",
+      "score_column": "score__arrive_time_time_relative (relative arrival time)"
+    },
+    {
+      "raw_slot": "flight_mod",
+      "semantic_slot": "flight constraint",
+      "gold_column": "flight_mod (flight constraint)",
+      "pred_column": "pred__flight_mod (flight constraint)",
+      "score_column": "score__flight_mod (flight constraint)"
+    },
+    {
+      "raw_slot": "flight_stop",
+      "semantic_slot": "number of stops",
+      "gold_column": "flight_stop (number of stops)",
+      "pred_column": "pred__flight_stop (number of stops)",
+      "score_column": "score__flight_stop (number of stops)"
+    },
+    {
+      "raw_slot": "meal_description",
+      "semantic_slot": "meal description",
+      "gold_column": "meal_description (meal description)",
+      "pred_column": "pred__meal_description (meal description)",
+      "score_column": "score__meal_description (meal description)"
+    },
+    {
+      "raw_slot": "or",
+      "semantic_slot": "alternative marker",
+      "gold_column": "or (alternative marker)",
+      "pred_column": "pred__or (alternative marker)",
+      "score_column": "score__or (alternative marker)"
+    },
+    {
+      "raw_slot": "flight_time",
+      "semantic_slot": "flight duration",
+      "gold_column": "flight_time (flight duration)",
+      "pred_column": "pred__flight_time (flight duration)",
+      "score_column": "score__flight_time (flight duration)"
+    },
+    {
+      "raw_slot": "city_name",
+      "semantic_slot": "city",
+      "gold_column": "city_name (city)",
+      "pred_column": "pred__city_name (city)",
+      "score_column": "score__city_name (city)"
+    }
+  ],
+  "sample_counts_by_dataset_intent": [
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find a flight",
+      "available_count": 4241,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find aircraft type for a flight",
+      "available_count": 64,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find airlines for a route",
+      "available_count": 123,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find ground transportation",
+      "available_count": 208,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Get airfare information",
+      "available_count": 465,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Get an abbreviation meaning",
+      "available_count": 77,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Get flight duration",
+      "available_count": 54,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a hospital",
+      "available_count": 75,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a hotel",
+      "available_count": 1594,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a restaurant",
+      "available_count": 2415,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a taxi",
+      "available_count": 380,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a tourist attraction",
+      "available_count": 1179,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a train",
+      "available_count": 7154,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Add to a playlist",
+      "available_count": 1942,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Book a restaurant",
+      "available_count": 1973,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Check weather",
+      "available_count": 2000,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Play a music",
+      "available_count": 2000,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Rate a item",
+      "available_count": 1956,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Search a creative work",
+      "available_count": 1954,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Search for movie showtimes",
+      "available_count": 1959,
+      "sampled_count": 25,
+      "shortfall_count": 0
+    }
+  ],
+  "artifacts": {
+    "sampled_dataset_view": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\sampled_dataset_view.csv",
+    "sampled_semantic_view": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\sampled_semantic_view.csv",
+    "sample_counts": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\sample_counts_by_dataset_intent.csv",
+    "slot_top1_cache": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\public_calibration_pool_slot_top1_scores.csv",
+    "tau_sweep_overall": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\tau_slot_sweep_overall.csv",
+    "tau_sweep_by_dataset": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\tau_slot_sweep_by_dataset.csv",
+    "tau_sweep_by_intent": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\tau_slot_sweep_by_intent.csv",
+    "tau_sweep_by_slot": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\tau_slot_sweep_by_slot.csv",
+    "best_tau_selection": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\best_tau_slot_selection.json",
+    "best_predictions": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\artifacts\\best_tau_slot_predictions.csv"
+  },
+  "slot_inference_stats": {
+    "slot_seconds": 349.32286569999997,
+    "n_rows": 500,
+    "rows_per_second": 1.4313405994710986,
+    "group_sizes": {
+      "atis::Find a flight": 25,
+      "atis::Find aircraft type for a flight": 25,
+      "atis::Find airlines for a route": 25,
+      "atis::Find ground transportation": 25,
+      "atis::Get airfare information": 25,
+      "atis::Get an abbreviation meaning": 25,
+      "atis::Get flight duration": 25,
+      "multiwoz::Find a hospital": 25,
+      "multiwoz::Find a hotel": 25,
+      "multiwoz::Find a restaurant": 25,
+      "multiwoz::Find a taxi": 25,
+      "multiwoz::Find a tourist attraction": 25,
+      "multiwoz::Find a train": 25,
+      "snips::Add to a playlist": 25,
+      "snips::Book a restaurant": 25,
+      "snips::Check weather": 25,
+      "snips::Play a music": 25,
+      "snips::Rate a item": 25,
+      "snips::Search a creative work": 25,
+      "snips::Search for movie showtimes": 25
+    },
+    "grouping_threshold": null
+  },
+  "model_snapshot": {
+    "nli_model_name": "MoritzLaurer/ModernBERT-large-zeroshot-v2.0",
+    "qa_model_name": "ahotrod/deberta-v3-large-finetuned-squadv2",
+    "spacy_model": "en_core_web_sm",
+    "index_path": "E:\\Intent_Slot_Code\\retrieval\\2025_sparse_wikititle_index",
+    "device": 0
+  },
+  "written_gold_paths": {
+    "dataset_csv": [
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\atis_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\flight_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\aircraft_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\airline_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\ground_service_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\airfare_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\abbreviation_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\dataset_csv\\flight_time_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\dataset_csv\\multiwoz_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\dataset_csv\\slots_hospital__find_hospital_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\dataset_csv\\slots_hotel__find_hotel_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\dataset_csv\\slots_restaurant__find_restaurant_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\dataset_csv\\slots_taxi__find_taxi_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\dataset_csv\\slots_attraction__find_attraction_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\dataset_csv\\slots_train__find_train_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\snips_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\AddToPlaylist_full_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\BookRestaurant_full_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\GetWeather_full_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\PlayMusic_full_clean_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\RateBook_full_clean_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\SearchCreativeWork_full_clean_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\dataset_csv\\SearchScreeningEvent_full_clean_dataset.csv"
+    ],
+    "results_csv": []
+  },
+  "written_top1_prediction_paths": {
+    "dataset_csv": [],
+    "results_csv": [
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\atis_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\flight_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\aircraft_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\airline_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\ground_service_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\airfare_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\abbreviation_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\flight_time_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\multiwoz_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_hospital__find_hospital_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_hotel__find_hotel_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_restaurant__find_restaurant_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_taxi__find_taxi_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_attraction__find_attraction_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_train__find_train_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\snips_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\AddToPlaylist_full_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\BookRestaurant_full_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\GetWeather_full_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\PlayMusic_full_clean_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\RateBook_full_clean_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\SearchCreativeWork_full_clean_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\SearchScreeningEvent_full_clean_predictions.csv"
+    ]
+  },
+  "written_best_prediction_paths": {
+    "dataset_csv": [],
+    "results_csv": [
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\atis_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\flight_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\aircraft_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\airline_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\ground_service_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\airfare_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\abbreviation_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\atis\\results_csv\\flight_time_min50_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\multiwoz_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_hospital__find_hospital_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_hotel__find_hotel_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_restaurant__find_restaurant_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_taxi__find_taxi_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_attraction__find_attraction_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\multiwoz\\results_csv\\slots_train__find_train_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\snips_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\AddToPlaylist_full_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\BookRestaurant_full_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\GetWeather_full_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\PlayMusic_full_clean_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\RateBook_full_clean_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\SearchCreativeWork_full_clean_predictions.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_slot_20260507_005006\\evaluation\\snips\\results_csv\\SearchScreeningEvent_full_clean_predictions.csv"
+    ]
+  }
+}

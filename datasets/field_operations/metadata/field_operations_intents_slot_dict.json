@@ -1,0 +1,111 @@
+{
+    "Confirm Movement Milestone": {
+      "slots": {
+        "movement event": {
+          "hypothesis": "The unit is confirming the movement event \"{}\".",
+          "question": "What movement event is being confirmed (arrival/on-scene, departure/rolling out, or checkpoint/check-in)?"
+        },
+        "location reference": {
+          "hypothesis": "The location is \"{}\".",
+          "question": "What location is associated with that movement event?"
+        }
+      }
+    },
+  
+    "Incident Status": {
+      "slots": {
+        "status": {
+          "hypothesis": "The status of the situation is \"{}\".",
+          "question": "What is the situation status?"
+        },
+        "location": {
+          "hypothesis": "The incident location is \"{}\".",
+          "question": "Which location or area does this status update refer to?"
+        }
+      }
+    },
+  
+    "Request Additional Support": {
+      "slots": {
+        "resource type": {
+          "hypothesis": "The resource type is \"{}\".", 
+          "question": "What type of support or resource is being requested?"
+        }
+      }
+    },
+  
+    "Medical Evacuation": {
+      "slots": {
+        "evacuation mode": {
+          "hypothesis": "The requested evacuation mode is \"{}\".",
+          "question": "What evacuation mode is requested (ground or aeromedical)?"
+        },
+        "casualty count": {
+          "hypothesis": "The number of casualties is \"{}\".",
+          "question": "How many casualties require evacuation?"
+        },
+        "severity": {
+          "hypothesis": "The severity is \"{}\".",
+          "question": "What is the severity level (minor, moderate, severe, critical)?"
+        }
+      }
+    },
+  
+    "Lookup Operational Record": {
+      "slots": {
+        "target type": {
+          "hypothesis": "The target type is \"{}\".",
+          "question": "What type of lookup is requested (plate, person, geography, or weather)?"
+        },
+        "subject": {
+          "hypothesis": "The target name is \"{}\".",
+          "question": "Who or what is the record about (person, vehicle, plate, area, or asset)?"
+        }
+      }
+    },
+  
+    "Control Live Video Stream": {
+      "slots": {
+        "stream control action": {
+          "hypothesis": "The live video stream control action is \"{}\".",
+          "question": "Should the live video stream be started or stopped?"
+        }
+      }
+    },
+  
+    "Request Procedure Guidance": {
+      "slots": {
+        "guidance artifact type": {
+          "hypothesis": "The guidance artifact type is \"{}\".",
+          "question": "What type of guidance is requested (checklist, protocol, or reminder)?"
+        },
+        "procedure topic": {
+          "hypothesis": "The procedure topic is \"{}\".",
+          "question": "What procedure or topic should the guidance cover?"
+        }
+      }
+    },
+  
+    "Location Sharing": {
+      "slots": {
+        "location sharing action": {
+          "hypothesis": "The action is \"{}\".",
+          "question": "What location-sharing action should be performed (start, stop, or check-in)?"
+        }
+      }
+    },
+  
+    "Access External Cameras": {
+      "slots": {
+        "identifier": {
+          "hypothesis": "The camera identification is \"{}\".",
+          "question": "Which camera should be accessed (name, number, or ID)?"
+        },
+        "search area": {
+          "hypothesis": "The camera search area is \"{}\".",
+          "question": "What location or area should cameras be searched/accessed for?"
+        }
+      }
+    }
+  }
+  

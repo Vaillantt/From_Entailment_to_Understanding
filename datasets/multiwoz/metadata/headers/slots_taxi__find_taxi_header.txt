@@ -1,0 +1,9 @@
+================================================================
+Intent: taxi__find_taxi
+Total de sentenças: 380
+Slots (presença por sentença):
+  - taxi_destination: 62.1% (236/380)
+  - taxi_departure: 52.1% (198/380)
+  - taxi_leaveat: 31.1% (118/380)
+  - taxi_arriveby: 18.2% (69/380)
+================================================================

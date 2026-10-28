@@ -1,0 +1,2 @@
+﻿rows,intent_accuracy,intent_macro_precision,intent_macro_recall,intent_macro_f1,intent_micro_precision,intent_micro_recall,intent_micro_f1,slot_conll_precision,slot_conll_recall,slot_conll_f1,slot_conll_micro_precision,slot_conll_micro_recall,slot_conll_micro_f1
+12797,0.8495741189341252,0.8446909094001128,0.9289816959186726,0.8699706264157427,0.8495741189341252,0.8495741189341252,0.8495741189341252,0.3645266202885735,0.4303514813876696,0.38079114192617963,0.31196636481241913,0.46201743462017436,0.3724468126182478

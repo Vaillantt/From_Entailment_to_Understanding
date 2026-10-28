@@ -1,0 +1,43 @@
+{
+  "run_id": "tau_slot_20260507_005006",
+  "generated_at": "2026-05-07T00:50:06",
+  "selection_rule": {
+    "objective": "maximize_f1",
+    "coverage_constraint_metric": "gold_slot_coverage",
+    "coverage_constraint": 0.98,
+    "feasible_sort_order": [
+      "f1 desc",
+      "precision desc",
+      "selective_accuracy desc",
+      "tau_slot asc"
+    ],
+    "infeasible_sort_order": [
+      "gold_slot_coverage desc",
+      "f1 desc",
+      "precision desc",
+      "selective_accuracy desc",
+      "tau_slot asc"
+    ]
+  },
+  "best_feasible_tau": {
+    "tau_slot": 0.35,
+    "rows": 500,
+    "total_slot_decisions": 2900,
+    "covered_count": 2431,
+    "coverage": 0.8382758620689655,
+    "gold_slot_count": 955,
+    "gold_covered_count": 940,
+    "gold_slot_coverage": 0.9842931937172775,
+    "tp": 579,
+    "fp": 1852,
+    "fn": 376,
+    "precision": 0.23817359111476757,
+    "recall": 0.606282722513089,
+    "f1": 0.3419964559952746,
+    "selective_accuracy": 0.23817359111476757,
+    "slot_exact_match_count": 97,
+    "slot_exact_match": 0.194,
+    "feasible": true
+  },
+  "best_infeasible_tau": null
+}

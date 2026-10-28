@@ -1,0 +1,28 @@
+================================================================
+Intent: ground_service
+Total de sentenças: 291
+Slots (presença por sentença):
+  - city_name: 71.5% (208/291)
+  - airport_name: 12.0% (35/291)
+  - transport_type: 11.7% (34/291)
+  - toloc_city_name: 10.7% (31/291)
+  - fromloc_airport_name: 9.3% (27/291)
+  - fromloc_city_name: 5.8% (17/291)
+  - period_of_day: 2.4% (7/291)
+  - state_code: 2.4% (7/291)
+  - airport_code: 1.7% (5/291)
+  - day_name: 1.7% (5/291)
+  - state_name: 0.7% (2/291)
+  - time: 0.7% (2/291)
+  - today_relative: 0.7% (2/291)
+  - toloc_airport_name: 0.7% (2/291)
+  - day_number: 0.3% (1/291)
+  - depart_date_date_relative: 0.3% (1/291)
+  - depart_date_day_name: 0.3% (1/291)
+  - depart_date_day_number: 0.3% (1/291)
+  - depart_date_month_name: 0.3% (1/291)
+  - flight_time: 0.3% (1/291)
+  - month_name: 0.3% (1/291)
+  - or: 0.3% (1/291)
+  - time_relative: 0.3% (1/291)
+================================================================

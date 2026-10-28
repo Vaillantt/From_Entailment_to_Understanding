@@ -1,0 +1,42 @@
+{
+  "Know Abbreviation": {
+    "aliases": [
+      "abbreviation"
+    ]
+  },
+  "Know Aircraft": {
+    "aliases": [
+      "aircraft"
+    ]
+  },
+  "Airfare Cost": {
+    "aliases": [
+      "airfare"
+    ]
+  },
+  "Find Airline": {
+    "aliases": [
+      "airline"
+    ]
+  },
+  "Find Flight": {
+    "aliases": [
+      "flight"
+    ]
+  },
+  "Know Flight Time": {
+    "aliases": [
+      "flight_time"
+    ]
+  },
+  "Ground Service": {
+    "aliases": [
+      "ground_service"
+    ]
+  },
+  "Ask Quantity": {
+    "aliases": [
+      "quantity"
+    ]
+  }
+}

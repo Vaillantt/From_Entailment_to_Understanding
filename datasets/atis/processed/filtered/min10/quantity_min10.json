@@ -1,0 +1,1058 @@
+{
+  "quantity": [
+    {
+      "data": [
+        {
+          "text": "please tell me how many "
+        },
+        {
+          "text": "nonstop"
+        },
+        {
+          "text": " flights there are from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does "
+        },
+        {
+          "text": "delta",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have with a class of service code "
+        },
+        {
+          "text": "f"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list the number of flights leaving "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "dallas fort worth",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "9 am"
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "morning"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "us air",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights leave from "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights go from "
+        },
+        {
+          "text": "dallas",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "nineteenth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "delta",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights leave from "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does "
+        },
+        {
+          "text": "twa"
+        },
+        {
+          "text": " have in "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many stops on "
+        },
+        {
+          "text": "continental",
+          "entity": "airline_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "1765"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does each airline have with "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        },
+        {
+          "text": " service"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "united",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights are there from "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " please"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights does "
+        },
+        {
+          "text": "united",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "daily"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "us air",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights are there between "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights does "
+        },
+        {
+          "text": "delta",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does each airline have with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " service"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does "
+        },
+        {
+          "text": "american airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "united",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights are there to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list the total number of flights to all airports by "
+        },
+        {
+          "text": "delta",
+          "entity": "airline_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many fares are there "
+        },
+        {
+          "text": "one way"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "tacoma",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "montreal",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights does "
+        },
+        {
+          "text": "united",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have leaving from all airports "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many cities are served by "
+        },
+        {
+          "text": "delta airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights does "
+        },
+        {
+          "text": "united airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have departing from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "nonstop"
+        },
+        {
+          "text": " flights going from "
+        },
+        {
+          "text": "dallas",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "oakland",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "twenty seventh"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many of "
+        },
+        {
+          "text": "delta 's",
+          "entity": "airline_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "night"
+        },
+        {
+          "text": " flights are "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "american airline",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights leave "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "june"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tenth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights does "
+        },
+        {
+          "text": "united",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have leaving from all cities "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list the total number of flights between all airports by "
+        },
+        {
+          "text": "delta",
+          "entity": "airline_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights has "
+        },
+        {
+          "text": "continental",
+          "entity": "airline_name"
+        },
+        {
+          "text": " into and out of "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights are provided by "
+        },
+        {
+          "text": "american airlines",
+          "entity": "airline_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many airlines fly from "
+        },
+        {
+          "text": "new york",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "los angeles",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " by way of "
+        },
+        {
+          "text": "milwaukee"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many cities are served by "
+        },
+        {
+          "text": "continental",
+          "entity": "airline_name"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many fares are there "
+        },
+        {
+          "text": "one way"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "tacoma",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "montreal",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does "
+        },
+        {
+          "text": "american airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have with a class of service code "
+        },
+        {
+          "text": "f"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does "
+        },
+        {
+          "text": "twa"
+        },
+        {
+          "text": " have with "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many cities are served by "
+        },
+        {
+          "text": "eastern",
+          "entity": "airline_name"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many cities are served by "
+        },
+        {
+          "text": "american airline",
+          "entity": "airline_name"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many cities are served by "
+        },
+        {
+          "text": "lufthansa",
+          "entity": "airline_name"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights does "
+        },
+        {
+          "text": "delta airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does "
+        },
+        {
+          "text": "continental airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have with a class of service code "
+        },
+        {
+          "text": "f"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many cities are served by "
+        },
+        {
+          "text": "twa"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights does "
+        },
+        {
+          "text": "united",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have leaving from all cities "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights does "
+        },
+        {
+          "text": "eastern airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " have from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights come from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "nineteenth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "stops"
+        },
+        {
+          "text": " are on all flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " that depart "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "12 o'clock noon"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many flights are there between "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "august"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "eighteenth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "canadian airlines international",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights use "
+        },
+        {
+          "text": "j31"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "canadian airlines international",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights use aircraft "
+        },
+        {
+          "text": "320"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "how many "
+        },
+        {
+          "text": "canadian airlines",
+          "entity": "airline_name"
+        },
+        {
+          "text": " flights use aircraft "
+        },
+        {
+          "text": "dh8"
+        }
+      ]
+    }
+  ]
+}

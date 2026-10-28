@@ -1,0 +1,7 @@
+================================================================
+Intent: Access External Cameras
+Total de sentenças: 300
+Slots (presença por sentença):
+  - camera_identifier: 66.7% (200/300)
+  - camera_search_area: 66.7% (200/300)
+================================================================

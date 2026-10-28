@@ -1,0 +1,1860 @@
+{
+    "flight_time": [
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "arrival time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " for the "
+                },
+                {
+                    "text": "755 am",
+                    "entity": "depart_time_time"
+                },
+                {
+                    "text": " flight leaving "
+                },
+                {
+                    "text": "washington",
+                    "entity": "fromloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what are the "
+                },
+                {
+                    "text": "times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " that you have planes leaving from "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " going to "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "july",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "seventh",
+                    "entity": "depart_date_day_number"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "on "
+                },
+                {
+                    "text": "united airlines",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " give me the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "dallas",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what are the "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of flights from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "august",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "first",
+                    "entity": "depart_date_day_number"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "flight schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of the "
+                },
+                {
+                    "text": "f28",
+                    "entity": "aircraft_code"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me "
+                },
+                {
+                    "text": "times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " for flights from "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like the "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of all flights from "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "sunday",
+                    "entity": "depart_date_day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "could you give me the "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of flights for "
+                },
+                {
+                    "text": "american",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "delta",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "dfw",
+                    "entity": "toloc_airport_code"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "august",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "fifteenth",
+                    "entity": "depart_date_day_number"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "newark",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "flight schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "friday",
+                    "entity": "depart_date_day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "nights",
+                    "entity": "depart_time_period_of_day"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "wednesday",
+                    "entity": "depart_date_day_name"
+                },
+                {
+                    "text": " could i take a plane from "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please tell me the "
+                },
+                {
+                    "text": "times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of the flights between "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me "
+                },
+                {
+                    "text": "times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "coach",
+                    "entity": "class_type"
+                },
+                {
+                    "text": " flights between "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "wednesday",
+                    "entity": "depart_date_day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " for airlines leaving "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " going to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "next",
+                    "entity": "depart_date_date_relative"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "monday",
+                    "entity": "depart_date_day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "departure time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of the "
+                },
+                {
+                    "text": "latest",
+                    "entity": "flight_mod"
+                },
+                {
+                    "text": " flight of "
+                },
+                {
+                    "text": "united airlines",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "newark",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " does "
+                },
+                {
+                    "text": "continental",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " depart from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " does flight "
+                },
+                {
+                    "text": "aa",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "459",
+                    "entity": "flight_number"
+                },
+                {
+                    "text": " depart"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "newark",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the minimum connection time for "
+                },
+                {
+                    "text": "houston intercontinental",
+                    "entity": "airport_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "now i 'd like a "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " for the flights on "
+                },
+                {
+                    "text": "tuesday",
+                    "entity": "depart_date_day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "oakland",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " no from "
+                },
+                {
+                    "text": "dallas fort worth",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "earliest",
+                    "entity": "flight_mod"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "departure time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "denver",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me the "
+                },
+                {
+                    "text": "flight schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " does the "
+                },
+                {
+                    "text": "tuesday",
+                    "entity": "depart_date_day_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "755",
+                    "entity": "depart_time_time"
+                },
+                {
+                    "text": " flight leaving "
+                },
+                {
+                    "text": "washington",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " arrive in "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like a "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of flights from "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "wednesday",
+                    "entity": "depart_date_day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " are the flights leaving from "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "july",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "seventh",
+                    "entity": "depart_date_day_number"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like a "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of flights from "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "tuesday",
+                    "entity": "depart_date_day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "w"
+                },
+                {
+                    "text": "hen ",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": "does "
+                },
+                {
+                    "text": "continental",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " fly from "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "denver",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "sundays",
+                    "entity": "depart_date_day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " are the flights from "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please give me the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " the "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "united airlines",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "september",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "twentieth",
+                    "entity": "depart_date_day_number"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's the "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of flights from "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "august",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "first",
+                    "entity": "depart_date_day_number"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the total "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "delta 's",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " flights to all airports"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like the "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " your "
+                },
+                {
+                    "text": "earliest",
+                    "entity": "flight_mod"
+                },
+                {
+                    "text": " flight from "
+                },
+                {
+                    "text": "washington",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of flights from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "denver",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "next",
+                    "entity": "depart_date_date_relative"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "monday",
+                    "entity": "depart_date_day_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " does the flight leave "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " going to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "continental airlines",
+                    "entity": "airline_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "schedule for flights",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " between "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on the "
+                },
+                {
+                    "text": "evening",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " of "
+                },
+                {
+                    "text": "july",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "ninth",
+                    "entity": "depart_date_day_number"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "delta 's",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " flights to "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "american 's",
+                    "entity": "airline_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " flights to "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of ground transportation from "
+                },
+                {
+                    "text": "washington airport",
+                    "entity": "fromloc_airport_name"
+                },
+                {
+                    "text": " into downtown"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " does "
+                },
+                {
+                    "text": "twa",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " depart from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to go to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " does the "
+                },
+                {
+                    "text": "earliest",
+                    "entity": "flight_mod"
+                },
+                {
+                    "text": " flight which goes from "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "denver",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " leave"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like the "
+                },
+                {
+                    "text": "evening",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "schedule",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of flights from "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "washington",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please give me the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " i would like to fly from "
+                },
+                {
+                    "text": "boston",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "baltimore",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " in the "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "before",
+                    "entity": "depart_time_time_relative"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "8",
+                    "entity": "depart_time_time"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " does the "
+                },
+                {
+                    "text": "late afternoon",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " flight leave from "
+                },
+                {
+                    "text": "washington",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " for "
+                },
+                {
+                    "text": "denver",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " are flights from "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "continental airlines",
+                    "entity": "airline_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "list "
+                },
+                {
+                    "text": "departure times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "denver",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " which are "
+                },
+                {
+                    "text": "later",
+                    "entity": "depart_time_time_relative"
+                },
+                {
+                    "text": " than "
+                },
+                {
+                    "text": "10 o'clock",
+                    "entity": "depart_time_time"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "earlier",
+                    "entity": "depart_time_time_relative"
+                },
+                {
+                    "text": " than "
+                },
+                {
+                    "text": "2 pm",
+                    "entity": "depart_time_time"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i would like the "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of your "
+                },
+                {
+                    "text": "earliest",
+                    "entity": "flight_mod"
+                },
+                {
+                    "text": " flight in the "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "washington",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "american airlines",
+                    "entity": "airline_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please list the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "newark",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i want to know the "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " of the "
+                },
+                {
+                    "text": "latest",
+                    "entity": "flight_mod"
+                },
+                {
+                    "text": " flight i can take from "
+                },
+                {
+                    "text": "washington",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " where i can get a "
+                },
+                {
+                    "text": "dinner meal",
+                    "entity": "meal_description"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " is the "
+                },
+                {
+                    "text": "last",
+                    "entity": "flight_mod"
+                },
+                {
+                    "text": " flight from "
+                },
+                {
+                    "text": "washington",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "all right give me the "
+                },
+                {
+                    "text": "flight times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " in the "
+                },
+                {
+                    "text": "morning",
+                    "entity": "depart_time_period_of_day"
+                },
+                {
+                    "text": " on "
+                },
+                {
+                    "text": "september",
+                    "entity": "depart_date_month_name"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "twentieth",
+                    "entity": "depart_date_day_number"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "pittsburgh",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "can you tell me the "
+                },
+                {
+                    "text": "time",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " a flight would leave from "
+                },
+                {
+                    "text": "atlanta",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "boston",
+                    "entity": "toloc_city_name"
+                },
+                {
+                    "text": " in the "
+                },
+                {
+                    "text": "afternoon",
+                    "entity": "depart_time_period_of_day"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what are the "
+                },
+                {
+                    "text": "departure times",
+                    "entity": "flight_time"
+                },
+                {
+                    "text": " from "
+                },
+                {
+                    "text": "detroit",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "westchester county",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        }
+    ]
+}

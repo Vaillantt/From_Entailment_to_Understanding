@@ -1,0 +1,248 @@
+{
+  "Book a restaurant": {
+    "slots": {
+      "cuisine type": {
+        "hypothesis": "The type of cuisine is \"{}\"",
+        "question": "What is the type of cuisine for the restaurant mentioned in the text?"
+      },
+      "number of people": {
+        "hypothesis": "The number of people for the restaurant reservation is \"{}\"",
+        "question": "What is the number of people for the restaurant reservation mentioned in the text?"
+      },
+      "restaurant name": {
+        "hypothesis": "The name of the restaurant is \"{}\"",
+        "question": "What is the name of the restaurant mentioned in the text?"
+      },
+      "reservation time": {
+        "hypothesis": "The time for reservation is \"{}\"",
+        "question": "What is the time range mentioned in the text?"
+      },
+      "restaurant type": {
+        "hypothesis": "The type of restaurant is \"{}\"",
+        "question": "What is the type of restaurant mentioned in the text?"
+      },
+      "party size description": {
+        "hypothesis": "The party size description is \"{}\"",
+        "question": "What is the party size description?"
+      },
+      "spatial relation": {
+        "hypothesis": "The spatial relation is \"{}\"",
+        "question": "What spatial relation is specified?"
+      },
+      "served dish": {
+        "hypothesis": "The served dish is \"{}\"",
+        "question": "What dish or menu item is mentioned?"
+      },
+      "sorting preference": {
+        "hypothesis": "The sorting preference is \"{}\"",
+        "question": "What sorting preference is requested?"
+      },
+      "facility": {
+        "hypothesis": "The required facility is \"{}\"",
+        "question": "What facility or amenity is required (e.g., parking, Wi-Fi, outdoor seating)?"
+      },
+      "point of interest": {
+        "hypothesis": "The point of interest is \"{}\"",
+        "question": "What point of interest (POI) is referenced?"
+      },
+      "city": {
+        "hypothesis": "The city is \"{}\"",
+        "question": "Which city is mentioned for the restaurant?"
+      },
+      "state": {
+        "hypothesis": "The state is \"{}\"",
+        "question": "Which state is mentioned for the restaurant?"
+      },
+      "country": {
+        "hypothesis": "The country is \"{}\"",
+        "question": "Which country is mentioned for the restaurant?"
+      }
+    }
+  },
+
+"Check weather": {
+  "slots": {
+    "date": {
+      "hypothesis": "The date (or time range) to check the weather is \"{}\"",
+      "question": "What is the date or time range to check the weather mentioned in the text?"
+    },
+    "city": {
+      "hypothesis": "The city to check the weather is \"{}\"",
+      "question": "Which city is mentioned to check the weather?"
+    },
+    "state": {
+      "hypothesis": "The state or region to check the weather is \"{}\"",
+      "question": "Which state or region is mentioned to check the weather?"
+    },
+    "country": {
+      "hypothesis": "The country to check the weather is \"{}\"",
+      "question": "Which country is mentioned to check the weather?"
+    },
+    "geographic point": {
+      "hypothesis": "The geographic point of interest is \"{}\"",
+      "question": "Which geographic point of interest (e.g., beach, mountain, landmark) is referenced?"
+    },
+    "current location": {
+      "hypothesis": "The user refers to the current location as \"{}\"",
+      "question": "Is the user's current location referenced? If yes, how is it referred to?"
+    },
+    "spatial relation": {
+      "hypothesis": "The spatial relation is \"{}\"",
+      "question": "What spatial relation is specified (e.g., near, around, north of)?"
+    },
+    "temperature condition": {
+      "hypothesis": "The temperature condition mentioned is \"{}\"",
+      "question": "What temperature condition is described (e.g., high, low, degrees)?"
+    },
+    "weather description": {
+      "hypothesis": "The weather condition described is \"{}\"",
+      "question": "What weather condition is described (e.g., rain, cloudy, sunny)?"
+    }
+  }
+},
+
+  "Add to a playlist": {
+    "slots": {
+      "playable content": {
+        "hypothesis": "The playable content is \"{}\"",
+        "question": "What is the audio content mentioned in the text?"
+      },
+      "playlist title": {
+        "hypothesis": "The title of the playlist is \"{}\"",
+        "question": "What is the playlist mentioned in the text?"
+      },
+      "playlist owner": {
+        "hypothesis": "The owner of the playlist is \"{}\"",
+        "question": "Who is the owner of the playlist mentioned in the text?"
+      },
+      "artist name": {
+        "hypothesis": "The name of the artist is \"{}\"",
+        "question": "Which artist or band is mentioned in the text?"
+      },
+      "entity name": {
+        "hypothesis": "The entity referenced in the playlist context is \"{}\"",
+        "question": "Which named entity related to the playlist is mentioned (e.g., person, show, brand)?"
+      }
+    }
+  },
+
+  "Play a music": {
+    "slots": {
+      "artist name": {
+        "hypothesis": "The name of the artist is \"{}\"",
+        "question": "Which artist or band is mentioned in the text?"
+      },
+      "playable content": {
+        "hypothesis": "The playable content is \"{}\"",
+        "question": "What is the audio content mentioned in the text?"
+      },
+      "music service": {
+        "hypothesis": "The music service is \"{}\"",
+        "question": "Which music service should be used?"
+      },
+      "year": {
+        "hypothesis": "The release year is \"{}\"",
+        "question": "What release year is requested?"
+      },
+      "sorting preference": {
+        "hypothesis": "The sorting preference is \"{}\"",
+        "question": "What sorting preference should be applied?"
+      },
+      "track title": {
+        "hypothesis": "The track title is \"{}\"",
+        "question": "What is the track title?"
+      },
+      "album title": {
+        "hypothesis": "The album title is \"{}\"",
+        "question": "What is the album title?"
+      },
+      "playlist title": {
+        "hypothesis": "The title of the playlist is \"{}\"",
+        "question": "What is the playlist mentioned in the text?"
+      },
+      "music genre": {
+        "hypothesis": "The music genre is \"{}\"",
+        "question": "What genre should be played?"
+      }
+    }
+  },
+
+  "Search a creative work": {
+    "slots": {
+      "object name": {
+        "hypothesis": "The creative work name is \"{}\"",
+        "question": "What is the name of the creative work to search for?"
+      },
+      "object type": {
+        "hypothesis": "The type of creative work is \"{}\"",
+        "question": "What is the type of the creative work (e.g., book, song, movie)?"
+      }
+    }
+  },
+
+  "Search for movie showtimes": {
+    "slots": {
+      "movie title": {
+        "hypothesis": "The movie title is \"{}\"",
+        "question": "What is the movie title?"
+      },
+      "screening object type": {
+        "hypothesis": "The screening object type is \"{}\"",
+        "question": "What is the venue/object type related to the screening (e.g., theater, cinema)?"
+      },
+      "movie type": {
+        "hypothesis": "The movie type is \"{}\"",
+        "question": "What is the movie type or format (e.g., 3D, IMAX, genre)?"
+      },
+      "spatial relation": {
+        "hypothesis": "The spatial relation is \"{}\"",
+        "question": "What spatial relation is specified?"
+      },
+      "location name": {
+        "hypothesis": "The location name is \"{}\"",
+        "question": "What is the name of the location (e.g., theater name or neighborhood)?"
+      },
+      "location type": {
+        "hypothesis": "The location type is \"{}\"",
+        "question": "What is the type of the location (e.g., city, neighborhood, venue type)?"
+      },
+      "time range": {
+        "hypothesis": "The time range is \"{}\"",
+        "question": "What is the time range for the screening?"
+      }
+    }
+  },
+
+  "Rate a item": {
+    "slots": {
+      "object name": {
+        "hypothesis": "The name of the item to be rated is \"{}\"",
+        "question": "What is the name of the item to be rated that is mentioned in the text?"
+      },
+      "object select": {
+        "hypothesis": "The pronoun or reference used to identify the item is \"{}\"",
+        "question": "What is the reference or pronoun the user used to identify the item in the text?"
+      },
+      "object type": {
+        "hypothesis": "The item type is \"{}\"",
+        "question": "What is the type of item being rated mentioned in the text?"
+      },
+      "object part of series type": {
+        "hypothesis": "The series/collection type is \"{}\"",
+        "question": "Is the item part of a series or collection? If so, what type?"
+      },
+      "rating value": {
+        "hypothesis": "The rating number is \"{}\"",
+        "question": "What is the rating value the user assigned to the item?"
+      },
+      "best rating": {
+        "hypothesis": "The maximum of the rating scale is \"{}\"",
+        "question": "What is the maximum rating scale (the best rating) mentioned in the text?"
+      },
+      "rating unit": {
+        "hypothesis": "The rating unit is \"{}\"",
+        "question": "Which unit (stars, points, etc.) is the user using to rate the item?"
+      }
+    }
+  }
+}

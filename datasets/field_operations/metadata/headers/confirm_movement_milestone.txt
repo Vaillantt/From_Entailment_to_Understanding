@@ -1,0 +1,7 @@
+================================================================
+Intent: Confirm Movement Milestone
+Total de sentenças: 300
+Slots (presença por sentença):
+  - location_ref: 66.7% (200/300)
+  - milestone: 66.7% (200/300)
+================================================================

@@ -1,0 +1,8 @@
+﻿semantic_intent,support,effective_per_round,total_sampled_across_rounds,N,K,seed
+Find a flight,4241,50,1500,50,30,42
+Find aircraft type for a flight,64,50,1500,50,30,42
+Find airlines for a route,123,50,1500,50,30,42
+Find ground transportation,208,50,1500,50,30,42
+Get airfare information,465,50,1500,50,30,42
+Get an abbreviation meaning,77,50,1500,50,30,42
+Get flight duration,54,50,1500,50,30,42

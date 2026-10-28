@@ -1,0 +1,7 @@
+================================================================
+Intent: Request Procedure Guidance
+Total de sentenças: 300
+Slots (presença por sentença):
+  - guidance_artifact_type: 66.7% (200/300)
+  - procedure_topic: 66.7% (200/300)
+================================================================

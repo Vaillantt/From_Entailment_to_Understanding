@@ -1,0 +1,5404 @@
+{
+  "Access External Cameras": [
+    {
+      "data": [
+        {
+          "text": "Show me the feed from"
+        },
+        {
+          "text": "CAM-2049",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "covering"
+        },
+        {
+          "text": "parking lot",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display"
+        },
+        {
+          "text": "DRN-1107",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "focused on"
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the live stream from"
+        },
+        {
+          "text": "BC-5012",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "monitoring"
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the feed from"
+        },
+        {
+          "text": "DRN-6005",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "watching"
+        },
+        {
+          "text": "main road",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the live stream from"
+        },
+        {
+          "text": "BC-4044",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "covering"
+        },
+        {
+          "text": "walkway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Give me access to"
+        },
+        {
+          "text": "CCTV-8181",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "for"
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display"
+        },
+        {
+          "text": "SEC-2324",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "focused on"
+        },
+        {
+          "text": "loading corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see"
+        },
+        {
+          "text": "XJ-3435",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": "covering"
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect to "
+        },
+        {
+          "text": "CCTV-7782",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "warehouse entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the video from "
+        },
+        {
+          "text": "DRN-4521",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "north gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access "
+        },
+        {
+          "text": "SEC-9903",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream "
+        },
+        {
+          "text": "BC-2108",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display "
+        },
+        {
+          "text": "XJ-6650",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "service entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to view "
+        },
+        {
+          "text": "DRN-3002",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "roof access",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you pull up "
+        },
+        {
+          "text": "CAM-5017",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "security checkpoint",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "SEC-1129",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " watching "
+        },
+        {
+          "text": "rear exit",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open the stream from "
+        },
+        {
+          "text": "CCTV-4096",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "loading ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Give access to "
+        },
+        {
+          "text": "BC-7784",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live feed from "
+        },
+        {
+          "text": "DRN-8888",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "side entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "CAM-1023",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "front desk",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need video from "
+        },
+        {
+          "text": "SEC-5555",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "garage entry",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live stream from "
+        },
+        {
+          "text": "CCTV-3333",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "delivery zone",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "BC-9001",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me "
+        },
+        {
+          "text": "DRN-7770",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "roof deck",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "CAM-8008",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream from "
+        },
+        {
+          "text": "SEC-3210",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want access to "
+        },
+        {
+          "text": "CCTV-1212",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "loading area",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live video from "
+        },
+        {
+          "text": "BC-4321",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect me to "
+        },
+        {
+          "text": "DRN-6543",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access feed from "
+        },
+        {
+          "text": "CAM-2468",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display stream from "
+        },
+        {
+          "text": "SEC-9090",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "back gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show footage from "
+        },
+        {
+          "text": "CCTV-8882",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main foyer",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access "
+        },
+        {
+          "text": "BC-6789",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Pull up "
+        },
+        {
+          "text": "DRN-2222",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "emergency exit",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to see "
+        },
+        {
+          "text": "CAM-3141",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "front entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me live from "
+        },
+        {
+          "text": "SEC-8080",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live video from "
+        },
+        {
+          "text": "CCTV-7007",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "main gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display "
+        },
+        {
+          "text": "BC-1234",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "DRN-9999",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "service gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream from "
+        },
+        {
+          "text": "CAM-5678",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "SEC-4848",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "staff entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access "
+        },
+        {
+          "text": "CCTV-2020",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream live from "
+        },
+        {
+          "text": "BC-8880",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me footage from "
+        },
+        {
+          "text": "DRN-3030",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display video from "
+        },
+        {
+          "text": "CAM-9091",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show "
+        },
+        {
+          "text": "SEC-2121",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the stream from "
+        },
+        {
+          "text": "CCTV-4444",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "loading corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me access "
+        },
+        {
+          "text": "BC-5556",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the live feed from "
+        },
+        {
+          "text": "CAM-8723",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "loading zone",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me video from "
+        },
+        {
+          "text": "DRN-1456",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access stream from "
+        },
+        {
+          "text": "SEC-3098",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I view "
+        },
+        {
+          "text": "BC-7021",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "parking garage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the feed of "
+        },
+        {
+          "text": "XJ-1200",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "CCTV-5674",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " showing "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream live from "
+        },
+        {
+          "text": "DRN-8320",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want access to "
+        },
+        {
+          "text": "SEC-4102",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "rear corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "CAM-2345",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "BC-8760",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open stream from "
+        },
+        {
+          "text": "XJ-9988",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show "
+        },
+        {
+          "text": "CCTV-3219",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "visitor gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access video from "
+        },
+        {
+          "text": "DRN-2105",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream "
+        },
+        {
+          "text": "SEC-7854",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display live from "
+        },
+        {
+          "text": "CAM-4567",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the feed of "
+        },
+        {
+          "text": "BC-3003",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "side hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect me to "
+        },
+        {
+          "text": "XJ-2211",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me access "
+        },
+        {
+          "text": "CCTV-6547",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " showing "
+        },
+        {
+          "text": "main gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "DRN-4120",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need video from "
+        },
+        {
+          "text": "SEC-9002",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live stream from "
+        },
+        {
+          "text": "CAM-7890",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main foyer",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the feed from "
+        },
+        {
+          "text": "BC-1007",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "staff entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display "
+        },
+        {
+          "text": "XJ-3344",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "CCTV-5551",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream from "
+        },
+        {
+          "text": "DRN-6012",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me "
+        },
+        {
+          "text": "SEC-4789",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open the video from "
+        },
+        {
+          "text": "CAM-3654",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "BC-2090",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live from "
+        },
+        {
+          "text": "XJ-7771",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect to "
+        },
+        {
+          "text": "CCTV-8889",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "service corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream of "
+        },
+        {
+          "text": "DRN-1500",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display footage from "
+        },
+        {
+          "text": "SEC-6701",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "CAM-9004",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access video feed from "
+        },
+        {
+          "text": "BC-5557",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me live from "
+        },
+        {
+          "text": "XJ-1235",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "CCTV-4322",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "DRN-7895",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream "
+        },
+        {
+          "text": "SEC-2107",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "CAM-6781",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the live feed from "
+        },
+        {
+          "text": "BC-3210",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the feed from "
+        },
+        {
+          "text": "CAM-4582",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect me to "
+        },
+        {
+          "text": "DRN-1204",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access video from "
+        },
+        {
+          "text": "SEC-7780",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to view "
+        },
+        {
+          "text": "XJ-2219",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live stream from "
+        },
+        {
+          "text": "CCTV-9007",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "visitor gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the video from "
+        },
+        {
+          "text": "BC-3345",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access "
+        },
+        {
+          "text": "DRN-5556",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "service corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open stream from "
+        },
+        {
+          "text": "SEC-1022",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "CAM-3410",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "staff entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me video from "
+        },
+        {
+          "text": "XJ-8887",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect to "
+        },
+        {
+          "text": "CCTV-5043",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display footage from "
+        },
+        {
+          "text": "BC-6008",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream live from "
+        },
+        {
+          "text": "DRN-3011",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the feed from "
+        },
+        {
+          "text": "SEC-4110",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream of "
+        },
+        {
+          "text": "CAM-7892",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me access "
+        },
+        {
+          "text": "XJ-5552",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "CCTV-2006",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "BC-9087",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live video from "
+        },
+        {
+          "text": "DRN-6700",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "SEC-1233",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to see "
+        },
+        {
+          "text": "CAM-8003",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live stream from "
+        },
+        {
+          "text": "XJ-4320",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main foyer",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the feed from "
+        },
+        {
+          "text": "CCTV-6782",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream from "
+        },
+        {
+          "text": "BC-2101",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me footage from "
+        },
+        {
+          "text": "DRN-5550",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access "
+        },
+        {
+          "text": "SEC-7001",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open the video from "
+        },
+        {
+          "text": "CAM-3640",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "XJ-8001",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access video feed from "
+        },
+        {
+          "text": "CCTV-1017",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display live from "
+        },
+        {
+          "text": "BC-3456",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "DRN-9008",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream from "
+        },
+        {
+          "text": "SEC-4567",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "side entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "CAM-5670",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the live feed from "
+        },
+        {
+          "text": "XJ-2345",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "loading corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "CCTV-8765",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me live from "
+        },
+        {
+          "text": "BC-1239",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "staff entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "DRN-3400",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access stream from "
+        },
+        {
+          "text": "SEC-7891",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "CAM-4562",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show video from "
+        },
+        {
+          "text": "XJ-6782",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide access to "
+        },
+        {
+          "text": "CAM-2201",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the stream from "
+        },
+        {
+          "text": "SEC-3007",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "service ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to view "
+        },
+        {
+          "text": "DRN-4123",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "employee corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the feed from "
+        },
+        {
+          "text": "XJ-1102",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live video from "
+        },
+        {
+          "text": "BC-2034",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the footage from "
+        },
+        {
+          "text": "CCTV-5098",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open the stream of "
+        },
+        {
+          "text": "CAM-6789",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "SEC-4321",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "DRN-2100",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live video from "
+        },
+        {
+          "text": "XJ-5566",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect to "
+        },
+        {
+          "text": "BC-7892",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the video from "
+        },
+        {
+          "text": "CCTV-3450",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display stream from "
+        },
+        {
+          "text": "CAM-1122",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the live feed from "
+        },
+        {
+          "text": "SEC-9081",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me "
+        },
+        {
+          "text": "DRN-5010",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "visitor corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me access "
+        },
+        {
+          "text": "XJ-3340",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "BC-4567",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to the feed from "
+        },
+        {
+          "text": "CCTV-7893",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main foyer",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open video from "
+        },
+        {
+          "text": "CAM-3202",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "staff entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live stream from "
+        },
+        {
+          "text": "SEC-2109",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the footage from "
+        },
+        {
+          "text": "DRN-7772",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect to "
+        },
+        {
+          "text": "XJ-5561",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the stream from "
+        },
+        {
+          "text": "BC-2022",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see the video from "
+        },
+        {
+          "text": "CCTV-1238",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the live feed from "
+        },
+        {
+          "text": "CAM-8901",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live stream from "
+        },
+        {
+          "text": "SEC-4004",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up the feed from "
+        },
+        {
+          "text": "DRN-6011",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display video from "
+        },
+        {
+          "text": "XJ-9002",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "service corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "BC-4325",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the stream from "
+        },
+        {
+          "text": "CCTV-8880",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access footage from "
+        },
+        {
+          "text": "CAM-1203",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the live feed from "
+        },
+        {
+          "text": "SEC-3302",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "DRN-2107",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access "
+        },
+        {
+          "text": "XJ-2210",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show video from "
+        },
+        {
+          "text": "BC-5672",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to the stream from "
+        },
+        {
+          "text": "CCTV-3456",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the video feed from "
+        },
+        {
+          "text": "CAM-7897",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display live stream from "
+        },
+        {
+          "text": "SEC-1012",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see footage from "
+        },
+        {
+          "text": "DRN-3032",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the live feed from "
+        },
+        {
+          "text": "XJ-8881",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the stream from "
+        },
+        {
+          "text": "CAM-9821",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect me to "
+        },
+        {
+          "text": "SEC-4408",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need access to "
+        },
+        {
+          "text": "DRN-1209",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the video from "
+        },
+        {
+          "text": "BC-7772",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live feed from "
+        },
+        {
+          "text": "XJ-2010",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access stream from "
+        },
+        {
+          "text": "CCTV-2045",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "CAM-3102",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "service ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "SEC-6011",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "rear exit",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me video from "
+        },
+        {
+          "text": "DRN-5044",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main foyer",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "BC-8088",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the feed from "
+        },
+        {
+          "text": "XJ-4420",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open the stream from "
+        },
+        {
+          "text": "CCTV-1102",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream live from "
+        },
+        {
+          "text": "CAM-2208",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show footage from "
+        },
+        {
+          "text": "SEC-3307",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "DRN-7012",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see "
+        },
+        {
+          "text": "BC-1205",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the stream from "
+        },
+        {
+          "text": "XJ-3033",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me access "
+        },
+        {
+          "text": "CCTV-5672",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show "
+        },
+        {
+          "text": "CAM-9007",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access video from "
+        },
+        {
+          "text": "SEC-2004",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up the feed from "
+        },
+        {
+          "text": "DRN-3408",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me live from "
+        },
+        {
+          "text": "BC-5019",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "XJ-8886",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display video from "
+        },
+        {
+          "text": "CCTV-4002",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the stream from "
+        },
+        {
+          "text": "CAM-4321",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "visitor corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the live feed from "
+        },
+        {
+          "text": "SEC-7892",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the video from "
+        },
+        {
+          "text": "DRN-6015",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the stream from "
+        },
+        {
+          "text": "BC-2345",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "XJ-1208",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "service corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open video from "
+        },
+        {
+          "text": "CCTV-8762",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream from "
+        },
+        {
+          "text": "CAM-5679",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the stream from "
+        },
+        {
+          "text": "SEC-1015",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me footage from "
+        },
+        {
+          "text": "DRN-9021",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the feed from "
+        },
+        {
+          "text": "BC-6781",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "XJ-3342",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "CCTV-1107",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view the stream from "
+        },
+        {
+          "text": "CAM-8044",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live from "
+        },
+        {
+          "text": "SEC-5558",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream from "
+        },
+        {
+          "text": "DRN-2108",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display video from "
+        },
+        {
+          "text": "BC-9901",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting access to "
+        },
+        {
+          "text": "CAM-4820",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show me the feed from "
+        },
+        {
+          "text": "SEC-2105",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display "
+        },
+        {
+          "text": "DRN-1201",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "employee corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to view "
+        },
+        {
+          "text": "BC-5600",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream live from "
+        },
+        {
+          "text": "XJ-4502",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the video from "
+        },
+        {
+          "text": "CCTV-2024",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access feed from "
+        },
+        {
+          "text": "CAM-9002",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "SEC-3340",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open the stream from "
+        },
+        {
+          "text": "DRN-8005",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please connect to "
+        },
+        {
+          "text": "BC-1207",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show live video from "
+        },
+        {
+          "text": "XJ-2301",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the feed of "
+        },
+        {
+          "text": "CCTV-3402",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need access to "
+        },
+        {
+          "text": "CAM-6703",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "SEC-5010",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the stream from "
+        },
+        {
+          "text": "DRN-4108",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "service corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me footage from "
+        },
+        {
+          "text": "BC-3332",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "XJ-8800",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "CCTV-1206",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live video from "
+        },
+        {
+          "text": "CAM-5555",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream from "
+        },
+        {
+          "text": "SEC-8882",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main foyer",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "DRN-6013",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display video from "
+        },
+        {
+          "text": "BC-4328",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream from "
+        },
+        {
+          "text": "XJ-1104",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see "
+        },
+        {
+          "text": "CCTV-3409",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the feed from "
+        },
+        {
+          "text": "CAM-2102",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show "
+        },
+        {
+          "text": "SEC-7003",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "DRN-5021",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "visitor corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me live from "
+        },
+        {
+          "text": "BC-8900",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the stream from "
+        },
+        {
+          "text": "XJ-2207",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access video from "
+        },
+        {
+          "text": "CCTV-4011",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me access "
+        },
+        {
+          "text": "CAM-8005",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "service ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the feed from "
+        },
+        {
+          "text": "SEC-3305",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "rear exit",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the video from "
+        },
+        {
+          "text": "DRN-1206",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "BC-7002",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live stream from "
+        },
+        {
+          "text": "XJ-3341",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the stream from "
+        },
+        {
+          "text": "CCTV-5673",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display footage from "
+        },
+        {
+          "text": "CAM-2023",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "SEC-4040",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the video from "
+        },
+        {
+          "text": "DRN-9003",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show video from "
+        },
+        {
+          "text": "BC-2104",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the feed from "
+        },
+        {
+          "text": "CAM-4821",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "SEC-2106",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need access to "
+        },
+        {
+          "text": "DRN-1302",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display stream from "
+        },
+        {
+          "text": "BC-5601",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me live from "
+        },
+        {
+          "text": "XJ-4503",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the video from "
+        },
+        {
+          "text": "CCTV-2025",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "CAM-9003",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "SEC-3341",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream from "
+        },
+        {
+          "text": "DRN-8006",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "employee gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display video from "
+        },
+        {
+          "text": "BC-1208",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live from "
+        },
+        {
+          "text": "XJ-2302",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the feed of "
+        },
+        {
+          "text": "CCTV-3403",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see "
+        },
+        {
+          "text": "CAM-6704",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "SEC-5011",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the stream from "
+        },
+        {
+          "text": "DRN-4109",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "service corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me footage from "
+        },
+        {
+          "text": "BC-3333",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display "
+        },
+        {
+          "text": "XJ-8801",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "CCTV-1207",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live video from "
+        },
+        {
+          "text": "CAM-5556",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "side gate",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the stream from "
+        },
+        {
+          "text": "SEC-8883",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main foyer",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me view "
+        },
+        {
+          "text": "DRN-6014",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display video from "
+        },
+        {
+          "text": "BC-4329",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream from "
+        },
+        {
+          "text": "XJ-1105",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading dock",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see "
+        },
+        {
+          "text": "CCTV-3410",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the feed from "
+        },
+        {
+          "text": "CAM-2103",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main driveway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show "
+        },
+        {
+          "text": "SEC-7004",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "DRN-5022",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "visitor corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me live from "
+        },
+        {
+          "text": "BC-8901",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the stream from "
+        },
+        {
+          "text": "XJ-2208",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access video from "
+        },
+        {
+          "text": "CCTV-4012",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me access "
+        },
+        {
+          "text": "CAM-8006",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "service ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the feed from "
+        },
+        {
+          "text": "SEC-3306",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "rear exit",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the video from "
+        },
+        {
+          "text": "DRN-1207",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "BC-7003",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access live stream from "
+        },
+        {
+          "text": "XJ-3342",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "loading bay",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the stream from "
+        },
+        {
+          "text": "CCTV-5674",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display footage from "
+        },
+        {
+          "text": "CAM-2024",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "SEC-4041",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side stairwell",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the video from "
+        },
+        {
+          "text": "DRN-9004",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "main entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show video from "
+        },
+        {
+          "text": "BC-2105",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "service entrance",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please initiate stream from "
+        },
+        {
+          "text": "CAM-7821",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "delivery ramp",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the live feed from "
+        },
+        {
+          "text": "SEC-1190",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "side passage",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Connect to "
+        },
+        {
+          "text": "DRN-4508",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "employee corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to access "
+        },
+        {
+          "text": "BC-3407",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main vestibule",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Display the stream from "
+        },
+        {
+          "text": "XJ-7783",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " focused on "
+        },
+        {
+          "text": "visitor lounge",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show "
+        },
+        {
+          "text": "CCTV-2205",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "loading bridge",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Bring up "
+        },
+        {
+          "text": "CAM-9904",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "staff corridor",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the video from "
+        },
+        {
+          "text": "SEC-3308",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "main platform",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let me see "
+        },
+        {
+          "text": "DRN-7802",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "side lobby",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Stream "
+        },
+        {
+          "text": "BC-5678",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " monitoring "
+        },
+        {
+          "text": "visitor hallway",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show footage from "
+        },
+        {
+          "text": "XJ-4450",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " covering "
+        },
+        {
+          "text": "employee lounge",
+          "entity": "camera_search_area"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Open the feed from "
+        },
+        {
+          "text": "CCTV-9082",
+          "entity": "camera_identifier"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "main terrace",
+          "entity": "camera_search_area"
+        }
+      ]
+    }
+  ]
+}

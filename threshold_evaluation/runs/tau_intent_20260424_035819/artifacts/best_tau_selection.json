@@ -1,0 +1,34 @@
+{
+  "run_id": "tau_intent_20260424_035819",
+  "generated_at": "2026-04-24T03:58:19",
+  "selection_rule": {
+    "objective": "maximize_macro_f1_global",
+    "coverage_constraint": 0.98,
+    "feasible_sort_order": [
+      "macro_f1_global desc",
+      "coverage desc",
+      "selective_accuracy desc",
+      "tau_intent asc"
+    ],
+    "infeasible_sort_order": [
+      "coverage desc",
+      "macro_f1_global desc",
+      "selective_accuracy desc",
+      "tau_intent asc"
+    ]
+  },
+  "best_feasible_tau": {
+    "tau_intent": 0.25,
+    "total_count": 1000,
+    "covered_count": 995,
+    "abstained_count": 5,
+    "coverage": 0.995,
+    "abstention_rate": 0.005,
+    "selective_accuracy": 0.8633165829145729,
+    "macro_precision_global": 0.8917908610532923,
+    "macro_recall_global": 0.859,
+    "macro_f1_global": 0.8532454629742402,
+    "feasible": true
+  },
+  "best_infeasible_tau": null
+}

@@ -1,0 +1,21 @@
+﻿dataset_name,semantic_intent,available_count,sampled_count,shortfall_count
+atis,Find a flight,4241,25,0
+atis,Find aircraft type for a flight,64,25,0
+atis,Find airlines for a route,123,25,0
+atis,Find ground transportation,208,25,0
+atis,Get airfare information,465,25,0
+atis,Get an abbreviation meaning,77,25,0
+atis,Get flight duration,54,25,0
+multiwoz,Find a hospital,75,25,0
+multiwoz,Find a hotel,1594,25,0
+multiwoz,Find a restaurant,2415,25,0
+multiwoz,Find a taxi,380,25,0
+multiwoz,Find a tourist attraction,1179,25,0
+multiwoz,Find a train,7154,25,0
+snips,Add to a playlist,1942,25,0
+snips,Book a restaurant,1973,25,0
+snips,Check weather,2000,25,0
+snips,Play a music,2000,25,0
+snips,Rate a item,1956,25,0
+snips,Search a creative work,1954,25,0
+snips,Search for movie showtimes,1959,25,0

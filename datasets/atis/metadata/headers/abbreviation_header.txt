@@ -1,0 +1,19 @@
+================================================================
+Intent: abbreviation
+Total de sentenças: 180
+Slots (presença por sentença):
+  - fare_basis_code: 42.8% (77/180)
+  - airline_code: 16.7% (30/180)
+  - airport_code: 16.1% (29/180)
+  - restriction_code: 12.8% (23/180)
+  - meal_code: 3.9% (7/180)
+  - aircraft_code: 2.2% (4/180)
+  - days_code: 2.2% (4/180)
+  - meal: 2.2% (4/180)
+  - airline_name: 1.7% (3/180)
+  - class_type: 1.1% (2/180)
+  - mod: 1.1% (2/180)
+  - booking_class: 0.6% (1/180)
+  - fromloc_city_name: 0.6% (1/180)
+  - toloc_city_name: 0.6% (1/180)
+================================================================

@@ -1,0 +1,19 @@
+﻿semantic_intent,support,n_per_intent,rounds_requested,rounds_executed,sampled_per_round,total_sampled_across_rounds,seed,full_support_anchor
+Find a hospital,75,25,1000,1000,25,25000,42,False
+Find a hotel,1594,25,1000,1000,25,25000,42,False
+Find a restaurant,2415,25,1000,1000,25,25000,42,False
+Find a taxi,380,25,1000,1000,25,25000,42,False
+Find a tourist attraction,1179,25,1000,1000,25,25000,42,False
+Find a train,7154,25,1000,1000,25,25000,42,False
+Find a hospital,75,50,1000,1000,50,50000,42,False
+Find a hotel,1594,50,1000,1000,50,50000,42,False
+Find a restaurant,2415,50,1000,1000,50,50000,42,False
+Find a taxi,380,50,1000,1000,50,50000,42,False
+Find a tourist attraction,1179,50,1000,1000,50,50000,42,False
+Find a train,7154,50,1000,1000,50,50000,42,False
+Find a hospital,75,75,1000,1000,75,75000,42,False
+Find a hotel,1594,75,1000,1000,75,75000,42,False
+Find a restaurant,2415,75,1000,1000,75,75000,42,False
+Find a taxi,380,75,1000,1000,75,75000,42,False
+Find a tourist attraction,1179,75,1000,1000,75,75000,42,False
+Find a train,7154,75,1000,1000,75,75000,42,False

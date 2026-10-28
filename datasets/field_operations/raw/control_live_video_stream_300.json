@@ -1,0 +1,4210 @@
+{
+  "Control Live Video Stream": [
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " streaming the live video now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live feed immediately?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "begin",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " broadcasting the video from the drone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the current mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Make sure to "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming before proceeding."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live broadcast until further notice."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the team to view?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream at your earliest convenience."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the command center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next ten minutes?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live feed until we resolve the issue."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream as soon as possible?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video for the break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the new location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the audience?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " broadcasting live until further instructions."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video for this session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Make sure to "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming before the briefing starts."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream once the demonstration is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video for the viewers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the confidential discussion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "re-enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for this event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Make sure to "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the issue is fixed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video for the press conference."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for a short break?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "reboot",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " off live streaming until we are ready again?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live broadcast for the event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " streaming the video feed now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "begin",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the command center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the session ends?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next mission."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "shut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " down live video for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream during the break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the issue is resolved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the confidential segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "re-enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the pause."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next phase?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for this session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the demonstration."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for a few minutes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the new segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live video for the viewers?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for this broadcast."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the private meeting?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the confidential discussion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the press conference."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video for a short break?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "reboot",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " off live video until we are ready?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the presentation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the audience."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the duration of the meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next segment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the demonstration."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the private discussion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the remote team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming until further notice?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the observers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live feed after this segment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming demonstration."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream once the test concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the briefing room?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the confidential portion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the break ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "shut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " down live streaming for this session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " off live video for the next ten minutes?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "reboot",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the private discussion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream once the technical issue is resolved?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next presentation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the remote viewers?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the confidential briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "begin",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the opening ceremony."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the demonstration?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream during the sensitive discussion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video after the break is over?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for this segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the duration of the meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the afternoon session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the main event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video during the private interview?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next round."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live feed for the press briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the keynote?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the panel discussion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the confidential session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the demonstration ends?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video during the private segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live feed after the technical break?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming now for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the upcoming session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream once the test is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the observers in the command center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the break is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the duration of the private meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream once the issue is resolved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " off live streaming until further instructions?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "shut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " down live streaming for this session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the afternoon session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the main event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the presentation ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next briefing?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the technical break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the confidential portion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the session concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming event?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream during the sensitive discussion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the system check?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the demonstration is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the team briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the Q&A session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the audience."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the control room."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video during the private meeting?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the demonstration wraps up?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the confidential segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video after the break is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video once the event concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the observers in the gallery."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after this segment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the next operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video during the confidential discussion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the afternoon session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the new event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "shut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " down live video for the remainder of the meeting?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the technical issue is fixed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream during the sensitive portion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the opening remarks?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the confidential briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the lunch break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the press area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the private session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "reboot",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next round?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " off live streaming until further instructions."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the main presentation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream during the confidential interview?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video after the Q&A session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the remote audience."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for this session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the duration of the private discussion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the upcoming demonstration."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the event ends?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next presentation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the observers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the confidential segment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the technical break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the private portion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live video for the next session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the sensitive part of the meeting?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the new operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after this segment concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the observers in the gallery?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the technical issue is resolved?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the demonstration wraps up."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the upcoming session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "terminate the live video stream now, please stop it immediately by "
+        },
+        {
+          "text": "ending",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the stream."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the confidential interview?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the next phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the break is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live video for the main event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the private segment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the upcoming operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the confidential portion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the press area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming after the lunch break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the remote audience?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "reboot",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next round?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the event concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the team in the control room."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the closing remarks."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the observers in the gallery?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream during the private meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming demonstration."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "switch off live video streaming temporarily? We need to "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the stream for a few minutes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the technical break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the next event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "shut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " down live streaming after the session ends?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the confidential portion of the meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next segment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming until the next update?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the current operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the team briefing?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming after the demonstration."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming after the break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " off live streaming for the private discussion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming during the sensitive portion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the main event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming after this session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "begin",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the control center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the confidential interview."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "shut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " down live streaming after the event ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming once the break is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the remote audience?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the session concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the next phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming during the confidential discussion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the press area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming after the Q&A session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the opening remarks."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the private portion?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the new session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming during the confidential meeting?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the technical break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the duration of the private session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the upcoming event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming after the presentation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming once the technical issue is resolved?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the next operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the operations room right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video as soon as the test is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next drill."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live broadcast after this section wraps up?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the monitoring team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream when the session concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video during the confidential briefing?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the technical issue is resolved."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next scenario."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the sensitive portion of the meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the observers in the gallery?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the private discussion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the afternoon session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the control center?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video during the confidential segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the break is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the opening remarks."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "disable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the private interview?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "begin",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video after this session wraps up?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the upcoming event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the confidential portion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live video once the technical break is over?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the remote audience."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the Q&A session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the next segment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video after the event concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the upcoming demonstration."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "shut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " down live streaming for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video for the press conference."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video during the confidential meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the system check?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "switch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the main event?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live feed during the private session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video after the break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "cut",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the confidential part of the meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the observers in the control room?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next phase."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for this session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "initiate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the next operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming event?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the break is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the session ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the next segment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "halt",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the sensitive portion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "commence",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the next phase?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "turn",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " on live streaming for the press conference."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "reactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming once the technical break is over?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "begin",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the opening ceremony."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the session concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the remote viewers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming after the lunch break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming for the next session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the main event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live video streaming after the Q&A session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the confidential portion."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Before we proceed, please "
+        },
+        {
+          "text": "start",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the control room."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the team is ready, "
+        },
+        {
+          "text": "stop",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the remainder of the meeting."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "activate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the observers in the next session?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "After the demonstration, "
+        },
+        {
+          "text": "deactivate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream as soon as possible."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "pause",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming during the confidential segment of the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need you to "
+        },
+        {
+          "text": "resume",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream after the technical break is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "launch",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the upcoming event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the briefing ends, "
+        },
+        {
+          "text": "terminate",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for this session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Kindly "
+        },
+        {
+          "text": "enable",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for the remote participants now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "When the private discussion begins, "
+        },
+        {
+          "text": "suspend",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming until further notice."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "restart",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " the live stream for the next phase of the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "After the Q&A, "
+        },
+        {
+          "text": "end",
+          "entity": "stream_control_action"
+        },
+        {
+          "text": " live streaming for this event."
+        }
+      ]
+    }
+  ]
+}

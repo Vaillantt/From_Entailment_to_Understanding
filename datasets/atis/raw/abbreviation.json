@@ -1,0 +1,2342 @@
+{
+    "abbreviation": [
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is booking class "
+                },
+                {
+                    "text": "c",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "q",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "qw",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qw",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "mco",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's the difference between fare code "
+                },
+                {
+                    "text": "q",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " and fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "mco",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "yn",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ord",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's fare code "
+                },
+                {
+                    "text": "yn",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "bna",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain the restriction "
+                },
+                {
+                    "text": "ap 80",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the abbreviation "
+                },
+                {
+                    "text": "dl",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the fare code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " and what is the fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ua",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "m",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "sa",
+                    "entity": "days_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "fn",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " under fare code mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "hp",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qo",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the abbreviation "
+                },
+                {
+                    "text": "co",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain the restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "us",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "hp",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "define airline "
+                },
+                {
+                    "text": "us",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "code "
+                },
+                {
+                    "text": "ff",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ea",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the abbreviation "
+                },
+                {
+                    "text": "ua",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "bur",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ff",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain restriction "
+                },
+                {
+                    "text": "ap",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " please"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is restriction "
+                },
+                {
+                    "text": "ap 80",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "d s",
+                    "entity": "meal_code"
+                },
+                {
+                    "text": " stand for for "
+                },
+                {
+                    "text": "meals",
+                    "entity": "meal"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "qo",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ls",
+                    "entity": "meal_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "mco",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ea",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " restriction"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "s",
+                    "entity": "meal_code"
+                },
+                {
+                    "text": " designate as a "
+                },
+                {
+                    "text": "meal",
+                    "entity": "meal"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "hou",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what 's the difference between fare code "
+                },
+                {
+                    "text": "q",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " and fare code "
+                },
+                {
+                    "text": "b",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "fare code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " what does that mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "as",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the fare code "
+                },
+                {
+                    "text": "yn",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the code for "
+                },
+                {
+                    "text": "business class",
+                    "entity": "class_type"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the "
+                },
+                {
+                    "text": "meal",
+                    "entity": "meal"
+                },
+                {
+                    "text": " code "
+                },
+                {
+                    "text": "s",
+                    "entity": "meal_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "q",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "yn",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what are fare codes "
+                },
+                {
+                    "text": "qw",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does restriction "
+                },
+                {
+                    "text": "ap 80",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is restriction "
+                },
+                {
+                    "text": "ap 55",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ff",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare class "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "show me what fare codes symbols stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what fare codes cover flights from "
+                },
+                {
+                    "text": "philadelphia",
+                    "entity": "fromloc_city_name"
+                },
+                {
+                    "text": " to "
+                },
+                {
+                    "text": "san francisco",
+                    "entity": "toloc_city_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "co",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "mco",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "fn",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does code "
+                },
+                {
+                    "text": "yn",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "does "
+                },
+                {
+                    "text": "dl",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stand for "
+                },
+                {
+                    "text": "delta",
+                    "entity": "airline_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "yn",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "mco",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "hp",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the meaning of fare code "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " and "
+                },
+                {
+                    "text": "qw",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the fare code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the meaning of "
+                },
+                {
+                    "text": "meal code s",
+                    "entity": "meal_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the fare code "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "c",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain the fare code "
+                },
+                {
+                    "text": "q",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "mia",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the abbreviation for "
+                },
+                {
+                    "text": "canadian airlines international",
+                    "entity": "airline_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "dfw",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "sa",
+                    "entity": "days_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "lax",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "nw",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "dl",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "does "
+                },
+                {
+                    "text": "dl",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stand for "
+                },
+                {
+                    "text": "delta",
+                    "entity": "airline_name"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ord",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "sa",
+                    "entity": "days_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qo",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the "
+                },
+                {
+                    "text": "ap57",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " restriction"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "us",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "could you tell me what the abbreviation "
+                },
+                {
+                    "text": "us",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stands for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "us",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "yyz",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " and fn mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "m",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the abbreviation "
+                },
+                {
+                    "text": "d10",
+                    "entity": "aircraft_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ua",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain restriction "
+                },
+                {
+                    "text": "ap80",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "iah",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "describe fare code "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does code "
+                },
+                {
+                    "text": "qw",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "please explain fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "define airline "
+                },
+                {
+                    "text": "ua",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "is fare code "
+                },
+                {
+                    "text": "b",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " the "
+                },
+                {
+                    "text": "same",
+                    "entity": "mod"
+                },
+                {
+                    "text": " as "
+                },
+                {
+                    "text": "business class",
+                    "entity": "class_type"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qo",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ua",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "i 'd like to see the fare code again "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does restriction "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain fare code "
+                },
+                {
+                    "text": "qx",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain "
+                },
+                {
+                    "text": "meal",
+                    "entity": "meal"
+                },
+                {
+                    "text": " codes "
+                },
+                {
+                    "text": "sd d",
+                    "entity": "meal_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "explain the fare codes"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "mco",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ff",
+                    "entity": "airline_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ap57",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is the meaning of restriction "
+                },
+                {
+                    "text": "ap80",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qo",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ewr",
+                    "entity": "airport_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the fare code "
+                },
+                {
+                    "text": "qw",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qo",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is meal code "
+                },
+                {
+                    "text": "sb",
+                    "entity": "meal_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "m",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "hp",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "bn",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ua",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "q",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "m",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "ap 20",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "phl",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "mci",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does "
+                },
+                {
+                    "text": "not",
+                    "entity": "mod"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "sa",
+                    "entity": "days_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "tpa",
+                    "entity": "airport_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "qo",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what the abbreviation "
+                },
+                {
+                    "text": "us",
+                    "entity": "airline_code"
+                },
+                {
+                    "text": " stand for"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "y",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what are restrictions "
+                },
+                {
+                    "text": "ap 57",
+                    "entity": "restriction_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "bh",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "bh",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "bh",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "bh",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "bh",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "f",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does the restriction "
+                },
+                {
+                    "text": "ap58",
+                    "entity": "restriction_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what does fare code "
+                },
+                {
+                    "text": "h",
+                    "entity": "fare_basis_code"
+                },
+                {
+                    "text": " mean"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what class is fare code "
+                },
+                {
+                    "text": "q",
+                    "entity": "booking_class"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is a "
+                },
+                {
+                    "text": "d9s",
+                    "entity": "aircraft_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is a "
+                },
+                {
+                    "text": "d9s",
+                    "entity": "aircraft_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "73s",
+                    "entity": "aircraft_code"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "text": "what is "
+                },
+                {
+                    "text": "cvg",
+                    "entity": "airport_code"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "Find a tourist attraction": {
+      "slots": {
+        "attraction type": {
+          "hypothesis": "The type of place is \"{}\"",
+          "question": "What type of place is requested or mentioned in the text?"
+        },
+        "area": {
+          "hypothesis": "The location is \"{}\"",
+          "question": "What location or part of town is mentioned in the text?"
+        },
+        "attraction name": {
+          "hypothesis": "The place name is \"{}\"",
+          "question": "What is the name of the place mentioned in the text?"
+        }
+      }
+    },
+  
+    "Find a hospital": {
+      "slots": {
+        "hospital department": {
+          "hypothesis": "The hospital department is \"{}\"",
+          "question": "What hospital department or specialty is mentioned in the text?"
+        }
+      }
+    },
+  
+    "Find a hotel": {
+      "slots": {
+        "hotel type": {
+          "hypothesis": "The hotel type is \"{}\"",
+          "question": "What type of accommodation (e.g., hotel, guesthouse) is mentioned in the text?"
+        },
+        "hotel name": {
+          "hypothesis": "The hotel name is \"{}\"",
+          "question": "What is the name of the hotel mentioned in the text?"
+        },
+        "area": {
+          "hypothesis": "The area is \"{}\"",
+          "question": "What area or part of town is mentioned in the text?"
+        },
+        "price range": {
+          "hypothesis": "The price range is \"{}\"",
+          "question": "What price range is requested or mentioned in the text?"
+        },
+        "star rating": {
+          "hypothesis": "The star rating is \"{}\"",
+          "question": "What star rating is requested or mentioned in the text?"
+        }
+      }
+    },
+  
+    "Find a restaurant": {
+      "slots": {
+        "cuisine type": {
+          "hypothesis": "The restaurant cuisine type is \"{}\"",
+          "question": "What cuisine or dining style is mentioned in the text (e.g., Chinese, bistro, gastropub, fusion)?"
+        },
+        "area": {
+          "hypothesis": "The restaurant should be in the \"{}\" part of town",
+          "question": "What part of town (e.g., north, south, east, west, centre) is mentioned in the text?"
+        },
+        "price range": {
+          "hypothesis": "The restaurant price range is \"{}\"",
+          "question": "What price range is requested for the restaurant (cheap, moderate, expensive)?"
+        },
+        "restaurant name": {
+          "hypothesis": "The restaurant name is \"{}\"",
+          "question": "What is the name of the restaurant mentioned?"
+        }
+      }
+    },
+  
+    "Find a taxi": {
+      "slots": {
+        "destination": {
+          "hypothesis": "The taxi destination is \"{}\"",
+          "question": "What is the destination for the taxi ride mentioned in the text?"
+        },
+        "departure location": {
+          "hypothesis": "The taxi departure location is \"{}\"",
+          "question": "What is the departure location for the taxi ride mentioned in the text?"
+        },
+        "leave at time": {
+          "hypothesis": "The taxi leave at time is \"{}\"",
+          "question": "What time does the user want to leave at for the taxi ride?"
+        },
+        "arrive by time": {
+          "hypothesis": "The taxi arrive by time is \"{}\"",
+          "question": "What time does the user want to arrive by for the taxi ride?"
+        }
+      }
+    },
+  
+    "Find a train": {
+      "slots": {
+        "destination": {
+          "hypothesis": "The train destination is \"{}\"",
+          "question": "What is the destination for the train trip mentioned in the text?"
+        },
+        "departure location": {
+          "hypothesis": "The train departure location is \"{}\"",
+          "question": "What is the departure location for the train trip mentioned in the text?"
+        },
+        "arrive by time": {
+          "hypothesis": "The train arrive by time is \"{}\"",
+          "question": "What time does the user want to arrive by for the train trip?"
+        },
+        "leave at time": {
+          "hypothesis": "The train leave at time is \"{}\"",
+          "question": "What time does the user want to leave at for the train trip?"
+        },
+        "travel day": {
+          "hypothesis": "The travel day is \"{}\"",
+          "question": "What travel day is mentioned in the text?"
+        }
+      }
+    }
+  }
+  

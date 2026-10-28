@@ -1,0 +1,19 @@
+================================================================
+Intent: BookRestaurant
+Total de sentenças: 1973
+Slots (presença por sentença):
+  - restaurant_type: 68.2% (1345/1973)
+  - party_size_number: 52.0% (1025/1973)
+  - timeRange: 34.2% (674/1973)
+  - state: 26.3% (519/1973)
+  - city: 26.0% (513/1973)
+  - country: 18.0% (356/1973)
+  - restaurant_name: 17.2% (339/1973)
+  - party_size_description: 16.1% (317/1973)
+  - spatial_relation: 16.0% (316/1973)
+  - served_dish: 13.7% (270/1973)
+  - cuisine: 10.7% (211/1973)
+  - sort: 10.3% (203/1973)
+  - facility: 8.1% (160/1973)
+  - poi: 7.2% (143/1973)
+================================================================

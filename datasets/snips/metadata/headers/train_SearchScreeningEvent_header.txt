@@ -1,0 +1,12 @@
+================================================================
+Intent: SearchScreeningEvent
+Total de sentenças: 1959
+Slots (presença por sentença):
+  - movie_name: 41.4% (812/1959)
+  - object_type: 39.2% (767/1959)
+  - movie_type: 35.7% (699/1959)
+  - spatial_relation: 35.3% (691/1959)
+  - location_name: 30.1% (590/1959)
+  - object_location_type: 24.1% (472/1959)
+  - timeRange: 13.5% (265/1959)
+================================================================

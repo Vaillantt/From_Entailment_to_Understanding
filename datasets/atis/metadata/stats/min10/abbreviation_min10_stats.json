@@ -1,0 +1,27 @@
+{
+  "min_occ": 10,
+  "intents": {
+    "abbreviation": {
+      "examples_before": 180,
+      "examples_after": 159,
+      "kept_slots": [
+        "airline_code",
+        "airport_code",
+        "fare_basis_code",
+        "restriction_code"
+      ],
+      "removed_slots": [
+        "aircraft_code",
+        "airline_name",
+        "booking_class",
+        "class_type",
+        "days_code",
+        "fromloc_city_name",
+        "meal",
+        "meal_code",
+        "mod",
+        "toloc_city_name"
+      ]
+    }
+  }
+}

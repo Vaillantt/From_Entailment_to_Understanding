@@ -1,0 +1,28 @@
+================================================================
+Intent: aircraft
+Total de sentenças: 90
+Slots (presença por sentença):
+  - fromloc_city_name: 71.1% (64/90)
+  - toloc_city_name: 70.0% (63/90)
+  - airline_name: 28.9% (26/90)
+  - depart_time_time: 28.9% (26/90)
+  - depart_time_time_relative: 24.4% (22/90)
+  - depart_time_period_of_day: 10.0% (9/90)
+  - flight_number: 8.9% (8/90)
+  - mod: 8.9% (8/90)
+  - aircraft_code: 7.8% (7/90)
+  - class_type: 7.8% (7/90)
+  - airline_code: 6.7% (6/90)
+  - depart_date_day_number: 6.7% (6/90)
+  - depart_date_month_name: 6.7% (6/90)
+  - depart_date_day_name: 4.4% (4/90)
+  - stoploc_city_name: 4.4% (4/90)
+  - arrive_date_day_number: 3.3% (3/90)
+  - arrive_date_month_name: 3.3% (3/90)
+  - flight_mod: 3.3% (3/90)
+  - toloc_state_code: 3.3% (3/90)
+  - arrive_date_day_name: 1.1% (1/90)
+  - arrive_time_time: 1.1% (1/90)
+  - arrive_time_time_relative: 1.1% (1/90)
+  - city_name: 1.1% (1/90)
+================================================================

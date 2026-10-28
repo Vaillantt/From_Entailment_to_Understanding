@@ -1,0 +1,15 @@
+﻿semantic_intent,support,n_per_intent,rounds_requested,rounds_executed,sampled_per_round,total_sampled_across_rounds,seed,full_support_anchor
+Find a flight,4241,25,1000,1000,25,25000,42,False
+Find aircraft type for a flight,64,25,1000,1000,25,25000,42,False
+Find airlines for a route,123,25,1000,1000,25,25000,42,False
+Find ground transportation,208,25,1000,1000,25,25000,42,False
+Get airfare information,465,25,1000,1000,25,25000,42,False
+Get an abbreviation meaning,77,25,1000,1000,25,25000,42,False
+Get flight duration,54,25,1000,1000,25,25000,42,False
+Find a flight,4241,50,1000,1000,50,50000,42,False
+Find aircraft type for a flight,64,50,1000,1000,50,50000,42,False
+Find airlines for a route,123,50,1000,1000,50,50000,42,False
+Find ground transportation,208,50,1000,1000,50,50000,42,False
+Get airfare information,465,50,1000,1000,50,50000,42,False
+Get an abbreviation meaning,77,50,1000,1000,50,50000,42,False
+Get flight duration,54,50,1000,1000,50,50000,42,False

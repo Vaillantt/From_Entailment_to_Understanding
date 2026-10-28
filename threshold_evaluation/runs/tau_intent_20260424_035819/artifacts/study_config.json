@@ -1,0 +1,298 @@
+{
+  "run_id": "tau_intent_20260424_035819",
+  "generated_at": "2026-04-24T03:58:19",
+  "repo_root": "E:\\Intent_Slot_Code",
+  "registry_path": "E:\\Intent_Slot_Code\\datasets\\metadata\\semantic_alias_registry.json",
+  "sampling_seed": 42,
+  "samples_per_intent": 50,
+  "tau_grid": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "unknown_intent_label": "UNK_INTENT",
+  "slot_delimiter": " || ",
+  "intent_batch_size": 16,
+  "device": 0,
+  "reuse_cached_top1_scores": true,
+  "dataset_paths": [
+    "E:\\Intent_Slot_Code\\datasets\\snips\\raw\\train_AddToPlaylist_full.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\raw\\train_BookRestaurant_full.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\raw\\train_GetWeather_full.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_PlayMusic_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_RateBook_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_SearchCreativeWork_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\snips\\processed\\clean\\train_SearchScreeningEvent_full_clean.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_attraction__find_attraction.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_hospital__find_hospital.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_hotel__find_hotel.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_restaurant__find_restaurant.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_taxi__find_taxi.json",
+    "E:\\Intent_Slot_Code\\datasets\\multiwoz\\processed\\with_slots\\slots_train__find_train.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\abbreviation_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\aircraft_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\airfare_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\airline_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\flight_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\flight_time_min50.json",
+    "E:\\Intent_Slot_Code\\datasets\\atis\\processed\\filtered\\min50\\ground_service_min50.json"
+  ],
+  "dataset_names": [
+    "atis",
+    "multiwoz",
+    "snips"
+  ],
+  "candidate_intents": [
+    "Add to a playlist",
+    "Book a restaurant",
+    "Check weather",
+    "Find a flight",
+    "Find a hospital",
+    "Find a hotel",
+    "Find a restaurant",
+    "Find a taxi",
+    "Find a tourist attraction",
+    "Find a train",
+    "Find aircraft type for a flight",
+    "Find airlines for a route",
+    "Find ground transportation",
+    "Get airfare information",
+    "Get an abbreviation meaning",
+    "Get flight duration",
+    "Play a music",
+    "Rate a item",
+    "Search a creative work",
+    "Search for movie showtimes"
+  ],
+  "candidate_intents_by_dataset": {
+    "atis": [
+      "Get an abbreviation meaning",
+      "Find aircraft type for a flight",
+      "Get airfare information",
+      "Find airlines for a route",
+      "Find a flight",
+      "Get flight duration",
+      "Find ground transportation"
+    ],
+    "multiwoz": [
+      "Find a tourist attraction",
+      "Find a hospital",
+      "Find a hotel",
+      "Find a restaurant",
+      "Find a taxi",
+      "Find a train"
+    ],
+    "snips": [
+      "Add to a playlist",
+      "Book a restaurant",
+      "Check weather",
+      "Play a music",
+      "Rate a item",
+      "Search a creative work",
+      "Search for movie showtimes"
+    ]
+  },
+  "sample_counts_by_dataset_intent": [
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find a flight",
+      "available_count": 4241,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find aircraft type for a flight",
+      "available_count": 64,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find airlines for a route",
+      "available_count": 123,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Find ground transportation",
+      "available_count": 208,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Get airfare information",
+      "available_count": 465,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Get an abbreviation meaning",
+      "available_count": 77,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "atis",
+      "semantic_intent": "Get flight duration",
+      "available_count": 54,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a hospital",
+      "available_count": 75,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a hotel",
+      "available_count": 1594,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a restaurant",
+      "available_count": 2415,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a taxi",
+      "available_count": 380,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a tourist attraction",
+      "available_count": 1179,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "multiwoz",
+      "semantic_intent": "Find a train",
+      "available_count": 7154,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Add to a playlist",
+      "available_count": 1942,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Book a restaurant",
+      "available_count": 1973,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Check weather",
+      "available_count": 2000,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Play a music",
+      "available_count": 2000,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Rate a item",
+      "available_count": 1956,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Search a creative work",
+      "available_count": 1954,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    },
+    {
+      "dataset_name": "snips",
+      "semantic_intent": "Search for movie showtimes",
+      "available_count": 1959,
+      "sampled_count": 50,
+      "shortfall_count": 0
+    }
+  ],
+  "artifacts": {
+    "sampled_dataset_view": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\sampled_dataset_view.csv",
+    "sampled_semantic_view": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\sampled_semantic_view.csv",
+    "sample_counts": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\sample_counts_by_dataset_intent.csv",
+    "top1_cache": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\public_calibration_pool_top1_scores.csv",
+    "tau_sweep_overall": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\tau_intent_sweep_overall.csv",
+    "tau_sweep_by_dataset": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\tau_intent_sweep_by_dataset.csv",
+    "tau_sweep_by_intent": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\tau_intent_sweep_by_intent.csv",
+    "best_tau_selection": "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\artifacts\\best_tau_selection.json"
+  },
+  "model_snapshot": {
+    "nli_model_name": "MoritzLaurer/ModernBERT-large-zeroshot-v2.0",
+    "qa_model_name": "ahotrod/deberta-v3-large-finetuned-squadv2",
+    "spacy_model": "en_core_web_sm",
+    "index_path": "E:\\Intent_Slot_Code\\retrieval\\2025_sparse_wikititle_index",
+    "device": 0
+  },
+  "written_gold_paths": {
+    "dataset_csv": [
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\atis_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\flight_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\aircraft_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\airline_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\ground_service_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\airfare_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\abbreviation_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\atis\\dataset_csv\\flight_time_min50_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\multiwoz\\dataset_csv\\multiwoz_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\multiwoz\\dataset_csv\\slots_hospital__find_hospital_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\multiwoz\\dataset_csv\\slots_hotel__find_hotel_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\multiwoz\\dataset_csv\\slots_restaurant__find_restaurant_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\multiwoz\\dataset_csv\\slots_taxi__find_taxi_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\multiwoz\\dataset_csv\\slots_attraction__find_attraction_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\multiwoz\\dataset_csv\\slots_train__find_train_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\snips_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\AddToPlaylist_full_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\BookRestaurant_full_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\GetWeather_full_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\PlayMusic_full_clean_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\RateBook_full_clean_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\SearchCreativeWork_full_clean_dataset.csv",
+      "E:\\Intent_Slot_Code\\threshold_evaluation\\runs\\tau_intent_20260424_035819\\evaluation\\snips\\dataset_csv\\SearchScreeningEvent_full_clean_dataset.csv"
+    ],
+    "results_csv": []
+  }
+}

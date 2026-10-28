@@ -1,0 +1,12 @@
+================================================================
+Intent: RateBook
+Total de sentenças: 1956
+Slots (presença por sentença):
+  - rating_value: 100.0% (1956/1956)
+  - rating_unit: 57.3% (1121/1956)
+  - best_rating: 53.7% (1050/1956)
+  - object_select: 50.2% (982/1956)
+  - object_name: 50.1% (979/1956)
+  - object_type: 48.4% (947/1956)
+  - object_part_of_series_type: 15.8% (309/1956)
+================================================================

@@ -1,0 +1,4204 @@
+{
+  "Location Sharing": [
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "begin",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " sharing my location now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for this operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing immediately."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until further notice?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let's "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Make sure to "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the mission."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Is it possible to "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " sharing my location right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for this shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with command?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "end",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for today."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Would you "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my unit?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for the next hour."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " sharing my location until I say otherwise?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at this point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the rest of the day?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let's "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for all team members."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after we reach base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing during the break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the operations center."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next hour?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing as soon as possible."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for this session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location every thirty minutes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "end",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing at the end of the shift?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my account."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " sharing my location for the next two hours?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for this patrol."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until further instructions."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the supervisor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the lunch break?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing when I leave the site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my shift?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the night."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the group."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "end",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the operation is complete?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next mission."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing once we reach the rendezvous point?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my current operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "After the drill, "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my unit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the field team?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the briefing is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when I leave headquarters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next scheduled interval?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of my patrol."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the meeting ends, "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my account."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for all team leaders?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after we complete the sweep."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing during the debrief."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device immediately?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the exercise concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the command center now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for the next two hours?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "end",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing at midnight."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the rest of the shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location every hour during the operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire squad."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once we return to base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the meeting?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the event ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the rest of the day?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the backup team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the logistics group."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my patrol route?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until further notice."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once I leave the building."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at every checkpoint?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the drill."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the operation is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next thirty minutes?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the emergency response."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing when I arrive at the site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the rest of the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the incident commander."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my current assignment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after this task is completed?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once the drill is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the designated checkpoint?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the team is mobile again."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the patrol ends?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing during the briefing session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my unit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the safety officer."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of this mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once we reach the extraction point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next two hours."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the team returns?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the start of my shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the operation resumes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my current location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the meeting is finished?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the event concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my squad during the exercise?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the shift change."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the new operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the last team member checks out."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next scheduled stop?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the remainder of the mission."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the sweep is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the break?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my assigned group."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the operations manager."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the backup team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the final check-in?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the upcoming drill."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the exercise is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at every major waypoint?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the lunch break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Go ahead and "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for the next shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next update."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the field crew?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once the mission is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the mission."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once we reach the checkpoint, "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team during this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "After the operation, "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my account."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire squad now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my unit after the break?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at this position."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing when the drill ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my shift?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the mission is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the operations team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next patrol?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the operation starts, "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my group."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until further instructions."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after this event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device during the exercise?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the team is ready."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next scheduled time."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the team returns."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the command staff?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of my shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the meeting is over, "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my account."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next check-in?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my current assignment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the task is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for the backup team?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the patrol."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at each checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the lunch break."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my group during the event?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next update."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the operation is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the exercise."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the logistics team?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the rest of the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my current mission."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team immediately."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after this mission."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the drill?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once we arrive at the site, "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next briefing session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the operation begins again?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the field supervisor now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for the next patrol shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the sweep is finished?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire response team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next scheduled stop?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my group during the event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the mission is complete."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my unit right away?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next scheduled update."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the backup crew during this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the team checks in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the briefing is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the logistics coordinator?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the last checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device for the next mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once the task is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for the duration of the shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next team update?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the operation concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at every scheduled interval?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my squad during the drill."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the patrol is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next command."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team after the break?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing when the event is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after this assignment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the field team now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the last member checks in?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the incident manager."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my patrol group."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next scheduled briefing?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the operation restarts."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "After the mission begins, please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Make sure to "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once the team is back at base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my group during this shift?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing while we are in the secure zone."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the rally point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my account now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire response unit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the sweep is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the operation ends, "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my squad immediately?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing when the last member leaves the site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the command group."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the next scheduled patrol?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next team briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the drill is complete?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my assigned patrol."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at every major intersection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my account during this mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the operation concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next scheduled check-in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the backup response team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the event wraps up?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the rest of the shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing when the team is dismissed."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the logistics crew now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the last sweep."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the security coordinator."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device during this assignment?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the task is finished."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my team for the next hour."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next update from command?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the team is ready to move."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the mission wraps up."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next waypoint?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my group during the exercise."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the operation is over."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the field team as soon as possible?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next scheduled briefing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of this assignment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Before we move out, please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Make sure to "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once the last group returns."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my account for this operation?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing while we are in the secure area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team after the break ends?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire group during the drill."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the team checks out."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the sweep is complete, please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing for my squad."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my section until the end of the mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the last checkpoint is reached."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my device for this shift?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the operations desk right now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the team is back in the field."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at every major intersection?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my unit during the exercise."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the operation ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my group during this event?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the last team member checks in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my patrol for the next two hours."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next team meeting?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my squad throughout the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the event wraps up."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the backup team during the mission?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next rally point."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing after the team returns to base?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next scheduled check-in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my device for this assignment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the operation is complete?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once the last sweep is done."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my account during this event?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team as soon as possible."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next command update."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the logistics crew during this shift?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the mission concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at every scheduled stop."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my patrol right now?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "After the operation begins, please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my squad."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Make sure to "
+        },
+        {
+          "text": "disable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing once the team is back at headquarters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next scheduled report?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my team during the night shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the exercise concludes."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the team is deployed again?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the last member checks in."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the main entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " on location sharing for my device during this event."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the emergency coordinator?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Once the drill is complete, "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing for my account."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the duration of the training session."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing while we are in the secure facility?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "activate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the entire crew during the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "stop",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the last patrol returns."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "resume",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing when the briefing ends."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you "
+        },
+        {
+          "text": "deactivate",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing after the mission wraps up?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "start",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for my assigned section."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check-in",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location at the next major intersection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "turn",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " off location sharing when the team leaves the area?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Let’s "
+        },
+        {
+          "text": "enable",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing for the backup unit during the operation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "pause",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " location sharing until the next scheduled update."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "share",
+          "entity": "location_sharing_action"
+        },
+        {
+          "text": " my location with the safety manager immediately."
+        }
+      ]
+    }
+  ]
+}

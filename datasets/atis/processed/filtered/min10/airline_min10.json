@@ -1,0 +1,3364 @@
+{
+  "airline": [
+    {
+      "data": [
+        {
+          "text": "which airline serves "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines with "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline has the "
+        },
+        {
+          "text": "most"
+        },
+        {
+          "text": " arrivals in "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "new york",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "milwaukee",
+          "entity": "stoploc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "los angeles",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "could you please tell me the airlines that fly from "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san diego",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "of all airlines which airline has the "
+        },
+        {
+          "text": "most"
+        },
+        {
+          "text": " arrivals in "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline has the "
+        },
+        {
+          "text": "smallest"
+        },
+        {
+          "text": " plane leaving "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and arriving in "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fourth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can you list all the airlines that have flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline can fly me from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline provides "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have flights between "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines between "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is airline "
+        },
+        {
+          "text": "us",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and stop in "
+        },
+        {
+          "text": "denver",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "airline code "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please tell me which airline has the "
+        },
+        {
+          "text": "most"
+        },
+        {
+          "text": " departures from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " but stopover in some other city"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please list all airline flights between "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "airlines that fly to "
+        },
+        {
+          "text": "miami",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "new york",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "friday"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines go from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines have "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " airlines from "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "next"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tuesday"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " only"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "do you have any airlines that would stop at "
+        },
+        {
+          "text": "denver",
+          "entity": "stoploc_city_name"
+        },
+        {
+          "text": " on the way from "
+        },
+        {
+          "text": "baltimore",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "does any airline have an "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "oakland",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is airline "
+        },
+        {
+          "text": "dl",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly between "
+        },
+        {
+          "text": "baltimore",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of airline is flight "
+        },
+        {
+          "text": "ua",
+          "entity": "airline_code"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "281"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline is the "
+        },
+        {
+          "text": "cheapest"
+        },
+        {
+          "text": " to fly from "
+        },
+        {
+          "text": "dallas",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "december"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "twenty fourth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines that fly between "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have flights from "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " by way of "
+        },
+        {
+          "text": "indianapolis",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show all airlines with flights between "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with service from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is airline "
+        },
+        {
+          "text": "nw",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is the flight originating in "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "november"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "seventh"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "noon"
+        },
+        {
+          "text": " and arriving in "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "210 pm"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines flies out of "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what does the airline code "
+        },
+        {
+          "text": "dl",
+          "entity": "airline_code"
+        },
+        {
+          "text": " stand for"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines have "
+        },
+        {
+          "text": "nonstop"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "early"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me a list of all the airlines that offer "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        },
+        {
+          "text": " service"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san diego",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and have a stopover in "
+        },
+        {
+          "text": "denver",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline offers the "
+        },
+        {
+          "text": "cheapest"
+        },
+        {
+          "text": " rate going from "
+        },
+        {
+          "text": "dallas",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "july"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fourth"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with flights from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " stop "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with flights from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "tell me which airlines have flights from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "monday"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "september"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "second"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines from "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "columbus",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me airlines going from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " going to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and then continuing to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "monday"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what kind of airline is flight "
+        },
+        {
+          "text": "ua",
+          "entity": "airline_code"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "281"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "define airline "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with flight service from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights "
+        },
+        {
+          "text": "today"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly between "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly between "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "are there any airlines that have flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " that leave "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "630 am"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "does any airline offer "
+        },
+        {
+          "text": "dc10"
+        },
+        {
+          "text": " service between "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is airline "
+        },
+        {
+          "text": "ff",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have "
+        },
+        {
+          "text": "daily"
+        },
+        {
+          "text": " flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show all airlines flying from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines are "
+        },
+        {
+          "text": "ac",
+          "entity": "airline_code"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with flights from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " with a stopover in "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me all airlines with "
+        },
+        {
+          "text": "sunday"
+        },
+        {
+          "text": " flights from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " via other cities"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "toronto",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with flights from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " with stop in "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines have flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " that leave "
+        },
+        {
+          "text": "before"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "630 am"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san diego",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline has the "
+        },
+        {
+          "text": "most"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline "
+        },
+        {
+          "text": "besides"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "continental"
+        },
+        {
+          "text": " flies between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "dl",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline uses the code "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with "
+        },
+        {
+          "text": "round trip"
+        },
+        {
+          "text": " flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " stop "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have flights between "
+        },
+        {
+          "text": "charlotte",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "newark",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines leave from "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly into "
+        },
+        {
+          "text": "salt lake city",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is airline "
+        },
+        {
+          "text": "nw",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "ea",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "does any airline have an "
+        },
+        {
+          "text": "early"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me airlines with flights from "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " please"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can you tell me what airline flies between "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines that fly from "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines go from "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " by way of "
+        },
+        {
+          "text": "indianapolis",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline has "
+        },
+        {
+          "text": "more"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        },
+        {
+          "text": " flights than any other airline"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have connections between "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines have "
+        },
+        {
+          "text": "business class",
+          "entity": "class_type"
+        },
+        {
+          "text": " service between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "please show me airlines with flights from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "bwi"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dallas fort worth",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "dl",
+          "entity": "airline_code"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "98"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "st. petersburg",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "milwaukee",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and from "
+        },
+        {
+          "text": "milwaukee",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "tacoma",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines that fly from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san diego",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " with a stopover in "
+        },
+        {
+          "text": "denver",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "burbank",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "do the airlines still offer "
+        },
+        {
+          "text": "first class",
+          "entity": "class_type"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "dallas",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "does any airline have an "
+        },
+        {
+          "text": "early"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have flights from "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list all the airlines flying between "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " via other cities"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "can i take a single airline from "
+        },
+        {
+          "text": "la",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "charlotte",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "newark",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " back to "
+        },
+        {
+          "text": "la",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines that fly from "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines provide "
+        },
+        {
+          "text": "direct"
+        },
+        {
+          "text": " flights between "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me the airlines that fly from "
+        },
+        {
+          "text": "san francisco",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines have "
+        },
+        {
+          "text": "nonstop"
+        },
+        {
+          "text": " flights from "
+        },
+        {
+          "text": "kansas city",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "chicago",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "does any airline have a jet flight between "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "baltimore",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "is there an airline that has a flight from "
+        },
+        {
+          "text": "philadelphia",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " with a stop in "
+        },
+        {
+          "text": "dallas",
+          "entity": "stoploc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "ac",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "does any airline have an "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " flight from "
+        },
+        {
+          "text": "atlanta",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "boston",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "ea",
+          "entity": "airline_code"
+        },
+        {
+          "text": " the abbreviation for"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline stands for "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "atlanta",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me airlines between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which companies fly between "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "oakland",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list airlines serving between "
+        },
+        {
+          "text": "denver",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list the airlines that have "
+        },
+        {
+          "text": "nonstop"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": " flights from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "oakland",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "washington",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "is there an airline that services "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "dallas",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "airline that stands for "
+        },
+        {
+          "text": "dl",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines have flights from "
+        },
+        {
+          "text": "baltimore",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "seattle",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines go to "
+        },
+        {
+          "text": "pittsburgh",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly between "
+        },
+        {
+          "text": "detroit",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "westchester county",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline flies from "
+        },
+        {
+          "text": "boston",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san diego",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which different airlines go from "
+        },
+        {
+          "text": "las vegas",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "new york city",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly between "
+        },
+        {
+          "text": "washington",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dc"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "columbus",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ohio"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines are departing from "
+        },
+        {
+          "text": "baltimore",
+          "entity": "fromloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly from "
+        },
+        {
+          "text": "baltimore",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list airlines flying from "
+        },
+        {
+          "text": "seattle",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "salt lake city",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly from "
+        },
+        {
+          "text": "baltimore",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "san francisco",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "i would like to have the airline that flies "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "detroit",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "st. louis",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what is airline "
+        },
+        {
+          "text": "wn",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "show me airlines that have flights between "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "detroit",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " between "
+        },
+        {
+          "text": "detroit",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "st. louis",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and between "
+        },
+        {
+          "text": "st. louis",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "toronto",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "us",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "dl",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "aa",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airlines fly between "
+        },
+        {
+          "text": "toronto",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "san diego",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "dl",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline is "
+        },
+        {
+          "text": "kw",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "us",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline is "
+        },
+        {
+          "text": "us",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline is "
+        },
+        {
+          "text": "us",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline is "
+        },
+        {
+          "text": "us",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline is "
+        },
+        {
+          "text": "us",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "yx",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        },
+        {
+          "text": " as in sam"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airline is "
+        },
+        {
+          "text": "hp",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "list airlines that fly from "
+        },
+        {
+          "text": "seattle",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "salt lake city",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "what airlines fly into "
+        },
+        {
+          "text": "denver",
+          "entity": "toloc_city_name"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "which airline is "
+        },
+        {
+          "text": "as",
+          "entity": "airline_code"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "is there one airline that flies from "
+        },
+        {
+          "text": "burbank",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "milwaukee",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "milwaukee",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "st. louis",
+          "entity": "toloc_city_name"
+        },
+        {
+          "text": " and from "
+        },
+        {
+          "text": "st. louis",
+          "entity": "fromloc_city_name"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "burbank",
+          "entity": "toloc_city_name"
+        }
+      ]
+    }
+  ]
+}

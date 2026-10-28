@@ -1,0 +1,64 @@
+﻿semantic_intent,support,n_per_intent,rounds_requested,rounds_executed,sampled_per_round,total_sampled_across_rounds,seed,full_support_anchor
+Access External Cameras,300,25,1000,1000,25,25000,42,False
+Confirm Movement Milestone,300,25,1000,1000,25,25000,42,False
+Control Live Video Stream,300,25,1000,1000,25,25000,42,False
+Incident Status,300,25,1000,1000,25,25000,42,False
+Location Sharing,300,25,1000,1000,25,25000,42,False
+Lookup Operational Record,300,25,1000,1000,25,25000,42,False
+Medical Evacuation,300,25,1000,1000,25,25000,42,False
+Request Additional Support,300,25,1000,1000,25,25000,42,False
+Request Procedure Guidance,300,25,1000,1000,25,25000,42,False
+Access External Cameras,300,50,1000,1000,50,50000,42,False
+Confirm Movement Milestone,300,50,1000,1000,50,50000,42,False
+Control Live Video Stream,300,50,1000,1000,50,50000,42,False
+Incident Status,300,50,1000,1000,50,50000,42,False
+Location Sharing,300,50,1000,1000,50,50000,42,False
+Lookup Operational Record,300,50,1000,1000,50,50000,42,False
+Medical Evacuation,300,50,1000,1000,50,50000,42,False
+Request Additional Support,300,50,1000,1000,50,50000,42,False
+Request Procedure Guidance,300,50,1000,1000,50,50000,42,False
+Access External Cameras,300,100,1000,1000,100,100000,42,False
+Confirm Movement Milestone,300,100,1000,1000,100,100000,42,False
+Control Live Video Stream,300,100,1000,1000,100,100000,42,False
+Incident Status,300,100,1000,1000,100,100000,42,False
+Location Sharing,300,100,1000,1000,100,100000,42,False
+Lookup Operational Record,300,100,1000,1000,100,100000,42,False
+Medical Evacuation,300,100,1000,1000,100,100000,42,False
+Request Additional Support,300,100,1000,1000,100,100000,42,False
+Request Procedure Guidance,300,100,1000,1000,100,100000,42,False
+Access External Cameras,300,150,1000,1000,150,150000,42,False
+Confirm Movement Milestone,300,150,1000,1000,150,150000,42,False
+Control Live Video Stream,300,150,1000,1000,150,150000,42,False
+Incident Status,300,150,1000,1000,150,150000,42,False
+Location Sharing,300,150,1000,1000,150,150000,42,False
+Lookup Operational Record,300,150,1000,1000,150,150000,42,False
+Medical Evacuation,300,150,1000,1000,150,150000,42,False
+Request Additional Support,300,150,1000,1000,150,150000,42,False
+Request Procedure Guidance,300,150,1000,1000,150,150000,42,False
+Access External Cameras,300,200,1000,1000,200,200000,42,False
+Confirm Movement Milestone,300,200,1000,1000,200,200000,42,False
+Control Live Video Stream,300,200,1000,1000,200,200000,42,False
+Incident Status,300,200,1000,1000,200,200000,42,False
+Location Sharing,300,200,1000,1000,200,200000,42,False
+Lookup Operational Record,300,200,1000,1000,200,200000,42,False
+Medical Evacuation,300,200,1000,1000,200,200000,42,False
+Request Additional Support,300,200,1000,1000,200,200000,42,False
+Request Procedure Guidance,300,200,1000,1000,200,200000,42,False
+Access External Cameras,300,250,1000,1000,250,250000,42,False
+Confirm Movement Milestone,300,250,1000,1000,250,250000,42,False
+Control Live Video Stream,300,250,1000,1000,250,250000,42,False
+Incident Status,300,250,1000,1000,250,250000,42,False
+Location Sharing,300,250,1000,1000,250,250000,42,False
+Lookup Operational Record,300,250,1000,1000,250,250000,42,False
+Medical Evacuation,300,250,1000,1000,250,250000,42,False
+Request Additional Support,300,250,1000,1000,250,250000,42,False
+Request Procedure Guidance,300,250,1000,1000,250,250000,42,False
+Access External Cameras,300,300,1000,1,300,300,42,True
+Confirm Movement Milestone,300,300,1000,1,300,300,42,True
+Control Live Video Stream,300,300,1000,1,300,300,42,True
+Incident Status,300,300,1000,1,300,300,42,True
+Location Sharing,300,300,1000,1,300,300,42,True
+Lookup Operational Record,300,300,1000,1,300,300,42,True
+Medical Evacuation,300,300,1000,1,300,300,42,True
+Request Additional Support,300,300,1000,1,300,300,42,True
+Request Procedure Guidance,300,300,1000,1,300,300,42,True

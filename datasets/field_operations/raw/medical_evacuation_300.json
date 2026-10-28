@@ -1,0 +1,6829 @@
+{
+  "Medical Evacuation": [
+    {
+      "data": [
+        {
+          "text": "We need an urgent "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send a "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to evacuate "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured from the mountain."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties stranded on the riverbank."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims at the accident scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people trapped on the roof?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to assist "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty in the basement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured at the west gate."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "seven",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties from the remote village."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to pick up "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people from the flooded area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims at the stadium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "rescue truck",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties near the collapsed bridge?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport for "
+        },
+        {
+          "text": "eight",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured from the island."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people stuck on the dock."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to collect "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties from the parking lot."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured in the lobby."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims at the construction site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties on the mountain trail?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support for "
+        },
+        {
+          "text": "seven",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the festival grounds."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured in the flooded street."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the remote outpost."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "rescue truck",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to evacuate "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people from the tunnel."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the east entrance?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured in the stairwell."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty near the pier."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the warehouse."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties on the rooftop."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured at the intersection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "rescue truck",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "seven",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims at the collapsed building?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the north gate."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured in the elevator."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the remote camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in the flooded basement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured on the river."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the bus stop."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch a "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties on the hilltop?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "rescue truck",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured at the quarry."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty at the playground."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the train station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in the hallway."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured at the isolated cabin."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the main entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to pick up "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people from the ridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims at the lakeshore."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the south exit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to assist "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person in the corridor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the east wing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "seven",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties on the plateau?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people trapped near the dam."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty at the library entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people on the cliff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the flooded park."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the north road."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to help "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in the stairwell."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the loading dock."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims on the ridge?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person near the canal."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the city square."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people on the observation deck."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the riverside."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the parking garage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to assist "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in the auditorium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person at the front desk."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people on the tower?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties near the marina."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the roundabout."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty on the helipad."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the ferry dock."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "seven",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the bus terminal."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to help "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people in the gymnasium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties at the rear entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people on the overlook?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties near the dockyard."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "seven",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people at the central plaza."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties on the high ridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person at the pier."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for immediate evacuation, the injuries are "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport, the situation is "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " at the river crossing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " urgently, the patient is in "
+        },
+        {
+          "text": "stable",
+          "entity": "severity"
+        },
+        {
+          "text": " condition."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The injuries are "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " and require attention."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Dispatch a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " immediately, the victim's state is "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for the casualty, their injuries are "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support, the patient is "
+        },
+        {
+          "text": "stable",
+          "entity": "severity"
+        },
+        {
+          "text": " but needs monitoring."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " as the injuries are "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " and time-sensitive."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries at the mountain base."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation? The wounds are "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " quickly, the victim's condition is "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a patient with "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " trauma."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Arrange "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support, the injuries are "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport, the case is "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " and needs urgent care."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a patient in "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " condition."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation, the injuries are "
+        },
+        {
+          "text": "stable",
+          "entity": "severity"
+        },
+        {
+          "text": " but access is limited."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " trauma patient?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries at the remote site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport, the injuries are "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " and worsening."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a casualty in "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " distress."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Dispatch a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries in the lower level."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support, the patient's state is "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a person in "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " pain."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "stable",
+          "entity": "severity"
+        },
+        {
+          "text": " patient at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The injuries are "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " and require immediate attention."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Arrange "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " patient at the hilltop."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries at the field."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation, the victim is "
+        },
+        {
+          "text": "stable",
+          "entity": "severity"
+        },
+        {
+          "text": " but stranded."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport, the injuries are "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Dispatch a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " injury on the second floor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries at the forest edge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send an "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " case at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "stable",
+          "entity": "severity"
+        },
+        {
+          "text": " patient in the lobby."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you organize a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The injuries are "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " and need transport."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " trauma at the outpost."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries at the lookout."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "stable",
+          "entity": "severity"
+        },
+        {
+          "text": " patient on the dock."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries at the entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " injury in the hallway."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " trauma at the ridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send a "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " as the injuries are "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support, the patient's condition is "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you arrange a "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The injuries are "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " and require evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Dispatch a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " immediately, the situation is "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a patient in "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " condition."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " as the injuries are "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a person in "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " distress."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for someone with "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Arrange "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport, the patient is in "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " state."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The wounds are "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " and urgent."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " injury at the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " as the injuries are "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support for a "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " case."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " quickly, the patient's state is "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries on the river."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " trauma patient."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you dispatch a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The injuries are "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " and need urgent care."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a patient with "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " wounds."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please organize a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " injury at the location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for someone in "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " distress."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation, the patient is "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " injury at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " transport, the wounds are "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " case at the outpost."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The patient is in "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " condition."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " evacuation for a "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " injury."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " trauma."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a patient with "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " injuries."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support, the injuries are "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange a "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " case at the entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you organize a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": "? The wounds are "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " and need attention."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "severe",
+          "entity": "severity"
+        },
+        {
+          "text": " trauma patient."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "serious",
+          "entity": "severity"
+        },
+        {
+          "text": " injury at the field."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please organize a "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "critical",
+          "entity": "severity"
+        },
+        {
+          "text": " patient."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for a "
+        },
+        {
+          "text": "moderate",
+          "entity": "severity"
+        },
+        {
+          "text": " injury at the site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties here, all with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": ", please arrange evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request immediate evacuation for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering from "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at this location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "There are "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": ", need urgent transport."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuation needed for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty experiencing "
+        },
+        {
+          "text": "severe trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " in the basement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange transport for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " from the crash site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties here, all in "
+        },
+        {
+          "text": "critical condition",
+          "entity": "severity"
+        },
+        {
+          "text": ", need evacuation now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " from the upper floor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "There are "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " requiring immediate evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send help for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Urgent evacuation needed for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties suffering "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the warehouse."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need to evacuate "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " from the accident area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange transport for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in "
+        },
+        {
+          "text": "critical state",
+          "entity": "severity"
+        },
+        {
+          "text": " at the riverbank."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuation required for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured person with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " in the stairwell."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people here, all with "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": ", please send evacuation support."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request evacuation for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the construction site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please evacuate "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims in "
+        },
+        {
+          "text": "serious condition",
+          "entity": "severity"
+        },
+        {
+          "text": " from the east wing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "There are "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people here with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": ", need evacuation soon."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuation needed for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " in the basement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange transport for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the stadium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims in "
+        },
+        {
+          "text": "serious condition",
+          "entity": "severity"
+        },
+        {
+          "text": ", need evacuation immediately."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting evacuation for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the north entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering from "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send evacuation for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " in the hallway."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties here, all with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": ", need urgent evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request evacuation for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured with "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the parking lot."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people in "
+        },
+        {
+          "text": "serious condition",
+          "entity": "severity"
+        },
+        {
+          "text": " from the lower level."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange transport for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need evacuation for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the corridor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting evacuation for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the festival area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please evacuate "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims in "
+        },
+        {
+          "text": "critical condition",
+          "entity": "severity"
+        },
+        {
+          "text": " from the upper deck."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties here, all with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": ", need evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuation needed for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange transport for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victim with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the lobby."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need to evacuate "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " from the north wing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request evacuation for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in "
+        },
+        {
+          "text": "moderate condition",
+          "entity": "severity"
+        },
+        {
+          "text": " at the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured with "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " from the basement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send evacuation for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the main entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty in "
+        },
+        {
+          "text": "critical state",
+          "entity": "severity"
+        },
+        {
+          "text": ", need urgent evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting evacuation for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the south gate."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering from "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the crash site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties here with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": ", please send evacuation support."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange evacuation for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person in "
+        },
+        {
+          "text": "critical condition",
+          "entity": "severity"
+        },
+        {
+          "text": " at this location."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering from "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " as soon as possible."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting immediate evacuation for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "severe injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the area."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need transport for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people experiencing "
+        },
+        {
+          "text": "minor wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please evacuate "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " from the stairwell."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "There are "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims here, all in "
+        },
+        {
+          "text": "critical state",
+          "entity": "severity"
+        },
+        {
+          "text": ", need evacuation now."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuation needed for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange transport for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the west entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " injured in "
+        },
+        {
+          "text": "critical condition",
+          "entity": "severity"
+        },
+        {
+          "text": ", request evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person with "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " from the lower level."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting evacuation for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in "
+        },
+        {
+          "text": "serious condition",
+          "entity": "severity"
+        },
+        {
+          "text": " at the north wing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send evacuation for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need to evacuate "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering from "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " immediately."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " from the upper floor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange evacuation for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victim in "
+        },
+        {
+          "text": "serious state",
+          "entity": "severity"
+        },
+        {
+          "text": " at the entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people here with "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": ", need urgent evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request evacuation for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties suffering "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the festival grounds."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims in "
+        },
+        {
+          "text": "serious condition",
+          "entity": "severity"
+        },
+        {
+          "text": " from the east side."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send help for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need evacuation for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person in "
+        },
+        {
+          "text": "serious condition",
+          "entity": "severity"
+        },
+        {
+          "text": " at the rear entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering from "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the crash site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange transport for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties here, all in "
+        },
+        {
+          "text": "critical state",
+          "entity": "severity"
+        },
+        {
+          "text": ", need evacuation urgently."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting evacuation for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the north entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " from the lobby."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send evacuation for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people in "
+        },
+        {
+          "text": "serious condition",
+          "entity": "severity"
+        },
+        {
+          "text": " at the main hall."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need to evacuate "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " from the basement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " from the upper deck."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange evacuation for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties in "
+        },
+        {
+          "text": "moderate condition",
+          "entity": "severity"
+        },
+        {
+          "text": " at the south gate."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We have "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victim here with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": ", need urgent evacuation."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Requesting evacuation for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the west wing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Evacuate "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people in "
+        },
+        {
+          "text": "moderate state",
+          "entity": "severity"
+        },
+        {
+          "text": " from the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send evacuation for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need to evacuate "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering from "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the lower level."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "a helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the mountain pass."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat transport",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people who have "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " near the flooded bridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ambulance evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the roadside."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Dispatch "
+        },
+        {
+          "text": "a ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to pick up "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " from the park entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty experiencing "
+        },
+        {
+          "text": "severe wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " in the basement."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you arrange "
+        },
+        {
+          "text": "a medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the west lot?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "a rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " on the ridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "motorboat evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the river crossing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the outpost."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "a ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people who have "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the crash site."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "a stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the stairwell."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "helicopter evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering "
+        },
+        {
+          "text": "severe trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the forest edge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "boat transport",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "minor wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the lakeside."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "ambulance evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the playground."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "a medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to pick up "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the east gate."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "motorboat evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "severe injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " near the dam."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "helicopter transport",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the summit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Dispatch "
+        },
+        {
+          "text": "a ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the south entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " in the corridor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the riverside."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "a rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " on the plateau."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "ambulance evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the stadium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "medical van transport",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the north gate."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "a motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " near the canal."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the remote camp."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "ground vehicle evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the bus stop."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering "
+        },
+        {
+          "text": "severe trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " in the elevator."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "a helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "minor wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the lookout."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat transport",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the marina."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ambulance evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "a medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the train station."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "motorboat evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " near the ferry dock."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "helicopter transport",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "severe trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the observation deck."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "a ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the parking garage."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the auditorium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "boat evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the lakeshore."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need "
+        },
+        {
+          "text": "ambulance transport",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the main entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "a rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " on the high ridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "motorboat evacuation",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the riverbank."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the remote outpost."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please send "
+        },
+        {
+          "text": "a helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "severe injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " from the mountain pass."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need immediate "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " support for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "critical injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the summit."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to evacuate "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering from "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " near the main road."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty experiencing "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the scene."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to pick up "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "severe wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " from the flooded field."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people who have "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the upper corridor."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "minor wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to evacuate "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " from the island."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "airlift",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the remote tower."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the lookout?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We require "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "severe injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the south gate."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims suffering from "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the festival grounds."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " near the dam."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to assist "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the auditorium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims experiencing "
+        },
+        {
+          "text": "serious wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the east entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the riverside."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to evacuate "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " from the mountain ridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "We need a "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the checkpoint."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the stadium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "severe injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the stairwell."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the marina."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "rescue helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "minor injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " on the plateau."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victim with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the front desk."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the lakeshore."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "moderate trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the observation deck."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " to evacuate "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "severe wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the north entrance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch a "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "five",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the gymnasium."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " person with "
+        },
+        {
+          "text": "moderate wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the library."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "motorboat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people suffering "
+        },
+        {
+          "text": "critical trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the dockyard."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "helicopter",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "serious injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the high ridge."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please arrange "
+        },
+        {
+          "text": "ground vehicle",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "two",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "minor wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the bus terminal."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Organize "
+        },
+        {
+          "text": "stretcher team",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "one",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualty with "
+        },
+        {
+          "text": "severe injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " in the elevator."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Request "
+        },
+        {
+          "text": "medical van",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "six",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " people with "
+        },
+        {
+          "text": "serious trauma",
+          "entity": "severity"
+        },
+        {
+          "text": " at the east wing."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Send a "
+        },
+        {
+          "text": "boat",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "three",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " victims with "
+        },
+        {
+          "text": "moderate injuries",
+          "entity": "severity"
+        },
+        {
+          "text": " at the riverside."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please dispatch "
+        },
+        {
+          "text": "ambulance",
+          "entity": "evacuation_mode"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "entity": "casualty_count"
+        },
+        {
+          "text": " casualties with "
+        },
+        {
+          "text": "critical wounds",
+          "entity": "severity"
+        },
+        {
+          "text": " at the roundabout."
+        }
+      ]
+    }
+  ]
+}

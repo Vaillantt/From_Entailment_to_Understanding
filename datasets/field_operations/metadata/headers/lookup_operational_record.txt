@@ -1,0 +1,7 @@
+================================================================
+Intent: Lookup Operational Record
+Total de sentenças: 300
+Slots (presença por sentença):
+  - lookup_query: 66.7% (200/300)
+  - target_type: 66.7% (200/300)
+================================================================

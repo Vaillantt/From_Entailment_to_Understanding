@@ -1,0 +1,8 @@
+# Preserve saved data and notebook bytes across Windows and Unix checkouts.
+*.csv -text
+*.json -text
+*.ipynb -text
+*.py -text
+*.html -text
+*.txt -text
+retrieval/enwiki-20250220-all-titles filter=lfs diff=lfs merge=lfs -text

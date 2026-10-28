@@ -1,0 +1,9 @@
+================================================================
+Intent: restaurant__find_restaurant
+Total de sentenças: 2415
+Slots (presença por sentença):
+  - restaurant_food: 54.0% (1305/2415)
+  - restaurant_area: 27.8% (672/2415)
+  - restaurant_pricerange: 25.7% (621/2415)
+  - restaurant_name: 14.4% (347/2415)
+================================================================

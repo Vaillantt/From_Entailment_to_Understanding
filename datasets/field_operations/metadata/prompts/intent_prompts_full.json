@@ -1,0 +1,333 @@
+{
+  "Confirm Movement Milestone": {
+    "slot_labels": [
+      "milestone",
+      "location_ref"
+    ],
+    "combinations": [
+      {
+        "name": "milestone_only",
+        "required": [
+          "milestone"
+        ],
+        "forbidden": [
+          "location_ref"
+        ],
+        "target": 100
+      },
+      {
+        "name": "location_ref_only",
+        "required": [
+          "location_ref"
+        ],
+        "forbidden": [
+          "milestone"
+        ],
+        "target": 100
+      },
+      {
+        "name": "both",
+        "required": [
+          "milestone",
+          "location_ref"
+        ],
+        "forbidden": [],
+        "target": 100
+      }
+    ],
+    "notes": "Balanced mix of milestone-only, location_ref-only (milestone implied but untagged), and both.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"milestone\", \"location_ref\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent is used to confirm a movement milestone during field operations: arrival/on-scene, departure/rolling out, or checkpoint/check-in.\n\nSlot guidance:\n- milestone: A short milestone phrase (1–4 words) expressing arrival, departure, or checkpoint confirmation. Examples: on scene; arrived; rolling out; departing now; checking in; cleared checkpoint\n- location_ref: A synthetic operational location reference (1–4 words), no real addresses (e.g., Sector Bravo, Base Alpha, km 12). Examples: Base Alpha; Sector Bravo; Checkpoint 3; km 12; Gate 2; LZ Charlie\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"on scene\", \"entity\": \"milestone\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\nGOOD EXAMPLE (two slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Dispatch, we are \" },\n    { \"text\": \"on scene\", \"entity\": \"milestone\" },\n    { \"text\": \" at \" },\n    { \"text\": \"Base Alpha\", \"entity\": \"location_ref\" },\n    { \"text\": \".\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"milestone\", \"location_ref\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent is used to confirm a movement milestone during field operations: arrival/on-scene, departure/rolling out, or checkpoint/check-in.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Incident Status": {
+    "slot_labels": [
+      "status",
+      "location"
+    ],
+    "combinations": [
+      {
+        "name": "status_only",
+        "required": [
+          "status"
+        ],
+        "forbidden": [
+          "location"
+        ],
+        "target": 100
+      },
+      {
+        "name": "location_only",
+        "required": [
+          "location"
+        ],
+        "forbidden": [
+          "status"
+        ],
+        "target": 100
+      },
+      {
+        "name": "both",
+        "required": [
+          "status",
+          "location"
+        ],
+        "forbidden": [],
+        "target": 100
+      }
+    ],
+    "notes": "Balanced mix of status-only, location-only (status implied but untagged), and both.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"status\", \"location\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent provides an operational status update about an incident or situation (e.g., contained, escalating, perimeter established, no change, cleared, ongoing).\n\nSlot guidance:\n- status: A short operational status phrase (1–4 words) describing the situation state. Examples: no change; contained; under control; perimeter set; still active; scene secure\n- location: A synthetic operational area/location reference (1–4 words), no real addresses. Examples: Sector Bravo; Block C; north perimeter; km 12; Checkpoint 3; staging area\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"no change\", \"entity\": \"status\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\nGOOD EXAMPLE (two slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Dispatch, we are \" },\n    { \"text\": \"no change\", \"entity\": \"status\" },\n    { \"text\": \" at \" },\n    { \"text\": \"Sector Bravo\", \"entity\": \"location\" },\n    { \"text\": \".\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"status\", \"location\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent provides an operational status update about an incident or situation (e.g., contained, escalating, perimeter established, no change, cleared, ongoing).\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Request Additional Support": {
+    "slot_labels": [
+      "resource_type",
+      "request_reason"
+    ],
+    "combinations": [
+      {
+        "name": "resource_type_only",
+        "required": [
+          "resource_type"
+        ],
+        "forbidden": [
+          "request_reason"
+        ],
+        "target": 100
+      },
+      {
+        "name": "request_reason_only",
+        "required": [
+          "request_reason"
+        ],
+        "forbidden": [
+          "resource_type"
+        ],
+        "target": 100
+      },
+      {
+        "name": "both",
+        "required": [
+          "resource_type",
+          "request_reason"
+        ],
+        "forbidden": [],
+        "target": 100
+      }
+    ],
+    "notes": "Prefer resource_type+request_reason as common; allow resource_type-only; allow request_reason-only when the resource is implied by context.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"resource_type\", \"request_reason\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests additional support/resources (backup, medical, air support, logistics) and may include a brief operational reason.\n\nSlot guidance:\n- resource_type: A short phrase naming the requested resource/support type (1–4 words). Examples: backup unit; medic team; K9 unit; fire engine; drone support; air evac\n- request_reason: A short phrase describing the operational reason (1–4 words). Examples: heavy resistance; multiple casualties; fire spreading; low visibility; crowd control\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"backup unit\", \"entity\": \"resource_type\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\nGOOD EXAMPLE (two slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Dispatch, we are \" },\n    { \"text\": \"backup unit\", \"entity\": \"resource_type\" },\n    { \"text\": \" at \" },\n    { \"text\": \"heavy resistance\", \"entity\": \"request_reason\" },\n    { \"text\": \".\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"resource_type\", \"request_reason\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests additional support/resources (backup, medical, air support, logistics) and may include a brief operational reason.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Medical Evacuation": {
+    "slot_labels": [
+      "evacuation_mode",
+      "casualty_count",
+      "severity"
+    ],
+    "combinations": [
+      {
+        "name": "evacuation_mode_casualty_count",
+        "required": [
+          "evacuation_mode",
+          "casualty_count"
+        ],
+        "forbidden": [
+          "severity"
+        ],
+        "target": 75
+      },
+      {
+        "name": "evacuation_mode_severity",
+        "required": [
+          "evacuation_mode",
+          "severity"
+        ],
+        "forbidden": [
+          "casualty_count"
+        ],
+        "target": 75
+      },
+      {
+        "name": "casualty_count_severity",
+        "required": [
+          "casualty_count",
+          "severity"
+        ],
+        "forbidden": [
+          "evacuation_mode"
+        ],
+        "target": 75
+      },
+      {
+        "name": "all_three",
+        "required": [
+          "evacuation_mode",
+          "casualty_count",
+          "severity"
+        ],
+        "forbidden": [],
+        "target": 75
+      }
+    ],
+    "notes": "Distribute across meaningful pairs (mode+count, count+severity, mode+severity) and all-three; avoid single-slot samples here for realism.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"evacuation_mode\", \"casualty_count\", \"severity\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests or coordinates evacuation of casualties, including transport mode and basic triage/quantity details.\n\nSlot guidance:\n- evacuation_mode: A short phrase for evacuation mode (1–4 words), e.g., ground or aeromedical. Examples: ground; aeromedical; helo evac; ambulance transport\n- casualty_count: A short count phrase (1–4 words), e.g., 'two casualties', '3 injured'. Examples: one casualty; two injured; 3 casualties; four patients\n- severity: A short severity phrase (1–4 words), e.g., minor/moderate/severe/critical. Examples: critical; severe; moderate; minor\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"ground\", \"entity\": \"evacuation_mode\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\nGOOD EXAMPLE (two slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Dispatch, we are \" },\n    { \"text\": \"ground\", \"entity\": \"evacuation_mode\" },\n    { \"text\": \" at \" },\n    { \"text\": \"one casualty\", \"entity\": \"casualty_count\" },\n    { \"text\": \".\" }\n  ]\n}\n\nGOOD EXAMPLE (three slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, request \" },\n    { \"text\": \"ground\", \"entity\": \"evacuation_mode\" },\n    { \"text\": \" for \" },\n    { \"text\": \"one casualty\", \"entity\": \"casualty_count\" },\n    { \"text\": \", status \" },\n    { \"text\": \"critical\", \"entity\": \"severity\" },\n    { \"text\": \".\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"evacuation_mode\", \"casualty_count\", \"severity\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests or coordinates evacuation of casualties, including transport mode and basic triage/quantity details.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Lookup Operational Record": {
+    "slot_labels": [
+      "target_type",
+      "lookup_query"
+    ],
+    "combinations": [
+      {
+        "name": "target_type_only",
+        "required": [
+          "target_type"
+        ],
+        "forbidden": [
+          "lookup_query"
+        ],
+        "target": 100
+      },
+      {
+        "name": "lookup_query_only",
+        "required": [
+          "lookup_query"
+        ],
+        "forbidden": [
+          "target_type"
+        ],
+        "target": 100
+      },
+      {
+        "name": "both",
+        "required": [
+          "target_type",
+          "lookup_query"
+        ],
+        "forbidden": [],
+        "target": 100
+      }
+    ],
+    "notes": "Balanced mix of target_type-only, lookup_query-only (type implied), and both.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"target_type\", \"lookup_query\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests a lookup of an operational record (e.g., plate, person, geography, weather) using a query value.\n\nSlot guidance:\n- target_type: A short lookup type label (1–4 words), e.g., plate/person/geography/weather. Examples: plate; person; geography; weather\n- lookup_query: A short identifier/query string (1–4 words), e.g., a plate code or name. Examples: ABC-1234; John Doe; Sector 7; wind forecast\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"plate\", \"entity\": \"target_type\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\nGOOD EXAMPLE (two slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Dispatch, we are \" },\n    { \"text\": \"plate\", \"entity\": \"target_type\" },\n    { \"text\": \" at \" },\n    { \"text\": \"ABC-1234\", \"entity\": \"lookup_query\" },\n    { \"text\": \".\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"target_type\", \"lookup_query\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests a lookup of an operational record (e.g., plate, person, geography, weather) using a query value.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Control Live Video Stream": {
+    "slot_labels": [
+      "stream_control_action"
+    ],
+    "combinations": [
+      {
+        "name": "only",
+        "required": [
+          "stream_control_action"
+        ],
+        "forbidden": [],
+        "target": 300
+      }
+    ],
+    "notes": "Single-slot intent: only stream_control_action.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"stream_control_action\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent starts or stops a live video stream during operations.\n\nSlot guidance:\n- stream_control_action: A short control action (1–4 words), e.g., start/stop/pause/resume. Examples: start stream; stop stream; begin live; end video\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"start stream\", \"entity\": \"stream_control_action\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"stream_control_action\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent starts or stops a live video stream during operations.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Request Procedure Guidance": {
+    "slot_labels": [
+      "guidance_artifact_type",
+      "procedure_topic"
+    ],
+    "combinations": [
+      {
+        "name": "guidance_artifact_type_only",
+        "required": [
+          "guidance_artifact_type"
+        ],
+        "forbidden": [
+          "procedure_topic"
+        ],
+        "target": 100
+      },
+      {
+        "name": "procedure_topic_only",
+        "required": [
+          "procedure_topic"
+        ],
+        "forbidden": [
+          "guidance_artifact_type"
+        ],
+        "target": 100
+      },
+      {
+        "name": "both",
+        "required": [
+          "guidance_artifact_type",
+          "procedure_topic"
+        ],
+        "forbidden": [],
+        "target": 100
+      }
+    ],
+    "notes": "Prefer artifact_type+procedure_topic; allow artifact_type-only when topic implied; allow topic-only when the guidance type is implied by context.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"guidance_artifact_type\", \"procedure_topic\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests procedural guidance (checklist, protocol, reminder) about a topic relevant to the ongoing operation.\n\nSlot guidance:\n- guidance_artifact_type: A short guidance type phrase (1–4 words), e.g., checklist/protocol/reminder. Examples: checklist; protocol; reminder\n- procedure_topic: A short procedure/topic phrase (1–4 words), e.g., perimeter setup, triage, traffic stop. Examples: perimeter setup; triage; vehicle stop; building search; radio procedure\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"checklist\", \"entity\": \"guidance_artifact_type\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\nGOOD EXAMPLE (two slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Dispatch, we are \" },\n    { \"text\": \"checklist\", \"entity\": \"guidance_artifact_type\" },\n    { \"text\": \" at \" },\n    { \"text\": \"perimeter setup\", \"entity\": \"procedure_topic\" },\n    { \"text\": \".\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"guidance_artifact_type\", \"procedure_topic\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests procedural guidance (checklist, protocol, reminder) about a topic relevant to the ongoing operation.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Control Location Sharing": {
+    "slot_labels": [
+      "location_sharing_action"
+    ],
+    "combinations": [
+      {
+        "name": "only",
+        "required": [
+          "location_sharing_action"
+        ],
+        "forbidden": [],
+        "target": 300
+      }
+    ],
+    "notes": "Single-slot intent: only location_sharing_action.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"location_sharing_action\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent controls location sharing (start, stop, or check-in) during operations.\n\nSlot guidance:\n- location_sharing_action: A short action phrase (1–4 words), e.g., start/stop/check-in. Examples: start sharing; stop sharing; check in\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"start sharing\", \"entity\": \"location_sharing_action\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"location_sharing_action\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent controls location sharing (start, stop, or check-in) during operations.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  },
+  "Access External Cameras": {
+    "slot_labels": [
+      "camera_identifier",
+      "camera_search_area"
+    ],
+    "combinations": [
+      {
+        "name": "camera_identifier_only",
+        "required": [
+          "camera_identifier"
+        ],
+        "forbidden": [
+          "camera_search_area"
+        ],
+        "target": 100
+      },
+      {
+        "name": "camera_search_area_only",
+        "required": [
+          "camera_search_area"
+        ],
+        "forbidden": [
+          "camera_identifier"
+        ],
+        "target": 100
+      },
+      {
+        "name": "both",
+        "required": [
+          "camera_identifier",
+          "camera_search_area"
+        ],
+        "forbidden": [],
+        "target": 100
+      }
+    ],
+    "notes": "Balanced mix of identifier-only, area-only, and both.",
+    "initial": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"camera_identifier\", \"camera_search_area\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests access to external cameras (CCTV/bodycam/drone feed), optionally specifying a camera identifier and/or a search area.\n\nSlot guidance:\n- camera_identifier: A short camera name/number/ID (1–4 words), e.g., 'Cam 12', 'Gate-2 CCTV'. Examples: Camera 12; Gate 2 CCTV; Cam Bravo; Drone-1 feed\n- camera_search_area: A short synthetic area reference (1–4 words), e.g., 'north gate', 'Sector Bravo'. Examples: north gate; Sector Bravo; warehouse district; staging area\n\nCRITICAL LENGTH + LABELING RULES (must follow):\n- Each utterance must be a full human utterance (5–25 words).\n- NEVER label the whole utterance as an entity.\n- Segmentation rule: If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments:\n  [plain prefix] + [entity #1] + [plain middle] + [entity #2] + ... + [entity #K] + [plain suffix]\n- The first and last segments MUST be plain (no entity).\n- Each required entity must appear exactly once (one segment per entity).\n- The entity span must be the minimal value phrase only (1–4 words). Do NOT include call signs or extra words inside entity spans.\n\nStyle diversity requirements:\n- Mix radio/dispatch brevity, full sentences, confirmations, corrections (\"... correction ...\"), time mentions (\"as of 14:20\"), and optional call signs (\"Unit 12\", \"Eagle-3\", \"Dispatch\", \"Control\").\n- Vary order and phrasing while keeping the segmentation rule.\n- Avoid templated repetition.\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\nDO_NOT_REPEAT = []\n\n\nGOOD EXAMPLE (one slot tagged):\n{\n  \"data\": [\n    { \"text\": \"Control, confirm \" },\n    { \"text\": \"Camera 12\", \"entity\": \"camera_identifier\" },\n    { \"text\": \", over.\" }\n  ]\n}\n\nGOOD EXAMPLE (two slots tagged):\n{\n  \"data\": [\n    { \"text\": \"Dispatch, we are \" },\n    { \"text\": \"Camera 12\", \"entity\": \"camera_identifier\" },\n    { \"text\": \" at \" },\n    { \"text\": \"north gate\", \"entity\": \"camera_search_area\" },\n    { \"text\": \".\" }\n  ]\n}\n\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n",
+    "delta": "Generate EXACTLY __N__ NEW unique examples for the intent \"__INTENT__\" in English.\n\nALLOWED ENTITY LABELS (only): [\"camera_identifier\", \"camera_search_area\"]\n\nMODE (do not deviate):\n- Required tagged entity set (exact): __REQUIRED_ENTITIES_JSON__\n- Forbidden entity labels (must NOT be tagged): __FORBIDDEN_ENTITIES_JSON__\nIn EVERY example, the set of tagged entities must match the required set exactly (each required entity exactly once).\n\nMeaning constraints:\n- This intent requests access to external cameras (CCTV/bodycam/drone feed), optionally specifying a camera identifier and/or a search area.\n\nCRITICAL LENGTH + LABELING RULES:\n- Each utterance must be 5–25 words.\n- NEVER label the whole utterance as an entity.\n- If you tag K entities in an example, \"data\" MUST have exactly (2*K + 1) segments, starting and ending with plain text.\n- Each required entity must appear exactly once.\n- Entity spans must be minimal (1–4 words).\n\nUniqueness:\n- Do NOT repeat ANY utterance from the blacklist below (case-insensitive, ignoring extra whitespace).\n- Also avoid near-duplicates: do not produce sentences that only change a callsign or one word.\nDO_NOT_REPEAT = __BLACKLIST_JSON__\n\nReturn ONLY the JSON object with the single top-level key \"__INTENT__\".\n"
+  }
+}

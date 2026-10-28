@@ -1,0 +1,8 @@
+================================================================
+Intent: attraction__find_attraction
+Total de sentenças: 1179
+Slots (presença por sentença):
+  - attraction_type: 52.7% (621/1179)
+  - attraction_area: 47.2% (557/1179)
+  - attraction_name: 23.5% (277/1179)
+================================================================

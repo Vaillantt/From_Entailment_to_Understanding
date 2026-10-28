@@ -1,0 +1,10 @@
+================================================================
+Intent: train__find_train
+Total de sentenças: 7154
+Slots (presença por sentença):
+  - train_destination: 30.2% (2162/7154)
+  - train_departure: 29.4% (2100/7154)
+  - train_arriveby: 25.5% (1826/7154)
+  - train_leaveat: 24.1% (1726/7154)
+  - train_day: 23.6% (1691/7154)
+================================================================

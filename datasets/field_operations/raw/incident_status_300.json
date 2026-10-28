@@ -1,0 +1,6304 @@
+{
+  "Incident Status": [
+    {
+      "data": [
+        {
+          "text": "The issue at"
+        },
+        {
+          "text": "Main Street",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": "after intervention."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Hazard in"
+        },
+        {
+          "text": "parking lot",
+          "entity": "location"
+        },
+        {
+          "text": "has been"
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": "by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "All threats at"
+        },
+        {
+          "text": "loading dock",
+          "entity": "location"
+        },
+        {
+          "text": "were"
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": "by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at"
+        },
+        {
+          "text": "bus terminal",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": "without injuries."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The leak in"
+        },
+        {
+          "text": "boiler room",
+          "entity": "location"
+        },
+        {
+          "text": "has been"
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": "by engineers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm at"
+        },
+        {
+          "text": "main gate",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": "after assessment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at"
+        },
+        {
+          "text": "north exit",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": "by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The gas leak in"
+        },
+        {
+          "text": "basement",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": "by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at"
+        },
+        {
+          "text": "rear entrance",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": "by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in"
+        },
+        {
+          "text": "server room",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": "by IT staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at"
+        },
+        {
+          "text": "loading bay",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": "after review."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in"
+        },
+        {
+          "text": "workshop",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": "by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at"
+        },
+        {
+          "text": "main office",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": "by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in"
+        },
+        {
+          "text": "utility room",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": "last night."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at"
+        },
+        {
+          "text": "side entrance",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": "by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at"
+        },
+        {
+          "text": "security gate",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": "by guards."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in"
+        },
+        {
+          "text": "break room",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": "by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at"
+        },
+        {
+          "text": "loading zone",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": "by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in"
+        },
+        {
+          "text": "mail room",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": "by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in"
+        },
+        {
+          "text": "locker room",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": "by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at"
+        },
+        {
+          "text": "parking garage",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": "by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in"
+        },
+        {
+          "text": "training room",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": "by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at"
+        },
+        {
+          "text": "south gate",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": "by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "west wing",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after prompt action."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Firefighters "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " the blaze in "
+        },
+        {
+          "text": "storage room",
+          "entity": "location"
+        },
+        {
+          "text": " quickly."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "conference hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm at "
+        },
+        {
+          "text": "north lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " this morning."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disturbance in "
+        },
+        {
+          "text": "cafeteria",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "east entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "meeting room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " swiftly."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "loading ramp",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation in "
+        },
+        {
+          "text": "main corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " after assessment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "roof deck",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "supply closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by maintenance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "front desk",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " quickly."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The gas leak in "
+        },
+        {
+          "text": "mechanical room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by engineers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "main lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disturbance in "
+        },
+        {
+          "text": "training center",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "security office",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " after review."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "storage shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "main entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "IT lab",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by technicians."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "west gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by guards."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "break area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "annex",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "control room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "east gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "admin office",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "garage",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "janitor closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "south entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "conference room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "main stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "copy room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by IT staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "loading dock",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "locker area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "side gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "print room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "north stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "kitchen",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "maintenance shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "data center",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by IT staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "rear gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by guards."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "east wing",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after prompt action."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "laundry room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "roof access",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical lab",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "loading area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " quickly."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disturbance in "
+        },
+        {
+          "text": "staff lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue at "
+        },
+        {
+          "text": "fire escape",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "main corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm at "
+        },
+        {
+          "text": "service gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " this afternoon."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "equipment room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "front lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "conference suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "loading platform",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "main hallway",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "side lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "admin suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "roof hatch",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "utility closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by maintenance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "training suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "main hallway",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "break lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "annex room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "control suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "east lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "admin wing",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "garage bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "janitor room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "south lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "meeting suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "copy suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by IT staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "loading area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "locker zone",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "side entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "print suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "north lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "kitchenette",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "maintenance room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "data suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by IT staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "east stairwell",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "equipment shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " after inspection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm at "
+        },
+        {
+          "text": "central plaza",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disturbance in "
+        },
+        {
+          "text": "media room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by staff members."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "archive room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after a quick response."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "visitor center",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "print shop",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "main corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "mail center",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "roof access",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical store",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "employee lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm at "
+        },
+        {
+          "text": "west lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "conference suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "loading bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "utility shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "north entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "training lab",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "main foyer",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "break room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "annex building",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "control booth",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "south gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "admin block",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "garage entry",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "janitor area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "employee gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "meeting room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "copy center",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by IT staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "loading ramp",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "locker room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "west stairwell",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after prompt action."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "storage closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the night crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by security staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "server closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by IT personnel."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "main corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " before shift change."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "front entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the response team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "workshop",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " quickly."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue at "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by engineers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "supply room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "side corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "meeting hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after review."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "employee lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "mechanical bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "north wing",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "maintenance area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "visitor lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "security booth",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "rear entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "janitor bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the night shift."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "employee stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "main foyer",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the security team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "conference hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "loading platform",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "utility closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by maintenance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "south wing",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "storage bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after inspection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "employee gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by guards."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "break area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "central lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "equipment bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "main stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical storage",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "service entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "training hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "supply closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "loading gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "maintenance shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "north stairwell",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after prompt action."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "storage area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "visitor entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "main atrium",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "service corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " this morning."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "employee lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "workshop bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue at "
+        },
+        {
+          "text": "main stairwell",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "supply shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by guards."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "conference suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "side hallway",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "equipment closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "main foyer",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "maintenance room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after inspection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "employee stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "side lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "janitor closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "utility bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "archive room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "loading gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "security booth",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "front lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "training lab",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "annex hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "side corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "main stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by guards."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "break lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "rear lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "supply area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "maintenance closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "east entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "main lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "admin suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "server room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by IT staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "loading dock",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "north plaza",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after a coordinated response."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Following the alert, the issue in "
+        },
+        {
+          "text": "east stairwell",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the maintenance crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "garage",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " before it could spread further."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disturbance at "
+        },
+        {
+          "text": "visitor center",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "main atrium",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the response team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "After quick action, the emergency at "
+        },
+        {
+          "text": "loading tunnel",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " successfully."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "employee gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " without further complications."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "break lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm at "
+        },
+        {
+          "text": "side hallway",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the security team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "equipment closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the night crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "front entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "supply area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after a thorough inspection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "rear lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers on duty."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "janitor closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by maintenance staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "employee stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "north lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after the response."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Earlier today, the hazard in "
+        },
+        {
+          "text": "boiler room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "west entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " following intervention."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "kitchen",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "main gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "server closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " after prompt action."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "employee lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "chemical lab",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "loading ramp",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "utility room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by maintenance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm at "
+        },
+        {
+          "text": "south lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "janitor closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " quickly."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "employee stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after review."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "meeting room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "main office",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "supply closet",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "side entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "east lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "storage area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "front desk",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "admin office",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " after assessment."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "loading dock",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "main stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "maintenance room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by specialists."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "utility bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "west gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "break area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "north entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "control room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "employee entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "storage shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "main lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "conference suite",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "rear entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by guards."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "east entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "mail room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "mechanical room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "side lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "training room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "main corridor",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "north lot",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after a coordinated effort."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Earlier, the incident in "
+        },
+        {
+          "text": "east wing",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by the response team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "roof deck",
+          "entity": "location"
+        },
+        {
+          "text": " has been "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " following intervention."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat in "
+        },
+        {
+          "text": "main hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by security personnel."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "visitor center",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " this afternoon."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "garage bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "side stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after inspection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "supply shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by maintenance staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "loading gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The situation at "
+        },
+        {
+          "text": "central hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The alarm in "
+        },
+        {
+          "text": "security booth",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "utility shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " quickly."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "employee lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "main foyer",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "west stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " after review."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency in "
+        },
+        {
+          "text": "archive room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard at "
+        },
+        {
+          "text": "front gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "mechanical shed",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue at "
+        },
+        {
+          "text": "east lobby",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by management."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident at "
+        },
+        {
+          "text": "north gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption in "
+        },
+        {
+          "text": "staff lounge",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by responders."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "rear stairs",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The hazard in "
+        },
+        {
+          "text": "supply area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " after inspection."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire at "
+        },
+        {
+          "text": "annex hall",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by firefighters."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The issue in "
+        },
+        {
+          "text": "utility bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "neutralized",
+          "entity": "status"
+        },
+        {
+          "text": " by maintenance."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The emergency at "
+        },
+        {
+          "text": "main entrance",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "stabilized",
+          "entity": "status"
+        },
+        {
+          "text": " by the crew."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The threat at "
+        },
+        {
+          "text": "loading area",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": " by officers."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The incident in "
+        },
+        {
+          "text": "janitor room",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "resolved",
+          "entity": "status"
+        },
+        {
+          "text": " by staff."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The disruption at "
+        },
+        {
+          "text": "employee gate",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "cleared",
+          "entity": "status"
+        },
+        {
+          "text": " by security."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "The fire in "
+        },
+        {
+          "text": "storage bay",
+          "entity": "location"
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "extinguished",
+          "entity": "status"
+        },
+        {
+          "text": " by the team."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Following the response, the situation in"
+        },
+        {
+          "text": "north stairwell",
+          "entity": "location"
+        },
+        {
+          "text": "was"
+        },
+        {
+          "text": "contained",
+          "entity": "status"
+        },
+        {
+          "text": "successfully."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿semantic_intent,support,n_per_intent,rounds_requested,rounds_executed,sampled_per_round,total_sampled_across_rounds,seed,full_support_anchor
+Add to a playlist,1942,25,1000,1000,25,25000,42,False
+Book a restaurant,1973,25,1000,1000,25,25000,42,False
+Check weather,2000,25,1000,1000,25,25000,42,False
+Play a music,2000,25,1000,1000,25,25000,42,False
+Rate a item,1956,25,1000,1000,25,25000,42,False
+Search a creative work,1954,25,1000,1000,25,25000,42,False
+Search for movie showtimes,1959,25,1000,1000,25,25000,42,False
+Add to a playlist,1942,50,1000,1000,50,50000,42,False
+Book a restaurant,1973,50,1000,1000,50,50000,42,False
+Check weather,2000,50,1000,1000,50,50000,42,False
+Play a music,2000,50,1000,1000,50,50000,42,False
+Rate a item,1956,50,1000,1000,50,50000,42,False
+Search a creative work,1954,50,1000,1000,50,50000,42,False
+Search for movie showtimes,1959,50,1000,1000,50,50000,42,False
+Add to a playlist,1942,100,1000,1000,100,100000,42,False
+Book a restaurant,1973,100,1000,1000,100,100000,42,False
+Check weather,2000,100,1000,1000,100,100000,42,False
+Play a music,2000,100,1000,1000,100,100000,42,False
+Rate a item,1956,100,1000,1000,100,100000,42,False
+Search a creative work,1954,100,1000,1000,100,100000,42,False
+Search for movie showtimes,1959,100,1000,1000,100,100000,42,False
+Add to a playlist,1942,250,1000,1000,250,250000,42,False
+Book a restaurant,1973,250,1000,1000,250,250000,42,False
+Check weather,2000,250,1000,1000,250,250000,42,False
+Play a music,2000,250,1000,1000,250,250000,42,False
+Rate a item,1956,250,1000,1000,250,250000,42,False
+Search a creative work,1954,250,1000,1000,250,250000,42,False
+Search for movie showtimes,1959,250,1000,1000,250,250000,42,False

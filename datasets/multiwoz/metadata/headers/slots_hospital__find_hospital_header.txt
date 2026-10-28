@@ -1,0 +1,6 @@
+================================================================
+Intent: hospital__find_hospital
+Total de sentenças: 75
+Slots (presença por sentença):
+  - hospital_department: 100.0% (75/75)
+================================================================

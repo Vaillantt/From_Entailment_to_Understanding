@@ -1,0 +1,6 @@
+================================================================
+Intent: Control Live Video Stream
+Total de sentenças: 300
+Slots (presença por sentença):
+  - stream_control_action: 100.0% (300/300)
+================================================================

@@ -1,0 +1,25 @@
+================================================================
+Intent: flight_time
+Total de sentenças: 55
+Slots (presença por sentença):
+  - flight_time: 98.2% (54/55)
+  - toloc_city_name: 89.1% (49/55)
+  - fromloc_city_name: 87.3% (48/55)
+  - depart_time_period_of_day: 23.6% (13/55)
+  - airline_name: 21.8% (12/55)
+  - depart_date_day_name: 20.0% (11/55)
+  - depart_date_day_number: 14.5% (8/55)
+  - depart_date_month_name: 14.5% (8/55)
+  - flight_mod: 12.7% (7/55)
+  - depart_time_time: 7.3% (4/55)
+  - airline_code: 3.6% (2/55)
+  - depart_date_date_relative: 3.6% (2/55)
+  - depart_time_time_relative: 3.6% (2/55)
+  - aircraft_code: 1.8% (1/55)
+  - airport_name: 1.8% (1/55)
+  - class_type: 1.8% (1/55)
+  - flight_number: 1.8% (1/55)
+  - fromloc_airport_name: 1.8% (1/55)
+  - meal_description: 1.8% (1/55)
+  - toloc_airport_code: 1.8% (1/55)
+================================================================

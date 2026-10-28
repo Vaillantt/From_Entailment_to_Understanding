@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Batch Eval Dashboard</title>
+    <style>
+    :root {
+        --bg: #f6f7f9;
+        --panel: #ffffff;
+        --ink: #1f2933;
+        --muted: #687383;
+        --line: #d8dde6;
+        --blue: #1565c0;
+        --teal: #00897b;
+        --orange: #ef6c00;
+        --green-bg: #e7f5ee;
+        --green: #176b45;
+        --warn-bg: #fff4df;
+        --warn: #8a4d00;
+        --legacy-bg: #f3eefc;
+        --legacy: #5b3b8c;
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.45;
+    }
+    header {
+        padding: 28px 36px 18px;
+        background: #ffffff;
+        border-bottom: 1px solid var(--line);
+    }
+    h1, h2, h3, h4 { margin: 0 0 10px; letter-spacing: 0; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 23px; }
+    h3 { font-size: 18px; }
+    h4 { font-size: 15px; color: var(--muted); }
+    .muted { color: var(--muted); }
+    .note, .warning {
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--orange);
+        background: #fffaf0;
+        padding: 12px 14px;
+        border-radius: 6px;
+        color: #4c3a18;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 18px;
+    }
+    nav a {
+        color: var(--ink);
+        text-decoration: none;
+        border: 1px solid var(--line);
+        background: #f9fafb;
+        padding: 7px 11px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    main { padding: 24px 36px 44px; }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+        margin: 18px 0 22px;
+    }
+    .card, .dataset-section, .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+    }
+    .card { padding: 16px; min-width: 0; }
+    .card-head, .section-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    .big { font-size: 34px; font-weight: 750; margin-top: 8px; }
+    .label { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+    dl {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 6px 12px;
+        margin: 14px 0 0;
+        font-size: 13px;
+    }
+    dt { color: var(--muted); }
+    dd { margin: 0; font-weight: 650; }
+    .schema, .badge {
+        display: inline-flex;
+        align-items: center;
+        white-space: nowrap;
+        border-radius: 999px;
+        padding: 4px 9px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .schema-new, .badge.good { background: var(--green-bg); color: var(--green); }
+    .schema-legacy { background: var(--legacy-bg); color: var(--legacy); }
+    .badge.warn { background: var(--warn-bg); color: var(--warn); }
+    .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; min-height: 24px; }
+    .bar {
+        position: relative;
+        height: 22px;
+        background: #edf1f5;
+        border-radius: 5px;
+        overflow: hidden;
+        min-width: 120px;
+    }
+    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--teal), var(--blue)); }
+    .bar span {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 700;
+        color: #132235;
+    }
+    .bar.empty span { color: var(--muted); }
+    .strat-spotlight {
+        display: grid;
+        grid-template-columns: minmax(280px, 0.9fr) minmax(420px, 1.25fr);
+        gap: 18px;
+        margin: 22px 0;
+        padding: 22px;
+        background: linear-gradient(135deg, #ffffff 0%, #eef7f5 100%);
+        border: 2px solid #9ed8cd;
+        border-radius: 8px;
+        box-shadow: 0 10px 28px rgba(0, 105, 92, 0.08);
+    }
+    .strat-spotlight .eyebrow {
+        display: inline-block;
+        color: var(--teal);
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+    .strat-spotlight h2 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+    .button-link {
+        display: inline-flex;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background: var(--teal);
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 750;
+    }
+    .spotlight-metrics {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+    .spotlight-card {
+        background: rgba(255, 255, 255, 0.86);
+        border: 1px solid #b9ddd6;
+        border-radius: 8px;
+        padding: 14px;
+    }
+    .spotlight-card.primary {
+        background: #e4f5f1;
+        border-color: var(--teal);
+    }
+    .spotlight-card span {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .spotlight-card b {
+        display: block;
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    .spotlight-card small {
+        color: var(--muted);
+        font-size: 12px;
+    }
+    .spotlight-table {
+        grid-column: 1 / -1;
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid #cfe7e2;
+        border-radius: 8px;
+        padding: 12px;
+    }
+    .dataset-section, .panel {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin: 14px 0;
+    }
+    .metric-card {
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        padding: 12px;
+        background: #fbfcfd;
+    }
+    .metric-card b { display: block; font-size: 22px; }
+    .metric-card span { color: var(--muted); font-size: 12px; }
+    .two-cols, .three-cols {
+        display: grid;
+        gap: 16px;
+        align-items: start;
+    }
+    .two-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .three-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    details {
+        border-top: 1px solid var(--line);
+        padding-top: 12px;
+        margin-top: 14px;
+    }
+    summary {
+        cursor: pointer;
+        font-weight: 750;
+        margin-bottom: 12px;
+    }
+    .table-wrap { width: 100%; overflow-x: auto; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    table.compact { font-size: 12px; }
+    th {
+        text-align: left;
+        padding: 8px 9px;
+        border-bottom: 1px solid var(--line);
+        color: #334155;
+        background: #f8fafc;
+        position: sticky;
+        top: 0;
+    }
+    td {
+        padding: 7px 9px;
+        border-bottom: 1px solid #eef1f5;
+        vertical-align: top;
+    }
+    tr:hover td { background: #fbfdff; }
+    .distribution td:last-child { min-width: 160px; }
+    svg {
+        width: 100%;
+        height: auto;
+        background: #fbfcfd;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        margin: 8px 0 14px;
+    }
+    .grid { stroke: #dfe5ec; stroke-width: 1; }
+    .axis-line { stroke: #9aa6b2; stroke-width: 1.2; }
+    .axis, .legend { fill: #52606d; font-size: 12px; }
+    footer {
+        color: var(--muted);
+        font-size: 12px;
+        padding: 8px 36px 28px;
+    }
+    @media (max-width: 1100px) {
+        .cards, .mini-grid, .three-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .two-cols { grid-template-columns: 1fr; }
+        .strat-spotlight { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 700px) {
+        header, main, footer { padding-left: 18px; padding-right: 18px; }
+        .cards, .mini-grid, .three-cols { grid-template-columns: 1fr; }
+        .spotlight-metrics { grid-template-columns: 1fr; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Batch Eval Dashboard</h1>
+        <p class="muted">Static view generated from saved CSV artifacts in <code>evaluation/</code>. Generated at 2026-05-14 18:54:18.</p>
+        <nav>
+            <a href="#overview">Overview</a>
+            <a href="#atis-stratified">ATIS Stratified</a>
+            <a href="#integrity">Artifact Integrity</a>
+            <a href="#snips">SNIPS</a><a href="#multiwoz">MultiWOZ</a><a href="#atis">ATIS</a><a href="#field_operations">Field Operations</a>
+        </nav>
+    </header>
+    <main>
+        <section id="overview">
+            <h2>Executive Overview</h2>
+            <p class="warning"><b>Interpretation note:</b> this dashboard uses saved metrics exactly as found on disk. The current reports are expected to use the macro/micro schema, including Intent Macro-F1 and Slot Macro-F1 by Intent. If a dataset is ever marked as legacy, compare its slot-F1 with care.</p>
+            <section class="cards">
+            <article class="card snips">
+                <div class="card-head">
+                    <h3>SNIPS</h3>
+                    <span class="schema schema-new">macro/micro schema</span>
+                </div>
+                <div class="big">93.01%</div>
+                <div class="label">Intent accuracy</div>
+                <div class="bar"><div class="bar-fill" style="width: 93.01%"></div><span>93.01%</span></div>
+                <dl>
+                    <dt>Rows</dt><dd>13.784</dd>
+                    <dt>Saved Slot F1</dt><dd>49.20%</dd>
+                    <dt>Intent Macro-F1</dt><dd>93.12%</dd>
+                    <dt>Unknown intent predictions</dt><dd>0</dd>
+                </dl>
+                <div class="badges"><span class="badge good">Best intent acc</span></div>
+            </article>
+            
+            <article class="card multiwoz">
+                <div class="card-head">
+                    <h3>MultiWOZ</h3>
+                    <span class="schema schema-new">macro/micro schema</span>
+                </div>
+                <div class="big">84.96%</div>
+                <div class="label">Intent accuracy</div>
+                <div class="bar"><div class="bar-fill" style="width: 84.96%"></div><span>84.96%</span></div>
+                <dl>
+                    <dt>Rows</dt><dd>12.797</dd>
+                    <dt>Saved Slot F1</dt><dd>38.08%</dd>
+                    <dt>Intent Macro-F1</dt><dd>87.00%</dd>
+                    <dt>Unknown intent predictions</dt><dd>625</dd>
+                </dl>
+                <div class="badges"><span class="badge warn">Lowest saved slot F1</span></div>
+            </article>
+            
+            <article class="card atis">
+                <div class="card-head">
+                    <h3>ATIS</h3>
+                    <span class="schema schema-new">macro/micro schema</span>
+                </div>
+                <div class="big">54.95%</div>
+                <div class="label">Intent accuracy</div>
+                <div class="bar"><div class="bar-fill" style="width: 54.95%"></div><span>54.95%</span></div>
+                <dl>
+                    <dt>Rows</dt><dd>5.232</dd>
+                    <dt>Saved Slot F1</dt><dd>63.58%</dd>
+                    <dt>Intent Macro-F1</dt><dd>55.84%</dd>
+                    <dt>Unknown intent predictions</dt><dd>76</dd>
+                </dl>
+                <div class="badges"><span class="badge warn">Lowest intent acc</span></div>
+            </article>
+            
+            <article class="card field-operations">
+                <div class="card-head">
+                    <h3>Field Operations</h3>
+                    <span class="schema schema-new">macro/micro schema</span>
+                </div>
+                <div class="big">83.81%</div>
+                <div class="label">Intent accuracy</div>
+                <div class="bar"><div class="bar-fill" style="width: 83.81%"></div><span>83.81%</span></div>
+                <dl>
+                    <dt>Rows</dt><dd>2.700</dd>
+                    <dt>Saved Slot F1</dt><dd>69.82%</dd>
+                    <dt>Intent Macro-F1</dt><dd>84.27%</dd>
+                    <dt>Unknown intent predictions</dt><dd>53</dd>
+                </dl>
+                <div class="badges"><span class="badge good">Best saved slot F1</span></div>
+            </article>
+            </section>
+            
+    <section class="strat-spotlight" aria-label="ATIS Stratified Macro@N spotlight">
+        <div class="spotlight-copy">
+            <span class="eyebrow">Featured analysis</span>
+            <h2>ATIS Stratified Macro@N</h2>
+            <p>Balanced post-prediction analysis with N=50 examples per intent, K=30 rounds, seed=42. Each round samples 350 rows across 7 intents, making the ATIS result much easier to interpret despite the original class imbalance.</p>
+            <a class="button-link" href="#atis-stratified">Jump to full stratified section</a>
+        </div>
+        <div class="spotlight-metrics">
+            <div class="spotlight-card primary">
+                <span>Intent Macro-F1</span>
+                <b>70.89%</b>
+                <small>95% CI 70.32% .. 71.46%</small>
+            </div>
+            <div class="spotlight-card">
+                <span>Intent Accuracy</span>
+                <b>73.45%</b>
+                <small>balanced rounds mean</small>
+            </div>
+            <div class="spotlight-card">
+                <span>Slot Macro-F1 By Intent</span>
+                <b>63.77%</b>
+                <small>slot extension of the old analysis</small>
+            </div>
+            <div class="spotlight-card">
+                <span>Slot Micro-F1</span>
+                <b>61.24%</b>
+                <small>global slot counts on sampled rounds</small>
+            </div>
+        </div>
+        <div class="spotlight-table">
+            <h3>ATIS main vs stratified</h3>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>view</th><th>rows/sample</th><th>intent_accuracy</th><th>intent_macro_f1</th><th>slot_macro_or_saved_f1</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>ATIS saved main metrics</td><td>5.232</td><td>54.95%</td><td>55.84%</td><td>63.58%</td><td>45.21%</td></tr><tr><td>ATIS stratified Macro@N</td><td>350 per round x 30</td><td>73.45% (72.87% .. 74.02%)</td><td>70.89% (70.32% .. 71.46%)</td><td>63.77% (63.20% .. 64.34%)</td><td>61.24% (60.59% .. 61.89%)</td></tr></tbody></table></div>
+        </div>
+    </section>
+    
+            <div class="panel">
+                <h3>Dataset comparison</h3>
+                <div class="table-wrap"><table class="compact"><thead><tr><th>dataset</th><th>rows</th><th>schema</th><th>intent_accuracy</th><th>intent_macro_f1</th><th>saved_slot_f1</th><th>slot_micro_f1</th><th>unknown_preds</th><th>slot_eval_mismatches</th></tr></thead><tbody><tr><td>SNIPS</td><td>13.784</td><td>macro/micro schema</td><td>93.01%</td><td>93.12%</td><td>49.20%</td><td>48.48%</td><td>0</td><td>0</td></tr><tr><td>MultiWOZ</td><td>12.797</td><td>macro/micro schema</td><td>84.96%</td><td>87.00%</td><td>38.08%</td><td>37.24%</td><td>625</td><td>0</td></tr><tr><td>ATIS</td><td>5.232</td><td>macro/micro schema</td><td>54.95%</td><td>55.84%</td><td>63.58%</td><td>45.21%</td><td>76</td><td>0</td></tr><tr><td>Field Operations</td><td>2.700</td><td>macro/micro schema</td><td>83.81%</td><td>84.27%</td><td>69.82%</td><td>70.17%</td><td>53</td><td>0</td></tr></tbody></table></div>
+            </div>
+        </section>
+
+        
+    <section id="atis-stratified" class="dataset-section stratified">
+        <div class="section-title">
+            <h2>ATIS Stratified Macro@N</h2>
+            <span class="schema schema-new">n50_k30_seed42</span>
+        </div>
+        <p class="muted">Post-prediction balanced sampling analysis. This section reads saved CSVs from evaluation/atis/metrics_stratified/n50_k30_seed42.</p>
+        <svg viewBox="0 0 900 260" role="img" aria-label="ATIS stratified round metrics"><line x1="54" y1="222.0" x2="876" y2="222.0" class="grid"/><text x="8" y="226.0" class="axis">0.00</text><line x1="54" y1="172.0" x2="876" y2="172.0" class="grid"/><text x="8" y="176.0" class="axis">0.25</text><line x1="54" y1="122.0" x2="876" y2="122.0" class="grid"/><text x="8" y="126.0" class="axis">0.50</text><line x1="54" y1="72.0" x2="876" y2="72.0" class="grid"/><text x="8" y="76.0" class="axis">0.75</text><line x1="54" y1="22.0" x2="876" y2="22.0" class="grid"/><text x="8" y="26.0" class="axis">1.00</text><line x1="54" y1="22" x2="54" y2="222" class="axis-line"/><line x1="54" y1="222" x2="876" y2="222" class="axis-line"/><polyline points="54.0,78.0 82.3,79.8 110.7,87.5 139.0,79.3 167.4,78.9 195.7,77.8 224.1,80.0 252.4,82.6 280.8,77.5 309.1,82.0 337.4,82.8 365.8,82.2 394.1,85.6 422.5,75.5 450.8,80.7 479.2,81.2 507.5,80.4 535.9,77.2 564.2,80.2 592.6,80.0 620.9,78.9 649.2,82.2 677.6,80.0 705.9,75.1 734.3,77.3 762.6,86.7 791.0,76.0 819.3,82.2 847.7,77.6 876.0,81.6" fill="none" stroke="#1565c0" stroke-width="3"/><polyline points="54.0,95.6 82.3,93.6 110.7,94.4 139.0,98.6 167.4,91.2 195.7,94.5 224.1,95.9 252.4,96.0 280.8,92.4 309.1,96.5 337.4,90.9 365.8,98.0 394.1,95.1 422.5,96.2 450.8,91.2 479.2,93.4 507.5,94.4 535.9,97.8 564.2,95.9 592.6,89.0 620.9,90.5 649.2,95.9 677.6,97.0 705.9,99.1 734.3,88.4 762.6,91.7 791.0,89.6 819.3,96.4 847.7,98.3 876.0,96.4" fill="none" stroke="#00897b" stroke-width="3"/><polyline points="54.0,100.9 82.3,98.6 110.7,100.8 139.0,103.0 167.4,97.5 195.7,98.3 224.1,99.0 252.4,101.0 280.8,97.5 309.1,99.7 337.4,95.1 365.8,101.2 394.1,98.4 422.5,101.9 450.8,96.2 479.2,97.0 507.5,99.7 535.9,102.8 564.2,103.5 592.6,97.5 620.9,92.3 649.2,101.2 677.6,100.5 705.9,107.5 734.3,93.2 762.6,96.7 791.0,94.3 819.3,104.5 847.7,103.5 876.0,102.2" fill="none" stroke="#ef6c00" stroke-width="3"/><rect x="54" y="240" width="12" height="12" fill="#1565c0"/><text x="72" y="250" class="legend">intent_macro_f1</text><rect x="274" y="240" width="12" height="12" fill="#00897b"/><text x="292" y="250" class="legend">slot_macro_f1_by_intent</text><rect x="494" y="240" width="12" height="12" fill="#ef6c00"/><text x="512" y="250" class="legend">slot_micro_f1</text></svg>
+        <details open>
+            <summary>Stratified summary</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>mean</th><th>ci95_low</th><th>ci95_high</th><th>N</th><th>K</th><th>seed</th></tr></thead><tbody><tr><td>intent_accuracy</td><td>73.45%</td><td>72.87%</td><td>74.02%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>intent_macro_precision</td><td>79.83%</td><td>79.26%</td><td>80.40%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>intent_macro_recall</td><td>73.45%</td><td>72.87%</td><td>74.02%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>intent_macro_f1</td><td>70.89%</td><td>70.32%</td><td>71.46%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>intent_micro_f1</td><td>73.45%</td><td>72.87%</td><td>74.02%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>slot_macro_precision_by_intent</td><td>66.17%</td><td>65.63%</td><td>66.71%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>slot_macro_recall_by_intent</td><td>62.30%</td><td>61.65%</td><td>62.95%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>slot_macro_f1_by_intent</td><td>63.77%</td><td>63.20%</td><td>64.34%</td><td>50</td><td>30</td><td>42</td></tr><tr><td>slot_micro_f1</td><td>61.24%</td><td>60.59%</td><td>61.89%</td><td>50</td><td>30</td><td>42</td></tr></tbody></table></div>
+        </details>
+        <details open>
+            <summary>Coverage by intent</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>effective_per_round</th><th>total_sampled_across_rounds</th><th>N</th><th>K</th><th>seed</th></tr></thead><tbody><tr><td>Find a flight</td><td>4.241</td><td>50</td><td>1.500</td><td>50</td><td>30</td><td>42</td></tr><tr><td>Find aircraft type for a flight</td><td>64</td><td>50</td><td>1.500</td><td>50</td><td>30</td><td>42</td></tr><tr><td>Find airlines for a route</td><td>123</td><td>50</td><td>1.500</td><td>50</td><td>30</td><td>42</td></tr><tr><td>Find ground transportation</td><td>208</td><td>50</td><td>1.500</td><td>50</td><td>30</td><td>42</td></tr><tr><td>Get airfare information</td><td>465</td><td>50</td><td>1.500</td><td>50</td><td>30</td><td>42</td></tr><tr><td>Get an abbreviation meaning</td><td>77</td><td>50</td><td>1.500</td><td>50</td><td>30</td><td>42</td></tr><tr><td>Get flight duration</td><td>54</td><td>50</td><td>1.500</td><td>50</td><td>30</td><td>42</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Rounds</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>round</th><th>rows</th><th>N</th><th>K</th><th>seed</th><th>intent_count</th><th>intent_accuracy</th><th>intent_macro_precision</th><th>intent_macro_recall</th><th>intent_macro_f1</th><th>intent_micro_f1</th><th>slot_macro_precision_by_intent</th><th>slot_macro_recall_by_intent</th><th>slot_macro_f1_by_intent</th><th>slot_micro_f1</th></tr></thead><tbody><tr><td>1</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.57%</td><td>80.57%</td><td>74.57%</td><td>71.99%</td><td>74.57%</td><td>65.73%</td><td>61.39%</td><td>63.18%</td><td>60.55%</td></tr><tr><td>2</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>73.71%</td><td>80.34%</td><td>73.71%</td><td>71.11%</td><td>73.71%</td><td>66.69%</td><td>62.61%</td><td>64.18%</td><td>61.68%</td></tr><tr><td>3</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>70.00%</td><td>76.75%</td><td>70.00%</td><td>67.25%</td><td>70.00%</td><td>65.48%</td><td>63.20%</td><td>63.81%</td><td>60.62%</td></tr><tr><td>4</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.00%</td><td>79.63%</td><td>74.00%</td><td>71.36%</td><td>74.00%</td><td>64.05%</td><td>60.36%</td><td>61.68%</td><td>59.50%</td></tr><tr><td>5</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.29%</td><td>80.48%</td><td>74.29%</td><td>71.54%</td><td>74.29%</td><td>68.45%</td><td>63.19%</td><td>65.42%</td><td>62.24%</td></tr><tr><td>6</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.57%</td><td>81.07%</td><td>74.57%</td><td>72.08%</td><td>74.57%</td><td>66.31%</td><td>62.14%</td><td>63.76%</td><td>61.87%</td></tr><tr><td>7</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>73.71%</td><td>80.20%</td><td>73.71%</td><td>70.99%</td><td>73.71%</td><td>65.83%</td><td>61.37%</td><td>63.06%</td><td>61.48%</td></tr><tr><td>8</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.29%</td><td>79.41%</td><td>72.29%</td><td>69.70%</td><td>72.29%</td><td>65.52%</td><td>61.32%</td><td>63.00%</td><td>60.52%</td></tr><tr><td>9</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.86%</td><td>80.97%</td><td>74.86%</td><td>72.23%</td><td>74.86%</td><td>66.45%</td><td>64.12%</td><td>64.81%</td><td>62.27%</td></tr><tr><td>10</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.57%</td><td>78.79%</td><td>72.57%</td><td>70.00%</td><td>72.57%</td><td>65.38%</td><td>60.82%</td><td>62.74%</td><td>61.17%</td></tr><tr><td>11</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.00%</td><td>78.55%</td><td>72.00%</td><td>69.59%</td><td>72.00%</td><td>67.73%</td><td>64.27%</td><td>65.55%</td><td>63.44%</td></tr><tr><td>12</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.57%</td><td>79.03%</td><td>72.57%</td><td>69.91%</td><td>72.57%</td><td>64.65%</td><td>60.21%</td><td>62.02%</td><td>60.40%</td></tr><tr><td>13</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>70.57%</td><td>75.97%</td><td>70.57%</td><td>68.21%</td><td>70.57%</td><td>66.12%</td><td>61.61%</td><td>63.45%</td><td>61.82%</td></tr><tr><td>14</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>75.71%</td><td>81.82%</td><td>75.71%</td><td>73.26%</td><td>75.71%</td><td>64.56%</td><td>62.44%</td><td>62.92%</td><td>60.03%</td></tr><tr><td>15</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>73.14%</td><td>80.17%</td><td>73.14%</td><td>70.66%</td><td>73.14%</td><td>66.92%</td><td>64.83%</td><td>65.40%</td><td>62.89%</td></tr><tr><td>16</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.86%</td><td>80.23%</td><td>72.86%</td><td>70.38%</td><td>72.86%</td><td>66.08%</td><td>63.52%</td><td>64.29%</td><td>62.50%</td></tr><tr><td>17</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>73.43%</td><td>79.82%</td><td>73.43%</td><td>70.82%</td><td>73.43%</td><td>66.87%</td><td>61.56%</td><td>63.81%</td><td>61.15%</td></tr><tr><td>18</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.86%</td><td>80.95%</td><td>74.86%</td><td>72.40%</td><td>74.86%</td><td>64.46%</td><td>60.84%</td><td>62.08%</td><td>59.58%</td></tr><tr><td>19</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.00%</td><td>80.28%</td><td>74.00%</td><td>70.89%</td><td>74.00%</td><td>65.90%</td><td>61.32%</td><td>63.03%</td><td>59.23%</td></tr><tr><td>20</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>73.43%</td><td>80.10%</td><td>73.43%</td><td>71.02%</td><td>73.43%</td><td>69.51%</td><td>64.37%</td><td>66.52%</td><td>62.25%</td></tr><tr><td>21</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.00%</td><td>80.13%</td><td>74.00%</td><td>71.57%</td><td>74.00%</td><td>66.98%</td><td>65.31%</td><td>65.75%</td><td>64.84%</td></tr><tr><td>22</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.29%</td><td>78.83%</td><td>72.29%</td><td>69.91%</td><td>72.29%</td><td>66.15%</td><td>60.89%</td><td>63.07%</td><td>60.41%</td></tr><tr><td>23</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>73.43%</td><td>79.83%</td><td>73.43%</td><td>71.02%</td><td>73.43%</td><td>65.33%</td><td>60.65%</td><td>62.50%</td><td>60.76%</td></tr><tr><td>24</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>76.00%</td><td>81.84%</td><td>76.00%</td><td>73.46%</td><td>76.00%</td><td>63.79%</td><td>59.98%</td><td>61.43%</td><td>57.27%</td></tr><tr><td>25</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>75.43%</td><td>81.96%</td><td>75.43%</td><td>72.35%</td><td>75.43%</td><td>69.19%</td><td>65.32%</td><td>66.80%</td><td>64.39%</td></tr><tr><td>26</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>70.29%</td><td>77.54%</td><td>70.29%</td><td>67.65%</td><td>70.29%</td><td>67.09%</td><td>64.14%</td><td>65.14%</td><td>62.65%</td></tr><tr><td>27</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>75.43%</td><td>81.88%</td><td>75.43%</td><td>73.00%</td><td>75.43%</td><td>68.28%</td><td>65.05%</td><td>66.20%</td><td>63.87%</td></tr><tr><td>28</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.29%</td><td>77.50%</td><td>72.29%</td><td>69.90%</td><td>72.29%</td><td>65.01%</td><td>61.48%</td><td>62.80%</td><td>58.74%</td></tr><tr><td>29</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>74.57%</td><td>81.48%</td><td>74.57%</td><td>72.21%</td><td>74.57%</td><td>64.54%</td><td>60.12%</td><td>61.87%</td><td>59.26%</td></tr><tr><td>30</td><td>350</td><td>50</td><td>30</td><td>42</td><td>7</td><td>72.57%</td><td>78.84%</td><td>72.57%</td><td>70.18%</td><td>72.57%</td><td>65.97%</td><td>60.51%</td><td>62.79%</td><td>59.88%</td></tr></tbody></table></div>
+        </details>
+        <details>
+            <summary>Stratified artifact integrity</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>summary.csv</td><td>found</td><td>evaluation/atis/metrics_stratified/n50_k30_seed42/summary.csv</td><td>833 B</td><td>2026-05-14 18:36:48</td></tr><tr><td>rounds.csv</td><td>found</td><td>evaluation/atis/metrics_stratified/n50_k30_seed42/rounds.csv</td><td>5.5 KB</td><td>2026-05-14 18:36:48</td></tr><tr><td>coverage.csv</td><td>found</td><td>evaluation/atis/metrics_stratified/n50_k30_seed42/coverage.csv</td><td>408 B</td><td>2026-05-14 18:36:48</td></tr><tr><td>intent_by_label_rounds.csv</td><td>found</td><td>evaluation/atis/metrics_stratified/n50_k30_seed42/intent_by_label_rounds.csv</td><td>19.5 KB</td><td>2026-05-14 18:36:48</td></tr><tr><td>slot_by_intent_rounds.csv</td><td>found</td><td>evaluation/atis/metrics_stratified/n50_k30_seed42/slot_by_intent_rounds.csv</td><td>20.3 KB</td><td>2026-05-14 18:36:48</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+
+        <section id="integrity" class="panel">
+            <h2>Artifact Integrity</h2>
+            <p class="muted">Core expected files and aggregate result row counts.</p>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>dataset</th><th>aggregate_predictions</th><th>rows</th><th>metrics_schema</th><th>metric_files_found</th><th>result_csv_files</th></tr></thead><tbody><tr><td>SNIPS</td><td>found</td><td>13.784</td><td>macro/micro schema</td><td>7/7</td><td>8</td></tr><tr><td>MultiWOZ</td><td>found</td><td>12.797</td><td>macro/micro schema</td><td>7/7</td><td>7</td></tr><tr><td>ATIS</td><td>found</td><td>5.232</td><td>macro/micro schema</td><td>7/7</td><td>8</td></tr><tr><td>Field Operations</td><td>found</td><td>2.700</td><td>macro/micro schema</td><td>7/7</td><td>10</td></tr></tbody></table></div>
+        </section>
+
+        
+    <section id="snips" class="dataset-section">
+        <div class="section-title">
+            <h2>SNIPS</h2>
+            <span class="schema schema-new">macro/micro schema</span>
+        </div>
+        <div class="mini-grid">
+            <div class="metric-card"><b>13.784</b><span>prediction rows</span></div>
+            <div class="metric-card"><b>93.01%</b><span>intent accuracy</span></div>
+            <div class="metric-card"><b>93.12%</b><span>intent macro-F1</span></div>
+            <div class="metric-card"><b>49.20%</b><span>saved slot F1</span></div>
+        </div>
+
+        <details open>
+            <summary>Saved summaries</summary>
+            <div class="three-cols">
+                <div><h4>overall_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>13.784</td></tr><tr><td>intent_accuracy</td><td>93.01%</td></tr><tr><td>intent_macro_precision</td><td>93.94%</td></tr><tr><td>intent_macro_recall</td><td>92.97%</td></tr><tr><td>intent_macro_f1</td><td>93.12%</td></tr><tr><td>intent_micro_precision</td><td>93.01%</td></tr><tr><td>intent_micro_recall</td><td>93.01%</td></tr><tr><td>intent_micro_f1</td><td>93.01%</td></tr><tr><td>slot_conll_precision</td><td>51.92%</td></tr><tr><td>slot_conll_recall</td><td>47.46%</td></tr><tr><td>slot_conll_f1</td><td>49.20%</td></tr><tr><td>slot_conll_micro_precision</td><td>50.58%</td></tr><tr><td>slot_conll_micro_recall</td><td>46.55%</td></tr><tr><td>slot_conll_micro_f1</td><td>48.48%</td></tr></tbody></table></div></div>
+                <div><h4>intent_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>13.784</td></tr><tr><td>intent_count</td><td>7</td></tr><tr><td>intent_correct</td><td>12.821</td></tr><tr><td>intent_errors</td><td>963</td></tr><tr><td>intent_accuracy</td><td>93.01%</td></tr><tr><td>macro_precision</td><td>93.94%</td></tr><tr><td>macro_recall</td><td>92.97%</td></tr><tr><td>macro_f1</td><td>93.12%</td></tr><tr><td>micro_precision</td><td>93.01%</td></tr><tr><td>micro_recall</td><td>93.01%</td></tr><tr><td>micro_f1</td><td>93.01%</td></tr></tbody></table></div></div>
+                <div><h4>slot_conll_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>13.784</td></tr><tr><td>intent_count</td><td>7</td></tr><tr><td>tp</td><td>15.975</td></tr><tr><td>fp</td><td>15.610</td></tr><tr><td>fn</td><td>18.344</td></tr><tr><td>precision</td><td>51.92%</td></tr><tr><td>recall</td><td>47.46%</td></tr><tr><td>f1</td><td>49.20%</td></tr><tr><td>micro_tp</td><td>15.975</td></tr><tr><td>micro_fp</td><td>15.610</td></tr><tr><td>micro_fn</td><td>18.344</td></tr><tr><td>micro_precision</td><td>50.58%</td></tr><tr><td>micro_recall</td><td>46.55%</td></tr><tr><td>micro_f1</td><td>48.48%</td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details open>
+            <summary>Intent and prediction distributions</summary>
+            <div class="two-cols">
+                <div><h4>Gold semantic_intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>semantic_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Check weather</td><td>2.000</td><td>14.51%</td><td><div class="bar"><div class="bar-fill" style="width: 14.51%"></div><span>14.51%</span></div></td></tr><tr><td>Play a music</td><td>2.000</td><td>14.51%</td><td><div class="bar"><div class="bar-fill" style="width: 14.51%"></div><span>14.51%</span></div></td></tr><tr><td>Book a restaurant</td><td>1.973</td><td>14.31%</td><td><div class="bar"><div class="bar-fill" style="width: 14.31%"></div><span>14.31%</span></div></td></tr><tr><td>Search for movie showtimes</td><td>1.959</td><td>14.21%</td><td><div class="bar"><div class="bar-fill" style="width: 14.21%"></div><span>14.21%</span></div></td></tr><tr><td>Rate a item</td><td>1.956</td><td>14.19%</td><td><div class="bar"><div class="bar-fill" style="width: 14.19%"></div><span>14.19%</span></div></td></tr><tr><td>Search a creative work</td><td>1.954</td><td>14.18%</td><td><div class="bar"><div class="bar-fill" style="width: 14.18%"></div><span>14.18%</span></div></td></tr><tr><td>Add to a playlist</td><td>1.942</td><td>14.09%</td><td><div class="bar"><div class="bar-fill" style="width: 14.09%"></div><span>14.09%</span></div></td></tr></tbody></table></div></div>
+                <div><h4>Predicted intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>pred_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Search a creative work</td><td>2.354</td><td>17.08%</td><td><div class="bar"><div class="bar-fill" style="width: 17.08%"></div><span>17.08%</span></div></td></tr><tr><td>Play a music</td><td>2.268</td><td>16.45%</td><td><div class="bar"><div class="bar-fill" style="width: 16.45%"></div><span>16.45%</span></div></td></tr><tr><td>Check weather</td><td>1.983</td><td>14.39%</td><td><div class="bar"><div class="bar-fill" style="width: 14.39%"></div><span>14.39%</span></div></td></tr><tr><td>Rate a item</td><td>1.979</td><td>14.36%</td><td><div class="bar"><div class="bar-fill" style="width: 14.36%"></div><span>14.36%</span></div></td></tr><tr><td>Book a restaurant</td><td>1.840</td><td>13.35%</td><td><div class="bar"><div class="bar-fill" style="width: 13.35%"></div><span>13.35%</span></div></td></tr><tr><td>Search for movie showtimes</td><td>1.757</td><td>12.75%</td><td><div class="bar"><div class="bar-fill" style="width: 12.75%"></div><span>12.75%</span></div></td></tr><tr><td>Add to a playlist</td><td>1.603</td><td>11.63%</td><td><div class="bar"><div class="bar-fill" style="width: 11.63%"></div><span>11.63%</span></div></td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Intent by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>predicted</th><th>correct</th><th>errors</th><th>tp</th><th>fp</th><th>fn</th><th>precision</th><th>recall</th><th>f1</th><th>accuracy</th></tr></thead><tbody><tr><td>Check weather</td><td>2.000</td><td>1.983</td><td>1.979</td><td>21</td><td>1.979</td><td>4</td><td>21</td><td>99.80%</td><td>98.95%</td><td>99.37%</td><td>98.95%</td></tr><tr><td>Play a music</td><td>2.000</td><td>2.268</td><td>1.967</td><td>33</td><td>1.967</td><td>301</td><td>33</td><td>86.73%</td><td>98.35%</td><td>92.17%</td><td>98.35%</td></tr><tr><td>Book a restaurant</td><td>1.973</td><td>1.840</td><td>1.828</td><td>145</td><td>1.828</td><td>12</td><td>145</td><td>99.35%</td><td>92.65%</td><td>95.88%</td><td>92.65%</td></tr><tr><td>Search for movie showtimes</td><td>1.959</td><td>1.757</td><td>1.724</td><td>235</td><td>1.724</td><td>33</td><td>235</td><td>98.12%</td><td>88.00%</td><td>92.79%</td><td>88.00%</td></tr><tr><td>Rate a item</td><td>1.956</td><td>1.979</td><td>1.938</td><td>18</td><td>1.938</td><td>41</td><td>18</td><td>97.93%</td><td>99.08%</td><td>98.50%</td><td>99.08%</td></tr><tr><td>Search a creative work</td><td>1.954</td><td>2.354</td><td>1.786</td><td>168</td><td>1.786</td><td>568</td><td>168</td><td>75.87%</td><td>91.40%</td><td>82.92%</td><td>91.40%</td></tr><tr><td>Add to a playlist</td><td>1.942</td><td>1.603</td><td>1.599</td><td>343</td><td>1.599</td><td>4</td><td>343</td><td>99.75%</td><td>82.34%</td><td>90.21%</td><td>82.34%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by intent</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>rows</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>Rate a item</td><td>1.956</td><td>2.597</td><td>2.275</td><td>4.460</td><td>7.057</td><td>4.872</td><td>53.30%</td><td>36.80%</td><td>43.54%</td></tr><tr><td>Book a restaurant</td><td>1.973</td><td>2.934</td><td>2.972</td><td>3.208</td><td>6.142</td><td>5.906</td><td>49.68%</td><td>47.77%</td><td>48.71%</td></tr><tr><td>Add to a playlist</td><td>1.942</td><td>2.684</td><td>2.528</td><td>2.586</td><td>5.270</td><td>5.212</td><td>51.50%</td><td>50.93%</td><td>51.21%</td></tr><tr><td>Search for movie showtimes</td><td>1.959</td><td>1.635</td><td>2.296</td><td>2.586</td><td>4.221</td><td>3.931</td><td>41.59%</td><td>38.73%</td><td>40.11%</td></tr><tr><td>Check weather</td><td>2.000</td><td>2.193</td><td>3.142</td><td>1.984</td><td>4.177</td><td>5.335</td><td>41.11%</td><td>52.50%</td><td>46.11%</td></tr><tr><td>Play a music</td><td>2.000</td><td>2.199</td><td>1.588</td><td>1.959</td><td>4.158</td><td>3.787</td><td>58.07%</td><td>52.89%</td><td>55.36%</td></tr><tr><td>Search a creative work</td><td>1.954</td><td>1.733</td><td>809</td><td>1.561</td><td>3.294</td><td>2.542</td><td>68.17%</td><td>52.61%</td><td>59.39%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>object_name</td><td>1.361</td><td>942</td><td>1.532</td><td>2.893</td><td>2.303</td><td>59.10%</td><td>47.04%</td><td>52.39%</td></tr><tr><td>object_type</td><td>1.279</td><td>478</td><td>1.045</td><td>2.324</td><td>1.757</td><td>72.79%</td><td>55.03%</td><td>62.68%</td></tr><tr><td>playlist_title</td><td>1.251</td><td>278</td><td>835</td><td>2.086</td><td>1.529</td><td>81.82%</td><td>59.97%</td><td>69.21%</td></tr><tr><td>rating_value</td><td>847</td><td>774</td><td>1.047</td><td>1.894</td><td>1.621</td><td>52.25%</td><td>44.72%</td><td>48.19%</td></tr><tr><td>artist_name</td><td>1.409</td><td>482</td><td>478</td><td>1.887</td><td>1.891</td><td>74.51%</td><td>74.67%</td><td>74.59%</td></tr><tr><td>playable_content</td><td>501</td><td>1.182</td><td>1.167</td><td>1.668</td><td>1.683</td><td>29.77%</td><td>30.04%</td><td>29.90%</td></tr><tr><td>restaurant_type</td><td>500</td><td>216</td><td>837</td><td>1.337</td><td>716</td><td>69.83%</td><td>37.40%</td><td>48.71%</td></tr><tr><td>spatial_relation</td><td>382</td><td>1.068</td><td>827</td><td>1.209</td><td>1.450</td><td>26.34%</td><td>31.60%</td><td>28.73%</td></tr><tr><td>playlist_owner</td><td>446</td><td>63</td><td>667</td><td>1.113</td><td>509</td><td>87.62%</td><td>40.07%</td><td>54.99%</td></tr><tr><td>city</td><td>608</td><td>290</td><td>487</td><td>1.095</td><td>898</td><td>67.71%</td><td>55.53%</td><td>61.01%</td></tr><tr><td>date</td><td>507</td><td>272</td><td>500</td><td>1.007</td><td>779</td><td>65.08%</td><td>50.35%</td><td>56.77%</td></tr><tr><td>number_of_people</td><td>834</td><td>247</td><td>170</td><td>1.004</td><td>1.081</td><td>77.15%</td><td>83.07%</td><td>80.00%</td></tr><tr><td>rating_unit</td><td>489</td><td>128</td><td>509</td><td>998</td><td>617</td><td>79.25%</td><td>49.00%</td><td>60.56%</td></tr><tr><td>object_select</td><td>23</td><td>640</td><td>958</td><td>981</td><td>663</td><td>3.47%</td><td>2.34%</td><td>2.80%</td></tr><tr><td>best_rating</td><td>234</td><td>2</td><td>725</td><td>959</td><td>236</td><td>99.15%</td><td>24.40%</td><td>39.16%</td></tr><tr><td>state</td><td>594</td><td>479</td><td>268</td><td>862</td><td>1.073</td><td>55.36%</td><td>68.91%</td><td>61.40%</td></tr><tr><td>movie_title</td><td>494</td><td>100</td><td>316</td><td>810</td><td>594</td><td>83.16%</td><td>60.99%</td><td>70.37%</td></tr><tr><td>screening_object_type</td><td>171</td><td>990</td><td>600</td><td>771</td><td>1.161</td><td>14.73%</td><td>22.18%</td><td>17.70%</td></tr><tr><td>country</td><td>319</td><td>43</td><td>436</td><td>755</td><td>362</td><td>88.12%</td><td>42.25%</td><td>57.12%</td></tr><tr><td>movie_type</td><td>373</td><td>49</td><td>309</td><td>682</td><td>422</td><td>88.39%</td><td>54.69%</td><td>67.57%</td></tr><tr><td>reservation_time</td><td>314</td><td>133</td><td>332</td><td>646</td><td>447</td><td>70.25%</td><td>48.61%</td><td>57.46%</td></tr><tr><td>music_service</td><td>458</td><td>66</td><td>181</td><td>639</td><td>524</td><td>87.40%</td><td>71.67%</td><td>78.76%</td></tr><tr><td>entity_name</td><td>173</td><td>1.269</td><td>421</td><td>594</td><td>1.442</td><td>12.00%</td><td>29.12%</td><td>16.99%</td></tr><tr><td>location_name</td><td>282</td><td>164</td><td>308</td><td>590</td><td>446</td><td>63.23%</td><td>47.80%</td><td>54.44%</td></tr><tr><td>year</td><td>292</td><td>51</td><td>278</td><td>570</td><td>343</td><td>85.13%</td><td>51.23%</td><td>63.96%</td></tr><tr><td>sorting_preference</td><td>86</td><td>150</td><td>460</td><td>546</td><td>236</td><td>36.44%</td><td>15.75%</td><td>21.99%</td></tr><tr><td>temperature_condition</td><td>245</td><td>423</td><td>228</td><td>473</td><td>668</td><td>36.68%</td><td>51.80%</td><td>42.94%</td></tr><tr><td>weather_description</td><td>319</td><td>1.015</td><td>134</td><td>453</td><td>1.334</td><td>23.91%</td><td>70.42%</td><td>35.70%</td></tr><tr><td>location_type</td><td>7</td><td>523</td><td>440</td><td>447</td><td>530</td><td>1.32%</td><td>1.57%</td><td>1.43%</td></tr><tr><td>restaurant_name</td><td>224</td><td>101</td><td>114</td><td>338</td><td>325</td><td>68.92%</td><td>66.27%</td><td>67.57%</td></tr><tr><td>party_size_description</td><td>25</td><td>454</td><td>292</td><td>317</td><td>479</td><td>5.22%</td><td>7.89%</td><td>6.28%</td></tr><tr><td>object_part_of_series_type</td><td>97</td><td>120</td><td>205</td><td>302</td><td>217</td><td>44.70%</td><td>32.12%</td><td>37.38%</td></tr><tr><td>geographic_point</td><td>164</td><td>227</td><td>127</td><td>291</td><td>391</td><td>41.94%</td><td>56.36%</td><td>48.09%</td></tr><tr><td>current_location</td><td>86</td><td>295</td><td>167</td><td>253</td><td>381</td><td>22.57%</td><td>33.99%</td><td>27.13%</td></tr><tr><td>served_dish</td><td>77</td><td>191</td><td>175</td><td>252</td><td>268</td><td>28.73%</td><td>30.56%</td><td>29.62%</td></tr><tr><td>time_range</td><td>71</td><td>244</td><td>172</td><td>243</td><td>315</td><td>22.54%</td><td>29.22%</td><td>25.45%</td></tr><tr><td>track_title</td><td>133</td><td>165</td><td>77</td><td>210</td><td>298</td><td>44.63%</td><td>63.33%</td><td>52.36%</td></tr><tr><td>cuisine_type</td><td>80</td><td>165</td><td>129</td><td>209</td><td>245</td><td>32.65%</td><td>38.28%</td><td>35.24%</td></tr><tr><td>album_title</td><td>50</td><td>54</td><td>126</td><td>176</td><td>104</td><td>48.08%</td><td>28.41%</td><td>35.71%</td></tr><tr><td>facility</td><td>38</td><td>441</td><td>115</td><td>153</td><td>479</td><td>7.93%</td><td>24.84%</td><td>12.03%</td></tr><tr><td>music_genre</td><td>103</td><td>369</td><td>39</td><td>142</td><td>472</td><td>21.82%</td><td>72.54%</td><td>33.55%</td></tr><tr><td>point_of_interest</td><td>29</td><td>267</td><td>111</td><td>140</td><td>296</td><td>9.80%</td><td>20.71%</td><td>13.30%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Intent confusion matrix</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>Add to a playlist</th><th>Book a restaurant</th><th>Check weather</th><th>Play a music</th><th>Rate a item</th><th>Search a creative work</th><th>Search for movie showtimes</th></tr></thead><tbody><tr><td>1599.0000</td><td>2.0000</td><td>0.0000</td><td>128.0000</td><td>6.0000</td><td>207.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>1828.0000</td><td>0.0000</td><td>0.0000</td><td>18.0000</td><td>125.0000</td><td>2.0000</td></tr><tr><td>0.0000</td><td>9.0000</td><td>1979.0000</td><td>0.0000</td><td>4.0000</td><td>7.0000</td><td>1.0000</td></tr><tr><td>2.0000</td><td>0.0000</td><td>0.0000</td><td>1967.0000</td><td>0.0000</td><td>31.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1938.0000</td><td>18.0000</td><td>0.0000</td></tr><tr><td>2.0000</td><td>1.0000</td><td>3.0000</td><td>121.0000</td><td>11.0000</td><td>1786.0000</td><td>30.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>52.0000</td><td>2.0000</td><td>180.0000</td><td>1724.0000</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Artifact integrity</summary>
+            <h4>Expected core artifacts</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>aggregate_predictions</td><td>found</td><td>evaluation/snips/results_csv/snips_predictions.csv</td><td>10.6 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>overall_summary.csv</td><td>found</td><td>evaluation/snips/metrics/overall_summary.csv</td><td>522 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>intent_summary.csv</td><td>found</td><td>evaluation/snips/metrics/intent_summary.csv</td><td>295 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>intent_by_label.csv</td><td>found</td><td>evaluation/snips/metrics/intent_by_label.csv</td><td>909 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>intent_confusion.csv</td><td>found</td><td>evaluation/snips/metrics/intent_confusion.csv</td><td>271 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>slot_conll_summary.csv</td><td>found</td><td>evaluation/snips/metrics/slot_conll_summary.csv</td><td>276 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>slot_conll_by_label.csv</td><td>found</td><td>evaluation/snips/metrics/slot_conll_by_label.csv</td><td>3.9 KB</td><td>2026-05-14 18:36:38</td></tr><tr><td>slot_conll_by_intent.csv</td><td>found</td><td>evaluation/snips/metrics/slot_conll_by_intent.csv</td><td>825 B</td><td>2026-05-14 18:36:38</td></tr></tbody></table></div>
+            <h4>Result CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/snips/results_csv/AddToPlaylist_full_predictions.csv</td><td>1.4 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>evaluation/snips/results_csv/BookRestaurant_full_predictions.csv</td><td>2.0 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>evaluation/snips/results_csv/GetWeather_full_predictions.csv</td><td>1.5 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>evaluation/snips/results_csv/PlayMusic_full_clean_predictions.csv</td><td>1.4 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>evaluation/snips/results_csv/RateBook_full_clean_predictions.csv</td><td>1.6 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>evaluation/snips/results_csv/SearchCreativeWork_full_clean_predictions.csv</td><td>1.2 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>evaluation/snips/results_csv/SearchScreeningEvent_full_clean_predictions.csv</td><td>1.6 MB</td><td>2026-05-08 14:13:05</td></tr><tr><td>evaluation/snips/results_csv/snips_predictions.csv</td><td>10.6 MB</td><td>2026-05-08 14:13:05</td></tr></tbody></table></div>
+            <h4>Metric CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/snips/metrics/intent_by_label.csv</td><td>909 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>evaluation/snips/metrics/intent_confusion.csv</td><td>271 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>evaluation/snips/metrics/intent_summary.csv</td><td>295 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>evaluation/snips/metrics/overall_summary.csv</td><td>522 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>evaluation/snips/metrics/slot_conll_by_intent.csv</td><td>825 B</td><td>2026-05-14 18:36:38</td></tr><tr><td>evaluation/snips/metrics/slot_conll_by_label.csv</td><td>3.9 KB</td><td>2026-05-14 18:36:38</td></tr><tr><td>evaluation/snips/metrics/slot_conll_summary.csv</td><td>276 B</td><td>2026-05-14 18:36:38</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+
+    <section id="multiwoz" class="dataset-section">
+        <div class="section-title">
+            <h2>MultiWOZ</h2>
+            <span class="schema schema-new">macro/micro schema</span>
+        </div>
+        <div class="mini-grid">
+            <div class="metric-card"><b>12.797</b><span>prediction rows</span></div>
+            <div class="metric-card"><b>84.96%</b><span>intent accuracy</span></div>
+            <div class="metric-card"><b>87.00%</b><span>intent macro-F1</span></div>
+            <div class="metric-card"><b>38.08%</b><span>saved slot F1</span></div>
+        </div>
+
+        <details open>
+            <summary>Saved summaries</summary>
+            <div class="three-cols">
+                <div><h4>overall_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>12.797</td></tr><tr><td>intent_accuracy</td><td>84.96%</td></tr><tr><td>intent_macro_precision</td><td>84.47%</td></tr><tr><td>intent_macro_recall</td><td>92.90%</td></tr><tr><td>intent_macro_f1</td><td>87.00%</td></tr><tr><td>intent_micro_precision</td><td>84.96%</td></tr><tr><td>intent_micro_recall</td><td>84.96%</td></tr><tr><td>intent_micro_f1</td><td>84.96%</td></tr><tr><td>slot_conll_precision</td><td>36.45%</td></tr><tr><td>slot_conll_recall</td><td>43.04%</td></tr><tr><td>slot_conll_f1</td><td>38.08%</td></tr><tr><td>slot_conll_micro_precision</td><td>31.20%</td></tr><tr><td>slot_conll_micro_recall</td><td>46.20%</td></tr><tr><td>slot_conll_micro_f1</td><td>37.24%</td></tr></tbody></table></div></div>
+                <div><h4>intent_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>12.797</td></tr><tr><td>intent_count</td><td>6</td></tr><tr><td>intent_correct</td><td>10.872</td></tr><tr><td>intent_errors</td><td>1.925</td></tr><tr><td>intent_accuracy</td><td>84.96%</td></tr><tr><td>macro_precision</td><td>84.47%</td></tr><tr><td>macro_recall</td><td>92.90%</td></tr><tr><td>macro_f1</td><td>87.00%</td></tr><tr><td>micro_precision</td><td>84.96%</td></tr><tr><td>micro_recall</td><td>84.96%</td></tr><tr><td>micro_f1</td><td>84.96%</td></tr></tbody></table></div></div>
+                <div><h4>slot_conll_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>12.797</td></tr><tr><td>intent_count</td><td>6</td></tr><tr><td>tp</td><td>4.823</td></tr><tr><td>fp</td><td>10.637</td></tr><tr><td>fn</td><td>5.616</td></tr><tr><td>precision</td><td>36.45%</td></tr><tr><td>recall</td><td>43.04%</td></tr><tr><td>f1</td><td>38.08%</td></tr><tr><td>micro_tp</td><td>4.823</td></tr><tr><td>micro_fp</td><td>10.637</td></tr><tr><td>micro_fn</td><td>5.616</td></tr><tr><td>micro_precision</td><td>31.20%</td></tr><tr><td>micro_recall</td><td>46.20%</td></tr><tr><td>micro_f1</td><td>37.24%</td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details open>
+            <summary>Intent and prediction distributions</summary>
+            <div class="two-cols">
+                <div><h4>Gold semantic_intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>semantic_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Find a train</td><td>7.154</td><td>55.90%</td><td><div class="bar"><div class="bar-fill" style="width: 55.90%"></div><span>55.90%</span></div></td></tr><tr><td>Find a restaurant</td><td>2.415</td><td>18.87%</td><td><div class="bar"><div class="bar-fill" style="width: 18.87%"></div><span>18.87%</span></div></td></tr><tr><td>Find a hotel</td><td>1.594</td><td>12.46%</td><td><div class="bar"><div class="bar-fill" style="width: 12.46%"></div><span>12.46%</span></div></td></tr><tr><td>Find a tourist attraction</td><td>1.179</td><td>9.21%</td><td><div class="bar"><div class="bar-fill" style="width: 9.21%"></div><span>9.21%</span></div></td></tr><tr><td>Find a taxi</td><td>380</td><td>2.97%</td><td><div class="bar"><div class="bar-fill" style="width: 2.97%"></div><span>2.97%</span></div></td></tr><tr><td>Find a hospital</td><td>75</td><td>0.59%</td><td><div class="bar"><div class="bar-fill" style="width: 0.59%"></div><span>0.59%</span></div></td></tr></tbody></table></div></div>
+                <div><h4>Predicted intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>pred_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Find a train</td><td>5.444</td><td>42.54%</td><td><div class="bar"><div class="bar-fill" style="width: 42.54%"></div><span>42.54%</span></div></td></tr><tr><td>Find a restaurant</td><td>2.485</td><td>19.42%</td><td><div class="bar"><div class="bar-fill" style="width: 19.42%"></div><span>19.42%</span></div></td></tr><tr><td>Find a tourist attraction</td><td>2.020</td><td>15.78%</td><td><div class="bar"><div class="bar-fill" style="width: 15.78%"></div><span>15.78%</span></div></td></tr><tr><td>Find a hotel</td><td>1.572</td><td>12.28%</td><td><div class="bar"><div class="bar-fill" style="width: 12.28%"></div><span>12.28%</span></div></td></tr><tr><td>UNK_INTENT</td><td>625</td><td>4.88%</td><td><div class="bar"><div class="bar-fill" style="width: 4.88%"></div><span>4.88%</span></div></td></tr><tr><td>Find a taxi</td><td>575</td><td>4.49%</td><td><div class="bar"><div class="bar-fill" style="width: 4.49%"></div><span>4.49%</span></div></td></tr><tr><td>Find a hospital</td><td>76</td><td>0.59%</td><td><div class="bar"><div class="bar-fill" style="width: 0.59%"></div><span>0.59%</span></div></td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Intent by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>predicted</th><th>correct</th><th>errors</th><th>tp</th><th>fp</th><th>fn</th><th>precision</th><th>recall</th><th>f1</th><th>accuracy</th></tr></thead><tbody><tr><td>Find a train</td><td>7.154</td><td>5.444</td><td>5.443</td><td>1.711</td><td>5.443</td><td>1</td><td>1.711</td><td>99.98%</td><td>76.08%</td><td>86.41%</td><td>76.08%</td></tr><tr><td>Find a restaurant</td><td>2.415</td><td>2.485</td><td>2.388</td><td>27</td><td>2.388</td><td>97</td><td>27</td><td>96.10%</td><td>98.88%</td><td>97.47%</td><td>98.88%</td></tr><tr><td>Find a hotel</td><td>1.594</td><td>1.572</td><td>1.494</td><td>100</td><td>1.494</td><td>78</td><td>100</td><td>95.04%</td><td>93.73%</td><td>94.38%</td><td>93.73%</td></tr><tr><td>Find a tourist attraction</td><td>1.179</td><td>2.020</td><td>1.108</td><td>71</td><td>1.108</td><td>912</td><td>71</td><td>54.85%</td><td>93.98%</td><td>69.27%</td><td>93.98%</td></tr><tr><td>Find a taxi</td><td>380</td><td>575</td><td>365</td><td>15</td><td>365</td><td>210</td><td>15</td><td>63.48%</td><td>96.05%</td><td>76.44%</td><td>96.05%</td></tr><tr><td>Find a hospital</td><td>75</td><td>76</td><td>74</td><td>1</td><td>74</td><td>2</td><td>1</td><td>97.37%</td><td>98.67%</td><td>98.01%</td><td>98.67%</td></tr><tr><td>UNK_INTENT</td><td>0</td><td>625</td><td>0</td><td>0</td><td>0</td><td>625</td><td>0</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by intent</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>rows</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>Find a train</td><td>7.154</td><td>2.233</td><td>5.541</td><td>2.456</td><td>4.689</td><td>7.774</td><td>28.72%</td><td>47.62%</td><td>35.83%</td></tr><tr><td>Find a restaurant</td><td>2.415</td><td>1.094</td><td>2.048</td><td>1.434</td><td>2.528</td><td>3.142</td><td>34.82%</td><td>43.28%</td><td>38.59%</td></tr><tr><td>Find a hotel</td><td>1.594</td><td>880</td><td>1.747</td><td>764</td><td>1.644</td><td>2.627</td><td>33.50%</td><td>53.53%</td><td>41.21%</td></tr><tr><td>Find a tourist attraction</td><td>1.179</td><td>495</td><td>1.095</td><td>510</td><td>1.005</td><td>1.590</td><td>31.13%</td><td>49.25%</td><td>38.15%</td></tr><tr><td>Find a taxi</td><td>380</td><td>86</td><td>181</td><td>413</td><td>499</td><td>267</td><td>32.21%</td><td>17.23%</td><td>22.45%</td></tr><tr><td>Find a hospital</td><td>75</td><td>35</td><td>25</td><td>39</td><td>74</td><td>60</td><td>58.33%</td><td>47.30%</td><td>52.24%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>departure_location</td><td>974</td><td>1.482</td><td>777</td><td>1.751</td><td>2.456</td><td>39.66%</td><td>55.63%</td><td>46.30%</td></tr><tr><td>destination</td><td>559</td><td>1.177</td><td>873</td><td>1.432</td><td>1.736</td><td>32.20%</td><td>39.04%</td><td>35.29%</td></tr><tr><td>cuisine_type</td><td>337</td><td>678</td><td>950</td><td>1.287</td><td>1.015</td><td>33.20%</td><td>26.18%</td><td>29.28%</td></tr><tr><td>area</td><td>696</td><td>1.188</td><td>427</td><td>1.123</td><td>1.884</td><td>36.94%</td><td>61.98%</td><td>46.29%</td></tr><tr><td>leave_at_time</td><td>169</td><td>810</td><td>661</td><td>830</td><td>979</td><td>17.26%</td><td>20.36%</td><td>18.68%</td></tr><tr><td>price_range</td><td>551</td><td>839</td><td>181</td><td>732</td><td>1.390</td><td>39.64%</td><td>75.27%</td><td>51.93%</td></tr><tr><td>arrive_by_time</td><td>252</td><td>596</td><td>406</td><td>658</td><td>848</td><td>29.72%</td><td>38.30%</td><td>33.47%</td></tr><tr><td>travel_day</td><td>365</td><td>1.657</td><td>152</td><td>517</td><td>2.022</td><td>18.05%</td><td>70.60%</td><td>28.75%</td></tr><tr><td>hotel_type</td><td>325</td><td>575</td><td>137</td><td>462</td><td>900</td><td>36.11%</td><td>70.35%</td><td>47.72%</td></tr><tr><td>attraction_type</td><td>244</td><td>546</td><td>138</td><td>382</td><td>790</td><td>30.89%</td><td>63.87%</td><td>41.64%</td></tr><tr><td>hotel_name</td><td>59</td><td>148</td><td>292</td><td>351</td><td>207</td><td>28.50%</td><td>16.81%</td><td>21.15%</td></tr><tr><td>restaurant_name</td><td>61</td><td>341</td><td>231</td><td>292</td><td>402</td><td>15.17%</td><td>20.89%</td><td>17.58%</td></tr><tr><td>star_rating</td><td>168</td><td>347</td><td>123</td><td>291</td><td>515</td><td>32.62%</td><td>57.73%</td><td>41.69%</td></tr><tr><td>attraction_name</td><td>28</td><td>228</td><td>229</td><td>257</td><td>256</td><td>10.94%</td><td>10.89%</td><td>10.92%</td></tr><tr><td>hospital_department</td><td>35</td><td>25</td><td>39</td><td>74</td><td>60</td><td>58.33%</td><td>47.30%</td><td>52.24%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Intent confusion matrix</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>Find a hospital</th><th>Find a hotel</th><th>Find a restaurant</th><th>Find a taxi</th><th>Find a tourist attraction</th><th>Find a train</th><th>UNK_INTENT</th></tr></thead><tbody><tr><td>74.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>1494.0000</td><td>13.0000</td><td>0.0000</td><td>87.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>2.0000</td><td>2388.0000</td><td>2.0000</td><td>22.0000</td><td>0.0000</td><td>1.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>6.0000</td><td>365.0000</td><td>8.0000</td><td>1.0000</td><td>0.0000</td></tr><tr><td>2.0000</td><td>8.0000</td><td>50.0000</td><td>2.0000</td><td>1108.0000</td><td>0.0000</td><td>9.0000</td></tr><tr><td>0.0000</td><td>68.0000</td><td>28.0000</td><td>206.0000</td><td>794.0000</td><td>5443.0000</td><td>615.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Artifact integrity</summary>
+            <h4>Expected core artifacts</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>aggregate_predictions</td><td>found</td><td>evaluation/multiwoz/results_csv/multiwoz_predictions.csv</td><td>7.3 MB</td><td>2026-05-08 20:01:06</td></tr><tr><td>overall_summary.csv</td><td>found</td><td>evaluation/multiwoz/metrics/overall_summary.csv</td><td>524 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>intent_summary.csv</td><td>found</td><td>evaluation/multiwoz/metrics/intent_summary.csv</td><td>296 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>intent_by_label.csv</td><td>found</td><td>evaluation/multiwoz/metrics/intent_by_label.csv</td><td>860 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>intent_confusion.csv</td><td>found</td><td>evaluation/multiwoz/metrics/intent_confusion.csv</td><td>245 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>slot_conll_summary.csv</td><td>found</td><td>evaluation/multiwoz/metrics/slot_conll_summary.csv</td><td>274 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>slot_conll_by_label.csv</td><td>found</td><td>evaluation/multiwoz/metrics/slot_conll_by_label.csv</td><td>1.4 KB</td><td>2026-05-14 18:36:44</td></tr><tr><td>slot_conll_by_intent.csv</td><td>found</td><td>evaluation/multiwoz/metrics/slot_conll_by_intent.csv</td><td>688 B</td><td>2026-05-14 18:36:44</td></tr></tbody></table></div>
+            <h4>Result CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/multiwoz/results_csv/multiwoz_predictions.csv</td><td>7.3 MB</td><td>2026-05-08 20:01:06</td></tr><tr><td>evaluation/multiwoz/results_csv/slots_attraction__find_attraction_predictions.csv</td><td>690.8 KB</td><td>2026-05-08 20:01:06</td></tr><tr><td>evaluation/multiwoz/results_csv/slots_hospital__find_hospital_predictions.csv</td><td>41.1 KB</td><td>2026-05-08 20:01:06</td></tr><tr><td>evaluation/multiwoz/results_csv/slots_hotel__find_hotel_predictions.csv</td><td>914.6 KB</td><td>2026-05-08 20:01:06</td></tr><tr><td>evaluation/multiwoz/results_csv/slots_restaurant__find_restaurant_predictions.csv</td><td>1.3 MB</td><td>2026-05-08 20:01:06</td></tr><tr><td>evaluation/multiwoz/results_csv/slots_taxi__find_taxi_predictions.csv</td><td>240.0 KB</td><td>2026-05-08 20:01:06</td></tr><tr><td>evaluation/multiwoz/results_csv/slots_train__find_train_predictions.csv</td><td>4.1 MB</td><td>2026-05-08 20:01:06</td></tr></tbody></table></div>
+            <h4>Metric CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/multiwoz/metrics/intent_by_label.csv</td><td>860 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>evaluation/multiwoz/metrics/intent_confusion.csv</td><td>245 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>evaluation/multiwoz/metrics/intent_summary.csv</td><td>296 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>evaluation/multiwoz/metrics/overall_summary.csv</td><td>524 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>evaluation/multiwoz/metrics/slot_conll_by_intent.csv</td><td>688 B</td><td>2026-05-14 18:36:44</td></tr><tr><td>evaluation/multiwoz/metrics/slot_conll_by_label.csv</td><td>1.4 KB</td><td>2026-05-14 18:36:44</td></tr><tr><td>evaluation/multiwoz/metrics/slot_conll_summary.csv</td><td>274 B</td><td>2026-05-14 18:36:44</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+
+    <section id="atis" class="dataset-section">
+        <div class="section-title">
+            <h2>ATIS</h2>
+            <span class="schema schema-new">macro/micro schema</span>
+        </div>
+        <div class="mini-grid">
+            <div class="metric-card"><b>5.232</b><span>prediction rows</span></div>
+            <div class="metric-card"><b>54.95%</b><span>intent accuracy</span></div>
+            <div class="metric-card"><b>55.84%</b><span>intent macro-F1</span></div>
+            <div class="metric-card"><b>63.58%</b><span>saved slot F1</span></div>
+        </div>
+
+        <details open>
+            <summary>Saved summaries</summary>
+            <div class="three-cols">
+                <div><h4>overall_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>5.232</td></tr><tr><td>intent_accuracy</td><td>54.95%</td></tr><tr><td>intent_macro_precision</td><td>61.78%</td></tr><tr><td>intent_macro_recall</td><td>72.96%</td></tr><tr><td>intent_macro_f1</td><td>55.84%</td></tr><tr><td>intent_micro_precision</td><td>54.95%</td></tr><tr><td>intent_micro_recall</td><td>54.95%</td></tr><tr><td>intent_micro_f1</td><td>54.95%</td></tr><tr><td>slot_conll_precision</td><td>65.99%</td></tr><tr><td>slot_conll_recall</td><td>61.99%</td></tr><tr><td>slot_conll_f1</td><td>63.58%</td></tr><tr><td>slot_conll_micro_precision</td><td>44.41%</td></tr><tr><td>slot_conll_micro_recall</td><td>46.03%</td></tr><tr><td>slot_conll_micro_f1</td><td>45.21%</td></tr></tbody></table></div></div>
+                <div><h4>intent_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>5.232</td></tr><tr><td>intent_count</td><td>7</td></tr><tr><td>intent_correct</td><td>2.875</td></tr><tr><td>intent_errors</td><td>2.357</td></tr><tr><td>intent_accuracy</td><td>54.95%</td></tr><tr><td>macro_precision</td><td>61.78%</td></tr><tr><td>macro_recall</td><td>72.96%</td></tr><tr><td>macro_f1</td><td>55.84%</td></tr><tr><td>micro_precision</td><td>54.95%</td></tr><tr><td>micro_recall</td><td>54.95%</td></tr><tr><td>micro_f1</td><td>54.95%</td></tr></tbody></table></div></div>
+                <div><h4>slot_conll_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>5.232</td></tr><tr><td>intent_count</td><td>7</td></tr><tr><td>tp</td><td>7.701</td></tr><tr><td>fp</td><td>9.638</td></tr><tr><td>fn</td><td>9.030</td></tr><tr><td>precision</td><td>65.99%</td></tr><tr><td>recall</td><td>61.99%</td></tr><tr><td>f1</td><td>63.58%</td></tr><tr><td>micro_tp</td><td>7.701</td></tr><tr><td>micro_fp</td><td>9.638</td></tr><tr><td>micro_fn</td><td>9.030</td></tr><tr><td>micro_precision</td><td>44.41%</td></tr><tr><td>micro_recall</td><td>46.03%</td></tr><tr><td>micro_f1</td><td>45.21%</td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details open>
+            <summary>Intent and prediction distributions</summary>
+            <div class="two-cols">
+                <div><h4>Gold semantic_intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>semantic_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Find a flight</td><td>4.241</td><td>81.06%</td><td><div class="bar"><div class="bar-fill" style="width: 81.06%"></div><span>81.06%</span></div></td></tr><tr><td>Get airfare information</td><td>465</td><td>8.89%</td><td><div class="bar"><div class="bar-fill" style="width: 8.89%"></div><span>8.89%</span></div></td></tr><tr><td>Find ground transportation</td><td>208</td><td>3.98%</td><td><div class="bar"><div class="bar-fill" style="width: 3.98%"></div><span>3.98%</span></div></td></tr><tr><td>Find airlines for a route</td><td>123</td><td>2.35%</td><td><div class="bar"><div class="bar-fill" style="width: 2.35%"></div><span>2.35%</span></div></td></tr><tr><td>Get an abbreviation meaning</td><td>77</td><td>1.47%</td><td><div class="bar"><div class="bar-fill" style="width: 1.47%"></div><span>1.47%</span></div></td></tr><tr><td>Find aircraft type for a flight</td><td>64</td><td>1.22%</td><td><div class="bar"><div class="bar-fill" style="width: 1.22%"></div><span>1.22%</span></div></td></tr><tr><td>Get flight duration</td><td>54</td><td>1.03%</td><td><div class="bar"><div class="bar-fill" style="width: 1.03%"></div><span>1.03%</span></div></td></tr></tbody></table></div></div>
+                <div><h4>Predicted intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>pred_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Get airfare information</td><td>2.103</td><td>40.19%</td><td><div class="bar"><div class="bar-fill" style="width: 40.19%"></div><span>40.19%</span></div></td></tr><tr><td>Find a flight</td><td>2.029</td><td>38.78%</td><td><div class="bar"><div class="bar-fill" style="width: 38.78%"></div><span>38.78%</span></div></td></tr><tr><td>Find airlines for a route</td><td>440</td><td>8.41%</td><td><div class="bar"><div class="bar-fill" style="width: 8.41%"></div><span>8.41%</span></div></td></tr><tr><td>Find ground transportation</td><td>438</td><td>8.37%</td><td><div class="bar"><div class="bar-fill" style="width: 8.37%"></div><span>8.37%</span></div></td></tr><tr><td>UNK_INTENT</td><td>76</td><td>1.45%</td><td><div class="bar"><div class="bar-fill" style="width: 1.45%"></div><span>1.45%</span></div></td></tr><tr><td>Find aircraft type for a flight</td><td>70</td><td>1.34%</td><td><div class="bar"><div class="bar-fill" style="width: 1.34%"></div><span>1.34%</span></div></td></tr><tr><td>Get an abbreviation meaning</td><td>66</td><td>1.26%</td><td><div class="bar"><div class="bar-fill" style="width: 1.26%"></div><span>1.26%</span></div></td></tr><tr><td>Get flight duration</td><td>10</td><td>0.19%</td><td><div class="bar"><div class="bar-fill" style="width: 0.19%"></div><span>0.19%</span></div></td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Intent by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>predicted</th><th>correct</th><th>errors</th><th>tp</th><th>fp</th><th>fn</th><th>precision</th><th>recall</th><th>f1</th><th>accuracy</th></tr></thead><tbody><tr><td>Find a flight</td><td>4.241</td><td>2.029</td><td>1.983</td><td>2.258</td><td>1.983</td><td>46</td><td>2.258</td><td>97.73%</td><td>46.76%</td><td>63.25%</td><td>46.76%</td></tr><tr><td>Get airfare information</td><td>465</td><td>2.103</td><td>452</td><td>13</td><td>452</td><td>1.651</td><td>13</td><td>21.49%</td><td>97.20%</td><td>35.20%</td><td>97.20%</td></tr><tr><td>Find ground transportation</td><td>208</td><td>438</td><td>208</td><td>0</td><td>208</td><td>230</td><td>0</td><td>47.49%</td><td>100.00%</td><td>64.40%</td><td>100.00%</td></tr><tr><td>Find airlines for a route</td><td>123</td><td>440</td><td>109</td><td>14</td><td>109</td><td>331</td><td>14</td><td>24.77%</td><td>88.62%</td><td>38.72%</td><td>88.62%</td></tr><tr><td>Get an abbreviation meaning</td><td>77</td><td>66</td><td>61</td><td>16</td><td>61</td><td>5</td><td>16</td><td>92.42%</td><td>79.22%</td><td>85.31%</td><td>79.22%</td></tr><tr><td>Find aircraft type for a flight</td><td>64</td><td>70</td><td>55</td><td>9</td><td>55</td><td>15</td><td>9</td><td>78.57%</td><td>85.94%</td><td>82.09%</td><td>85.94%</td></tr><tr><td>Get flight duration</td><td>54</td><td>10</td><td>7</td><td>47</td><td>7</td><td>3</td><td>47</td><td>70.00%</td><td>12.96%</td><td>21.88%</td><td>12.96%</td></tr><tr><td>UNK_INTENT</td><td>0</td><td>76</td><td>0</td><td>0</td><td>0</td><td>76</td><td>0</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by intent</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>rows</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>Find a flight</td><td>4.241</td><td>6.113</td><td>8.781</td><td>8.441</td><td>14.554</td><td>14.894</td><td>41.04%</td><td>42.00%</td><td>41.52%</td></tr><tr><td>Get airfare information</td><td>465</td><td>1.078</td><td>717</td><td>372</td><td>1.450</td><td>1.795</td><td>60.06%</td><td>74.34%</td><td>66.44%</td></tr><tr><td>Find airlines for a route</td><td>123</td><td>179</td><td>40</td><td>77</td><td>256</td><td>219</td><td>81.74%</td><td>69.92%</td><td>75.37%</td></tr><tr><td>Find ground transportation</td><td>208</td><td>182</td><td>25</td><td>26</td><td>208</td><td>207</td><td>87.92%</td><td>87.50%</td><td>87.71%</td></tr><tr><td>Find aircraft type for a flight</td><td>64</td><td>75</td><td>33</td><td>53</td><td>128</td><td>108</td><td>69.44%</td><td>58.59%</td><td>63.56%</td></tr><tr><td>Get an abbreviation meaning</td><td>77</td><td>57</td><td>7</td><td>25</td><td>82</td><td>64</td><td>89.06%</td><td>69.51%</td><td>78.08%</td></tr><tr><td>Get flight duration</td><td>54</td><td>17</td><td>35</td><td>36</td><td>53</td><td>52</td><td>32.69%</td><td>32.08%</td><td>32.38%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>destination_city</td><td>3.317</td><td>374</td><td>1.553</td><td>4.870</td><td>3.691</td><td>89.87%</td><td>68.11%</td><td>77.49%</td></tr><tr><td>departure_city</td><td>2.067</td><td>349</td><td>2.711</td><td>4.778</td><td>2.416</td><td>85.55%</td><td>43.26%</td><td>57.46%</td></tr><tr><td>departure_day_of_week</td><td>557</td><td>355</td><td>454</td><td>1.011</td><td>912</td><td>61.07%</td><td>55.09%</td><td>57.93%</td></tr><tr><td>airline_name</td><td>178</td><td>103</td><td>498</td><td>676</td><td>281</td><td>63.35%</td><td>26.33%</td><td>37.20%</td></tr><tr><td>departure_time_of_day</td><td>121</td><td>223</td><td>534</td><td>655</td><td>344</td><td>35.17%</td><td>18.47%</td><td>24.22%</td></tr><tr><td>round_trip</td><td>264</td><td>1.331</td><td>143</td><td>407</td><td>1.595</td><td>16.55%</td><td>64.86%</td><td>26.37%</td></tr><tr><td>departure_day_number</td><td>35</td><td>30</td><td>338</td><td>373</td><td>65</td><td>53.85%</td><td>9.38%</td><td>15.98%</td></tr><tr><td>departure_time</td><td>98</td><td>118</td><td>273</td><td>371</td><td>216</td><td>45.37%</td><td>26.42%</td><td>33.39%</td></tr><tr><td>departure_month</td><td>58</td><td>216</td><td>300</td><td>358</td><td>274</td><td>21.17%</td><td>16.20%</td><td>18.35%</td></tr><tr><td>cost_constraint</td><td>183</td><td>270</td><td>170</td><td>353</td><td>453</td><td>40.40%</td><td>51.84%</td><td>45.41%</td></tr><tr><td>relative_departure_time</td><td>1</td><td>52</td><td>340</td><td>341</td><td>53</td><td>1.89%</td><td>0.29%</td><td>0.51%</td></tr><tr><td>flight_constraint</td><td>198</td><td>505</td><td>130</td><td>328</td><td>703</td><td>28.17%</td><td>60.37%</td><td>38.41%</td></tr><tr><td>stopover_city</td><td>130</td><td>100</td><td>106</td><td>236</td><td>230</td><td>56.52%</td><td>55.08%</td><td>55.79%</td></tr><tr><td>arrival_time</td><td>11</td><td>107</td><td>220</td><td>231</td><td>118</td><td>9.32%</td><td>4.76%</td><td>6.30%</td></tr><tr><td>relative_arrival_time</td><td>0</td><td>31</td><td>209</td><td>209</td><td>31</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr><tr><td>city</td><td>182</td><td>25</td><td>26</td><td>208</td><td>207</td><td>87.92%</td><td>87.50%</td><td>87.71%</td></tr><tr><td>travel_class</td><td>110</td><td>187</td><td>85</td><td>195</td><td>297</td><td>37.04%</td><td>56.41%</td><td>44.72%</td></tr><tr><td>number_of_stops</td><td>0</td><td>12</td><td>170</td><td>170</td><td>12</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr><tr><td>destination_state_name</td><td>29</td><td>319</td><td>72</td><td>101</td><td>348</td><td>8.33%</td><td>28.71%</td><td>12.92%</td></tr><tr><td>arrival_day_of_week</td><td>20</td><td>78</td><td>77</td><td>97</td><td>98</td><td>20.41%</td><td>20.62%</td><td>20.51%</td></tr><tr><td>destination_state_code</td><td>0</td><td>20</td><td>86</td><td>86</td><td>20</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr><tr><td>relative_departure_date</td><td>0</td><td>84</td><td>86</td><td>86</td><td>84</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr><tr><td>relative_to_today</td><td>1</td><td>91</td><td>82</td><td>83</td><td>92</td><td>1.09%</td><td>1.20%</td><td>1.14%</td></tr><tr><td>fare_basis_code</td><td>57</td><td>7</td><td>25</td><td>82</td><td>64</td><td>89.06%</td><td>69.51%</td><td>78.08%</td></tr><tr><td>arrival_time_of_day</td><td>1</td><td>174</td><td>67</td><td>68</td><td>175</td><td>0.57%</td><td>1.47%</td><td>0.82%</td></tr><tr><td>meal_description</td><td>25</td><td>53</td><td>40</td><td>65</td><td>78</td><td>32.05%</td><td>38.46%</td><td>34.97%</td></tr><tr><td>alternative_marker</td><td>0</td><td>2.299</td><td>64</td><td>64</td><td>2.299</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr><tr><td>airline_code</td><td>22</td><td>345</td><td>41</td><td>63</td><td>367</td><td>5.99%</td><td>34.92%</td><td>10.23%</td></tr><tr><td>departure_state_code</td><td>0</td><td>42</td><td>60</td><td>60</td><td>42</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr><tr><td>departure_state_name</td><td>19</td><td>1.703</td><td>34</td><td>53</td><td>1.722</td><td>1.10%</td><td>35.85%</td><td>2.14%</td></tr><tr><td>flight_duration</td><td>17</td><td>35</td><td>36</td><td>53</td><td>52</td><td>32.69%</td><td>32.08%</td><td>32.38%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Intent confusion matrix</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>Find a flight</th><th>Find aircraft type for a flight</th><th>Find airlines for a route</th><th>Find ground transportation</th><th>Get airfare information</th><th>Get an abbreviation meaning</th><th>Get flight duration</th><th>UNK_INTENT</th></tr></thead><tbody><tr><td>1983.0000</td><td>13.0000</td><td>317.0000</td><td>214.0000</td><td>1630.0000</td><td>5.0000</td><td>3.0000</td><td>76.0000</td></tr><tr><td>4.0000</td><td>55.0000</td><td>3.0000</td><td>0.0000</td><td>2.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>10.0000</td><td>2.0000</td><td>109.0000</td><td>0.0000</td><td>2.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>208.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>13.0000</td><td>452.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>16.0000</td><td>61.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>32.0000</td><td>0.0000</td><td>11.0000</td><td>3.0000</td><td>1.0000</td><td>0.0000</td><td>7.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Artifact integrity</summary>
+            <h4>Expected core artifacts</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>aggregate_predictions</td><td>found</td><td>evaluation/atis/results_csv/atis_predictions.csv</td><td>6.9 MB</td><td>2026-05-09 02:01:58</td></tr><tr><td>overall_summary.csv</td><td>found</td><td>evaluation/atis/metrics/overall_summary.csv</td><td>520 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>intent_summary.csv</td><td>found</td><td>evaluation/atis/metrics/intent_summary.csv</td><td>294 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>intent_by_label.csv</td><td>found</td><td>evaluation/atis/metrics/intent_by_label.csv</td><td>942 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>intent_confusion.csv</td><td>found</td><td>evaluation/atis/metrics/intent_confusion.csv</td><td>347 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>slot_conll_summary.csv</td><td>found</td><td>evaluation/atis/metrics/slot_conll_summary.csv</td><td>268 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>slot_conll_by_label.csv</td><td>found</td><td>evaluation/atis/metrics/slot_conll_by_label.csv</td><td>2.7 KB</td><td>2026-05-14 18:36:47</td></tr><tr><td>slot_conll_by_intent.csv</td><td>found</td><td>evaluation/atis/metrics/slot_conll_by_intent.csv</td><td>772 B</td><td>2026-05-14 18:36:47</td></tr></tbody></table></div>
+            <h4>Result CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/atis/results_csv/abbreviation_min50_predictions.csv</td><td>31.5 KB</td><td>2026-05-09 02:01:58</td></tr><tr><td>evaluation/atis/results_csv/aircraft_min50_predictions.csv</td><td>44.1 KB</td><td>2026-05-09 02:01:58</td></tr><tr><td>evaluation/atis/results_csv/airfare_min50_predictions.csv</td><td>406.2 KB</td><td>2026-05-09 02:01:58</td></tr><tr><td>evaluation/atis/results_csv/airline_min50_predictions.csv</td><td>74.9 KB</td><td>2026-05-09 02:01:58</td></tr><tr><td>evaluation/atis/results_csv/atis_predictions.csv</td><td>6.9 MB</td><td>2026-05-09 02:01:58</td></tr><tr><td>evaluation/atis/results_csv/flight_min50_predictions.csv</td><td>6.3 MB</td><td>2026-05-09 02:01:58</td></tr><tr><td>evaluation/atis/results_csv/flight_time_min50_predictions.csv</td><td>26.9 KB</td><td>2026-05-09 02:01:58</td></tr><tr><td>evaluation/atis/results_csv/ground_service_min50_predictions.csv</td><td>88.3 KB</td><td>2026-05-09 02:01:58</td></tr></tbody></table></div>
+            <h4>Metric CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/atis/metrics/intent_by_label.csv</td><td>942 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>evaluation/atis/metrics/intent_confusion.csv</td><td>347 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>evaluation/atis/metrics/intent_summary.csv</td><td>294 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>evaluation/atis/metrics/overall_summary.csv</td><td>520 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>evaluation/atis/metrics/slot_conll_by_intent.csv</td><td>772 B</td><td>2026-05-14 18:36:47</td></tr><tr><td>evaluation/atis/metrics/slot_conll_by_label.csv</td><td>2.7 KB</td><td>2026-05-14 18:36:47</td></tr><tr><td>evaluation/atis/metrics/slot_conll_summary.csv</td><td>268 B</td><td>2026-05-14 18:36:47</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+
+    <section id="field_operations" class="dataset-section">
+        <div class="section-title">
+            <h2>Field Operations</h2>
+            <span class="schema schema-new">macro/micro schema</span>
+        </div>
+        <div class="mini-grid">
+            <div class="metric-card"><b>2.700</b><span>prediction rows</span></div>
+            <div class="metric-card"><b>83.81%</b><span>intent accuracy</span></div>
+            <div class="metric-card"><b>84.27%</b><span>intent macro-F1</span></div>
+            <div class="metric-card"><b>69.82%</b><span>saved slot F1</span></div>
+        </div>
+
+        <details open>
+            <summary>Saved summaries</summary>
+            <div class="three-cols">
+                <div><h4>overall_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>2.700</td></tr><tr><td>intent_accuracy</td><td>83.81%</td></tr><tr><td>intent_macro_precision</td><td>88.53%</td></tr><tr><td>intent_macro_recall</td><td>83.81%</td></tr><tr><td>intent_macro_f1</td><td>84.27%</td></tr><tr><td>intent_micro_precision</td><td>83.81%</td></tr><tr><td>intent_micro_recall</td><td>83.81%</td></tr><tr><td>intent_micro_f1</td><td>83.81%</td></tr><tr><td>slot_conll_precision</td><td>73.95%</td></tr><tr><td>slot_conll_recall</td><td>67.71%</td></tr><tr><td>slot_conll_f1</td><td>69.82%</td></tr><tr><td>slot_conll_micro_precision</td><td>72.89%</td></tr><tr><td>slot_conll_micro_recall</td><td>67.65%</td></tr><tr><td>slot_conll_micro_f1</td><td>70.17%</td></tr></tbody></table></div></div>
+                <div><h4>intent_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>2.700</td></tr><tr><td>intent_count</td><td>9</td></tr><tr><td>intent_correct</td><td>2.263</td></tr><tr><td>intent_errors</td><td>437</td></tr><tr><td>intent_accuracy</td><td>83.81%</td></tr><tr><td>macro_precision</td><td>88.53%</td></tr><tr><td>macro_recall</td><td>83.81%</td></tr><tr><td>macro_f1</td><td>84.27%</td></tr><tr><td>micro_precision</td><td>83.81%</td></tr><tr><td>micro_recall</td><td>83.81%</td></tr><tr><td>micro_f1</td><td>83.81%</td></tr></tbody></table></div></div>
+                <div><h4>slot_conll_summary.csv</h4><div class="table-wrap"><table class="compact"><thead><tr><th>metric</th><th>value</th></tr></thead><tbody><tr><td>rows</td><td>2.700</td></tr><tr><td>intent_count</td><td>9</td></tr><tr><td>tp</td><td>2.842</td></tr><tr><td>fp</td><td>1.057</td></tr><tr><td>fn</td><td>1.359</td></tr><tr><td>precision</td><td>73.95%</td></tr><tr><td>recall</td><td>67.71%</td></tr><tr><td>f1</td><td>69.82%</td></tr><tr><td>micro_tp</td><td>2.842</td></tr><tr><td>micro_fp</td><td>1.057</td></tr><tr><td>micro_fn</td><td>1.359</td></tr><tr><td>micro_precision</td><td>72.89%</td></tr><tr><td>micro_recall</td><td>67.65%</td></tr><tr><td>micro_f1</td><td>70.17%</td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details open>
+            <summary>Intent and prediction distributions</summary>
+            <div class="two-cols">
+                <div><h4>Gold semantic_intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>semantic_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Access External Cameras</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Location Sharing</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Incident Status</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Medical Evacuation</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Request Additional Support</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr></tbody></table></div></div>
+                <div><h4>Predicted intent distribution</h4><div class="table-wrap"><table class="compact distribution"><thead><tr><th>pred_intent</th><th>count</th><th>share</th><th>bar</th></tr></thead><tbody><tr><td>Request Additional Support</td><td>439</td><td>16.26%</td><td><div class="bar"><div class="bar-fill" style="width: 16.26%"></div><span>16.26%</span></div></td></tr><tr><td>Control Live Video Stream</td><td>382</td><td>14.15%</td><td><div class="bar"><div class="bar-fill" style="width: 14.15%"></div><span>14.15%</span></div></td></tr><tr><td>Incident Status</td><td>363</td><td>13.44%</td><td><div class="bar"><div class="bar-fill" style="width: 13.44%"></div><span>13.44%</span></div></td></tr><tr><td>Location Sharing</td><td>300</td><td>11.11%</td><td><div class="bar"><div class="bar-fill" style="width: 11.11%"></div><span>11.11%</span></div></td></tr><tr><td>Request Procedure Guidance</td><td>294</td><td>10.89%</td><td><div class="bar"><div class="bar-fill" style="width: 10.89%"></div><span>10.89%</span></div></td></tr><tr><td>Medical Evacuation</td><td>276</td><td>10.22%</td><td><div class="bar"><div class="bar-fill" style="width: 10.22%"></div><span>10.22%</span></div></td></tr><tr><td>Confirm Movement Milestone</td><td>247</td><td>9.15%</td><td><div class="bar"><div class="bar-fill" style="width: 9.15%"></div><span>9.15%</span></div></td></tr><tr><td>Lookup Operational Record</td><td>180</td><td>6.67%</td><td><div class="bar"><div class="bar-fill" style="width: 6.67%"></div><span>6.67%</span></div></td></tr><tr><td>Access External Cameras</td><td>166</td><td>6.15%</td><td><div class="bar"><div class="bar-fill" style="width: 6.15%"></div><span>6.15%</span></div></td></tr><tr><td>UNK_INTENT</td><td>53</td><td>1.96%</td><td><div class="bar"><div class="bar-fill" style="width: 1.96%"></div><span>1.96%</span></div></td></tr></tbody></table></div></div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Intent by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>support</th><th>predicted</th><th>correct</th><th>errors</th><th>tp</th><th>fp</th><th>fn</th><th>precision</th><th>recall</th><th>f1</th><th>accuracy</th></tr></thead><tbody><tr><td>Access External Cameras</td><td>300</td><td>166</td><td>166</td><td>134</td><td>166</td><td>0</td><td>134</td><td>100.00%</td><td>55.33%</td><td>71.24%</td><td>55.33%</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>247</td><td>236</td><td>64</td><td>236</td><td>11</td><td>64</td><td>95.55%</td><td>78.67%</td><td>86.29%</td><td>78.67%</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>382</td><td>300</td><td>0</td><td>300</td><td>82</td><td>0</td><td>78.53%</td><td>100.00%</td><td>87.98%</td><td>100.00%</td></tr><tr><td>Incident Status</td><td>300</td><td>363</td><td>289</td><td>11</td><td>289</td><td>74</td><td>11</td><td>79.61%</td><td>96.33%</td><td>87.18%</td><td>96.33%</td></tr><tr><td>Location Sharing</td><td>300</td><td>300</td><td>289</td><td>11</td><td>289</td><td>11</td><td>11</td><td>96.33%</td><td>96.33%</td><td>96.33%</td><td>96.33%</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>180</td><td>175</td><td>125</td><td>175</td><td>5</td><td>125</td><td>97.22%</td><td>58.33%</td><td>72.92%</td><td>58.33%</td></tr><tr><td>Medical Evacuation</td><td>300</td><td>276</td><td>255</td><td>45</td><td>255</td><td>21</td><td>45</td><td>92.39%</td><td>85.00%</td><td>88.54%</td><td>85.00%</td></tr><tr><td>Request Additional Support</td><td>300</td><td>439</td><td>276</td><td>24</td><td>276</td><td>163</td><td>24</td><td>62.87%</td><td>92.00%</td><td>74.70%</td><td>92.00%</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>294</td><td>277</td><td>23</td><td>277</td><td>17</td><td>23</td><td>94.22%</td><td>92.33%</td><td>93.27%</td><td>92.33%</td></tr><tr><td>UNK_INTENT</td><td>0</td><td>53</td><td>0</td><td>0</td><td>0</td><td>53</td><td>0</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by intent</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_intent</th><th>rows</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>Medical Evacuation</td><td>300</td><td>392</td><td>324</td><td>261</td><td>653</td><td>716</td><td>54.75%</td><td>60.03%</td><td>57.27%</td></tr><tr><td>Lookup Operational Record</td><td>300</td><td>225</td><td>70</td><td>375</td><td>600</td><td>295</td><td>76.27%</td><td>37.50%</td><td>50.28%</td></tr><tr><td>Access External Cameras</td><td>300</td><td>408</td><td>124</td><td>183</td><td>591</td><td>532</td><td>76.69%</td><td>69.04%</td><td>72.66%</td></tr><tr><td>Incident Status</td><td>300</td><td>523</td><td>25</td><td>29</td><td>552</td><td>548</td><td>95.44%</td><td>94.75%</td><td>95.09%</td></tr><tr><td>Confirm Movement Milestone</td><td>300</td><td>450</td><td>115</td><td>56</td><td>506</td><td>565</td><td>79.65%</td><td>88.93%</td><td>84.03%</td></tr><tr><td>Request Procedure Guidance</td><td>300</td><td>268</td><td>186</td><td>131</td><td>399</td><td>454</td><td>59.03%</td><td>67.17%</td><td>62.84%</td></tr><tr><td>Control Live Video Stream</td><td>300</td><td>220</td><td>28</td><td>80</td><td>300</td><td>248</td><td>88.71%</td><td>73.33%</td><td>80.29%</td></tr><tr><td>Location Sharing</td><td>300</td><td>202</td><td>40</td><td>98</td><td>300</td><td>242</td><td>83.47%</td><td>67.33%</td><td>74.54%</td></tr><tr><td>Request Additional Support</td><td>300</td><td>154</td><td>145</td><td>146</td><td>300</td><td>299</td><td>51.51%</td><td>51.33%</td><td>51.42%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Slot CoNLL by label</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>semantic_slot</th><th>tp</th><th>fp</th><th>fn</th><th>support_gold</th><th>support_pred</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>location_sharing_action</td><td>202</td><td>40</td><td>98</td><td>300</td><td>242</td><td>83.47%</td><td>67.33%</td><td>74.54%</td></tr><tr><td>resource_type</td><td>154</td><td>145</td><td>146</td><td>300</td><td>299</td><td>51.51%</td><td>51.33%</td><td>51.42%</td></tr><tr><td>stream_control_action</td><td>220</td><td>28</td><td>80</td><td>300</td><td>248</td><td>88.71%</td><td>73.33%</td><td>80.29%</td></tr><tr><td>subject</td><td>39</td><td>11</td><td>261</td><td>300</td><td>50</td><td>78.00%</td><td>13.00%</td><td>22.29%</td></tr><tr><td>target_type</td><td>186</td><td>59</td><td>114</td><td>300</td><td>245</td><td>75.92%</td><td>62.00%</td><td>68.26%</td></tr><tr><td>search_area</td><td>174</td><td>99</td><td>125</td><td>299</td><td>273</td><td>63.74%</td><td>58.19%</td><td>60.84%</td></tr><tr><td>identifier</td><td>234</td><td>25</td><td>58</td><td>292</td><td>259</td><td>90.35%</td><td>80.14%</td><td>84.94%</td></tr><tr><td>location</td><td>275</td><td>15</td><td>1</td><td>276</td><td>290</td><td>94.83%</td><td>99.64%</td><td>97.17%</td></tr><tr><td>status</td><td>248</td><td>10</td><td>28</td><td>276</td><td>258</td><td>96.12%</td><td>89.86%</td><td>92.88%</td></tr><tr><td>location_reference</td><td>221</td><td>57</td><td>38</td><td>259</td><td>278</td><td>79.50%</td><td>85.33%</td><td>82.31%</td></tr><tr><td>movement_event</td><td>229</td><td>58</td><td>18</td><td>247</td><td>287</td><td>79.79%</td><td>92.71%</td><td>85.77%</td></tr><tr><td>casualty_count</td><td>202</td><td>53</td><td>23</td><td>225</td><td>255</td><td>79.22%</td><td>89.78%</td><td>84.17%</td></tr><tr><td>evacuation_mode</td><td>132</td><td>117</td><td>88</td><td>220</td><td>249</td><td>53.01%</td><td>60.00%</td><td>56.29%</td></tr><tr><td>severity</td><td>58</td><td>154</td><td>150</td><td>208</td><td>212</td><td>27.36%</td><td>27.88%</td><td>27.62%</td></tr><tr><td>procedure_topic</td><td>138</td><td>50</td><td>62</td><td>200</td><td>188</td><td>73.40%</td><td>69.00%</td><td>71.13%</td></tr><tr><td>guidance_artifact_type</td><td>130</td><td>136</td><td>69</td><td>199</td><td>266</td><td>48.87%</td><td>65.33%</td><td>55.91%</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Intent confusion matrix</summary>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>Access External Cameras</th><th>Confirm Movement Milestone</th><th>Control Live Video Stream</th><th>Incident Status</th><th>Location Sharing</th><th>Lookup Operational Record</th><th>Medical Evacuation</th><th>Request Additional Support</th><th>Request Procedure Guidance</th><th>UNK_INTENT</th></tr></thead><tbody><tr><td>166.0000</td><td>0.0000</td><td>82.0000</td><td>4.0000</td><td>11.0000</td><td>3.0000</td><td>0.0000</td><td>14.0000</td><td>2.0000</td><td>18.0000</td></tr><tr><td>0.0000</td><td>236.0000</td><td>0.0000</td><td>42.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>8.0000</td><td>1.0000</td><td>13.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>300.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>289.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>10.0000</td></tr><tr><td>0.0000</td><td>11.0000</td><td>0.0000</td><td>0.0000</td><td>289.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>13.0000</td><td>0.0000</td><td>175.0000</td><td>0.0000</td><td>95.0000</td><td>10.0000</td><td>7.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>7.0000</td><td>0.0000</td><td>0.0000</td><td>255.0000</td><td>32.0000</td><td>4.0000</td><td>2.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>3.0000</td><td>0.0000</td><td>0.0000</td><td>20.0000</td><td>276.0000</td><td>0.0000</td><td>1.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>5.0000</td><td>0.0000</td><td>1.0000</td><td>1.0000</td><td>14.0000</td><td>277.0000</td><td>2.0000</td></tr><tr><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td></tr></tbody></table></div>
+        </details>
+
+        <details>
+            <summary>Artifact integrity</summary>
+            <h4>Expected core artifacts</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>artifact</th><th>status</th><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>aggregate_predictions</td><td>found</td><td>evaluation/field_operations/results_csv/field_operations_predictions.csv</td><td>1.5 MB</td><td>2026-05-09 02:18:04</td></tr><tr><td>overall_summary.csv</td><td>found</td><td>evaluation/field_operations/metrics/overall_summary.csv</td><td>520 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>intent_summary.csv</td><td>found</td><td>evaluation/field_operations/metrics/intent_summary.csv</td><td>293 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>intent_by_label.csv</td><td>found</td><td>evaluation/field_operations/metrics/intent_by_label.csv</td><td>1.1 KB</td><td>2026-05-14 18:36:49</td></tr><tr><td>intent_confusion.csv</td><td>found</td><td>evaluation/field_operations/metrics/intent_confusion.csv</td><td>466 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>slot_conll_summary.csv</td><td>found</td><td>evaluation/field_operations/metrics/slot_conll_summary.csv</td><td>268 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>slot_conll_by_label.csv</td><td>found</td><td>evaluation/field_operations/metrics/slot_conll_by_label.csv</td><td>1.4 KB</td><td>2026-05-14 18:36:49</td></tr><tr><td>slot_conll_by_intent.csv</td><td>found</td><td>evaluation/field_operations/metrics/slot_conll_by_intent.csv</td><td>1004 B</td><td>2026-05-14 18:36:49</td></tr></tbody></table></div>
+            <h4>Result CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/field_operations/results_csv/access_external_cameras_300_predictions.csv</td><td>174.5 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/confirm_movement_milestone_300_predictions.csv</td><td>187.3 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/control_live_video_stream_300_predictions.csv</td><td>144.5 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/control_location_sharing_300_predictions.csv</td><td>136.0 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/field_operations_predictions.csv</td><td>1.5 MB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/incident_status_300_predictions.csv</td><td>156.8 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/lookup_operational_record_300_predictions.csv</td><td>195.3 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/medical_evacuation_300_predictions.csv</td><td>199.4 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/request_additional_support_300_predictions.csv</td><td>156.0 KB</td><td>2026-05-09 02:18:04</td></tr><tr><td>evaluation/field_operations/results_csv/request_procedure_guidance_300_predictions.csv</td><td>193.6 KB</td><td>2026-05-09 02:18:04</td></tr></tbody></table></div>
+            <h4>Metric CSV files</h4>
+            <div class="table-wrap"><table class="compact"><thead><tr><th>file</th><th>size</th><th>modified</th></tr></thead><tbody><tr><td>evaluation/field_operations/metrics/intent_by_label.csv</td><td>1.1 KB</td><td>2026-05-14 18:36:49</td></tr><tr><td>evaluation/field_operations/metrics/intent_confusion.csv</td><td>466 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>evaluation/field_operations/metrics/intent_summary.csv</td><td>293 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>evaluation/field_operations/metrics/overall_summary.csv</td><td>520 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>evaluation/field_operations/metrics/slot_conll_by_intent.csv</td><td>1004 B</td><td>2026-05-14 18:36:49</td></tr><tr><td>evaluation/field_operations/metrics/slot_conll_by_label.csv</td><td>1.4 KB</td><td>2026-05-14 18:36:49</td></tr><tr><td>evaluation/field_operations/metrics/slot_conll_summary.csv</td><td>268 B</td><td>2026-05-14 18:36:49</td></tr></tbody></table></div>
+        </details>
+    </section>
+    
+    </main>
+    <footer>
+        Generated by src/data_tools/build_eval_dashboard.py. This page does not run inference or recompute metrics.
+    </footer>
+</body>
+</html>

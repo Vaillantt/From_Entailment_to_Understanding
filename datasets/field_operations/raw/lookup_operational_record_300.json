@@ -1,0 +1,6190 @@
+{
+  "Lookup Operational Record": [
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the latest "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Delta Bravo helicopter",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "flight history",
+          "entity": "target_type"
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "Aurora jet",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Liberty Express train",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Find the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Evergreen cargo vessel",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Ridge facility",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Tower",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "deployment record",
+          "entity": "target_type"
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "Sierra Bravo unit",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Blue Horizon ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Crimson Bay refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Give me the "
+        },
+        {
+          "text": "inspection details",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pine Valley dam",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I get the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Golden Gate bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "operational log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Emerald Coast plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "incident report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Leaf warehouse",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to check the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Silver Arrow bus",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access "
+        },
+        {
+          "text": "flight operations record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Starlight balloon",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "maintenance schedule",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Grove tram",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Echo squad",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Bay terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Find the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Queen ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Ridge mine",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Jade River dam",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to review the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Creek station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Thunderbird hangar",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Coral Reef lab",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Sierra team",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Peak observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lakeshore barge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Wind farm",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Give me the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Copper Canyon tramway",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Valley plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "flight record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Skyline glider",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Express train",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Mountain View depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Blue Lake marina",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Crystal Harbor terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pinecone Lodge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ironwood foundry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Find the "
+        },
+        {
+          "text": "deployment record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Tango patrol",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Give me the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunflower research center",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Canyon Ridge outpost",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Silver Lining airship",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Avalon Rescue squad",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please retrieve the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Northgate Bridge",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Light ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "incident report",
+          "entity": "target_type"
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "Summit View hospital",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "operational log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Riverstone dam",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "repair summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Hill tram",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Lighthouse Point terminal",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I see the "
+        },
+        {
+          "text": "maintenance record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willowbrook bus depot",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Ridge fire crew",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Valley reservoir",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Grove station",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Horizon Bay refinery",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood terminal",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show me the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Falls bridge",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cloverleaf research lab",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Seaside tramway",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Crest patrol",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Hill observatory",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Harbor ferry",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pine Ridge warehouse",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Point plant",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bluebird Express train",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Mountain Lake depot",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Bend marina",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Sierra squad",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Crystal Bay terminal",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Breeze barge",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Blossom wind farm",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pinecone Lodge",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show me the "
+        },
+        {
+          "text": "repair report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ironwood foundry",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunflower research center",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Canyon Ridge outpost",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Sierra team",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Peak observatory",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access the "
+        },
+        {
+          "text": "service report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lakeshore barge",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Wind farm",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Copper Canyon tramway",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Valley plant",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "flight record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Skyline glider",
+          "entity": "subject"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Sunset Voyager ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to access the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " regarding "
+        },
+        {
+          "text": "Echo Ridge rescue squad",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maplewood Bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Harbor Spirit barge",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "incident report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Lake refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "operational log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Riverbend station",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Valley tram",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I see the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lighthouse Bay terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "maintenance record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willowbrook ferry terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Mountain fire team",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to review the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Creek reservoir",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Ridge depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Horizon View refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood warehouse",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cloverfield research lab",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Seaside tram depot",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Point patrol",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Valley observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Landing ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pine Ridge terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Harbor plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bluebird Express bus",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Mountain Lake station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Bend marina",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Sierra rescue team",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Crystal Bay terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Breeze ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Blossom wind station",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pinecone Lodge retreat",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "repair report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ironwood Mill",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunflower Innovation Center",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Canyon Ridge lookout",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Sierra patrol team",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Peak laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access the "
+        },
+        {
+          "text": "service report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lakeshore ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Wind energy site",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Copper Canyon cableway",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Valley hydro plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "flight record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Skyline paraglider",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Silver Falcon helicopter",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to access the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " regarding "
+        },
+        {
+          "text": "Echo Valley rescue team",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please retrieve the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Glen bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Mist ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Pines refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Riverbend dam",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Hill viaduct",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lighthouse Cove terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Maplewood tram depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Lima squad",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Grove terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Give me the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Star barge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Ridge refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Falls viaduct",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cloverleaf laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Seaside cable car",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Ridge patrol",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Hill laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Bay ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pine Ridge depot",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Point hydro plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bluebird Express ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Mountain Lake terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Bend depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Sierra fire crew",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Crystal Bay marina",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Breeze tugboat",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Blossom wind farm",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Golden Finch airship",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to access the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Valley rescue crew",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please retrieve the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " regarding "
+        },
+        {
+          "text": "Willow Creek bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Belle ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Grove refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Riverstone hydro plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Ridge tram",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I get the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Lighthouse Point depot",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "maintenance record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willowbrook train station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Mountain fire brigade",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to review the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Creek dam",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Ridge terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cloverleaf Innovation Lab",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Ridge patrol unit",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Harbor hydro plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Aurora Spirit ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Grove observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to access the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "Harbor Dawn barge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Crest refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Willow Creek dam",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Golden Harbor bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Valley laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "deployment record",
+          "entity": "target_type"
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "Echo Ridge patrol",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " regarding "
+        },
+        {
+          "text": "Granite Falls terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Queen tugboat",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Point refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Grove tramway",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Echo rescue team",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Bay observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Light barge",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "incident report",
+          "entity": "target_type"
+        },
+        {
+          "text": " about "
+        },
+        {
+          "text": "Summit View refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "operational log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Riverstone station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Hill cable car",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I see the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lighthouse Bay depot",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "maintenance record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willowbrook tram depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Mountain fire crew",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Ridge station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Bridge viaduct",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Silver Pines gondola",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to access the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maplewood Reservoir",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Lantern tugboat",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Pines hospital",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Glen station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Golden Valley bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Harbor laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you pull up the "
+        },
+        {
+          "text": "deployment record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Lake rescue team",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Ridge observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Star ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you get the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Valley refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Creek tramway",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to review the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Delta squad",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Grove laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Bay barge",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Wind station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "operational record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ironwood bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunflower Research Facility",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "maintenance record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willowbrook tram",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Valley fire crew",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Creek dam",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Mist tugboat",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Ridge refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Riverstone hydro plant",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bluebird Express tram",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Mountain Lake depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Ridge patrol",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Valley laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pine Ridge depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Harbor plant",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Falls viaduct",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cloverleaf Innovation Lab",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "deployment report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Sierra fire crew",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Crystal Bay marina",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Landing barge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Blossom wind station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Silver Gull ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to access the "
+        },
+        {
+          "text": "deployment record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Summit rescue crew",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please retrieve the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " regarding "
+        },
+        {
+          "text": "Willow Falls bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Spirit tugboat",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Ridge hospital",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Riverbend hydro station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Grove viaduct",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can I get the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lighthouse Cove depot",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "maintenance record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willowbrook marina",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Valley fire brigade",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to review the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Creek reservoir",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Ridge ferry terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Horizon Bay terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to check the "
+        },
+        {
+          "text": "operational record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood research station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Falls dam",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cloverleaf science lab",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Seaside cableway",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "deployment report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Ridge rescue unit",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Hill terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Bay tugboat",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you retrieve the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Pine Ridge warehouse",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Point station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bluebird Express tram",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Bend ferry dock",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you show the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Sierra rescue crew",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Crystal Bay observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "service history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Breeze barge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Silver Cloud airship",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Maple Hollow reservoir",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please retrieve the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Harbor Crest ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "incident report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Forge refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Springs station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'd like to see the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Golden Willow bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you provide the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Research Center",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "deployment record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Valley patrol",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please pull up the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Lake terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Spirit ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you retrieve the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Ridge plant",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Point tram",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need to check the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Echo team",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please display the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Springs observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you get the "
+        },
+        {
+          "text": "service report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Lakeside barge",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Sun wind farm",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want to see the "
+        },
+        {
+          "text": "operational report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Riverbend depot",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please provide the "
+        },
+        {
+          "text": "repair log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Ridge bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cloverfield laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you pull up the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Seaside cable car",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'd like the "
+        },
+        {
+          "text": "deployment report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Falcon Bay patrol",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "inspection record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Grove observatory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Harbor barge",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ironwood viaduct",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunflower Innovation Center",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Echo Ridge fire brigade",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I'd like to review the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Creek dam",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Mountain Lake station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Silver Maple ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I need the "
+        },
+        {
+          "text": "inspection report",
+          "entity": "target_type"
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Pinecrest Observatory",
+          "entity": "subject"
+        },
+        {
+          "text": " please."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please retrieve the "
+        },
+        {
+          "text": "service record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Swan barge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "incident summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Summit Valley refinery",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "operational log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Willow Springs station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like to see the "
+        },
+        {
+          "text": "repair history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Golden Fern bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "activity summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunset Research Laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show me the "
+        },
+        {
+          "text": "inspection summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Granite Ridge terminal",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "service log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Harbor Mist ferry",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you provide the "
+        },
+        {
+          "text": "incident log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunrise Ridge plant",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Show me the "
+        },
+        {
+          "text": "maintenance summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Cedar Creek tram",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I’d like the "
+        },
+        {
+          "text": "deployment summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Bravo Delta rescue squad",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Retrieve the "
+        },
+        {
+          "text": "inspection log",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Orchid Lake laboratory",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you access the "
+        },
+        {
+          "text": "service summary",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Redwood Landing tugboat",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "incident history",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Prairie Sun wind station",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Please show the "
+        },
+        {
+          "text": "operational record",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Birchwood Innovation Center",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Access the "
+        },
+        {
+          "text": "repair report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Ironwood Crossing bridge",
+          "entity": "subject"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Can you display the "
+        },
+        {
+          "text": "activity report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Sunflower Research Pavilion",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "Could you show me the "
+        },
+        {
+          "text": "maintenance report",
+          "entity": "target_type"
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "Aurora Spirit helicopter",
+          "entity": "subject"
+        },
+        {
+          "text": "?"
+        }
+      ]
+    }
+  ]
+}

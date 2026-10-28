@@ -1,0 +1,33 @@
+{
+  "min_occ": 50,
+  "intents": {
+    "flight_time": {
+      "examples_before": 55,
+      "examples_after": 54,
+      "kept_slots": [
+        "flight_time"
+      ],
+      "removed_slots": [
+        "aircraft_code",
+        "airline_code",
+        "airline_name",
+        "airport_name",
+        "class_type",
+        "depart_date_date_relative",
+        "depart_date_day_name",
+        "depart_date_day_number",
+        "depart_date_month_name",
+        "depart_time_period_of_day",
+        "depart_time_time",
+        "depart_time_time_relative",
+        "flight_mod",
+        "flight_number",
+        "fromloc_airport_name",
+        "fromloc_city_name",
+        "meal_description",
+        "toloc_airport_code",
+        "toloc_city_name"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "min_occ": 10,
+  "intents": {
+    "ground_service": {
+      "examples_before": 291,
+      "examples_after": 290,
+      "kept_slots": [
+        "airport_name",
+        "city_name",
+        "fromloc_airport_name",
+        "fromloc_city_name",
+        "toloc_city_name",
+        "transport_type"
+      ],
+      "removed_slots": [
+        "airport_code",
+        "day_name",
+        "day_number",
+        "depart_date_date_relative",
+        "depart_date_day_name",
+        "depart_date_day_number",
+        "depart_date_month_name",
+        "flight_time",
+        "month_name",
+        "or",
+        "period_of_day",
+        "state_code",
+        "state_name",
+        "time",
+        "time_relative",
+        "today_relative",
+        "toloc_airport_name"
+      ]
+    }
+  }
+}

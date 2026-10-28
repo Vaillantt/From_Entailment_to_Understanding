@@ -1,0 +1,207 @@
+{
+  "Get an abbreviation meaning": {
+    "slots": {
+      "fare basis code": {
+        "hypothesis": "The fare basis code is \"{}\"",
+        "question": "What fare basis code is mentioned in the text?"
+      }
+    }
+  },
+
+  "Find aircraft type for a flight": {
+    "slots": {
+      "departure city": {
+        "hypothesis": "The departure city is \"{}\"",
+        "question": "What is the departure city mentioned in the text?"
+      },
+      "destination city": {
+        "hypothesis": "The destination city is \"{}\"",
+        "question": "What is the destination city mentioned in the text?"
+      }
+    }
+  },
+
+  "Get airfare information": {
+    "slots": {
+      "departure city": {
+        "hypothesis": "The departure city is \"{}\"",
+        "question": "What is the departure city mentioned in the text?"
+      },
+      "destination city": {
+        "hypothesis": "The destination city is \"{}\"",
+        "question": "What is the destination city mentioned in the text?"
+      },
+      "round trip": {
+        "hypothesis": "The trip type is \"{}\"",
+        "question": "What trip type is mentioned (e.g., round trip, one-way)?"
+      },
+      "cost constraint": {
+        "hypothesis": "The cost constraint is \"{}\"",
+        "question": "What cost constraint is mentioned (e.g., cheapest, under a certain price)?"
+      },
+      "travel class": {
+        "hypothesis": "The travel class is \"{}\"",
+        "question": "What travel class is mentioned (e.g., economy, first class)?"
+      },
+      "airline name": {
+        "hypothesis": "The airline name is \"{}\"",
+        "question": "What airline is mentioned in the text?"
+      }
+    }
+  },
+
+  "Find airlines for a route": {
+    "slots": {
+      "departure city": {
+        "hypothesis": "The departure city is \"{}\"",
+        "question": "What is the departure city mentioned in the text?"
+      },
+      "destination city": {
+        "hypothesis": "The destination city is \"{}\"",
+        "question": "What is the destination city mentioned in the text?"
+      }
+    }
+  },
+
+  "Find a flight": {
+    "slots": {
+      "airline code": {
+        "hypothesis": "The airline code is \"{}\"",
+        "question": "What airline code is mentioned in the text?"
+      },
+      "airline name": {
+        "hypothesis": "The airline name is \"{}\"",
+        "question": "What airline is mentioned in the text?"
+      },
+
+      "departure city": {
+        "hypothesis": "The departure city is \"{}\"",
+        "question": "What is the departure city mentioned in the text?"
+      },
+      "departure state code": {
+        "hypothesis": "The departure state code is \"{}\"",
+        "question": "What is the departure state code mentioned in the text?"
+      },
+      "departure state name": {
+        "hypothesis": "The departure state name is \"{}\"",
+        "question": "What is the departure state name mentioned in the text?"
+      },
+
+      "destination city": {
+        "hypothesis": "The destination city is \"{}\"",
+        "question": "What is the destination city mentioned in the text?"
+      },
+      "destination state code": {
+        "hypothesis": "The destination state code is \"{}\"",
+        "question": "What is the destination state code mentioned in the text?"
+      },
+      "destination state name": {
+        "hypothesis": "The destination state name is \"{}\"",
+        "question": "What is the destination state name mentioned in the text?"
+      },
+
+      "stopover city": {
+        "hypothesis": "The stopover city is \"{}\"",
+        "question": "What stopover city is mentioned in the text?"
+      },
+
+      "departure day of week": {
+        "hypothesis": "The departure day of week is \"{}\"",
+        "question": "What departure day of week is mentioned in the text?"
+      },
+      "departure day number": {
+        "hypothesis": "The departure day number is \"{}\"",
+        "question": "What departure day number (day of the month) is mentioned?"
+      },
+      "departure month": {
+        "hypothesis": "The departure month is \"{}\"",
+        "question": "What departure month is mentioned in the text?"
+      },
+      "relative to today": {
+        "hypothesis": "The departure date relative to today is \"{}\"",
+        "question": "What phrase indicates the departure date relative to today (e.g., today, tomorrow)?"
+      },
+      "relative departure date": {
+        "hypothesis": "The relative departure date is \"{}\"",
+        "question": "What relative departure date is mentioned (e.g., next week, two days from now)?"
+      },
+
+      "departure time of day": {
+        "hypothesis": "The departure time of day is \"{}\"",
+        "question": "What departure time of day is mentioned (e.g., morning, afternoon, evening)?"
+      },
+      "departure time": {
+        "hypothesis": "The departure time is \"{}\"",
+        "question": "What departure time is mentioned in the text?"
+      },
+      "relative departure time": {
+        "hypothesis": "The relative departure time is \"{}\"",
+        "question": "What relative departure time is mentioned (e.g., after 6pm, before noon)?"
+      },
+
+      "arrival day of week": {
+        "hypothesis": "The arrival day of week is \"{}\"",
+        "question": "What arrival day of week is mentioned in the text?"
+      },
+      "arrival time of day": {
+        "hypothesis": "The arrival time of day is \"{}\"",
+        "question": "What arrival time of day is mentioned (e.g., morning, afternoon, evening)?"
+      },
+      "arrival time": {
+        "hypothesis": "The arrival time is \"{}\"",
+        "question": "What arrival time is mentioned in the text?"
+      },
+      "relative arrival time": {
+        "hypothesis": "The relative arrival time is \"{}\"",
+        "question": "What relative arrival time is mentioned (e.g., before 9am, after 8pm)?"
+      },
+
+      "travel class": {
+        "hypothesis": "The travel class is \"{}\"",
+        "question": "What travel class is mentioned (e.g., economy, first class)?"
+      },
+      "cost constraint": {
+        "hypothesis": "The cost constraint is \"{}\"",
+        "question": "What cost constraint is mentioned (e.g., cheapest, under a certain price)?"
+      },
+      "flight constraint": {
+        "hypothesis": "The flight constraint is \"{}\"",
+        "question": "What constraint about the flight is mentioned (e.g., nonstop, earliest, latest)?"
+      },
+      "number of stops": {
+        "hypothesis": "The number of stops is \"{}\"",
+        "question": "What number of stops is mentioned or implied (e.g., nonstop, one stop)?"
+      },
+      "meal description": {
+        "hypothesis": "The meal description is \"{}\"",
+        "question": "What meal description is mentioned in the text?"
+      },
+      "alternative marker": {
+        "hypothesis": "The alternative marker is \"{}\"",
+        "question": "What word indicates an alternative option (e.g., or)?"
+      },
+      "round trip": {
+        "hypothesis": "The trip type is \"{}\"",
+        "question": "What trip type is mentioned (e.g., round trip, one-way)?"
+      }
+    }
+  },
+
+  "Get flight duration": {
+    "slots": {
+      "flight duration": {
+        "hypothesis": "The user is asking for the \"{}\" of a flight.",
+        "question": "Is the user asking about arrival time, departure time, or schedule? Answer with exactly one of: arrival time / departure time / schedule."
+      }
+    }
+  },
+
+  "Find ground transportation": {
+    "slots": {
+      "city": {
+        "hypothesis": "The city is \"{}\"",
+        "question": "What city is mentioned in the text?"
+      }
+    }
+  }
+}
